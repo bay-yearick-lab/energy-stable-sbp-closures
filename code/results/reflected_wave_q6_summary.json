@@ -1,0 +1,26 @@
+{
+  "post_bounce_error": {
+    "E6": 0.2705786390015166,
+    "C6": 0.08939274427471694,
+    "SBP6": 0.33072561694122016,
+    "DRP6": 0.09805825157359256,
+    "BMF6": 0.00011533209668806966,
+    "BMG6": 9.588403717797324e-05
+  },
+  "time_history_peak": {
+    "E6": 0.3203751742749081,
+    "C6": 0.10325551615445931,
+    "SBP6": 0.9444512630419509,
+    "DRP6": 0.13238589290403782,
+    "BMF6": 0.00015403611274330577,
+    "BMG6": 0.00024209022937437278
+  },
+  "carrier_ppw": 6.5,
+  "sigma": 0.05,
+  "interior_band": [
+    0.078125,
+    0.921875
+  ],
+  "pre_bounce_window": 0.08,
+  "bmf_route": "staggered primal-pressure and derivative-grid velocity complex; velocity is reconstructed to the primal grid for the common error metric"
+}
