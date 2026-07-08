@@ -1,0 +1,4 @@
+{"note":"fitted exponential growth rate lambda per flow-through of Nu(t) at n_z=17; positive=energy-unstable divergence, ~0=energy-conserving. IC-independence: compact diverges from both cold conduction and warm developed profiles.",
+ "growth_rate_per_flowthrough":{"C":1.936,"C6-D2":1.098,"I":-0.001,"SBP":-0.001,"SBP6-BO":-0.003},
+ "ic_independence_compact_nz17":{"cold_conduction":2.032,"warm_profile":1.938},
+ "diffusion_operator_max_real_eig":-2.467}
