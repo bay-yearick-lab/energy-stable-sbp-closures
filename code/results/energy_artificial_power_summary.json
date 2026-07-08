@@ -1,0 +1,56 @@
+{
+  "configuration": {
+    "npts": 33,
+    "times": [
+      0.0,
+      0.4,
+      500
+    ],
+    "initial_state_formula": "0.32 sin(12 pi x) + 0.24 cos(11 pi x) + 0.10 sin(5 pi x)",
+    "bmf_audit": "staggered flux-divergence system with primal pressure and derivative-grid flux"
+  },
+  "summary": {
+    "E6": {
+      "max_rel_artificial_rate": 37.60949363880903,
+      "cum_rel_artificial_rate": 3.3953686566728596,
+      "max_abs_artificial_power": 1717672.5043143001,
+      "max_energy": 1683126.8553510339,
+      "balance_residual_norm2": 9.101258219582324
+    },
+    "C6": {
+      "max_rel_artificial_rate": 38.82213277503136,
+      "cum_rel_artificial_rate": 3.506342872118174,
+      "max_abs_artificial_power": 2229616.3366019353,
+      "max_energy": 2136119.0510837175,
+      "balance_residual_norm2": 9.182886388218456
+    },
+    "SBP6": {
+      "max_rel_artificial_rate": 5.46249622919871e-15,
+      "cum_rel_artificial_rate": 1.1672730350647369e-15,
+      "max_abs_artificial_power": 3.1382063497139103e-12,
+      "max_energy": 1774.9386119416297,
+      "balance_residual_norm2": 1.3472242667277075e-16
+    },
+    "DRP6": {
+      "max_rel_artificial_rate": 32.50146324726306,
+      "cum_rel_artificial_rate": 2.6842752387050353,
+      "max_abs_artificial_power": 103906.84935775532,
+      "max_energy": 29377.2636246076,
+      "balance_residual_norm2": 9.075815391787064
+    },
+    "BMF6": {
+      "max_rel_artificial_rate": 4.7732132070569285e-14,
+      "cum_rel_artificial_rate": 1.3732686382288999e-14,
+      "max_abs_artificial_power": 1.796115346653573,
+      "max_energy": 41914002458116.36,
+      "balance_residual_norm2": 9.433045346070395e-16
+    },
+    "BMG6": {
+      "max_rel_artificial_rate": 1.6434068161170576e-12,
+      "cum_rel_artificial_rate": 4.2224089470100576e-13,
+      "max_abs_artificial_power": 50465075611.17923,
+      "max_energy": 4.05319626004331e+22,
+      "balance_residual_norm2": 5.381290383464597e-14
+    }
+  }
+}

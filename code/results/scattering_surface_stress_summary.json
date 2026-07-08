@@ -1,0 +1,117 @@
+{
+  "configuration": {
+    "grids": [
+      25,
+      33,
+      41,
+      49
+    ],
+    "bar_grid": 25,
+    "map_grid": 49,
+    "time_sample": 0.35,
+    "alpha": 4.0,
+    "sphere_center": [
+      0.42,
+      0.48,
+      0.52
+    ],
+    "sphere_radius": 0.15,
+    "n_surface_nodes": 1600,
+    "modes": [
+      [
+        4,
+        3,
+        2,
+        1.0
+      ],
+      [
+        3,
+        4,
+        2,
+        0.7
+      ],
+      [
+        2,
+        3,
+        4,
+        0.5
+      ]
+    ]
+  },
+  "bar_grid": {
+    "E6": {
+      "value_rel_l2": 1.7545229459040163e-05,
+      "normal_rel_l2": 9.302669687938121e-05,
+      "load_rel_l2": 8.261479272968218e-05,
+      "force_rel": 0.0038544702751832933
+    },
+    "C6": {
+      "value_rel_l2": 1.7545229459040163e-05,
+      "normal_rel_l2": 2.018773844149774e-05,
+      "load_rel_l2": 2.2485257460196946e-05,
+      "force_rel": 0.00028103691540916164
+    },
+    "SBP6": {
+      "value_rel_l2": 1.7545229459040163e-05,
+      "normal_rel_l2": 0.00024145354342253894,
+      "load_rel_l2": 0.00020661125844096892,
+      "force_rel": 0.004112875371019217
+    },
+    "DRP6": {
+      "value_rel_l2": 1.7545229459040163e-05,
+      "normal_rel_l2": 0.00016364810353733733,
+      "load_rel_l2": 0.00013783172802638174,
+      "force_rel": 0.008617614144735847
+    },
+    "BMF6": {
+      "value_rel_l2": 3.5736530090064995e-07,
+      "normal_rel_l2": 1.8517096075384523e-06,
+      "load_rel_l2": 1.579535317850155e-06,
+      "force_rel": 2.0343714934349546e-06
+    },
+    "BMG6": {
+      "value_rel_l2": 3.5736530090064995e-07,
+      "normal_rel_l2": 3.7465887939880853e-07,
+      "load_rel_l2": 3.8103858819975746e-07,
+      "force_rel": 7.186572818797176e-07
+    }
+  },
+  "coarse_grid_ratios_vs_C6": {
+    "E6": {
+      "pressure": 1.0,
+      "normal_derivative": 0.2170101607248642,
+      "load_density": 0.27216987076115184,
+      "integrated_load": 0.07291194258744085
+    },
+    "C6": {
+      "pressure": 1.0,
+      "normal_derivative": 1.0,
+      "load_density": 1.0,
+      "integrated_load": 1.0
+    },
+    "SBP6": {
+      "pressure": 1.0,
+      "normal_derivative": 0.0836092034738525,
+      "load_density": 0.10882881034588553,
+      "integrated_load": 0.0683310069129368
+    },
+    "DRP6": {
+      "pressure": 1.0,
+      "normal_derivative": 0.12336066233050957,
+      "load_density": 0.16313556959753958,
+      "integrated_load": 0.03261191678915396
+    },
+    "BMF6": {
+      "pressure": 49.096063369392034,
+      "normal_derivative": 10.902216178666409,
+      "load_density": 14.23536226515072,
+      "integrated_load": 138.1443439981761
+    },
+    "BMG6": {
+      "pressure": 49.096063369392034,
+      "normal_derivative": 53.88298409980762,
+      "load_density": 59.01044712145839,
+      "integrated_load": 391.05832849015655
+    }
+  }
+}

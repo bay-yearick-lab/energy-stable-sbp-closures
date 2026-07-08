@@ -1,0 +1,80 @@
+{
+  "mission_window": [
+    10.0,
+    1000.0
+  ],
+  "ppw_budget_window": [
+    2.0,
+    12.0
+  ],
+  "tol_cycles": 0.25,
+  "geometry_reference": "targets match the best nodal normal and traction errors from the N=81 transfer tests",
+  "orders": {
+    "q4": {
+      "geometry_targets": {
+        "normal_rel_l2": 0.0003174924230290272,
+        "traction_rel_l2": 0.00015842670801878128
+      },
+      "strict_required_ppw_at_M100": {
+        "E4": 12.19047619047619,
+        "C4": 8.0,
+        "SBP4": 11.130434782608695,
+        "DRP4": 9.481481481481481,
+        "BMF4": 5.813953488372088,
+        "BMG4": 3.0487804878048754
+      },
+      "geometry_required_ppw": {
+        "E4": Infinity,
+        "C4": 17.2,
+        "SBP4": Infinity,
+        "DRP4": Infinity,
+        "BMF4": 13.200000000000001,
+        "BMG4": 10.0
+      }
+    },
+    "q6": {
+      "geometry_targets": {
+        "normal_rel_l2": 3.0788689752914836e-05,
+        "traction_rel_l2": 8.321994455629325e-06
+      },
+      "strict_required_ppw_at_M100": {
+        "E6": 7.529411764705882,
+        "C6": 5.953488372093023,
+        "SBP6": 6.7368421052631575,
+        "DRP6": 6.095238095238095,
+        "BMF6": 3.8437499999999267,
+        "BMG6": 2.6451612903225303
+      },
+      "geometry_required_ppw": {
+        "E6": 18.400000000000002,
+        "C6": 15.200000000000001,
+        "SBP6": 18.400000000000002,
+        "DRP6": Infinity,
+        "BMF6": 9.600000000000001,
+        "BMG6": 10.0
+      }
+    },
+    "q8": {
+      "geometry_targets": {
+        "normal_rel_l2": 5.495982862931224e-07,
+        "traction_rel_l2": 2.1127632144589343e-07
+      },
+      "strict_required_ppw_at_M100": {
+        "E8": 5.333333333333333,
+        "C8": 4.654545454545454,
+        "SBP8": 12.8,
+        "DRP8": 4.654545454545454,
+        "BMF8": 3.226666666666634,
+        "BMG8": 2.4444444444444198
+      },
+      "geometry_required_ppw": {
+        "E8": Infinity,
+        "C8": 16.400000000000002,
+        "SBP8": Infinity,
+        "DRP8": Infinity,
+        "BMF8": 10.4,
+        "BMG8": 10.8
+      }
+    }
+  }
+}

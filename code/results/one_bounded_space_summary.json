@@ -1,0 +1,185 @@
+{
+  "configuration": {
+    "npts": 33,
+    "qs": [
+      4,
+      6,
+      8
+    ],
+    "families": [
+      "E",
+      "C",
+      "SBP",
+      "DRP",
+      "BMF",
+      "BMG"
+    ],
+    "n_offgrid": 1024,
+    "rng_seed": 17
+  },
+  "integral_reference": 0.04726000159401301,
+  "rows": [
+    {
+      "family": "E",
+      "q": 4,
+      "npts": 33,
+      "err_field": 0.004429219208895052,
+      "err_grad": 0.7667659618696625,
+      "err_integral": 0.0015664352610960178,
+      "auxiliary_kappa": 3.173237436998991
+    },
+    {
+      "family": "C",
+      "q": 4,
+      "npts": 33,
+      "err_field": 0.004429219208895052,
+      "err_grad": 0.7665131608052143,
+      "err_integral": 0.0015664352610960178,
+      "auxiliary_kappa": 3.173237436998991
+    },
+    {
+      "family": "SBP",
+      "q": 4,
+      "npts": 33,
+      "err_field": 0.004429219208895052,
+      "err_grad": 2.7358218034868393,
+      "err_integral": 0.0015664352610960178,
+      "auxiliary_kappa": 3.173237436998991
+    },
+    {
+      "family": "DRP",
+      "q": 4,
+      "npts": 33,
+      "err_field": 0.004429219208895052,
+      "err_grad": 0.768160956123662,
+      "err_integral": 0.0015664352610960178,
+      "auxiliary_kappa": 3.173237436998991
+    },
+    {
+      "family": "BMF",
+      "q": 4,
+      "npts": 33,
+      "err_field": 0.00030259853917014023,
+      "err_grad": 0.03895764235532262,
+      "err_integral": 5.261606795328722e-07,
+      "auxiliary_kappa": 5.748668279898955
+    },
+    {
+      "family": "BMG",
+      "q": 4,
+      "npts": 33,
+      "err_field": 0.00030259853917014023,
+      "err_grad": 0.013373206538282112,
+      "err_integral": 5.261606795328722e-07,
+      "auxiliary_kappa": 5.748668279898955
+    },
+    {
+      "family": "E",
+      "q": 6,
+      "npts": 33,
+      "err_field": 0.005674829977889789,
+      "err_grad": 1.2020264104586893,
+      "err_integral": 0.0015664352610960178,
+      "auxiliary_kappa": 5.256190187443506
+    },
+    {
+      "family": "C",
+      "q": 6,
+      "npts": 33,
+      "err_field": 0.005674829977889789,
+      "err_grad": 1.201855396470183,
+      "err_integral": 0.0015664352610960178,
+      "auxiliary_kappa": 5.256190187443506
+    },
+    {
+      "family": "SBP",
+      "q": 6,
+      "npts": 33,
+      "err_field": 0.005674829977889789,
+      "err_grad": 7.353963340773181,
+      "err_integral": 0.0015664352610960178,
+      "auxiliary_kappa": 5.256190187443506
+    },
+    {
+      "family": "DRP",
+      "q": 6,
+      "npts": 33,
+      "err_field": 0.005674829977889789,
+      "err_grad": 1.2098141976121646,
+      "err_integral": 0.0015664352610960178,
+      "auxiliary_kappa": 5.256190187443506
+    },
+    {
+      "family": "BMF",
+      "q": 6,
+      "npts": 33,
+      "err_field": 2.889762216629066e-05,
+      "err_grad": 0.0031719843559372407,
+      "err_integral": 1.679153814396206e-07,
+      "auxiliary_kappa": 16.36406952368996
+    },
+    {
+      "family": "BMG",
+      "q": 6,
+      "npts": 33,
+      "err_field": 2.889762216629066e-05,
+      "err_grad": 0.0011558677673431106,
+      "err_integral": 1.679153814326817e-07,
+      "auxiliary_kappa": 16.36406952368996
+    },
+    {
+      "family": "E",
+      "q": 8,
+      "npts": 33,
+      "err_field": 0.001990172537342738,
+      "err_grad": 0.46080816110576706,
+      "err_integral": 0.0015664352610960178,
+      "auxiliary_kappa": 11.213084844843001
+    },
+    {
+      "family": "C",
+      "q": 8,
+      "npts": 33,
+      "err_field": 0.001990172537342738,
+      "err_grad": 0.4615339347537528,
+      "err_integral": 0.0015664352610960178,
+      "auxiliary_kappa": 11.213084844843001
+    },
+    {
+      "family": "SBP",
+      "q": 8,
+      "npts": 33,
+      "err_field": 0.001990172537342738,
+      "err_grad": 807.033732002319,
+      "err_integral": 0.0015664352610960178,
+      "auxiliary_kappa": 11.213084844843001
+    },
+    {
+      "family": "DRP",
+      "q": 8,
+      "npts": 33,
+      "err_field": 0.001990172537342738,
+      "err_grad": 0.46303677616808514,
+      "err_integral": 0.0015664352610960178,
+      "auxiliary_kappa": 11.213084844843001
+    },
+    {
+      "family": "BMF",
+      "q": 8,
+      "npts": 33,
+      "err_field": 2.644395199258298e-06,
+      "err_grad": 0.0002875819960994619,
+      "err_integral": 4.671854146598431e-09,
+      "auxiliary_kappa": 47.904920470816066
+    },
+    {
+      "family": "BMG",
+      "q": 8,
+      "npts": 33,
+      "err_field": 2.644395199258298e-06,
+      "err_grad": 0.00013866944330764852,
+      "err_integral": 4.671854125781749e-09,
+      "auxiliary_kappa": 47.904920470816066
+    }
+  ]
+}

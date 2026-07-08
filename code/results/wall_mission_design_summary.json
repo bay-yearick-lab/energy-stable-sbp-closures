@@ -1,0 +1,363 @@
+{
+  "budget": {
+    "strict_response_metric": "|rho_m - 1|",
+    "tol_cycles": 0.25,
+    "mission_unit": "standing-wave periods",
+    "work_proxy": "shared-CFL recurring work ~ work_per_point * P^(d+1)"
+  },
+  "orders": {
+    "q4": {
+      "labels": [
+        "E4",
+        "C4",
+        "SBP4",
+        "DRP4",
+        "BMF4",
+        "BMG4"
+      ],
+      "work_per_point_nodal": {
+        "E4": 9.0,
+        "C4": 7.186046511627907,
+        "SBP4": 6.937984496124031,
+        "DRP4": 7.062015503875969,
+        "BMF4": 20.100775193798448,
+        "BMG4": 51.5968992248062
+      },
+      "work_per_point_coefficient": {
+        "BMG4": 30.72093023255814
+      },
+      "required_ppw_snapshots": {
+        "M=10": {
+          "E4": 6.564102564102564,
+          "C4": 4.413793103448276,
+          "SBP4": 6.4,
+          "DRP4": 6.095238095238095,
+          "BMF4": 3.731343283582086,
+          "BMG4": 2.6041666666666643
+        },
+        "M=100": {
+          "E4": 12.19047619047619,
+          "C4": 8.0,
+          "SBP4": 11.130434782608695,
+          "DRP4": 9.481481481481481,
+          "BMF4": 5.813953488372088,
+          "BMG4": 3.0487804878048754
+        },
+        "M=1000": {
+          "E4": 21.333333333333332,
+          "C4": 15.058823529411764,
+          "SBP4": 18.285714285714285,
+          "DRP4": 12.19047619047619,
+          "BMF4": 9.999999999999991,
+          "BMG4": 3.571428571428568
+        }
+      },
+      "winner_crossovers_nodal": {
+        "d1": [
+          {
+            "mission_length": 10.0,
+            "winner": "C4"
+          },
+          {
+            "mission_length": 104.81131341546852,
+            "winner": "BMG4"
+          },
+          {
+            "mission_length": 115.1395399326447,
+            "winner": "C4"
+          },
+          {
+            "mission_length": 126.48552168552958,
+            "winner": "BMG4"
+          }
+        ],
+        "d2": [
+          {
+            "mission_length": 10.0,
+            "winner": "C4"
+          },
+          {
+            "mission_length": 21.209508879201906,
+            "winner": "BMG4"
+          }
+        ],
+        "d3": [
+          {
+            "mission_length": 10.0,
+            "winner": "BMG4"
+          }
+        ]
+      },
+      "winner_crossovers_bmg_coefficient": {
+        "d1": [
+          {
+            "mission_length": 10.0,
+            "winner": "C4"
+          },
+          {
+            "mission_length": 30.888435964774818,
+            "winner": "BMG4"
+          }
+        ],
+        "d2": [
+          {
+            "mission_length": 10.0,
+            "winner": "BMG4"
+          }
+        ],
+        "d3": [
+          {
+            "mission_length": 10.0,
+            "winner": "BMG4"
+          }
+        ]
+      }
+    },
+    "q6": {
+      "labels": [
+        "E6",
+        "C6",
+        "SBP6",
+        "DRP6",
+        "BMF6",
+        "BMG6"
+      ],
+      "work_per_point_nodal": {
+        "E6": 11.093023255813954,
+        "C6": 11.279069767441861,
+        "SBP6": 11.031007751937985,
+        "DRP6": 11.093023255813954,
+        "BMF6": 32.674418604651166,
+        "BMG6": 79.16279069767442
+      },
+      "work_per_point_coefficient": {
+        "BMG6": 46.37984496124031
+      },
+      "required_ppw_snapshots": {
+        "M=10": {
+          "E6": 5.019607843137255,
+          "C6": 3.6056338028169015,
+          "SBP6": 4.830188679245283,
+          "DRP6": 4.491228070175438,
+          "BMF6": 2.9999999999999427,
+          "BMG6": 2.3883495145630613
+        },
+        "M=100": {
+          "E6": 7.529411764705882,
+          "C6": 5.953488372093023,
+          "SBP6": 6.7368421052631575,
+          "DRP6": 5.953488372093023,
+          "BMF6": 3.8437499999999267,
+          "BMG6": 2.6451612903225303
+        },
+        "M=1000": {
+          "E6": 11.130434782608695,
+          "C6": 8.258064516129032,
+          "SBP6": 18.285714285714285,
+          "DRP6": 7.314285714285714,
+          "BMF6": 5.234042553191389,
+          "BMG6": 2.9638554216866906
+        }
+      },
+      "winner_crossovers_nodal": {
+        "d1": [
+          {
+            "mission_length": 10.0,
+            "winner": "C6"
+          },
+          {
+            "mission_length": 95.40954763499938,
+            "winner": "DRP6"
+          }
+        ],
+        "d2": [
+          {
+            "mission_length": 10.0,
+            "winner": "C6"
+          },
+          {
+            "mission_length": 25.59547922699536,
+            "winner": "BMF6"
+          },
+          {
+            "mission_length": 33.93221771895328,
+            "winner": "BMG6"
+          }
+        ],
+        "d3": [
+          {
+            "mission_length": 10.0,
+            "winner": "C6"
+          },
+          {
+            "mission_length": 12.067926406393289,
+            "winner": "BMG6"
+          }
+        ]
+      },
+      "winner_crossovers_bmg_coefficient": {
+        "d1": [
+          {
+            "mission_length": 10.0,
+            "winner": "C6"
+          },
+          {
+            "mission_length": 40.94915062380423,
+            "winner": "BMG6"
+          }
+        ],
+        "d2": [
+          {
+            "mission_length": 10.0,
+            "winner": "C6"
+          },
+          {
+            "mission_length": 12.067926406393289,
+            "winner": "BMG6"
+          }
+        ],
+        "d3": [
+          {
+            "mission_length": 10.0,
+            "winner": "BMG6"
+          }
+        ]
+      }
+    },
+    "q8": {
+      "labels": [
+        "E8",
+        "C8",
+        "SBP8",
+        "DRP8",
+        "BMF8",
+        "BMG8"
+      ],
+      "work_per_point_nodal": {
+        "E8": 17.0,
+        "C8": 15.372093023255815,
+        "SBP8": 15.093023255813954,
+        "DRP8": 15.124031007751938,
+        "BMF8": 44.65891472868217,
+        "BMG8": 106.66666666666667
+      },
+      "work_per_point_coefficient": {
+        "BMG8": 61.91472868217054
+      },
+      "required_ppw_snapshots": {
+        "M=10": {
+          "E8": 4.338983050847458,
+          "C8": 2.226086956521739,
+          "SBP8": 4.571428571428571,
+          "DRP8": 4.063492063492063,
+          "BMF8": 2.6888888888888616,
+          "BMG8": 2.2830188679245054
+        },
+        "M=100": {
+          "E8": 5.333333333333333,
+          "C8": 4.654545454545454,
+          "SBP8": 12.8,
+          "DRP8": 4.571428571428571,
+          "BMF8": 3.226666666666634,
+          "BMG8": 2.4444444444444198
+        },
+        "M=1000": {
+          "E8": 6.2439024390243905,
+          "C8": 4.830188679245283,
+          "SBP8": 51.2,
+          "DRP8": 7.529411764705882,
+          "BMF8": 3.9672131147540584,
+          "BMG8": 2.719101123595478
+        }
+      },
+      "winner_crossovers_nodal": {
+        "d1": [
+          {
+            "mission_length": 10.0,
+            "winner": "C8"
+          },
+          {
+            "mission_length": 33.93221771895328,
+            "winner": "DRP8"
+          },
+          {
+            "mission_length": 754.3120063354615,
+            "winner": "C8"
+          }
+        ],
+        "d2": [
+          {
+            "mission_length": 10.0,
+            "winner": "C8"
+          },
+          {
+            "mission_length": 33.93221771895328,
+            "winner": "BMF8"
+          },
+          {
+            "mission_length": 95.40954763499938,
+            "winner": "DRP8"
+          },
+          {
+            "mission_length": 104.81131341546852,
+            "winner": "BMF8"
+          },
+          {
+            "mission_length": 115.1395399326447,
+            "winner": "DRP8"
+          },
+          {
+            "mission_length": 754.3120063354615,
+            "winner": "C8"
+          }
+        ],
+        "d3": [
+          {
+            "mission_length": 10.0,
+            "winner": "C8"
+          },
+          {
+            "mission_length": 33.93221771895328,
+            "winner": "BMG8"
+          }
+        ]
+      },
+      "winner_crossovers_bmg_coefficient": {
+        "d1": [
+          {
+            "mission_length": 10.0,
+            "winner": "C8"
+          },
+          {
+            "mission_length": 33.93221771895328,
+            "winner": "DRP8"
+          },
+          {
+            "mission_length": 754.3120063354615,
+            "winner": "C8"
+          }
+        ],
+        "d2": [
+          {
+            "mission_length": 10.0,
+            "winner": "C8"
+          },
+          {
+            "mission_length": 33.93221771895328,
+            "winner": "BMG8"
+          }
+        ],
+        "d3": [
+          {
+            "mission_length": 10.0,
+            "winner": "C8"
+          },
+          {
+            "mission_length": 33.93221771895328,
+            "winner": "BMG8"
+          }
+        ]
+      }
+    }
+  }
+}

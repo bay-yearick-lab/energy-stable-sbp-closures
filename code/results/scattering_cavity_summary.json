@@ -1,0 +1,121 @@
+{
+  "configuration": {
+    "npts": 49,
+    "t_end": 0.6,
+    "cfl": 0.12,
+    "modes": [
+      [
+        2,
+        1,
+        1,
+        1.0
+      ],
+      [
+        1,
+        2,
+        1,
+        0.7
+      ],
+      [
+        1,
+        1,
+        2,
+        0.5
+      ]
+    ],
+    "sphere_center": [
+      0.42,
+      0.48,
+      0.52
+    ],
+    "sphere_radius": 0.15,
+    "n_surface_nodes": 1600,
+    "receiver_index": [
+      47,
+      47,
+      47
+    ],
+    "snapshot_times": [
+      0.15,
+      0.35,
+      0.55
+    ],
+    "record_cadence": 2,
+    "c_sound": 1.0,
+    "rho0": 1.0
+  },
+  "per_scheme_summary": {
+    "E6": {
+      "elapsed_s": 24.469615936279297,
+      "nsteps": 241,
+      "dt": 0.0024896265560165973,
+      "h": 0.020833333333333332,
+      "rel_l2_field_final": 0.000340810121388382,
+      "rel_l2_surf_final": 2.8694581397973863e-06,
+      "force_err_peak": 1.624339747343334e-08,
+      "receiver_err_final": 9.339998525867107e-07,
+      "energy_drift_final": 1.3250218425912508e-05,
+      "operator_route": "same-grid first-derivative route"
+    },
+    "C6": {
+      "elapsed_s": 20.95731830596924,
+      "nsteps": 241,
+      "dt": 0.0024896265560165973,
+      "h": 0.020833333333333332,
+      "rel_l2_field_final": 0.00017076793741751219,
+      "rel_l2_surf_final": 5.546539248494182e-06,
+      "force_err_peak": 1.7780419755534012e-08,
+      "receiver_err_final": 3.7711566126854006e-07,
+      "energy_drift_final": 5.223172076205697e-06,
+      "operator_route": "same-grid first-derivative route"
+    },
+    "SBP6": {
+      "elapsed_s": 24.016223907470703,
+      "nsteps": 241,
+      "dt": 0.0024896265560165973,
+      "h": 0.020833333333333332,
+      "rel_l2_field_final": 0.00040034129181859557,
+      "rel_l2_surf_final": 9.01288991563415e-05,
+      "force_err_peak": 1.2219963638626596e-06,
+      "receiver_err_final": 7.135306651869552e-08,
+      "energy_drift_final": -1.6552721447077067e-10,
+      "operator_route": "same-grid first-derivative route"
+    },
+    "DRP6": {
+      "elapsed_s": 24.33613634109497,
+      "nsteps": 241,
+      "dt": 0.0024896265560165973,
+      "h": 0.020833333333333332,
+      "rel_l2_field_final": 1.0452955920262827,
+      "rel_l2_surf_final": 0.02855331375313565,
+      "force_err_peak": 0.00024349301213930563,
+      "receiver_err_final": -0.005104942408087959,
+      "energy_drift_final": 0.023496235755195306,
+      "operator_route": "same-grid first-derivative route"
+    },
+    "BMF6": {
+      "elapsed_s": 144.63284969329834,
+      "nsteps": 1290,
+      "dt": 0.0004651162790697674,
+      "h": 0.020833333333333332,
+      "rel_l2_field_final": 1.1511372535505605e-10,
+      "rel_l2_surf_final": 1.1858717938100927e-10,
+      "force_err_peak": 1.015370874542706e-12,
+      "receiver_err_final": -1.6052788421862208e-16,
+      "energy_drift_final": 1.9197925497124038e-12,
+      "operator_route": "staggered primal-pressure and derivative-grid velocity complex"
+    },
+    "BMG6": {
+      "elapsed_s": 106.93090271949768,
+      "nsteps": 1290,
+      "dt": 0.0004651162790697674,
+      "h": 0.020833333333333332,
+      "rel_l2_field_final": 7.249069856422436e-11,
+      "rel_l2_surf_final": 6.834142412800935e-11,
+      "force_err_peak": 5.631158569632713e-13,
+      "receiver_err_final": -6.069943979142723e-17,
+      "energy_drift_final": 8.422381566140565e-14,
+      "operator_route": "same-grid first-derivative route"
+    }
+  }
+}

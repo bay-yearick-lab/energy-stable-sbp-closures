@@ -1,0 +1,195 @@
+{
+  "q4": {
+    "E4": {
+      "P1_response": 8.533333333333333,
+      "P5_response": 5.446808510638298,
+      "P1_total": 8.533333333333333,
+      "P5_total": 5.565217391304348,
+      "P1_contamination": 5.953488372093023,
+      "P5_contamination": 2.015748031496063,
+      "work_per_point_nodal": 7.062015503875969
+    },
+    "C4": {
+      "P1_response": 5.565217391304348,
+      "P5_response": 3.710144927536232,
+      "P1_total": 5.953488372093023,
+      "P5_total": 4.654545454545454,
+      "P1_contamination": 5.818181818181818,
+      "P5_contamination": 2.015748031496063,
+      "work_per_point_nodal": 7.186046511627907
+    },
+    "SBP4": {
+      "P1_response": 8.258064516129032,
+      "P5_response": 5.333333333333333,
+      "P1_total": 15.058823529411764,
+      "P5_total": 5.953488372093023,
+      "P1_contamination": 2.015748031496063,
+      "P5_contamination": 2.015748031496063,
+      "work_per_point_nodal": 6.937984496124031
+    },
+    "DRP4": {
+      "P1_response": 7.314285714285714,
+      "P5_response": 5.12,
+      "P1_total": 7.314285714285714,
+      "P5_total": 5.333333333333333,
+      "P1_contamination": 5.818181818181818,
+      "P5_contamination": 2.015748031496063,
+      "work_per_point_nodal": 7.062015503875969
+    },
+    "BMF4": {
+      "P1_response": 4.46428571428571,
+      "P5_response": 3.3333333333333304,
+      "P1_total": 4.46428571428571,
+      "P5_total": 3.3333333333333304,
+      "P1_contamination": 3.164556962025314,
+      "P5_contamination": 2.4509803921568607,
+      "work_per_point_nodal": 20.100775193798448
+    },
+    "BMG4": {
+      "P1_response": 2.7777777777777755,
+      "P5_response": 2.499999999999998,
+      "P1_total": 2.8089887640449414,
+      "P5_total": 2.525252525252523,
+      "P1_contamination": 2.659574468085104,
+      "P5_contamination": 2.3809523809523787,
+      "work_per_point_nodal": 51.5968992248062,
+      "work_per_point_coefficient": 30.72093023255814
+    }
+  },
+  "q6": {
+    "E6": {
+      "P1_response": 5.953488372093023,
+      "P5_response": 4.413793103448276,
+      "P1_total": 6.7368421052631575,
+      "P5_total": 5.12,
+      "P1_contamination": 6.564102564102564,
+      "P5_contamination": 3.4133333333333336,
+      "work_per_point_nodal": 11.093023255813954
+    },
+    "C6": {
+      "P1_response": 4.7407407407407405,
+      "P5_response": 2.694736842105263,
+      "P1_total": 6.564102564102564,
+      "P5_total": 3.4133333333333336,
+      "P1_contamination": 6.564102564102564,
+      "P5_contamination": 3.4133333333333336,
+      "work_per_point_nodal": 11.279069767441861
+    },
+    "SBP6": {
+      "P1_response": 5.565217391304348,
+      "P5_response": 4.338983050847458,
+      "P1_total": 15.058823529411764,
+      "P5_total": 9.142857142857142,
+      "P1_contamination": 15.058823529411764,
+      "P5_contamination": 2.015748031496063,
+      "work_per_point_nodal": 11.031007751937985
+    },
+    "DRP6": {
+      "P1_response": 5.12,
+      "P5_response": 4.0,
+      "P1_total": 6.564102564102564,
+      "P5_total": 5.019607843137255,
+      "P1_contamination": 6.564102564102564,
+      "P5_contamination": 3.4133333333333336,
+      "work_per_point_nodal": 11.093023255813954
+    },
+    "BMF6": {
+      "P1_response": 3.279999999999937,
+      "P5_response": 2.764044943820172,
+      "P1_total": 3.324324324324261,
+      "P5_total": 2.795454545454492,
+      "P1_contamination": 2.795454545454492,
+      "P5_contamination": 2.36538461538457,
+      "work_per_point_nodal": 32.674418604651166
+    },
+    "BMG6": {
+      "P1_response": 2.4848484848484373,
+      "P5_response": 2.320754716981088,
+      "P1_total": 2.4848484848484373,
+      "P5_total": 2.342857142857098,
+      "P1_contamination": 2.3883495145630613,
+      "P5_contamination": 2.256880733944911,
+      "work_per_point_nodal": 79.16279069767442,
+      "work_per_point_coefficient": 46.37984496124031
+    }
+  },
+  "q8": {
+    "E8": {
+      "P1_response": 4.7407407407407405,
+      "P5_response": 4.0,
+      "P1_total": 4.7407407407407405,
+      "P5_total": 4.413793103448276,
+      "P1_contamination": 4.7407407407407405,
+      "P5_contamination": 4.413793103448276,
+      "work_per_point_nodal": 15.124031007751938
+    },
+    "C8": {
+      "P1_response": 2.723404255319149,
+      "P5_response": 2.226086956521739,
+      "P1_total": 4.7407407407407405,
+      "P5_total": 4.413793103448276,
+      "P1_contamination": 4.7407407407407405,
+      "P5_contamination": 4.413793103448276,
+      "work_per_point_nodal": 15.372093023255815
+    },
+    "SBP8": {
+      "P1_response": 4.571428571428571,
+      "P5_response": 4.571428571428571,
+      "P1_total": 28.444444444444443,
+      "P5_total": 11.636363636363637,
+      "P1_contamination": 28.444444444444443,
+      "P5_contamination": 11.636363636363637,
+      "work_per_point_nodal": 15.093023255813954
+    },
+    "DRP8": {
+      "P1_response": 4.338983050847458,
+      "P5_response": 2.3486238532110093,
+      "P1_total": 4.7407407407407405,
+      "P5_total": 4.413793103448276,
+      "P1_contamination": 4.7407407407407405,
+      "P5_contamination": 4.413793103448276,
+      "work_per_point_nodal": 15.124031007751938
+    },
+    "BMF8": {
+      "P1_response": 2.880952380952352,
+      "P5_response": 2.5473684210526057,
+      "P1_total": 2.880952380952352,
+      "P5_total": 2.5473684210526057,
+      "P1_contamination": 2.6021505376343823,
+      "P5_contamination": 2.2830188679245054,
+      "work_per_point_nodal": 44.65891472868217
+    },
+    "BMG8": {
+      "P1_response": 2.3495145631067724,
+      "P5_response": 2.2407407407407183,
+      "P1_total": 2.4199999999999755,
+      "P5_total": 2.2407407407407183,
+      "P1_contamination": 2.261682242990631,
+      "P5_contamination": 2.1801801801801584,
+      "work_per_point_nodal": 106.66666666666667,
+      "work_per_point_coefficient": 61.91472868217054
+    }
+  },
+  "q6_extra": {
+    "C6F": {
+      "P1_response": 4.7407407407407405,
+      "P5_response": 2.8131868131868134,
+      "P1_total": 6.564102564102564,
+      "P5_total": 3.4133333333333336,
+      "P1_contamination": 6.564102564102564,
+      "P5_contamination": 3.3684210526315788,
+      "work_per_point_nodal": 11.279069767441861,
+      "note": "C6F composed as F@D (filter applied to the differentiated signal); see wall_mode_response_filtered docstring"
+    },
+    "SBP6-BO": {
+      "P1_response": 5.751263217738508,
+      "P5_response": 4.217593026341572,
+      "P1_total": 5.885013525127775,
+      "P5_total": 4.289077653906684,
+      "P1_contamination": 4.6010105741908065,
+      "P5_contamination": 3.0125664473868374,
+      "work_per_point_nodal": 11.031007751937985,
+      "note": ""
+    }
+  }
+}

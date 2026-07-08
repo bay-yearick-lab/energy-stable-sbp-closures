@@ -1,0 +1,4 @@
+q,lowest_strict_response_scheme,lowest_strict_response_value_at_M100,lowest_post_bounce_scheme,lowest_post_bounce_error,lowest_marker_normal_scheme,lowest_marker_normal_error,lowest_traction_scheme,lowest_traction_density_error,lowest_sample_energy_scheme,lowest_sample_energy_rate,exact_weighted_sbp_scheme
+4,BMG4,3.0487804878048754,BMG4,0.000674587525610301,BMG4,1.0895352104091809e-05,BMG4,4.343595621256593e-06,SBP4,1.277029435341275e-15,"BMG4, BMF4"
+6,BMG6,2.6451612903225303,BMG6,9.588403717797324e-05,BMG6,2.6953005464147705e-07,BMG6,7.355017447080265e-08,SBP6,1.47046180460661e-15,"BMG6, BMF6"
+8,BMG8,2.4444444444444198,BMG8,2.6498853276423763e-06,BMG8,3.00804932269774e-09,BMG8,5.990722594279756e-10,SBP8,8.845233333857583e-15,"BMG8, BMF8"

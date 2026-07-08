@@ -1,0 +1,1122 @@
+{
+  "method": {
+    "hyperbolic_operator": "coupled acoustic wave pair as marched by simulate_reflected_acoustics: A=[[0,-D[:,1:-1]],[-D[1:-1,:],0]] (pressure free at all nodes, velocity trace pinned); BMF uses the staggered d01/d10 pair of _simulate_reflected_acoustics_bmf_staggered with derivative-grid velocity end nodes pinned",
+    "parabolic_operator": "2D tensor Laplacian D2@U+U@D2^T on the interior (enforce_zero_walls convention); spectrum computed exactly as pairwise sums of the interior-restricted 1D eigenvalues (Kronecker-sum spectrum); 1D D2 from heat_cavity_core.diffusion_second_derivative[_extended]",
+    "rk4_stability_test": "exact bisection on max_i |R(dt*lambda_i)| <= 1+tol over the full eigvals set, R(z)=1+z+z^2/2+z^3/6+z^4/24; tol=1e-3 (needed only by the positive-abscissa finite-difference wave pairs, where dt_max means growth <= 0.1% per step; SBP/BMF/BMG wave pairs are exactly skew and stable in the strict sense, see tolerance_limited flags)",
+    "tol": 0.001,
+    "grids": [
+      65,
+      129
+    ],
+    "order_blocks": [
+      4,
+      6,
+      8
+    ]
+  },
+  "families": {
+    "E4": {
+      "65": {
+        "family": "E",
+        "q_or_p": 4,
+        "npts": 65,
+        "h_min": 0.015625,
+        "h_max": 0.015625,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.015625,
+          "h_max": 0.015625,
+          "spectral_radius": 89.42506865928326,
+          "spectral_abscissa": 3.366514183325897,
+          "dt_max_rk4": 0.00029689474084876707,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 7996.842904717516,
+          "spectral_radius_2d": 15993.685809435032,
+          "spectral_abscissa_2d": -19.73920135407912,
+          "dt_max_rk4": 0.00017451248518493236,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 1.0
+        }
+      },
+      "129": {
+        "family": "E",
+        "q_or_p": 4,
+        "npts": 129,
+        "h_min": 0.0078125,
+        "h_max": 0.0078125,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.0078125,
+          "h_max": 0.0078125,
+          "spectral_radius": 178.85009003128502,
+          "spectral_abscissa": 6.733027518092513,
+          "dt_max_rk4": 0.00014844738913310143,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 31987.354704198788,
+          "spectral_radius_2d": 63974.709408397575,
+          "spectral_abscissa_2d": -19.739208331183292,
+          "dt_max_rk4": 4.362814438814334e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 1.0
+        }
+      }
+    },
+    "C4": {
+      "65": {
+        "family": "C",
+        "q_or_p": 4,
+        "npts": 65,
+        "h_min": 0.015625,
+        "h_max": 0.015625,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.015625,
+          "h_max": 0.015625,
+          "spectral_radius": 110.66209089961836,
+          "spectral_abscissa": 3.9364099218606547,
+          "dt_max_rk4": 0.0002539116524892898,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 0.8552244871815629
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 12246.098362275437,
+          "spectral_radius_2d": 24492.196724550875,
+          "spectral_abscissa_2d": -19.739207439433862,
+          "dt_max_rk4": 0.00011374874041917741,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.6518086101326039
+        }
+      },
+      "129": {
+        "family": "C",
+        "q_or_p": 4,
+        "npts": 129,
+        "h_min": 0.0078125,
+        "h_max": 0.0078125,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.0078125,
+          "h_max": 0.0078125,
+          "spectral_radius": 221.61068036165716,
+          "spectral_abscissa": 6.574977346407884,
+          "dt_max_rk4": 0.000152015788420273,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0240381411085113
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 49111.293650355976,
+          "spectral_radius_2d": 98222.58730071195,
+          "spectral_abscissa_2d": -19.739208719928996,
+          "dt_max_rk4": 2.836370537651446e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.6501240374601576
+        }
+      }
+    },
+    "SBP4": {
+      "65": {
+        "family": "SBP",
+        "q_or_p": 4,
+        "npts": 65,
+        "h_min": 0.015625,
+        "h_max": 0.015625,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.015625,
+          "h_max": 0.015625,
+          "spectral_radius": 87.70239262410747,
+          "spectral_abscissa": 7.201596090300466e-15,
+          "dt_max_rk4": 0.032254817948945705,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 108.64058371911592
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 7691.709671993109,
+          "spectral_radius_2d": 15383.419343986217,
+          "spectral_abscissa_2d": -19.739200677436116,
+          "dt_max_rk4": 0.0001811012535782864,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 1.0377552837344095
+        }
+      },
+      "129": {
+        "family": "SBP",
+        "q_or_p": 4,
+        "npts": 129,
+        "h_min": 0.0078125,
+        "h_max": 0.0078125,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.0078125,
+          "h_max": 0.0078125,
+          "spectral_radius": 175.5851980845415,
+          "spectral_abscissa": 5.3290705182007514e-14,
+          "dt_max_rk4": 0.016110838149440768,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 108.52894243222701
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 30830.16178638756,
+          "spectral_radius_2d": 61660.32357277512,
+          "spectral_abscissa_2d": -19.73920831006588,
+          "dt_max_rk4": 4.518232091708399e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 1.0356232553718931
+        }
+      }
+    },
+    "DRP4": {
+      "65": {
+        "family": "DRP",
+        "q_or_p": 4,
+        "npts": 65,
+        "h_min": 0.015625,
+        "h_max": 0.015625,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.015625,
+          "h_max": 0.015625,
+          "spectral_radius": 91.02092643727809,
+          "spectral_abscissa": 3.1113084730042786,
+          "dt_max_rk4": 0.0003212475960815865,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0820252159509434
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 8284.809049500378,
+          "spectral_radius_2d": 16569.618099000756,
+          "spectral_abscissa_2d": -19.706406190515306,
+          "dt_max_rk4": 0.00016839336227107463,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.9649359018217336
+        }
+      },
+      "129": {
+        "family": "DRP",
+        "q_or_p": 4,
+        "npts": 129,
+        "h_min": 0.0078125,
+        "h_max": 0.0078125,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.0078125,
+          "h_max": 0.0078125,
+          "spectral_radius": 182.04174978609217,
+          "spectral_abscissa": 6.222608981545308,
+          "dt_max_rk4": 0.00016062400362700663,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0820264644936757
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 33139.19866518222,
+          "spectral_radius_2d": 66278.39733036445,
+          "spectral_abscissa_2d": -19.70473031523259,
+          "dt_max_rk4": 4.209838815773153e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.9649364819002584
+        }
+      }
+    },
+    "BMF4": {
+      "65": {
+        "family": "BMF",
+        "q_or_p": 4,
+        "npts": 65,
+        "h_min": 0.004098360655737654,
+        "h_max": 0.01639344262295095,
+        "clustering_ratio_h_max_over_h_min": 4.000000000000082,
+        "advection": {
+          "operator": "staggered BMF pair (d01/d10)",
+          "state_size": 127,
+          "h_min": 0.004098360655737654,
+          "h_max": 0.01639344262295095,
+          "spectral_radius": 227.05709404200502,
+          "spectral_abscissa": 2.0322348836781102e-14,
+          "dt_max_rk4": 0.012458649308945264,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 41.96318625694848
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 88478.19109135919,
+          "spectral_radius_2d": 176956.38218271837,
+          "spectral_abscissa_2d": -19.739208801877133,
+          "dt_max_rk4": 1.5743747092657515e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.09021559160064527
+        }
+      },
+      "129": {
+        "family": "BMF",
+        "q_or_p": 4,
+        "npts": 129,
+        "h_min": 0.002,
+        "h_max": 0.008000000000000007,
+        "clustering_ratio_h_max_over_h_min": 4.0000000000000036,
+        "advection": {
+          "operator": "staggered BMF pair (d01/d10)",
+          "state_size": 255,
+          "h_min": 0.002,
+          "h_max": 0.008000000000000007,
+          "spectral_radius": 465.28093033219227,
+          "spectral_abscissa": 7.827072323607354e-14,
+          "dt_max_rk4": 0.006079820863833547,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 40.95606463231385
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 371532.31276566844,
+          "spectral_radius_2d": 743064.6255313369,
+          "spectral_abscissa_2d": -19.739208802206313,
+          "dt_max_rk4": 3.749278907637723e-06,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.08593716189902065
+        }
+      }
+    },
+    "BMG4": {
+      "65": {
+        "family": "BMG",
+        "q_or_p": 4,
+        "npts": 65,
+        "h_min": 0.004098360655737654,
+        "h_max": 0.01639344262295095,
+        "clustering_ratio_h_max_over_h_min": 4.000000000000082,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.004098360655737654,
+          "h_max": 0.01639344262295095,
+          "spectral_radius": 288.4393430718025,
+          "spectral_abscissa": 4.263256414560601e-14,
+          "dt_max_rk4": 0.009807346936972302,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 33.033077342275966
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 83197.25463169564,
+          "spectral_radius_2d": 166394.5092633913,
+          "spectral_abscissa_2d": -19.739208802174893,
+          "dt_max_rk4": 1.6743079683635374e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.09594201621673423
+        }
+      },
+      "129": {
+        "family": "BMG",
+        "q_or_p": 4,
+        "npts": 129,
+        "h_min": 0.002,
+        "h_max": 0.008000000000000007,
+        "clustering_ratio_h_max_over_h_min": 4.0000000000000036,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.002,
+          "h_max": 0.008000000000000007,
+          "spectral_radius": 591.0642276060821,
+          "spectral_abscissa": 6.993017276357705e-14,
+          "dt_max_rk4": 0.004785985305243055,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 32.24027942284541
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 349356.92115557916,
+          "spectral_radius_2d": 698713.8423111583,
+          "spectral_abscissa_2d": -19.739208802137558,
+          "dt_max_rk4": 3.987263968180688e-06,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.09139201366685429
+        }
+      }
+    },
+    "E6": {
+      "65": {
+        "family": "E",
+        "q_or_p": 6,
+        "npts": 65,
+        "h_min": 0.015625,
+        "h_max": 0.015625,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.015625,
+          "h_max": 0.015625,
+          "spectral_radius": 101.31673361890746,
+          "spectral_abscissa": 21.06163240240609,
+          "dt_max_rk4": 4.745597653609267e-05,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 10265.080511204651,
+          "spectral_radius_2d": 20530.161022409302,
+          "spectral_abscissa_2d": -19.73920879883624,
+          "dt_max_rk4": 0.00013570066617964697,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 1.0
+        }
+      },
+      "129": {
+        "family": "E",
+        "q_or_p": 6,
+        "npts": 129,
+        "h_min": 0.0078125,
+        "h_max": 0.0078125,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.0078125,
+          "h_max": 0.0078125,
+          "spectral_radius": 202.91848615284485,
+          "spectral_abscissa": 42.12326474801216,
+          "dt_max_rk4": 2.372798830004316e-05,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 41175.91202256255,
+          "spectral_radius_2d": 82351.8240451251,
+          "spectral_abscissa_2d": -19.739208802124818,
+          "dt_max_rk4": 3.3829931028483174e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 1.0
+        }
+      }
+    },
+    "C6": {
+      "65": {
+        "family": "C",
+        "q_or_p": 6,
+        "npts": 65,
+        "h_min": 0.015625,
+        "h_max": 0.015625,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.015625,
+          "h_max": 0.015625,
+          "spectral_radius": 127.03961768939479,
+          "spectral_abscissa": 19.438289971969922,
+          "dt_max_rk4": 5.1419149243624515e-05,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0835126152028007
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 16139.064462667571,
+          "spectral_radius_2d": 32278.128925335142,
+          "spectral_abscissa_2d": -19.7392088022306,
+          "dt_max_rk4": 8.631096721748527e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.6360393773102242
+        }
+      },
+      "129": {
+        "family": "C",
+        "q_or_p": 6,
+        "npts": 129,
+        "h_min": 0.0078125,
+        "h_max": 0.0078125,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.0078125,
+          "h_max": 0.0078125,
+          "spectral_radius": 254.51596523150934,
+          "spectral_abscissa": 38.87199570493121,
+          "dt_max_rk4": 2.5712606594642406e-05,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.083640394183591
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 64778.37655772673,
+          "spectral_radius_2d": 129556.75311545347,
+          "spectral_abscissa_2d": -19.739208802145633,
+          "dt_max_rk4": 2.150375384163635e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.6356428519919601
+        }
+      }
+    },
+    "SBP6": {
+      "65": {
+        "family": "SBP",
+        "q_or_p": 6,
+        "npts": 65,
+        "h_min": 0.015625,
+        "h_max": 0.015625,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.015625,
+          "h_max": 0.015625,
+          "spectral_radius": 121.6631151719763,
+          "spectral_abscissa": 1.805750915549048e-14,
+          "dt_max_rk4": 0.023251292750303774,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 489.9549950809671
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 14801.913593349567,
+          "spectral_radius_2d": 29603.827186699134,
+          "spectral_abscissa_2d": -19.739208794421124,
+          "dt_max_rk4": 9.410798509079537e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.6934968540700511
+        }
+      },
+      "129": {
+        "family": "SBP",
+        "q_or_p": 6,
+        "npts": 129,
+        "h_min": 0.0078125,
+        "h_max": 0.0078125,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.0078125,
+          "h_max": 0.0078125,
+          "spectral_radius": 243.32623034394814,
+          "spectral_abscissa": 4.383472751445794e-14,
+          "dt_max_rk4": 0.0116256463751521,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 489.9549944202793
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 59207.65437339622,
+          "spectral_radius_2d": 118415.30874679243,
+          "spectral_abscissa_2d": -19.73920880207571,
+          "dt_max_rk4": 2.3526996272699655e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.6954491350541346
+        }
+      }
+    },
+    "DRP6": {
+      "65": {
+        "family": "DRP",
+        "q_or_p": 6,
+        "npts": 65,
+        "h_min": 0.015625,
+        "h_max": 0.015625,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.015625,
+          "h_max": 0.015625,
+          "spectral_radius": 106.39104445695334,
+          "spectral_abscissa": 20.31117381696115,
+          "dt_max_rk4": 4.920938307719013e-05,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0369480657460268
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 11319.054340641396,
+          "spectral_radius_2d": 22638.108681282793,
+          "spectral_abscissa_2d": -19.76198660447821,
+          "dt_max_rk4": 0.00012306489763518963,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.9068849925340122
+        }
+      },
+      "129": {
+        "family": "DRP",
+        "q_or_p": 6,
+        "npts": 129,
+        "h_min": 0.0078125,
+        "h_max": 0.0078125,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.0078125,
+          "h_max": 0.0078125,
+          "spectral_radius": 213.10075849592815,
+          "spectral_abscissa": 40.622346946617185,
+          "dt_max_rk4": 2.460469195489633e-05,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0369480818924532
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 45411.933271540016,
+          "spectral_radius_2d": 90823.86654308003,
+          "spectral_abscissa_2d": -19.763315316094804,
+          "dt_max_rk4": 3.067427795748946e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.9067200855852527
+        }
+      }
+    },
+    "BMF6": {
+      "65": {
+        "family": "BMF",
+        "q_or_p": 6,
+        "npts": 65,
+        "h_min": 0.002824858757062147,
+        "h_max": 0.016949152542373058,
+        "clustering_ratio_h_max_over_h_min": 6.000000000000063,
+        "advection": {
+          "operator": "staggered BMF pair (d01/d10)",
+          "state_size": 127,
+          "h_min": 0.002824858757062147,
+          "h_max": 0.016949152542373058,
+          "spectral_radius": 355.16370798072643,
+          "spectral_abscissa": 6.394884621840902e-14,
+          "dt_max_rk4": 0.007964847320298436,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 167.83654876937928
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 183768.0318238317,
+          "spectral_radius_2d": 367536.0636476634,
+          "spectral_abscissa_2d": -19.739208802179473,
+          "dt_max_rk4": 7.580090236225384e-06,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.05585890216773513
+        }
+      },
+      "129": {
+        "family": "BMF",
+        "q_or_p": 6,
+        "npts": 129,
+        "h_min": 0.0013550135501354532,
+        "h_max": 0.008130081300813163,
+        "clustering_ratio_h_max_over_h_min": 6.000000000000328,
+        "advection": {
+          "operator": "staggered BMF pair (d01/d10)",
+          "state_size": 255,
+          "h_min": 0.0013550135501354532,
+          "h_max": 0.008130081300813163,
+          "spectral_radius": 740.4260351415701,
+          "spectral_abscissa": 1.0990344385941634e-13,
+          "dt_max_rk4": 0.0038205365202165966,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 161.0139246490461
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 798686.1686046498,
+          "spectral_radius_2d": 1597372.3372092997,
+          "spectral_abscissa_2d": -19.739208802218545,
+          "dt_max_rk4": 1.74408712522441e-06,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.05155455752351291
+        }
+      }
+    },
+    "BMG6": {
+      "65": {
+        "family": "BMG",
+        "q_or_p": 6,
+        "npts": 65,
+        "h_min": 0.002824858757062147,
+        "h_max": 0.016949152542373058,
+        "clustering_ratio_h_max_over_h_min": 6.000000000000063,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.002824858757062147,
+          "h_max": 0.016949152542373058,
+          "spectral_radius": 420.0515588075814,
+          "spectral_abscissa": 7.815970093361102e-14,
+          "dt_max_rk4": 0.006734470206009598,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 141.90984355548332
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 176443.31205668618,
+          "spectral_radius_2d": 352886.62411337235,
+          "spectral_abscissa_2d": -19.739208802179753,
+          "dt_max_rk4": 7.894763748884165e-06,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.05817778181304359
+        }
+      },
+      "129": {
+        "family": "BMG",
+        "q_or_p": 6,
+        "npts": 129,
+        "h_min": 0.0013550135501354532,
+        "h_max": 0.008130081300813163,
+        "clustering_ratio_h_max_over_h_min": 6.000000000000328,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.0013550135501354532,
+          "h_max": 0.008130081300813163,
+          "spectral_radius": 875.7007072889188,
+          "spectral_abscissa": 4.263256414560601e-14,
+          "dt_max_rk4": 0.0032303556274783673,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 136.14115055309983
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 766851.7287463541,
+          "spectral_radius_2d": 1533703.4574927082,
+          "spectral_abscissa_2d": -19.73920880218835,
+          "dt_max_rk4": 1.8164896961703629e-06,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.05369475020924417
+        }
+      }
+    },
+    "SBP6-BO": {
+      "65": {
+        "family": "SBP",
+        "q_or_p": 6,
+        "npts": 65,
+        "h_min": 0.007051306756786869,
+        "h_max": 0.015992888719746162,
+        "clustering_ratio_h_max_over_h_min": 2.26807445362564,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.007051306756786869,
+          "h_max": 0.015992888719746162,
+          "spectral_radius": 163.28287549928535,
+          "spectral_abscissa": 1.4210746294984755e-14,
+          "dt_max_rk4": 0.01732468698341809,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 365.06860142772086
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 26661.297431315084,
+          "spectral_radius_2d": 53322.59486263017,
+          "spectral_abscissa_2d": -19.739208797926942,
+          "dt_max_rk4": 5.2247204673620144e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.38501804113807975
+        }
+      },
+      "129": {
+        "family": "SBP",
+        "q_or_p": 6,
+        "npts": 129,
+        "h_min": 0.003484630775045572,
+        "h_max": 0.007903402041198687,
+        "clustering_ratio_h_max_over_h_min": 2.268074453625672,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.003484630775045572,
+          "h_max": 0.007903402041198687,
+          "spectral_radius": 330.41022639210047,
+          "spectral_abscissa": 4.4592801673459803e-14,
+          "dt_max_rk4": 0.008561553129474136,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 360.82085936710286
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 109170.917704479,
+          "spectral_radius_2d": 218341.835408958,
+          "spectral_abscissa_2d": -19.739208802126253,
+          "dt_max_rk4": 1.2759609363447093e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.3771692396506548
+        }
+      }
+    },
+    "E8": {
+      "65": {
+        "family": "E",
+        "q_or_p": 8,
+        "npts": 65,
+        "h_min": 0.015625,
+        "h_max": 0.015625,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.015625,
+          "h_max": 0.015625,
+          "spectral_radius": 110.52029621932606,
+          "spectral_abscissa": 34.34941327290406,
+          "dt_max_rk4": 2.909803218893877e-05,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 12214.735876407478,
+          "spectral_radius_2d": 24429.471752814956,
+          "spectral_abscissa_2d": -19.73920880217706,
+          "dt_max_rk4": 0.00011404080103350351,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 1.0
+        }
+      },
+      "129": {
+        "family": "E",
+        "q_or_p": 8,
+        "npts": 129,
+        "h_min": 0.0078125,
+        "h_max": 0.0078125,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.0078125,
+          "h_max": 0.0078125,
+          "spectral_radius": 221.4102265905156,
+          "spectral_abscissa": 68.69882651491042,
+          "dt_max_rk4": 1.454901610101028e-05,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 49022.48843886338,
+          "spectral_radius_2d": 98044.97687772676,
+          "spectral_abscissa_2d": -19.739208802178414,
+          "dt_max_rk4": 2.841508679216447e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 1.0
+        }
+      }
+    },
+    "C8": {
+      "65": {
+        "family": "C",
+        "q_or_p": 8,
+        "npts": 65,
+        "h_min": 0.015625,
+        "h_max": 0.015625,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.015625,
+          "h_max": 0.015625,
+          "spectral_radius": 136.16456135928732,
+          "spectral_abscissa": 33.258455383977406,
+          "dt_max_rk4": 3.0052518120495255e-05,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0328024220111807
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 18540.787770167222,
+          "spectral_radius_2d": 37081.575540334445,
+          "spectral_abscissa_2d": -19.739208802173803,
+          "dt_max_rk4": 7.513047886776057e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.6588035000358191
+        }
+      },
+      "129": {
+        "family": "C",
+        "q_or_p": 8,
+        "npts": 129,
+        "h_min": 0.0078125,
+        "h_max": 0.0078125,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.0078125,
+          "h_max": 0.0078125,
+          "spectral_radius": 272.90862383530424,
+          "spectral_abscissa": 66.51548962185485,
+          "dt_max_rk4": 1.5026580105907827e-05,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0328244880328634
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 74479.11696367977,
+          "spectral_radius_2d": 148958.23392735954,
+          "spectral_abscissa_2d": -19.73920880219116,
+          "dt_max_rk4": 1.870293742120328e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.6582044798244523
+        }
+      }
+    },
+    "SBP8": {
+      "65": {
+        "family": "SBP",
+        "q_or_p": 8,
+        "npts": 65,
+        "h_min": 0.015625,
+        "h_max": 0.015625,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.015625,
+          "h_max": 0.015625,
+          "spectral_radius": 7940.370482854893,
+          "spectral_abscissa": 8.186370583933803e-14,
+          "dt_max_rk4": 0.0003562585289799306,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 12.243389060355687
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 63049483.40499319,
+          "spectral_radius_2d": 126098966.80998638,
+          "spectral_abscissa_2d": -19.7392088021242,
+          "dt_max_rk4": 2.209341280102964e-08,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.00019373252906684617
+        }
+      },
+      "129": {
+        "family": "SBP",
+        "q_or_p": 8,
+        "npts": 129,
+        "h_min": 0.0078125,
+        "h_max": 0.0078125,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.0078125,
+          "h_max": 0.0078125,
+          "spectral_radius": 15880.74096570978,
+          "spectral_abscissa": 9.094947017729282e-13,
+          "dt_max_rk4": 0.00017812926448996537,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 12.243389054851354
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 252197933.61997306,
+          "spectral_radius_2d": 504395867.2399461,
+          "spectral_abscissa_2d": -19.739208801082846,
+          "dt_max_rk4": 5.523353200257403e-09,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.00019438100754914749
+        }
+      }
+    },
+    "DRP8": {
+      "65": {
+        "family": "DRP",
+        "q_or_p": 8,
+        "npts": 65,
+        "h_min": 0.015625,
+        "h_max": 0.015625,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.015625,
+          "h_max": 0.015625,
+          "spectral_radius": 119.28192233553858,
+          "spectral_abscissa": 33.834423028494356,
+          "dt_max_rk4": 2.9540930319547695e-05,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0152208963043654
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 14228.176996061544,
+          "spectral_radius_2d": 28456.353992123088,
+          "spectral_abscissa_2d": -19.718810309010113,
+          "dt_max_rk4": 9.79027927572006e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.8584891711558409
+        }
+      },
+      "129": {
+        "family": "DRP",
+        "q_or_p": 8,
+        "npts": 129,
+        "h_min": 0.0078125,
+        "h_max": 0.0078125,
+        "clustering_ratio_h_max_over_h_min": 1.0,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.0078125,
+          "h_max": 0.0078125,
+          "spectral_radius": 239.01075821830912,
+          "spectral_abscissa": 67.66884532697577,
+          "dt_max_rk4": 1.4770465319116217e-05,
+          "tolerance_limited": true,
+          "dt_max_ratio_vs_E": 1.0152209068000522
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 57126.14254409165,
+          "spectral_radius_2d": 114252.2850881833,
+          "spectral_abscissa_2d": -19.71711034074914,
+          "dt_max_rk4": 2.438425214310664e-05,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.8581445596650671
+        }
+      }
+    },
+    "BMF8": {
+      "65": {
+        "family": "BMF",
+        "q_or_p": 8,
+        "npts": 65,
+        "h_min": 0.0021929824561403508,
+        "h_max": 0.017543859649122973,
+        "clustering_ratio_h_max_over_h_min": 8.000000000000076,
+        "advection": {
+          "operator": "staggered BMF pair (d01/d10)",
+          "state_size": 127,
+          "h_min": 0.0021929824561403508,
+          "h_max": 0.017543859649122973,
+          "spectral_radius": 476.90709946933885,
+          "spectral_abscissa": 4.263256414560601e-14,
+          "dt_max_rk4": 0.005931605360719557,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 203.84902051810838
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 302459.11140416114,
+          "spectral_radius_2d": 604918.2228083223,
+          "spectral_abscissa_2d": -19.739208802179817,
+          "dt_max_rk4": 4.60550934402771e-06,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.0403847509162504
+        }
+      },
+      "129": {
+        "family": "BMF",
+        "q_or_p": 8,
+        "npts": 129,
+        "h_min": 0.0010330578512396382,
+        "h_max": 0.008264462809917661,
+        "clustering_ratio_h_max_over_h_min": 8.000000000000538,
+        "advection": {
+          "operator": "staggered BMF pair (d01/d10)",
+          "state_size": 255,
+          "h_min": 0.0010330578512396382,
+          "h_max": 0.008264462809917661,
+          "spectral_radius": 1012.3817290292421,
+          "spectral_abscissa": 9.147413729260201e-14,
+          "dt_max_rk4": 0.0027942273419830125,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 192.0561034906671
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 1362974.3938878041,
+          "spectral_radius_2d": 2725948.7877756082,
+          "spectral_abscissa_2d": -19.739208802191182,
+          "dt_max_rk4": 1.022013524248826e-06,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.03596728497520017
+        }
+      }
+    },
+    "BMG8": {
+      "65": {
+        "family": "BMG",
+        "q_or_p": 8,
+        "npts": 65,
+        "h_min": 0.0021929824561403508,
+        "h_max": 0.01754385964912286,
+        "clustering_ratio_h_max_over_h_min": 8.000000000000025,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 128,
+          "h_min": 0.0021929824561403508,
+          "h_max": 0.01754385964912286,
+          "spectral_radius": 539.7478295970136,
+          "spectral_abscissa": 8.526512829121202e-14,
+          "dt_max_rk4": 0.005241011732996873,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 180.11567582873093
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 291327.71955471527,
+          "spectral_radius_2d": 582655.4391094305,
+          "spectral_abscissa_2d": -19.739208802183384,
+          "dt_max_rk4": 4.781482057002002e-06,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.04192781893558668
+        }
+      },
+      "129": {
+        "family": "BMG",
+        "q_or_p": 8,
+        "npts": 129,
+        "h_min": 0.0010330578512396382,
+        "h_max": 0.008264462809917439,
+        "clustering_ratio_h_max_over_h_min": 8.000000000000323,
+        "advection": {
+          "operator": "same-grid pair (D)",
+          "state_size": 256,
+          "h_min": 0.0010330578512396382,
+          "h_max": 0.008264462809917439,
+          "spectral_radius": 1145.7804741360105,
+          "spectral_abscissa": 4.263256414560601e-14,
+          "dt_max_rk4": 0.002468906366999014,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 169.6957615455229
+        },
+        "diffusion": {
+          "operator": "2D tensor Laplacian D2(+)D2, interior-restricted (pairwise-sum spectrum)",
+          "spectral_radius_1d": 1312812.8949116324,
+          "spectral_radius_2d": 2625625.789823265,
+          "spectral_abscissa_2d": -19.739208802141533,
+          "dt_max_rk4": 1.0610638188863509e-06,
+          "tolerance_limited": false,
+          "dt_max_ratio_vs_E": 0.0373415652975919
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 51.46730709075928
+}
