@@ -1,0 +1,291 @@
+{
+ "config": {
+  "schemes": [
+   "E6",
+   "C6",
+   "SBP6",
+   "DRP6",
+   "BMF6",
+   "BMG6"
+  ],
+  "reynolds": [
+   20,
+   40,
+   80
+  ],
+  "npts": 25,
+  "cheb_diag_npts": 97
+ },
+ "gates": {
+  "G1_exact_on_cheb": {
+   "20": {
+    "div": 5.103695244201845e-13,
+    "mom": 2.1366146096039945e-11
+   },
+   "40": {
+    "div": 6.020739462542224e-13,
+    "mom": 1.5712771270114827e-11
+   },
+   "80": {
+    "div": 5.53862511409875e-13,
+    "mom": 1.2257537957885894e-11
+   }
+  }
+ },
+ "cases": [
+  {
+   "label": "E6",
+   "re": 20,
+   "tierA_div_defect": 0.00022507545985028798,
+   "tierA_mom_residual": 0.0004895762158985047,
+   "tierB_native_div_defect": 1.1356733313871992e-05,
+   "tierB_native_mom_residual": 2.888313070339882e-05,
+   "floor_div": 3.0696428195753356e-05,
+   "floor_mom": 0.0001967578728235054,
+   "common_vel_rel_l2": 1.077185803088962e-06,
+   "steps": 303,
+   "elapsed_s": 0.06
+  },
+  {
+   "label": "E6",
+   "re": 40,
+   "tierA_div_defect": 0.00022450646500593585,
+   "tierA_mom_residual": 0.00043445817365088575,
+   "tierB_native_div_defect": 1.135673331814635e-05,
+   "tierB_native_mom_residual": 2.5208942112805104e-05,
+   "floor_div": 1.6337392569509834e-05,
+   "floor_mom": 0.00018046543287764802,
+   "common_vel_rel_l2": 1.1218159011324353e-06,
+   "steps": 400,
+   "elapsed_s": 0.07
+  },
+  {
+   "label": "E6",
+   "re": 80,
+   "tierA_div_defect": 0.019133906656966904,
+   "tierA_mom_residual": 0.05786258135389361,
+   "tierB_native_div_defect": 1.1356733318174106e-05,
+   "tierB_native_mom_residual": 0.02050094311989002,
+   "floor_div": 8.31546082763479e-06,
+   "floor_mom": 0.00017240826583410154,
+   "common_vel_rel_l2": 0.00013409985231030712,
+   "steps": 1000,
+   "elapsed_s": 0.14
+  },
+  {
+   "label": "C6",
+   "re": 20,
+   "tierA_div_defect": 0.0002454044692756785,
+   "tierA_mom_residual": 0.0005695615199805559,
+   "tierB_native_div_defect": 1.135673331187359e-05,
+   "tierB_native_mom_residual": 2.8027044485126006e-05,
+   "floor_div": 3.0696428195753356e-05,
+   "floor_mom": 0.0001967578728235054,
+   "common_vel_rel_l2": 5.541511231959583e-07,
+   "steps": 297,
+   "elapsed_s": 0.05
+  },
+  {
+   "label": "C6",
+   "re": 40,
+   "tierA_div_defect": 0.00024496165889575927,
+   "tierA_mom_residual": 0.0005191712862220252,
+   "tierB_native_div_defect": 1.1356733362610782e-05,
+   "tierB_native_mom_residual": 2.4537237513155528e-05,
+   "floor_div": 1.6337392569509834e-05,
+   "floor_mom": 0.00018046543287764802,
+   "common_vel_rel_l2": 6.372590563490828e-07,
+   "steps": 400,
+   "elapsed_s": 0.07
+  },
+  {
+   "label": "C6",
+   "re": 80,
+   "tierA_div_defect": 0.00029783794076973513,
+   "tierA_mom_residual": 0.0011506557026067742,
+   "tierB_native_div_defect": 1.1356733341821856e-05,
+   "tierB_native_mom_residual": 0.0002448623013207667,
+   "floor_div": 8.31546082763479e-06,
+   "floor_mom": 0.00017240826583410154,
+   "common_vel_rel_l2": 1.476397240972504e-05,
+   "steps": 1000,
+   "elapsed_s": 0.15
+  },
+  {
+   "label": "SBP6",
+   "re": 20,
+   "tierA_div_defect": 0.3660754141934194,
+   "tierA_mom_residual": 0.8406001345059848,
+   "tierB_native_div_defect": 0.03960084948826137,
+   "tierB_native_mom_residual": 0.03866553958357465,
+   "floor_div": 3.0696428195753356e-05,
+   "floor_mom": 0.0001967578728235054,
+   "common_vel_rel_l2": 0.0009326227025136067,
+   "steps": 343,
+   "elapsed_s": 0.08
+  },
+  {
+   "label": "SBP6",
+   "re": 40,
+   "tierA_div_defect": 0.39460028381285794,
+   "tierA_mom_residual": 0.7442539472834969,
+   "tierB_native_div_defect": 0.03960084948823933,
+   "tierB_native_mom_residual": 0.031304642820004475,
+   "floor_div": 1.6337392569509834e-05,
+   "floor_mom": 0.00018046543287764802,
+   "common_vel_rel_l2": 0.0011017455209215755,
+   "steps": 400,
+   "elapsed_s": 0.08
+  },
+  {
+   "label": "SBP6",
+   "re": 80,
+   "tierA_div_defect": 0.4034518981107973,
+   "tierA_mom_residual": 0.7030229744444936,
+   "tierB_native_div_defect": 0.03960084948824058,
+   "tierB_native_mom_residual": 0.030288236054135217,
+   "floor_div": 8.31546082763479e-06,
+   "floor_mom": 0.00017240826583410154,
+   "common_vel_rel_l2": 0.0012506119666894318,
+   "steps": 1000,
+   "elapsed_s": 0.16
+  },
+  {
+   "label": "DRP6",
+   "re": 20,
+   "tierA_div_defect": 0.02568326142376476,
+   "tierA_mom_residual": 0.04960409090918005,
+   "tierB_native_div_defect": 0.0018470236514989136,
+   "tierB_native_mom_residual": 0.004840308113682301,
+   "floor_div": 3.0696428195753356e-05,
+   "floor_mom": 0.0001967578728235054,
+   "common_vel_rel_l2": 0.0005185190515287576,
+   "steps": 309,
+   "elapsed_s": 0.06
+  },
+  {
+   "label": "DRP6",
+   "re": 40,
+   "tierA_div_defect": 0.025466754378054623,
+   "tierA_mom_residual": 0.044892235929815415,
+   "tierB_native_div_defect": 0.0018470236514392946,
+   "tierB_native_mom_residual": 0.0036998305014033076,
+   "floor_div": 1.6337392569509834e-05,
+   "floor_mom": 0.00018046543287764802,
+   "common_vel_rel_l2": 0.0005067165508455151,
+   "steps": 400,
+   "elapsed_s": 0.07
+  },
+  {
+   "label": "DRP6",
+   "re": 80,
+   "tierA_div_defect": 0.02534615035404758,
+   "tierA_mom_residual": 0.052117314500255654,
+   "tierB_native_div_defect": 0.001847023651532026,
+   "tierB_native_mom_residual": 0.003899543148953027,
+   "floor_div": 8.31546082763479e-06,
+   "floor_mom": 0.00017240826583410154,
+   "common_vel_rel_l2": 0.0004947097716128352,
+   "steps": 1000,
+   "elapsed_s": 0.16
+  },
+  {
+   "label": "BMF6",
+   "re": 20,
+   "tierA_div_defect": 5.640729686784418e-06,
+   "tierA_mom_residual": 2.3377320121530853e-05,
+   "tierB_native_div_defect": 1.0052461760778897e-06,
+   "tierB_native_mom_residual": 7.498652871224433e-06,
+   "floor_div": 4.201114345292467e-08,
+   "floor_mom": 6.363580040003036e-07,
+   "common_vel_rel_l2": 1.4304849437274404e-08,
+   "steps": 285,
+   "elapsed_s": 0.06
+  },
+  {
+   "label": "BMF6",
+   "re": 40,
+   "tierA_div_defect": 5.669320786771959e-06,
+   "tierA_mom_residual": 2.2033544489361978e-05,
+   "tierB_native_div_defect": 1.005246068608301e-06,
+   "tierB_native_mom_residual": 6.715489635404545e-06,
+   "floor_div": 2.2361516138769133e-08,
+   "floor_mom": 5.686596289893841e-07,
+   "common_vel_rel_l2": 1.7818728532808895e-08,
+   "steps": 348,
+   "elapsed_s": 0.06
+  },
+  {
+   "label": "BMF6",
+   "re": 80,
+   "tierA_div_defect": 5.686511417579698e-06,
+   "tierA_mom_residual": 2.1896187392797045e-05,
+   "tierB_native_div_defect": 1.0052460892584492e-06,
+   "tierB_native_mom_residual": 6.468563541291299e-06,
+   "floor_div": 1.1381204506610842e-08,
+   "floor_mom": 5.384958450005591e-07,
+   "common_vel_rel_l2": 2.0256606436308267e-08,
+   "steps": 855,
+   "elapsed_s": 0.12
+  },
+  {
+   "label": "BMG6",
+   "re": 20,
+   "tierA_div_defect": 1.3343128282272687e-06,
+   "tierA_mom_residual": 4.734538786076018e-06,
+   "tierB_native_div_defect": 2.7658209056369287e-07,
+   "tierB_native_mom_residual": 1.6120371093827594e-06,
+   "floor_div": 4.201114345292467e-08,
+   "floor_mom": 6.363580040003036e-07,
+   "common_vel_rel_l2": 2.2822455488022907e-09,
+   "steps": 285,
+   "elapsed_s": 0.06
+  },
+  {
+   "label": "BMG6",
+   "re": 40,
+   "tierA_div_defect": 1.3192675027418055e-06,
+   "tierA_mom_residual": 4.091254872498339e-06,
+   "tierB_native_div_defect": 2.765705914287153e-07,
+   "tierB_native_mom_residual": 1.3550836339293234e-06,
+   "floor_div": 2.2361516138769133e-08,
+   "floor_mom": 5.686596289893841e-07,
+   "common_vel_rel_l2": 2.652084388936049e-09,
+   "steps": 348,
+   "elapsed_s": 0.06
+  },
+  {
+   "label": "BMG6",
+   "re": 80,
+   "tierA_div_defect": 1.3102854684310383e-06,
+   "tierA_mom_residual": 4.290318556326985e-06,
+   "tierB_native_div_defect": 2.76558418638162e-07,
+   "tierB_native_mom_residual": 1.3840020461144486e-06,
+   "floor_div": 1.1381204506610842e-08,
+   "floor_mom": 5.384958450005591e-07,
+   "common_vel_rel_l2": 3.1036739253180715e-09,
+   "steps": 850,
+   "elapsed_s": 0.13
+  }
+ ],
+ "winners": {
+  "20": {
+   "tierA_div": "BMG6",
+   "tierA_mom": "BMG6",
+   "tierB_div": "BMG6",
+   "common_vel": "BMG6"
+  },
+  "40": {
+   "tierA_div": "BMG6",
+   "tierA_mom": "BMG6",
+   "tierB_div": "BMG6",
+   "common_vel": "BMG6"
+  },
+  "80": {
+   "tierA_div": "BMG6",
+   "tierA_mom": "BMG6",
+   "tierB_div": "BMG6",
+   "common_vel": "BMG6"
+  }
+ }
+}

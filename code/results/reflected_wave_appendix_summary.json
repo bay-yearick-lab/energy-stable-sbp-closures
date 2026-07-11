@@ -1,0 +1,124 @@
+{
+  "setup": {
+    "npts": 129,
+    "carrier_ppw": 6.5,
+    "sigma": 0.05,
+    "t_hit": 0.24,
+    "t_post": 0.35,
+    "interior_strip": 10,
+    "interior_band": [
+      0.078125,
+      0.921875
+    ],
+    "pre_bounce_window": 0.08,
+    "bmf_route": "staggered primal-pressure and derivative-grid velocity complex; velocity is reconstructed to the primal grid for the common error metric"
+  },
+  "orders": {
+    "q4": {
+      "E4": {
+        "post_bounce_error": 0.8615113531741753,
+        "time_history_peak": 1.8466388758407433,
+        "operator_route": "same-grid first-derivative route"
+      },
+      "C4": {
+        "post_bounce_error": 0.20983073007658928,
+        "time_history_peak": 0.2942649894758774,
+        "operator_route": "same-grid first-derivative route"
+      },
+      "SBP4": {
+        "post_bounce_error": 0.9375670706397004,
+        "time_history_peak": 1.8734696713256926,
+        "operator_route": "same-grid first-derivative route"
+      },
+      "DRP4": {
+        "post_bounce_error": 0.6613863673110723,
+        "time_history_peak": 1.3416064107548358,
+        "operator_route": "same-grid first-derivative route"
+      },
+      "BMF4": {
+        "post_bounce_error": 0.0024471281320919123,
+        "time_history_peak": 0.004353581399329734,
+        "operator_route": "staggered primal-pressure and derivative-grid velocity complex"
+      },
+      "BMG4": {
+        "post_bounce_error": 0.0008440633583934008,
+        "time_history_peak": 0.002355575201949933,
+        "operator_route": "same-grid first-derivative route, metric-orthogonal enforcement"
+      }
+    },
+    "q6": {
+      "E6": {
+        "post_bounce_error": 0.2705786390015739,
+        "time_history_peak": 0.32037517427490925,
+        "operator_route": "same-grid first-derivative route"
+      },
+      "C6": {
+        "post_bounce_error": 0.08939274427449787,
+        "time_history_peak": 0.10325551615436648,
+        "operator_route": "same-grid first-derivative route"
+      },
+      "SBP6": {
+        "post_bounce_error": 0.3307256169412203,
+        "time_history_peak": 0.9444512630419527,
+        "operator_route": "same-grid first-derivative route"
+      },
+      "DRP6": {
+        "post_bounce_error": 0.09805825157347513,
+        "time_history_peak": 0.13238589290406286,
+        "operator_route": "same-grid first-derivative route"
+      },
+      "BMF6": {
+        "post_bounce_error": 0.000114354094221741,
+        "time_history_peak": 0.0001639170968326291,
+        "operator_route": "staggered primal-pressure and derivative-grid velocity complex"
+      },
+      "BMG6": {
+        "post_bounce_error": 9.418321677431749e-05,
+        "time_history_peak": 0.00024384672082222532,
+        "operator_route": "same-grid first-derivative route, metric-orthogonal enforcement"
+      },
+      "C6F": {
+        "post_bounce_error": 1.906627136672901,
+        "time_history_peak": 2.3052535160867533,
+        "operator_route": "same-grid first-derivative route (filtered)"
+      },
+      "SBP6-BO": {
+        "post_bounce_error": 0.30717010027462166,
+        "time_history_peak": 0.35310078913359183,
+        "operator_route": "same-grid first-derivative route"
+      }
+    },
+    "q8": {
+      "E8": {
+        "post_bounce_error": 83.26551524800907,
+        "time_history_peak": 175.78789096447952,
+        "operator_route": "same-grid first-derivative route"
+      },
+      "C8": {
+        "post_bounce_error": 57.72289709140997,
+        "time_history_peak": 107.67704168570036,
+        "operator_route": "same-grid first-derivative route"
+      },
+      "SBP8": {
+        "post_bounce_error": 0.7782497750336522,
+        "time_history_peak": 2.3410729056801007,
+        "operator_route": "same-grid first-derivative route"
+      },
+      "DRP8": {
+        "post_bounce_error": 75.10761586862233,
+        "time_history_peak": 148.32561260656692,
+        "operator_route": "same-grid first-derivative route"
+      },
+      "BMF8": {
+        "post_bounce_error": 6.937454796418368e-06,
+        "time_history_peak": 1.1910706450823187e-05,
+        "operator_route": "staggered primal-pressure and derivative-grid velocity complex"
+      },
+      "BMG8": {
+        "post_bounce_error": 2.2433004072549557e-06,
+        "time_history_peak": 4.612417734361912e-06,
+        "operator_route": "same-grid first-derivative route, metric-orthogonal enforcement"
+      }
+    }
+  }
+}

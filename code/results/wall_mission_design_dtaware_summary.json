@@ -1,0 +1,909 @@
+{
+  "hyperbolic": {
+    "budget": {
+      "strict_response_metric": "|rho_m - 1|",
+      "tol_cycles": 0.25,
+      "mission_unit": "standing-wave periods",
+      "mission_class": "hyperbolic",
+      "work_proxy": "F_D * P^d * P / r_wave, r_wave = measured coupled-wave-pair RK4 dt_max ratio vs E"
+    },
+    "orders": {
+      "q4": {
+        "labels": [
+          "E4",
+          "C4",
+          "SBP4",
+          "DRP4",
+          "BMF4",
+          "BMG4"
+        ],
+        "work_per_point": {
+          "E4": 7.062015503875969,
+          "C4": 7.186046511627907,
+          "SBP4": 6.937984496124031,
+          "DRP4": 7.062015503875969,
+          "BMF4": 20.100775193798448,
+          "BMG4": 51.5968992248062
+        },
+        "dt_max_ratio_vs_E": {
+          "E4": null,
+          "C4": null,
+          "SBP4": 1.0,
+          "DRP4": null,
+          "BMF4": 0.3773745851977654,
+          "BMG4": 0.29706618990577977
+        },
+        "required_ppw_snapshots": {
+          "M=10": {
+            "E4": 6.564102564102564,
+            "C4": 4.413793103448276,
+            "SBP4": 6.4,
+            "DRP4": 6.095238095238095,
+            "BMF4": 3.731343283582086,
+            "BMG4": 2.6041666666666643
+          },
+          "M=100": {
+            "E4": 12.19047619047619,
+            "C4": 8.0,
+            "SBP4": 11.130434782608695,
+            "DRP4": 9.481481481481481,
+            "BMF4": 5.813953488372088,
+            "BMG4": 3.0487804878048754
+          },
+          "M=1000": {
+            "E4": 21.333333333333332,
+            "C4": 15.058823529411764,
+            "SBP4": 18.285714285714285,
+            "DRP4": 12.19047619047619,
+            "BMF4": 9.999999999999991,
+            "BMG4": 3.571428571428568
+          }
+        },
+        "winner_crossovers_dtaware": {
+          "d1": [
+            {
+              "mission_length": 10.0,
+              "winner": "SBP4"
+            },
+            {
+              "mission_length": 1000.0,
+              "winner": "BMG4"
+            }
+          ],
+          "d2": [
+            {
+              "mission_length": 10.0,
+              "winner": "SBP4"
+            },
+            {
+              "mission_length": 25.59547922699536,
+              "winner": "BMG4"
+            }
+          ],
+          "d3": [
+            {
+              "mission_length": 10.0,
+              "winner": "BMG4"
+            }
+          ]
+        }
+      },
+      "q6": {
+        "labels": [
+          "E6",
+          "C6",
+          "SBP6",
+          "DRP6",
+          "BMF6",
+          "BMG6"
+        ],
+        "work_per_point": {
+          "E6": 11.093023255813954,
+          "C6": 11.279069767441861,
+          "SBP6": 11.031007751937985,
+          "DRP6": 11.093023255813954,
+          "BMF6": 32.674418604651166,
+          "BMG6": 79.16279069767442
+        },
+        "dt_max_ratio_vs_E": {
+          "E6": null,
+          "C6": null,
+          "SBP6": 1.0,
+          "DRP6": null,
+          "BMF6": 0.328630030273617,
+          "BMG6": 0.27786460410345243
+        },
+        "required_ppw_snapshots": {
+          "M=10": {
+            "E6": 5.019607843137255,
+            "C6": 3.6056338028169015,
+            "SBP6": 4.830188679245283,
+            "DRP6": 4.491228070175438,
+            "BMF6": 2.9999999999999427,
+            "BMG6": 2.3883495145630613
+          },
+          "M=100": {
+            "E6": 7.529411764705882,
+            "C6": 5.953488372093023,
+            "SBP6": 6.7368421052631575,
+            "DRP6": 5.953488372093023,
+            "BMF6": 3.8437499999999267,
+            "BMG6": 2.6451612903225303
+          },
+          "M=1000": {
+            "E6": 11.130434782608695,
+            "C6": 8.258064516129032,
+            "SBP6": 18.285714285714285,
+            "DRP6": 7.314285714285714,
+            "BMF6": 5.234042553191389,
+            "BMG6": 2.9638554216866906
+          }
+        },
+        "winner_crossovers_dtaware": {
+          "d1": [
+            {
+              "mission_length": 10.0,
+              "winner": "SBP6"
+            },
+            {
+              "mission_length": 625.0551925273969,
+              "winner": "BMG6"
+            }
+          ],
+          "d2": [
+            {
+              "mission_length": 10.0,
+              "winner": "SBP6"
+            },
+            {
+              "mission_length": 294.705170255181,
+              "winner": "BMG6"
+            }
+          ],
+          "d3": [
+            {
+              "mission_length": 10.0,
+              "winner": "SBP6"
+            },
+            {
+              "mission_length": 30.888435964774818,
+              "winner": "BMG6"
+            }
+          ]
+        }
+      },
+      "q8": {
+        "labels": [
+          "E8",
+          "C8",
+          "SBP8",
+          "DRP8",
+          "BMF8",
+          "BMG8"
+        ],
+        "work_per_point": {
+          "E8": 15.124031007751938,
+          "C8": 15.372093023255815,
+          "SBP8": 15.093023255813954,
+          "DRP8": 15.124031007751938,
+          "BMF8": 44.65891472868217,
+          "BMG8": 106.66666666666667
+        },
+        "dt_max_ratio_vs_E": {
+          "E8": null,
+          "C8": null,
+          "SBP8": 0.06374902350055389,
+          "DRP8": null,
+          "BMF8": 1.0,
+          "BMG8": 0.8835739060683834
+        },
+        "required_ppw_snapshots": {
+          "M=10": {
+            "E8": 4.338983050847458,
+            "C8": 2.226086956521739,
+            "SBP8": 4.571428571428571,
+            "DRP8": 4.063492063492063,
+            "BMF8": 2.6888888888888616,
+            "BMG8": 2.2830188679245054
+          },
+          "M=100": {
+            "E8": 5.333333333333333,
+            "C8": 4.654545454545454,
+            "SBP8": 12.8,
+            "DRP8": 4.571428571428571,
+            "BMF8": 3.226666666666634,
+            "BMG8": 2.4444444444444198
+          },
+          "M=1000": {
+            "E8": 6.2439024390243905,
+            "C8": 4.830188679245283,
+            "SBP8": 51.2,
+            "DRP8": 7.529411764705882,
+            "BMF8": 3.9672131147540584,
+            "BMG8": 2.719101123595478
+          }
+        },
+        "winner_crossovers_dtaware": {
+          "d1": [
+            {
+              "mission_length": 10.0,
+              "winner": "BMF8"
+            }
+          ],
+          "d2": [
+            {
+              "mission_length": 10.0,
+              "winner": "BMF8"
+            },
+            {
+              "mission_length": 294.705170255181,
+              "winner": "BMG8"
+            },
+            {
+              "mission_length": 323.74575428176433,
+              "winner": "BMF8"
+            },
+            {
+              "mission_length": 355.64803062231283,
+              "winner": "BMG8"
+            }
+          ],
+          "d3": [
+            {
+              "mission_length": 10.0,
+              "winner": "BMF8"
+            },
+            {
+              "mission_length": 71.96856730011521,
+              "winner": "BMG8"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "parabolic": {
+    "budget": {
+      "strict_response_metric": "|rho_m - 1|",
+      "tol_cycles": 0.25,
+      "mission_unit": "standing-wave periods",
+      "mission_class": "parabolic",
+      "work_proxy": "F_D * P^d * P^2 / r_diff, r_diff = measured 2D-tensor-Laplacian RK4 dt_max ratio vs E (explicit diffusion)"
+    },
+    "orders": {
+      "q4": {
+        "labels": [
+          "E4",
+          "C4",
+          "SBP4",
+          "DRP4",
+          "BMF4",
+          "BMG4"
+        ],
+        "work_per_point": {
+          "E4": 7.062015503875969,
+          "C4": 7.186046511627907,
+          "SBP4": 6.937984496124031,
+          "DRP4": 7.062015503875969,
+          "BMF4": 20.100775193798448,
+          "BMG4": 51.5968992248062
+        },
+        "dt_max_ratio_vs_E": {
+          "E4": 1.0,
+          "C4": 0.6501240374601576,
+          "SBP4": 1.0356232553718931,
+          "DRP4": 0.9649364819002584,
+          "BMF4": 0.08593716189902065,
+          "BMG4": 0.09139201366685429
+        },
+        "required_ppw_snapshots": {
+          "M=10": {
+            "E4": 6.564102564102564,
+            "C4": 4.413793103448276,
+            "SBP4": 6.4,
+            "DRP4": 6.095238095238095,
+            "BMF4": 3.731343283582086,
+            "BMG4": 2.6041666666666643
+          },
+          "M=100": {
+            "E4": 12.19047619047619,
+            "C4": 8.0,
+            "SBP4": 11.130434782608695,
+            "DRP4": 9.481481481481481,
+            "BMF4": 5.813953488372088,
+            "BMG4": 3.0487804878048754
+          },
+          "M=1000": {
+            "E4": 21.333333333333332,
+            "C4": 15.058823529411764,
+            "SBP4": 18.285714285714285,
+            "DRP4": 12.19047619047619,
+            "BMF4": 9.999999999999991,
+            "BMG4": 3.571428571428568
+          }
+        },
+        "winner_crossovers_dtaware": {
+          "d1": [
+            {
+              "mission_length": 10.0,
+              "winner": "C4"
+            },
+            {
+              "mission_length": 138.94954943731375,
+              "winner": "DRP4"
+            }
+          ],
+          "d2": [
+            {
+              "mission_length": 10.0,
+              "winner": "C4"
+            },
+            {
+              "mission_length": 104.81131341546852,
+              "winner": "BMG4"
+            }
+          ],
+          "d3": [
+            {
+              "mission_length": 10.0,
+              "winner": "C4"
+            },
+            {
+              "mission_length": 37.2759372031494,
+              "winner": "BMG4"
+            }
+          ]
+        }
+      },
+      "q6": {
+        "labels": [
+          "E6",
+          "C6",
+          "SBP6",
+          "DRP6",
+          "BMF6",
+          "BMG6"
+        ],
+        "work_per_point": {
+          "E6": 11.093023255813954,
+          "C6": 11.279069767441861,
+          "SBP6": 11.031007751937985,
+          "DRP6": 11.093023255813954,
+          "BMF6": 32.674418604651166,
+          "BMG6": 79.16279069767442
+        },
+        "dt_max_ratio_vs_E": {
+          "E6": 1.0,
+          "C6": 0.6356428519919601,
+          "SBP6": 0.6954491350541346,
+          "DRP6": 0.9067200855852527,
+          "BMF6": 0.05155455752351291,
+          "BMG6": 0.05369475020924417
+        },
+        "required_ppw_snapshots": {
+          "M=10": {
+            "E6": 5.019607843137255,
+            "C6": 3.6056338028169015,
+            "SBP6": 4.830188679245283,
+            "DRP6": 4.491228070175438,
+            "BMF6": 2.9999999999999427,
+            "BMG6": 2.3883495145630613
+          },
+          "M=100": {
+            "E6": 7.529411764705882,
+            "C6": 5.953488372093023,
+            "SBP6": 6.7368421052631575,
+            "DRP6": 5.953488372093023,
+            "BMF6": 3.8437499999999267,
+            "BMG6": 2.6451612903225303
+          },
+          "M=1000": {
+            "E6": 11.130434782608695,
+            "C6": 8.258064516129032,
+            "SBP6": 18.285714285714285,
+            "DRP6": 7.314285714285714,
+            "BMF6": 5.234042553191389,
+            "BMG6": 2.9638554216866906
+          }
+        },
+        "winner_crossovers_dtaware": {
+          "d1": [
+            {
+              "mission_length": 10.0,
+              "winner": "C6"
+            },
+            {
+              "mission_length": 19.306977288832496,
+              "winner": "DRP6"
+            }
+          ],
+          "d2": [
+            {
+              "mission_length": 10.0,
+              "winner": "C6"
+            },
+            {
+              "mission_length": 19.306977288832496,
+              "winner": "DRP6"
+            },
+            {
+              "mission_length": 21.209508879201906,
+              "winner": "C6"
+            },
+            {
+              "mission_length": 25.59547922699536,
+              "winner": "DRP6"
+            }
+          ],
+          "d3": [
+            {
+              "mission_length": 10.0,
+              "winner": "C6"
+            },
+            {
+              "mission_length": 33.93221771895328,
+              "winner": "DRP6"
+            }
+          ]
+        }
+      },
+      "q8": {
+        "labels": [
+          "E8",
+          "C8",
+          "SBP8",
+          "DRP8",
+          "BMF8",
+          "BMG8"
+        ],
+        "work_per_point": {
+          "E8": 15.124031007751938,
+          "C8": 15.372093023255815,
+          "SBP8": 15.093023255813954,
+          "DRP8": 15.124031007751938,
+          "BMF8": 44.65891472868217,
+          "BMG8": 106.66666666666667
+        },
+        "dt_max_ratio_vs_E": {
+          "E8": 1.0,
+          "C8": 0.6582044798244523,
+          "SBP8": 0.00019438100754914749,
+          "DRP8": 0.8581445596650671,
+          "BMF8": 0.03596728497520017,
+          "BMG8": 0.0373415652975919
+        },
+        "required_ppw_snapshots": {
+          "M=10": {
+            "E8": 4.338983050847458,
+            "C8": 2.226086956521739,
+            "SBP8": 4.571428571428571,
+            "DRP8": 4.063492063492063,
+            "BMF8": 2.6888888888888616,
+            "BMG8": 2.2830188679245054
+          },
+          "M=100": {
+            "E8": 5.333333333333333,
+            "C8": 4.654545454545454,
+            "SBP8": 12.8,
+            "DRP8": 4.571428571428571,
+            "BMF8": 3.226666666666634,
+            "BMG8": 2.4444444444444198
+          },
+          "M=1000": {
+            "E8": 6.2439024390243905,
+            "C8": 4.830188679245283,
+            "SBP8": 51.2,
+            "DRP8": 7.529411764705882,
+            "BMF8": 3.9672131147540584,
+            "BMG8": 2.719101123595478
+          }
+        },
+        "winner_crossovers_dtaware": {
+          "d1": [
+            {
+              "mission_length": 10.0,
+              "winner": "C8"
+            },
+            {
+              "mission_length": 33.93221771895328,
+              "winner": "DRP8"
+            },
+            {
+              "mission_length": 754.3120063354615,
+              "winner": "C8"
+            }
+          ],
+          "d2": [
+            {
+              "mission_length": 10.0,
+              "winner": "C8"
+            },
+            {
+              "mission_length": 33.93221771895328,
+              "winner": "DRP8"
+            },
+            {
+              "mission_length": 754.3120063354615,
+              "winner": "C8"
+            }
+          ],
+          "d3": [
+            {
+              "mission_length": 10.0,
+              "winner": "C8"
+            },
+            {
+              "mission_length": 33.93221771895328,
+              "winner": "DRP8"
+            },
+            {
+              "mission_length": 754.3120063354615,
+              "winner": "C8"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "parabolic_implicit": {
+    "budget": {
+      "strict_response_metric": "|rho_m - 1|",
+      "tol_cycles": 0.25,
+      "mission_unit": "standing-wave periods",
+      "mission_class": "parabolic_implicit",
+      "work_proxy": "F_impl * P^d * P, dt accuracy-limited (~h, shared constant, all families); F_impl = measured banded-solve implicit work per point (see implicit_detail)"
+    },
+    "orders": {
+      "q4": {
+        "labels": [
+          "E4",
+          "C4",
+          "SBP4",
+          "DRP4",
+          "BMF4",
+          "BMG4"
+        ],
+        "work_per_point": {
+          "E4": 40.78294573643411,
+          "C4": 20.906976744186046,
+          "SBP4": 36.689922480620154,
+          "DRP4": 40.78294573643411,
+          "BMF4": 53.565891472868216,
+          "BMG4": 53.565891472868216
+        },
+        "dt_max_ratio_vs_E": {
+          "E4": 1.0,
+          "C4": 1.0,
+          "SBP4": 1.0,
+          "DRP4": 1.0,
+          "BMF4": 1.0,
+          "BMG4": 1.0
+        },
+        "required_ppw_snapshots": {
+          "M=10": {
+            "E4": 6.564102564102564,
+            "C4": 4.413793103448276,
+            "SBP4": 6.4,
+            "DRP4": 6.095238095238095,
+            "BMF4": 3.731343283582086,
+            "BMG4": 2.6041666666666643
+          },
+          "M=100": {
+            "E4": 12.19047619047619,
+            "C4": 8.0,
+            "SBP4": 11.130434782608695,
+            "DRP4": 9.481481481481481,
+            "BMF4": 5.813953488372088,
+            "BMG4": 3.0487804878048754
+          },
+          "M=1000": {
+            "E4": 21.333333333333332,
+            "C4": 15.058823529411764,
+            "SBP4": 18.285714285714285,
+            "DRP4": 12.19047619047619,
+            "BMF4": 9.999999999999991,
+            "BMG4": 3.571428571428568
+          }
+        },
+        "winner_crossovers_dtaware": {
+          "d1": [
+            {
+              "mission_length": 10.0,
+              "winner": "BMG4"
+            }
+          ],
+          "d2": [
+            {
+              "mission_length": 10.0,
+              "winner": "BMG4"
+            }
+          ],
+          "d3": [
+            {
+              "mission_length": 10.0,
+              "winner": "BMG4"
+            }
+          ]
+        },
+        "implicit_detail": {
+          "E4": {
+            "apply": 16.782945736434108,
+            "solve": 24.0,
+            "half_bandwidth": 6.0
+          },
+          "C4": {
+            "apply": 8.906976744186046,
+            "solve": 12.0,
+            "half_bandwidth": 3.0,
+            "note": "Pade D2 band structure measured at q=6, reused for q=4,8"
+          },
+          "SBP4": {
+            "apply": 16.689922480620154,
+            "solve": 20.0,
+            "half_bandwidth": 5.0
+          },
+          "DRP4": {
+            "apply": 16.782945736434108,
+            "solve": 24.0,
+            "half_bandwidth": 6.0
+          },
+          "BMF4": {
+            "reduce_solve": 12.0,
+            "helmholtz_solve": 16.0,
+            "rhs_apply": 16.689922480620154,
+            "expand_apply": 8.875968992248062,
+            "b_B": 3.0,
+            "b_MK": 4.0
+          },
+          "BMG4": {
+            "reduce_solve": 12.0,
+            "helmholtz_solve": 16.0,
+            "rhs_apply": 16.689922480620154,
+            "expand_apply": 8.875968992248062,
+            "b_B": 3.0,
+            "b_MK": 4.0
+          }
+        }
+      },
+      "q6": {
+        "labels": [
+          "E6",
+          "C6",
+          "SBP6",
+          "DRP6",
+          "BMF6",
+          "BMG6"
+        ],
+        "work_per_point": {
+          "E6": 60.53488372093023,
+          "C6": 20.906976744186046,
+          "SBP6": 56.53488372093023,
+          "DRP6": 60.53488372093023,
+          "BMF6": 81.13178294573643,
+          "BMG6": 81.13178294573643
+        },
+        "dt_max_ratio_vs_E": {
+          "E6": 1.0,
+          "C6": 1.0,
+          "SBP6": 1.0,
+          "DRP6": 1.0,
+          "BMF6": 1.0,
+          "BMG6": 1.0
+        },
+        "required_ppw_snapshots": {
+          "M=10": {
+            "E6": 5.019607843137255,
+            "C6": 3.6056338028169015,
+            "SBP6": 4.830188679245283,
+            "DRP6": 4.491228070175438,
+            "BMF6": 2.9999999999999427,
+            "BMG6": 2.3883495145630613
+          },
+          "M=100": {
+            "E6": 7.529411764705882,
+            "C6": 5.953488372093023,
+            "SBP6": 6.7368421052631575,
+            "DRP6": 5.953488372093023,
+            "BMF6": 3.8437499999999267,
+            "BMG6": 2.6451612903225303
+          },
+          "M=1000": {
+            "E6": 11.130434782608695,
+            "C6": 8.258064516129032,
+            "SBP6": 18.285714285714285,
+            "DRP6": 7.314285714285714,
+            "BMF6": 5.234042553191389,
+            "BMG6": 2.9638554216866906
+          }
+        },
+        "winner_crossovers_dtaware": {
+          "d1": [
+            {
+              "mission_length": 10.0,
+              "winner": "C6"
+            },
+            {
+              "mission_length": 33.93221771895328,
+              "winner": "BMG6"
+            }
+          ],
+          "d2": [
+            {
+              "mission_length": 10.0,
+              "winner": "C6"
+            },
+            {
+              "mission_length": 12.067926406393289,
+              "winner": "BMG6"
+            }
+          ],
+          "d3": [
+            {
+              "mission_length": 10.0,
+              "winner": "BMG6"
+            }
+          ]
+        },
+        "implicit_detail": {
+          "E6": {
+            "apply": 24.53488372093023,
+            "solve": 36.0,
+            "half_bandwidth": 9.0
+          },
+          "C6": {
+            "apply": 8.906976744186046,
+            "solve": 12.0,
+            "half_bandwidth": 3.0,
+            "note": "Pade D2 band structure measured at q=6, reused for q=4,8"
+          },
+          "SBP6": {
+            "apply": 24.53488372093023,
+            "solve": 32.0,
+            "half_bandwidth": 8.0
+          },
+          "DRP6": {
+            "apply": 24.53488372093023,
+            "solve": 36.0,
+            "half_bandwidth": 9.0
+          },
+          "BMF6": {
+            "reduce_solve": 20.0,
+            "helmholtz_solve": 24.0,
+            "rhs_apply": 24.348837209302324,
+            "expand_apply": 12.782945736434108,
+            "b_B": 5.0,
+            "b_MK": 6.0
+          },
+          "BMG6": {
+            "reduce_solve": 20.0,
+            "helmholtz_solve": 24.0,
+            "rhs_apply": 24.348837209302324,
+            "expand_apply": 12.782945736434108,
+            "b_B": 5.0,
+            "b_MK": 6.0
+          }
+        }
+      },
+      "q8": {
+        "labels": [
+          "E8",
+          "C8",
+          "SBP8",
+          "DRP8",
+          "BMF8",
+          "BMG8"
+        ],
+        "work_per_point": {
+          "E8": 80.1937984496124,
+          "C8": 20.906976744186046,
+          "SBP8": 76.25581395348837,
+          "DRP8": 80.1937984496124,
+          "BMF8": 108.63565891472868,
+          "BMG8": 108.63565891472868
+        },
+        "dt_max_ratio_vs_E": {
+          "E8": 1.0,
+          "C8": 1.0,
+          "SBP8": 1.0,
+          "DRP8": 1.0,
+          "BMF8": 1.0,
+          "BMG8": 1.0
+        },
+        "required_ppw_snapshots": {
+          "M=10": {
+            "E8": 4.338983050847458,
+            "C8": 2.226086956521739,
+            "SBP8": 4.571428571428571,
+            "DRP8": 4.063492063492063,
+            "BMF8": 2.6888888888888616,
+            "BMG8": 2.2830188679245054
+          },
+          "M=100": {
+            "E8": 5.333333333333333,
+            "C8": 4.654545454545454,
+            "SBP8": 12.8,
+            "DRP8": 4.571428571428571,
+            "BMF8": 3.226666666666634,
+            "BMG8": 2.4444444444444198
+          },
+          "M=1000": {
+            "E8": 6.2439024390243905,
+            "C8": 4.830188679245283,
+            "SBP8": 51.2,
+            "DRP8": 7.529411764705882,
+            "BMF8": 3.9672131147540584,
+            "BMG8": 2.719101123595478
+          }
+        },
+        "winner_crossovers_dtaware": {
+          "d1": [
+            {
+              "mission_length": 10.0,
+              "winner": "C8"
+            }
+          ],
+          "d2": [
+            {
+              "mission_length": 10.0,
+              "winner": "C8"
+            },
+            {
+              "mission_length": 33.93221771895328,
+              "winner": "BMG8"
+            }
+          ],
+          "d3": [
+            {
+              "mission_length": 10.0,
+              "winner": "C8"
+            },
+            {
+              "mission_length": 33.93221771895328,
+              "winner": "BMG8"
+            }
+          ]
+        },
+        "implicit_detail": {
+          "E8": {
+            "apply": 32.1937984496124,
+            "solve": 48.0,
+            "half_bandwidth": 12.0
+          },
+          "C8": {
+            "apply": 8.906976744186046,
+            "solve": 12.0,
+            "half_bandwidth": 3.0,
+            "note": "Pade D2 band structure measured at q=6, reused for q=4,8"
+          },
+          "SBP8": {
+            "apply": 32.25581395348837,
+            "solve": 44.0,
+            "half_bandwidth": 11.0
+          },
+          "DRP8": {
+            "apply": 32.1937984496124,
+            "solve": 48.0,
+            "half_bandwidth": 12.0
+          },
+          "BMF8": {
+            "reduce_solve": 28.0,
+            "helmholtz_solve": 32.0,
+            "rhs_apply": 31.88372093023256,
+            "expand_apply": 16.751937984496124,
+            "b_B": 7.0,
+            "b_MK": 8.0
+          },
+          "BMG8": {
+            "reduce_solve": 28.0,
+            "helmholtz_solve": 32.0,
+            "rhs_apply": 31.88372093023256,
+            "expand_apply": 16.751937984496124,
+            "b_B": 7.0,
+            "b_MK": 8.0
+          }
+        }
+      }
+    }
+  },
+  "note": "dt-aware companion to wall_mission_design_summary.json (Figure 41 / \\ref{fig:mission}). dt ratios from code/results/spectral_radius_table.json: coupled acoustic wave pair for the hyperbolic class, interior-restricted 2D tensor Laplacian for the parabolic class, exact RK4 stability bisection in both cases. The parabolic_implicit variant prices the practitioner pairing (implicit diffusion; the choice of the paper's own turbulent-channel solver): accuracy-limited dt shared by every family, banded-solve work measured per family."
+}

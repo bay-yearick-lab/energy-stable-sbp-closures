@@ -1,0 +1,378 @@
+{
+ "description": "three-tier RK4 step analysis with direct-march validation",
+ "horizon_time": 6.0,
+ "tolerance_C": 1.25,
+ "families": [
+  {
+   "label": "E6",
+   "npts": 129,
+   "tierA_spectral_abscissa": 42.12326474801221,
+   "spectral_radius": 202.91848615284547,
+   "tierB_dt_asymptotic": null,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.01393873558969742,
+   "tierC_dt_tolerance": 0.011778862153561056,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V2_validation_horizon": 0.4373042036069067,
+   "V2_march_growth_at_dtC": 122383695.79044305,
+   "V2_predicted_exp_alpha_T": 100000000.00000018,
+   "V2_growth_ratio_vs_prediction": 1.2238369579044284,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.7392088021048,
+    "spectral_radius_2d": 82351.82404512528,
+    "tierB_dt_asymptotic": 3.382188064078734e-05
+   }
+  },
+  {
+   "label": "C6",
+   "npts": 129,
+   "tierA_spectral_abscissa": 38.87199570493094,
+   "spectral_radius": 254.51596523150917,
+   "tierB_dt_asymptotic": null,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.011112965436857514,
+   "tierC_dt_tolerance": 0.01188182228427511,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V2_validation_horizon": 0.47388049957043216,
+   "V2_march_growth_at_dtC": 63818422.89659342,
+   "V2_predicted_exp_alpha_T": 100000000.00000018,
+   "V2_growth_ratio_vs_prediction": 0.6381842289659331,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.739208802155698,
+    "spectral_radius_2d": 129556.75311545348,
+    "tierB_dt_asymptotic": 2.1498636670241772e-05
+   }
+  },
+  {
+   "label": "SBP6",
+   "npts": 129,
+   "tierA_spectral_abscissa": 6.039613253960852e-14,
+   "spectral_radius": 243.3262303439487,
+   "tierB_dt_asymptotic": 0.011624012424588034,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.011624012424587871,
+   "tierC_dt_tolerance": 0.011624717975762547,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V1_march_growth_at_0p99_dtB": 0.48873001807314465,
+   "V1_march_growth_at_1p05_dtB": 1585568784698.89,
+   "V1_skew_cap_match": 1.3988810110276972e-14,
+   "V3_transient_peak_at_dtB": 1.627931287689531,
+   "V3_march_growth_worst_vector": 1.145574755829954,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.739208802071516,
+    "spectral_radius_2d": 118415.30874679273,
+    "tierB_dt_asymptotic": 2.3521397637539724e-05
+   }
+  },
+  {
+   "label": "DRP6",
+   "npts": 129,
+   "tierA_spectral_abscissa": 40.6223469466173,
+   "spectral_radius": 213.1007584959284,
+   "tierB_dt_asymptotic": null,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.013272721996436402,
+   "tierC_dt_tolerance": 0.01165992822663129,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V2_validation_horizon": 0.45346175513097214,
+   "V2_march_growth_at_dtC": 89599759.21932764,
+   "V2_predicted_exp_alpha_T": 100000000.00000018,
+   "V2_growth_ratio_vs_prediction": 0.8959975921932748,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.763315316103192,
+    "spectral_radius_2d": 90823.8665430801,
+    "tierB_dt_asymptotic": 3.066697850926894e-05
+   }
+  },
+  {
+   "label": "BMF6",
+   "npts": 129,
+   "tierA_spectral_abscissa": 5.949933471263713e-14,
+   "spectral_radius": 768.157944158509,
+   "tierB_dt_asymptotic": 0.0036820905729806333,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.0036820905729805817,
+   "tierC_dt_tolerance": 0.003682161458715992,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V1_march_growth_at_0p99_dtB": 0.6457979236154991,
+   "V1_march_growth_at_1p05_dtB": 1008267357247.5581,
+   "V1_skew_cap_match": 1.3988810110276972e-14,
+   "V3_transient_peak_at_dtB": 2.814409669513265,
+   "V3_march_growth_worst_vector": 1.8202496136777535,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.739208802200494,
+    "spectral_radius_2d": 1597372.3372093006,
+    "tierB_dt_asymptotic": 1.7436720910488611e-06
+   }
+  },
+  {
+   "label": "BMG6",
+   "npts": 129,
+   "tierA_spectral_abscissa": 7.591843820264899e-14,
+   "spectral_radius": 940.0735092875074,
+   "tierB_dt_asymptotic": 0.0030087297395391213,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.003008729739539079,
+   "tierC_dt_tolerance": 0.0030087770646161772,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V1_march_growth_at_0p99_dtB": 0.7107650113991218,
+   "V1_march_growth_at_1p05_dtB": 1163710601463.5303,
+   "V1_skew_cap_match": 1.3988810110276972e-14,
+   "V3_transient_peak_at_dtB": 2.433324231962723,
+   "V3_march_growth_worst_vector": 1.3324455680895972,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.739208802171884,
+    "spectral_radius_2d": 1533703.4574927103,
+    "tierB_dt_asymptotic": 1.8160574326139486e-06
+   }
+  },
+  {
+   "label": "SBP6-BO",
+   "npts": 129,
+   "tierA_spectral_abscissa": 4.263213046473702e-14,
+   "spectral_radius": 330.4102263921003,
+   "tierB_dt_asymptotic": 0.008560349828245674,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.008560349828245554,
+   "tierC_dt_tolerance": 0.008560733034208236,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V1_march_growth_at_0p99_dtB": 0.5436524313356423,
+   "V1_march_growth_at_1p05_dtB": 1572351934206.1572,
+   "V1_skew_cap_match": 1.3988810110276972e-14,
+   "V3_transient_peak_at_dtB": 1.9793841933973466,
+   "V3_march_growth_worst_vector": 1.229041890792448,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.739208802134343,
+    "spectral_radius_2d": 218341.83540895794,
+    "tierB_dt_asymptotic": 1.275657300484099e-05
+   }
+  },
+  {
+   "label": "E4",
+   "npts": 129,
+   "tierA_spectral_abscissa": 6.733027518092596,
+   "spectral_radius": 178.85009003128542,
+   "tierB_dt_asymptotic": null,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.015814513284569367,
+   "tierC_dt_tolerance": 0.015556728446771159,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V2_validation_horizon": 2.735868922925593,
+   "V2_march_growth_at_dtC": 61452494.8869501,
+   "V2_predicted_exp_alpha_T": 100000000.00000018,
+   "V2_growth_ratio_vs_prediction": 0.6145249488694999,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.73920833121828,
+    "spectral_radius_2d": 63974.709408397364,
+    "tierB_dt_asymptotic": 4.361789751652901e-05
+   }
+  },
+  {
+   "label": "C4",
+   "npts": 129,
+   "tierA_spectral_abscissa": 6.574977346408135,
+   "spectral_radius": 221.6106803616563,
+   "tierB_dt_asymptotic": null,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.012763045175125831,
+   "tierC_dt_tolerance": 0.012917457978172373,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V2_validation_horizon": 2.8016341005365533,
+   "V2_march_growth_at_dtC": 21413497.6158943,
+   "V2_predicted_exp_alpha_T": 100000000.00000018,
+   "V2_growth_ratio_vs_prediction": 0.2141349761589426,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.73920871993489,
+    "spectral_radius_2d": 98222.58730071227,
+    "tierB_dt_asymptotic": 2.8356955766987317e-05
+   }
+  },
+  {
+   "label": "SBP4",
+   "npts": 129,
+   "tierA_spectral_abscissa": 2.2870594307278225e-14,
+   "spectral_radius": 175.58519808454133,
+   "tierB_dt_asymptotic": 0.016108573818303235,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.01610857381830301,
+   "tierC_dt_tolerance": 0.016109929062282757,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V1_march_growth_at_0p99_dtB": 0.45786668582699774,
+   "V1_march_growth_at_1p05_dtB": 1208326035654.0388,
+   "V1_skew_cap_match": 1.3988810110276972e-14,
+   "V3_transient_peak_at_dtB": 1.4105104132583446,
+   "V3_march_growth_worst_vector": 1.1161694406329339,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.73920831006588,
+    "spectral_radius_2d": 61660.32357277512,
+    "tierB_dt_asymptotic": 4.517156904176769e-05
+   }
+  },
+  {
+   "label": "DRP4",
+   "npts": 129,
+   "tierA_spectral_abscissa": 6.222608981545349,
+   "spectral_radius": 182.04174978609228,
+   "tierB_dt_asymptotic": null,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.015537244220458915,
+   "tierC_dt_tolerance": 0.015311468758241813,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V2_validation_horizon": 2.960282543637781,
+   "V2_march_growth_at_dtC": 68770001.39590906,
+   "V2_predicted_exp_alpha_T": 100000000.00000018,
+   "V2_growth_ratio_vs_prediction": 0.6877000139590893,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.70473031523259,
+    "spectral_radius_2d": 66278.39733036445,
+    "tierB_dt_asymptotic": 4.208847815160345e-05
+   }
+  },
+  {
+   "label": "BMF4",
+   "npts": 129,
+   "tierA_spectral_abscissa": 5.995898222366236e-14,
+   "spectral_radius": 473.8265839732573,
+   "tierB_dt_asymptotic": 0.005969329751464232,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.0059693297514641485,
+   "tierC_dt_tolerance": 0.005969515952780725,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V1_march_growth_at_0p99_dtB": 0.596655468186665,
+   "V1_march_growth_at_1p05_dtB": 1053167054691.9851,
+   "V1_skew_cap_match": 1.3988810110276972e-14,
+   "V3_transient_peak_at_dtB": 2.4716674423739167,
+   "V3_march_growth_worst_vector": 1.5763466970471938,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.739208802189694,
+    "spectral_radius_2d": 743064.6255313362,
+    "tierB_dt_asymptotic": 3.7483867051451873e-06
+   }
+  },
+  {
+   "label": "BMG4",
+   "npts": 129,
+   "tierA_spectral_abscissa": 5.767554402819064e-14,
+   "spectral_radius": 600.756315717069,
+   "tierB_dt_asymptotic": 0.004708110511281416,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.00470811051128135,
+   "tierC_dt_tolerance": 0.004708226386315048,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V1_march_growth_at_0p99_dtB": 0.6149980275773329,
+   "V1_march_growth_at_1p05_dtB": 1105191865292.4321,
+   "V1_skew_cap_match": 1.3988810110276972e-14,
+   "V3_transient_peak_at_dtB": 2.0609679193539105,
+   "V3_march_growth_worst_vector": 1.2620599163944102,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.739208802179885,
+    "spectral_radius_2d": 698713.842311159,
+    "tierB_dt_asymptotic": 3.986315133234429e-06
+   }
+  },
+  {
+   "label": "E8",
+   "npts": 129,
+   "tierA_spectral_abscissa": 68.69882651491093,
+   "spectral_radius": 221.41022659051583,
+   "tierB_dt_asymptotic": null,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.012774600199371941,
+   "tierC_dt_tolerance": 0.008711530456451812,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V2_validation_horizon": 0.2681367598026467,
+   "V2_march_growth_at_dtC": 193613445.22469848,
+   "V2_predicted_exp_alpha_T": 100000000.00000018,
+   "V2_growth_ratio_vs_prediction": 1.9361344522469814,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.739208802179434,
+    "spectral_radius_2d": 98044.9768777266,
+    "tierB_dt_asymptotic": 2.8408324955585745e-05
+   }
+  },
+  {
+   "label": "C8",
+   "npts": 129,
+   "tierA_spectral_abscissa": 66.51548962185511,
+   "spectral_radius": 272.90862383530407,
+   "tierB_dt_asymptotic": null,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.010364007868263995,
+   "tierC_dt_tolerance": 0.008924474430656438,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V2_validation_horizon": 0.276938211665811,
+   "V2_march_growth_at_dtC": 203759853.46137005,
+   "V2_predicted_exp_alpha_T": 100000000.00000018,
+   "V2_growth_ratio_vs_prediction": 2.037598534613697,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.739208802160707,
+    "spectral_radius_2d": 148958.233927359,
+    "tierB_dt_asymptotic": 1.8698486750075358e-05
+   }
+  },
+  {
+   "label": "SBP8",
+   "npts": 129,
+   "tierA_spectral_abscissa": 4.472541789769403e-13,
+   "spectral_radius": 15880.740965709787,
+   "tierB_dt_asymptotic": 0.00017810422894331328,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.0001781042289433108,
+   "tierC_dt_tolerance": 0.00017810439483828715,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V1_march_growth_at_0p99_dtB": 0.9858372300517091,
+   "V1_march_growth_at_1p05_dtB": 1341626619560.097,
+   "V1_skew_cap_match": 1.3988810110276972e-14,
+   "V3_transient_peak_at_dtB": 2.217419273393265,
+   "V3_march_growth_worst_vector": 1.017103029489806,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.739208804894073,
+    "spectral_radius_2d": 504395867.2399456,
+    "tierB_dt_asymptotic": 5.522038827650344e-09
+   }
+  },
+  {
+   "label": "DRP8",
+   "npts": 129,
+   "tierA_spectral_abscissa": 67.66884532697617,
+   "spectral_radius": 239.0107582183099,
+   "tierB_dt_asymptotic": null,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.011833890431671427,
+   "tierC_dt_tolerance": 0.008727585499586079,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V2_validation_horizon": 0.27221804443305564,
+   "V2_march_growth_at_dtC": 223689897.00883195,
+   "V2_predicted_exp_alpha_T": 100000000.00000018,
+   "V2_growth_ratio_vs_prediction": 2.2368989700883155,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.71711034074701,
+    "spectral_radius_2d": 114252.28508818313,
+    "tierB_dt_asymptotic": 2.4378449509833262e-05
+   }
+  },
+  {
+   "label": "BMF8",
+   "npts": 129,
+   "tierA_spectral_abscissa": 7.114465199148205e-14,
+   "spectral_radius": 1117.514626108412,
+   "tierB_dt_asymptotic": 0.002530997857805075,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.0025309978578050398,
+   "tierC_dt_tolerance": 0.00253103135516751,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V1_march_growth_at_0p99_dtB": 0.7298382827961053,
+   "V1_march_growth_at_1p05_dtB": 1079349113128.788,
+   "V1_skew_cap_match": 1.3988810110276972e-14,
+   "V3_transient_peak_at_dtB": 3.0623109764822063,
+   "V3_march_growth_worst_vector": 1.9967488653121273,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.7392088021911,
+    "spectral_radius_2d": 2725948.787775607,
+    "tierB_dt_asymptotic": 1.021770319345642e-06
+   }
+  },
+  {
+   "label": "BMG8",
+   "npts": 129,
+   "tierA_spectral_abscissa": 7.860379014346108e-14,
+   "spectral_radius": 1311.4801967541828,
+   "tierB_dt_asymptotic": 0.0021566678107274354,
+   "tierB_imag_axis_cap_2sqrt2_over_rho": 0.0021566678107274055,
+   "tierC_dt_tolerance": 0.0021566921282830855,
+   "tierC_definition": "amplification <= 1.25 x e^(alpha T) over T=6.0",
+   "V1_march_growth_at_0p99_dtB": 0.813978487726353,
+   "V1_march_growth_at_1p05_dtB": 1193554261229.178,
+   "V1_skew_cap_match": 1.3766765505351941e-14,
+   "V3_transient_peak_at_dtB": 2.612143340051596,
+   "V3_march_growth_worst_vector": 1.4048096150872793,
+   "diffusion": {
+    "tierA_spectral_abscissa_2d": -19.739208802172648,
+    "spectral_radius_2d": 2625625.7898232653,
+    "tierB_dt_asymptotic": 1.0608113213242126e-06
+   }
+  }
+ ]
+}

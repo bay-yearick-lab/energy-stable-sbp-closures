@@ -1,0 +1,217 @@
+{
+ "description": "CSB E6/T6 fielded at full published strength through the long-time cliff",
+ "provenance": "doi 10.1016/j.dib.2019.104086 machine-readable release; see baseline_closures.py",
+ "schemes": [
+  {
+   "scheme": "CSB-E6",
+   "gates": {
+    "candidate": 12,
+    "poly_exactness_deg6": 2.2737367544323206e-13,
+    "conservation_interior": 1.7053025658242404e-13,
+    "conservation_boundary_values": 1.1102230246251565e-16
+   },
+   "candidate_abscissa_scan": [
+    {
+     "candidate": 1,
+     "abscissa_N41": 1.1157741397482823e-14,
+     "abscissa_N129": 3.952393967665557e-14
+    },
+    {
+     "candidate": 2,
+     "abscissa_N41": 2.382420919618882e-14,
+     "abscissa_N129": 0.11564246382832266
+    },
+    {
+     "candidate": 3,
+     "abscissa_N41": 2.04281036522757e-14,
+     "abscissa_N129": 7.460698725481052e-14
+    },
+    {
+     "candidate": 4,
+     "abscissa_N41": 2.0686685222731073e-14,
+     "abscissa_N129": 4.4408920985006255e-14
+    },
+    {
+     "candidate": 5,
+     "abscissa_N41": 2.0592278967071498e-14,
+     "abscissa_N129": 6.775134991335481e-14
+    },
+    {
+     "candidate": 6,
+     "abscissa_N41": 9.006684033543461e-14,
+     "abscissa_N129": 2.5279377115910995e-13
+    },
+    {
+     "candidate": 7,
+     "abscissa_N41": 0.08790367399068888,
+     "abscissa_N129": 0.010992503940116194
+    },
+    {
+     "candidate": 8,
+     "abscissa_N41": 1.457517530469061e-14,
+     "abscissa_N129": 9.414691248821327e-14
+    },
+    {
+     "candidate": 9,
+     "abscissa_N41": 1.7341054807384904e-14,
+     "abscissa_N129": 1.2285901191799037e-13
+    },
+    {
+     "candidate": 10,
+     "abscissa_N41": 1.6711285133474973e-13,
+     "abscissa_N129": 1.4055423491754482e-13
+    },
+    {
+     "candidate": 11,
+     "abscissa_N41": 2.191580250610059e-13,
+     "abscissa_N129": 0.19183489097855488
+    },
+    {
+     "candidate": 12,
+     "abscissa_N41": 0.05911494736624601,
+     "abscissa_N129": 1.6090826045721263e-13
+    },
+    {
+     "candidate": 13,
+     "abscissa_N41": 0.1769354060663817,
+     "abscissa_N129": 0.1672609750549654
+    },
+    {
+     "candidate": 14,
+     "abscissa_N41": 0.1625276783453291,
+     "abscissa_N129": 0.1852197516687113
+    },
+    {
+     "candidate": 15,
+     "abscissa_N41": 2.0154017343898545e-14,
+     "abscissa_N129": 0.031053144320647874
+    },
+    {
+     "candidate": 16,
+     "abscissa_N41": 1.645150429621501e-14,
+     "abscissa_N129": 1.1775698688723524e-13
+    }
+   ],
+   "stable_candidates_both_grids": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    16
+   ],
+   "fielded_candidate": 1,
+   "cliff_error_t6_transits": 0.08470870525794401
+  },
+  {
+   "scheme": "CSB-T6",
+   "gates": {
+    "candidate": 3,
+    "poly_exactness_deg5": 6.171290356927001e-12,
+    "interior_deg6": 5.820790709241269e-10,
+    "conservation_interior_uneliminated": 4.0794036966903405e-15
+   },
+   "candidate_abscissa_scan": [
+    {
+     "candidate": 1,
+     "abscissa_N41": 0.3123386289978143,
+     "abscissa_N129": 0.38818311982314313
+    },
+    {
+     "candidate": 2,
+     "abscissa_N41": 0.340964487053677,
+     "abscissa_N129": 0.4058915929890574
+    },
+    {
+     "candidate": 3,
+     "abscissa_N41": 3.346888738375853e-14,
+     "abscissa_N129": 5.086764343076311e-13
+    },
+    {
+     "candidate": 4,
+     "abscissa_N41": 0.4057863271945399,
+     "abscissa_N129": 0.4829444337756179
+    },
+    {
+     "candidate": 5,
+     "abscissa_N41": 4.1300296516055823e-14,
+     "abscissa_N129": 1.9316276009262445e-12
+    },
+    {
+     "candidate": 6,
+     "abscissa_N41": 2.480727898156729e-13,
+     "abscissa_N129": 3.765861862799202e-13
+    },
+    {
+     "candidate": 7,
+     "abscissa_N41": 9.436832795941673e-14,
+     "abscissa_N129": 1.227462576025573e-12
+    },
+    {
+     "candidate": 8,
+     "abscissa_N41": 7.466546508238106e-14,
+     "abscissa_N129": 9.919633135577944e-13
+    },
+    {
+     "candidate": 9,
+     "abscissa_N41": 6.039613253960852e-14,
+     "abscissa_N129": 3.6792791025489776e-13
+    },
+    {
+     "candidate": 10,
+     "abscissa_N41": 1.0316625143779067e-13,
+     "abscissa_N129": 1.9593215938584763e-12
+    },
+    {
+     "candidate": 11,
+     "abscissa_N41": 4.3076653355456074e-14,
+     "abscissa_N129": 5.009326287108706e-13
+    },
+    {
+     "candidate": 12,
+     "abscissa_N41": 5.334621633323877e-14,
+     "abscissa_N129": 3.796164771419086e-13
+    },
+    {
+     "candidate": 13,
+     "abscissa_N41": 8.526512829079843e-14,
+     "abscissa_N129": 5.329070518200751e-13
+    },
+    {
+     "candidate": 14,
+     "abscissa_N41": 5.417977480742309e-13,
+     "abscissa_N129": 1.4006402303576955e-11
+    },
+    {
+     "candidate": 15,
+     "abscissa_N41": 0.47285771476406424,
+     "abscissa_N129": 0.45426685405656997
+    },
+    {
+     "candidate": 16,
+     "abscissa_N41": 5.639932965095795e-14,
+     "abscissa_N129": 9.29534227367412e-13
+    }
+   ],
+   "stable_candidates_both_grids": [
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16
+   ],
+   "fielded_candidate": 3,
+   "cliff_error_t6_transits": 0.0013768774144312975
+  }
+ ]
+}

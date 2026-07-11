@@ -1,0 +1,437 @@
+{
+ "description": "M|rho-1| mission-model validation by direct repeated-period marches",
+ "cases": [
+  {
+   "label": "SBP6",
+   "mode": 4,
+   "npts": 65,
+   "rho": 0.9999290421455139,
+   "series": [
+    {
+     "M": 2,
+     "measured": 0.0011778395801062952,
+     "phase_rad": 0.0008916826974717947,
+     "predicted_linear": 0.0008916826974717947,
+     "predicted_sine": 0.0008916826679311634,
+     "ratio_vs_linear": 1.3209178370802155
+    },
+    {
+     "M": 5,
+     "measured": 0.005697583888439901,
+     "phase_rad": 0.002229206743679487,
+     "predicted_linear": 0.002229206743679487,
+     "predicted_sine": 0.0022292062821071467,
+     "ratio_vs_linear": 2.555879531853369
+    },
+    {
+     "M": 10,
+     "measured": 0.010422791093711456,
+     "phase_rad": 0.004458413487358974,
+     "predicted_linear": 0.004458413487358974,
+     "predicted_sine": 0.00445840979478094,
+     "ratio_vs_linear": 2.337780271673634
+    },
+    {
+     "M": 20,
+     "measured": 0.0004977103557395042,
+     "phase_rad": 0.008916826974717948,
+     "predicted_linear": 0.008916826974717948,
+     "predicted_sine": 0.008916797434115692,
+     "ratio_vs_linear": 0.055816980317176954
+    },
+    {
+     "M": 40,
+     "measured": 0.0007739135200982314,
+     "phase_rad": 0.017833653949435896,
+     "predicted_linear": 0.017833653949435896,
+     "predicted_sine": 0.01783341762532247,
+     "ratio_vs_linear": 0.043396239620468326
+    }
+   ]
+  },
+  {
+   "label": "SBP6",
+   "mode": 8,
+   "npts": 65,
+   "rho": 0.9994017871546442,
+   "series": [
+    {
+     "M": 2,
+     "measured": 0.010891350162465835,
+     "phase_rad": 0.007517364321010964,
+     "predicted_linear": 0.007517364321010964,
+     "predicted_sine": 0.0075173466205226925,
+     "ratio_vs_linear": 1.448825638531927
+    },
+    {
+     "M": 5,
+     "measured": 0.05509100031239052,
+     "phase_rad": 0.01879341080252741,
+     "predicted_linear": 0.01879341080252741,
+     "predicted_sine": 0.01879313423342383,
+     "ratio_vs_linear": 2.9313997810861276
+    },
+    {
+     "M": 10,
+     "measured": 0.12569078608004908,
+     "phase_rad": 0.03758682160505482,
+     "predicted_linear": 0.03758682160505482,
+     "predicted_sine": 0.03758460908153063,
+     "ratio_vs_linear": 3.344012095535785
+    },
+    {
+     "M": 20,
+     "measured": 0.01839365765960496,
+     "phase_rad": 0.07517364321010964,
+     "predicted_linear": 0.07517364321010964,
+     "predicted_sine": 0.07515594395962873,
+     "ratio_vs_linear": 0.24468226993063058
+    },
+    {
+     "M": 40,
+     "measured": 0.042203142902966354,
+     "phase_rad": 0.15034728642021927,
+     "predicted_linear": 0.15034728642021927,
+     "predicted_sine": 0.15020572241939137,
+     "ratio_vs_linear": 0.2807043872079537
+    }
+   ]
+  },
+  {
+   "label": "SBP6",
+   "mode": 12,
+   "npts": 65,
+   "rho": 0.9991197829442785,
+   "series": [
+    {
+     "M": 2,
+     "measured": 0.07036110420708137,
+     "phase_rad": 0.011061133743276401,
+     "predicted_linear": 0.011061133743276401,
+     "predicted_sine": 0.011061077355233083,
+     "ratio_vs_linear": 6.361111423126127
+    },
+    {
+     "M": 5,
+     "measured": 0.12394801231455023,
+     "phase_rad": 0.027652834358191002,
+     "predicted_linear": 0.027652834358191002,
+     "predicted_sine": 0.02765195330208831,
+     "ratio_vs_linear": 4.482289616645962
+    },
+    {
+     "M": 10,
+     "measured": 0.3194508067215767,
+     "phase_rad": 0.055305668716382005,
+     "predicted_linear": 0.055305668716382005,
+     "predicted_sine": 0.05529862046967539,
+     "ratio_vs_linear": 5.776095184017777
+    },
+    {
+     "M": 20,
+     "measured": 0.2674482554070971,
+     "phase_rad": 0.11061133743276401,
+     "predicted_linear": 0.11061133743276401,
+     "predicted_sine": 0.11055495792634719,
+     "ratio_vs_linear": 2.4179099684936696
+    },
+    {
+     "M": 40,
+     "measured": 0.36681754862484556,
+     "phase_rad": 0.22122267486552802,
+     "predicted_linear": 0.22122267486552802,
+     "predicted_sine": 0.22077184570923822,
+     "ratio_vs_linear": 1.6581372088002215
+    }
+   ]
+  },
+  {
+   "label": "BMF6",
+   "mode": 4,
+   "npts": 65,
+   "rho": 0.9999999973025189,
+   "series": [
+    {
+     "M": 2,
+     "measured": 6.165672218007831e-11,
+     "phase_rad": 3.389754757159649e-08,
+     "predicted_linear": 3.389754757159649e-08,
+     "predicted_sine": 3.389754757159649e-08,
+     "ratio_vs_linear": 0.0018189139509237492
+    },
+    {
+     "M": 5,
+     "measured": 6.373037125179469e-10,
+     "phase_rad": 8.474386892899123e-08,
+     "predicted_linear": 8.474386892899123e-08,
+     "predicted_sine": 8.47438689289912e-08,
+     "ratio_vs_linear": 0.007520351862291747
+    },
+    {
+     "M": 10,
+     "measured": 2.7313479115070936e-10,
+     "phase_rad": 1.6948773785798245e-07,
+     "predicted_linear": 1.6948773785798245e-07,
+     "predicted_sine": 1.6948773785798224e-07,
+     "ratio_vs_linear": 0.0016115312800951717
+    },
+    {
+     "M": 20,
+     "measured": 5.387855089563855e-10,
+     "phase_rad": 3.389754757159649e-07,
+     "predicted_linear": 3.389754757159649e-07,
+     "predicted_sine": 3.3897547571596326e-07,
+     "ratio_vs_linear": 0.001589452770346861
+    },
+    {
+     "M": 40,
+     "measured": 1.0818557243159027e-09,
+     "phase_rad": 6.779509514319298e-07,
+     "predicted_linear": 6.779509514319298e-07,
+     "predicted_sine": 6.779509514319168e-07,
+     "ratio_vs_linear": 0.0015957728535240905
+    }
+   ]
+  },
+  {
+   "label": "BMF6",
+   "mode": 8,
+   "npts": 65,
+   "rho": 0.9999998052981688,
+   "series": [
+    {
+     "M": 2,
+     "measured": 8.00763582207804e-08,
+     "phase_rad": 2.4466953703191393e-06,
+     "predicted_linear": 2.4466953703191393e-06,
+     "predicted_sine": 2.446695370318529e-06,
+     "ratio_vs_linear": 0.0327283728052894
+    },
+    {
+     "M": 5,
+     "measured": 6.057315583500337e-08,
+     "phase_rad": 6.116738425797848e-06,
+     "predicted_linear": 6.116738425797848e-06,
+     "predicted_sine": 6.116738425788312e-06,
+     "ratio_vs_linear": 0.00990285207873711
+    },
+    {
+     "M": 10,
+     "measured": 8.128823523347276e-08,
+     "phase_rad": 1.2233476851595695e-05,
+     "predicted_linear": 1.2233476851595695e-05,
+     "predicted_sine": 1.223347685151941e-05,
+     "ratio_vs_linear": 0.006644736914908192
+    },
+    {
+     "M": 20,
+     "measured": 1.8650296307000014e-08,
+     "phase_rad": 2.446695370319139e-05,
+     "predicted_linear": 2.446695370319139e-05,
+     "predicted_sine": 2.446695370258111e-05,
+     "ratio_vs_linear": 0.0007622647483314333
+    },
+    {
+     "M": 40,
+     "measured": 3.449546347898933e-08,
+     "phase_rad": 4.893390740638278e-05,
+     "predicted_linear": 4.893390740638278e-05,
+     "predicted_sine": 4.893390740150055e-05,
+     "ratio_vs_linear": 0.0007049398935693791
+    }
+   ]
+  },
+  {
+   "label": "BMF6",
+   "mode": 12,
+   "npts": 65,
+   "rho": 0.9999973599050195,
+   "series": [
+    {
+     "M": 2,
+     "measured": 1.1731401617915986e-06,
+     "phase_rad": 3.317641198234436e-05,
+     "predicted_linear": 3.317641198234436e-05,
+     "predicted_sine": 3.3176411980822845e-05,
+     "ratio_vs_linear": 0.03536067017783339
+    },
+    {
+     "M": 5,
+     "measured": 9.696321617953835e-07,
+     "phase_rad": 8.29410299558609e-05,
+     "predicted_linear": 8.29410299558609e-05,
+     "predicted_sine": 8.29410299320872e-05,
+     "ratio_vs_linear": 0.011690621183645741
+    },
+    {
+     "M": 10,
+     "measured": 1.1856276079782833e-06,
+     "phase_rad": 0.0001658820599117218,
+     "predicted_linear": 0.0001658820599117218,
+     "predicted_sine": 0.0001658820597215321,
+     "ratio_vs_linear": 0.007147413099459001
+    },
+    {
+     "M": 20,
+     "measured": 1.2193739756494787e-06,
+     "phase_rad": 0.0003317641198234436,
+     "predicted_linear": 0.0003317641198234436,
+     "predicted_sine": 0.00033176411830192594,
+     "ratio_vs_linear": 0.0036754245043086587
+    },
+    {
+     "M": 40,
+     "measured": 1.2597765034357078e-06,
+     "phase_rad": 0.0006635282396468872,
+     "predicted_linear": 0.0006635282396468872,
+     "predicted_sine": 0.0006635282274747458,
+     "ratio_vs_linear": 0.0018986026941462638
+    }
+   ]
+  },
+  {
+   "label": "BMG6",
+   "mode": 4,
+   "npts": 65,
+   "rho": 0.9999999999928437,
+   "series": [
+    {
+     "M": 2,
+     "measured": 3.1678664080176295e-11,
+     "phase_rad": 8.992841105785615e-11,
+     "predicted_linear": 8.992841105785615e-11,
+     "predicted_sine": 8.992841105785615e-11,
+     "ratio_vs_linear": 0.35226535982933777
+    },
+    {
+     "M": 5,
+     "measured": 6.394692155860043e-11,
+     "phase_rad": 2.248210276446404e-10,
+     "predicted_linear": 2.248210276446404e-10,
+     "predicted_sine": 2.248210276446404e-10,
+     "ratio_vs_linear": 0.28443478898992075
+    },
+    {
+     "M": 10,
+     "measured": 1.1486926461146429e-10,
+     "phase_rad": 4.496420552892808e-10,
+     "predicted_linear": 4.496420552892808e-10,
+     "predicted_sine": 4.496420552892808e-10,
+     "ratio_vs_linear": 0.25546824025960435
+    },
+    {
+     "M": 20,
+     "measured": 2.2969978746329937e-10,
+     "phase_rad": 8.992841105785616e-10,
+     "predicted_linear": 8.992841105785616e-10,
+     "predicted_sine": 8.992841105785616e-10,
+     "ratio_vs_linear": 0.2554251595922452
+    },
+    {
+     "M": 40,
+     "measured": 4.646952449735962e-10,
+     "phase_rad": 1.7985682211571232e-09,
+     "predicted_linear": 1.7985682211571232e-09,
+     "predicted_sine": 1.7985682211571232e-09,
+     "ratio_vs_linear": 0.2583695405641221
+    }
+   ]
+  },
+  {
+   "label": "BMG6",
+   "mode": 8,
+   "npts": 65,
+   "rho": 0.9999999996334334,
+   "series": [
+    {
+     "M": 2,
+     "measured": 4.885061434996846e-09,
+     "phase_rad": 4.6064111835512095e-09,
+     "predicted_linear": 4.6064111835512095e-09,
+     "predicted_sine": 4.6064111835512095e-09,
+     "ratio_vs_linear": 1.0604918320015926
+    },
+    {
+     "M": 5,
+     "measured": 5.992038116340792e-09,
+     "phase_rad": 1.1516027958878024e-08,
+     "predicted_linear": 1.1516027958878024e-08,
+     "predicted_sine": 1.1516027958878024e-08,
+     "ratio_vs_linear": 0.5203216020087347
+    },
+    {
+     "M": 10,
+     "measured": 8.048651150151265e-09,
+     "phase_rad": 2.3032055917756048e-08,
+     "predicted_linear": 2.3032055917756048e-08,
+     "predicted_sine": 2.3032055917756048e-08,
+     "ratio_vs_linear": 0.349454307461382
+    },
+    {
+     "M": 20,
+     "measured": 8.368398234646654e-09,
+     "phase_rad": 4.6064111835512095e-08,
+     "predicted_linear": 4.6064111835512095e-08,
+     "predicted_sine": 4.606411183551209e-08,
+     "ratio_vs_linear": 0.18166850290154135
+    },
+    {
+     "M": 40,
+     "measured": 1.5273213483658465e-08,
+     "phase_rad": 9.212822367102419e-08,
+     "predicted_linear": 9.212822367102419e-08,
+     "predicted_sine": 9.212822367102416e-08,
+     "ratio_vs_linear": 0.16578213358586807
+    }
+   ]
+  },
+  {
+   "label": "BMG6",
+   "mode": 12,
+   "npts": 65,
+   "rho": 0.9999999997636023,
+   "series": [
+    {
+     "M": 2,
+     "measured": 1.26511413746874e-07,
+     "phase_rad": 2.970660849323327e-09,
+     "predicted_linear": 2.970660849323327e-09,
+     "predicted_sine": 2.970660849323327e-09,
+     "ratio_vs_linear": 42.58695965771099
+    },
+    {
+     "M": 5,
+     "measured": 1.4346221304372667e-07,
+     "phase_rad": 7.426652123308318e-09,
+     "predicted_linear": 7.426652123308318e-09,
+     "predicted_sine": 7.426652123308318e-09,
+     "ratio_vs_linear": 19.3172119363818
+    },
+    {
+     "M": 10,
+     "measured": 1.8444231938012038e-07,
+     "phase_rad": 1.4853304246616635e-08,
+     "predicted_linear": 1.4853304246616635e-08,
+     "predicted_sine": 1.4853304246616635e-08,
+     "ratio_vs_linear": 12.417595190789527
+    },
+    {
+     "M": 20,
+     "measured": 1.6327143446358359e-07,
+     "phase_rad": 2.970660849323327e-08,
+     "predicted_linear": 2.970660849323327e-08,
+     "predicted_sine": 2.970660849323327e-08,
+     "ratio_vs_linear": 5.496131761415121
+    },
+    {
+     "M": 40,
+     "measured": 2.908898957492931e-07,
+     "phase_rad": 5.941321698646654e-08,
+     "predicted_linear": 5.941321698646654e-08,
+     "predicted_sine": 5.9413216986466535e-08,
+     "ratio_vs_linear": 4.896046881547477
+    }
+   ]
+  }
+ ]
+}
