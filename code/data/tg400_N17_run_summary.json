@@ -1,0 +1,18 @@
+{
+  "N": 17, "p": 4, "Re": 400.0, "nu": 2.5000000000e-03,
+  "advection": "skew_energy_conserving",
+  "dt": 2.3529411765e-03, "dt_scale": 0.400000, "nsteps": 204, "T": 0.480000, "t_start": 0.000000,
+  "restart_from": "",
+  "lid_profile": "unregularized_unit",
+  "steps_done": 204, "wall_seconds": 5.408, "cpu_seconds": 3.084,
+  "cpu_seconds_per_step": 1.511717e-02, "peak_rss_mb": 7.2,
+  "final_ke_production": -1.0406720807e-17,
+  "final_pressure_work": 1.5385053961e-29,
+  "final_dissipation": 4.5327906680e-02,
+  "steady_step": -1, "steady_t": -1.000000, "steady_tol": 1.000e-09, "final_max_dudt": 3.836783e-01,
+  "final_constraint_l2_div": 2.917157e-17, "final_constraint_max_div": 9.540979e-18,
+  "final_poststep_l2_div": 3.661101e-17, "final_poststep_max_div": 7.806256e-18,
+  "u_centerline_min": -0.8936119922, "u_centerline_min_z": 0.7425000000,
+  "w_centerline_min": -0.8936119922, "w_centerline_min_x": 0.2575000000,
+  "w_centerline_max": 0.8936119922, "w_centerline_max_x": 0.7425000000
+}
