@@ -1,0 +1,72 @@
+{
+  "definition": {
+    "exact_wall_number": "omega_m = m pi h_ref, h_ref = max_j(x_{j+1} - x_j)",
+    "signed_bias": "rho_m - 1",
+    "response_ratio": "rho_m = kappa_m / (m pi)",
+    "strict_response_error": "|rho_m - 1|",
+    "contamination": "eta_m",
+    "total_error": "sqrt((rho_m - 1)^2 + eta_m^2)"
+  },
+  "q6": {
+    "E6": {
+      "P1_response": 5.953488372093023,
+      "P5_response": 4.413793103448276,
+      "P1_contamination": 6.564102564102564,
+      "P5_contamination": 3.4133333333333336,
+      "P1_total": 6.7368421052631575,
+      "P5_total": 5.12,
+      "max_signed_bias": -1.049604847480623e-12,
+      "min_signed_bias": -0.9704922140541039
+    },
+    "C6": {
+      "P1_response": 4.7407407407407405,
+      "P5_response": 2.694736842105263,
+      "P1_contamination": 6.564102564102564,
+      "P5_contamination": 3.4133333333333336,
+      "P1_total": 6.564102564102564,
+      "P5_total": 3.4133333333333336,
+      "max_signed_bias": 1.6235177187073901e-06,
+      "min_signed_bias": -0.9545385304002969
+    },
+    "SBP6": {
+      "P1_response": 5.565217391304348,
+      "P5_response": 4.338983050847458,
+      "P1_contamination": 15.058823529411764,
+      "P5_contamination": 2.015748031496063,
+      "P1_total": 15.058823529411764,
+      "P5_total": 9.142857142857142,
+      "max_signed_bias": -1.0558610652466882e-08,
+      "min_signed_bias": -0.9867471959140461
+    },
+    "DRP6": {
+      "P1_response": 5.12,
+      "P5_response": 4.0,
+      "P1_contamination": 6.564102564102564,
+      "P5_contamination": 3.4133333333333336,
+      "P1_total": 6.564102564102564,
+      "P5_total": 5.019607843137255,
+      "max_signed_bias": 0.0005843192420318388,
+      "min_signed_bias": -0.9691008950876284
+    },
+    "BMF6": {
+      "P1_response": 3.279999999999937,
+      "P5_response": 2.764044943820172,
+      "P1_contamination": 2.795454545454492,
+      "P5_contamination": 2.36538461538457,
+      "P1_total": 3.324324324324261,
+      "P5_total": 2.795454545454492,
+      "max_signed_bias": -8.215650382226158e-15,
+      "min_signed_bias": -0.9199041565270525
+    },
+    "BMG6": {
+      "P1_response": 2.4848484848484373,
+      "P5_response": 2.320754716981088,
+      "P1_contamination": 2.3883495145630613,
+      "P5_contamination": 2.256880733944911,
+      "P1_total": 2.4848484848484373,
+      "P5_total": 2.342857142857098,
+      "max_signed_bias": 7.346636321514666e-08,
+      "min_signed_bias": -0.8612171193726545
+    }
+  }
+}
