@@ -1,0 +1,271 @@
+{
+ "config": {
+  "heat": {
+   "m_center": 8,
+   "n_center": 8,
+   "half_band": 1,
+   "viscosity": 5e-05,
+   "t_end": 0.5,
+   "grids": [
+    19,
+    37,
+    55,
+    73,
+    91
+   ],
+   "protocol": "tier-B per-method RK4 step (safety 0.4, power iteration), metric-orthogonal strong walls, relative L2 at t_end on each family's sample set with node-spacing trapezoid weights"
+  },
+  "wave": {
+   "npts": 43,
+   "mode": 6,
+   "t_end": 6.0,
+   "cfl_shared": 0.012,
+   "norm": "full-domain coupled relative L2 with actual-node trapezoid weights"
+  },
+  "sem": "degree-6 GLL C0 spectral elements, diagonal GLL mass, assembled Galerkin stiffness, strong Dirichlet rows (= metric-orthogonal for the diagonal SEM metric); gates: quadrature 2P-1, interior D2 poly-exactness to P, Dirichlet eigenvalue, SBP identity"
+ },
+ "timing": {
+  "metric": "process_time_seconds",
+  "cpu": "x86_64",
+  "platform": "Linux-x86_64",
+  "python": "3.14.0",
+  "numpy": "2.4.4",
+  "thread_env": {
+   "OPENBLAS_NUM_THREADS": "1",
+   "OMP_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1",
+   "NUMEXPR_NUM_THREADS": "1"
+  },
+  "nice": 19
+ },
+ "sem_gates": {
+  "P6_K3": {
+   "G1_quadrature": 6.38378239159465e-16,
+   "G2_d2_poly": 5.364597654988756e-13,
+   "G3_lam1_relerr": 4.301583603186772e-14,
+   "G4_sbp_identity": 1.424514650151097e-14
+  },
+  "P6_K8": {
+   "G1_quadrature": 6.38378239159465e-16,
+   "G2_d2_poly": 5.4711790653527714e-12,
+   "G3_lam1_relerr": 4.6975452737730025e-14,
+   "G4_sbp_identity": 1.424514650151097e-14
+  }
+ },
+ "heat": [
+  {
+   "family": "SBP6",
+   "npts": 19,
+   "dofs": 361,
+   "dt": 0.5,
+   "nsteps": 1,
+   "rel_l2_final": 0.011253551790028342,
+   "cpu_seconds": 0.00041427300000002054
+  },
+  {
+   "family": "BMF6",
+   "npts": 19,
+   "dofs": 361,
+   "dt": 0.5,
+   "nsteps": 1,
+   "rel_l2_final": 4.814163551977007e-05,
+   "cpu_seconds": 0.0006725000000000203
+  },
+  {
+   "family": "BMG6",
+   "npts": 19,
+   "dofs": 361,
+   "dt": 0.5,
+   "nsteps": 1,
+   "rel_l2_final": 8.880895068515097e-05,
+   "cpu_seconds": 0.0006431309999999635
+  },
+  {
+   "family": "SEM6",
+   "npts": 19,
+   "dofs": 361,
+   "dt": 0.5,
+   "nsteps": 1,
+   "rel_l2_final": 0.0008990766633365946,
+   "rel_l2_final_native_gll": 0.0008636108834682312,
+   "cpu_seconds": 2.9404000000010644e-05
+  },
+  {
+   "family": "SBP6",
+   "npts": 37,
+   "dofs": 1369,
+   "dt": 0.5,
+   "nsteps": 1,
+   "rel_l2_final": 0.0027999333823106975,
+   "cpu_seconds": 0.0005094630000000433
+  },
+  {
+   "family": "BMF6",
+   "npts": 37,
+   "dofs": 1369,
+   "dt": 0.16666666666666666,
+   "nsteps": 3,
+   "rel_l2_final": 9.866941070409321e-08,
+   "cpu_seconds": 0.0016810839999999994
+  },
+  {
+   "family": "BMG6",
+   "npts": 37,
+   "dofs": 1369,
+   "dt": 0.16666666666666666,
+   "nsteps": 3,
+   "rel_l2_final": 1.6249075212844902e-07,
+   "cpu_seconds": 0.0017545840000000035
+  },
+  {
+   "family": "SEM6",
+   "npts": 37,
+   "dofs": 1369,
+   "dt": 0.25,
+   "nsteps": 2,
+   "rel_l2_final": 1.559173798148517e-05,
+   "rel_l2_final_native_gll": 1.5871951718158737e-05,
+   "cpu_seconds": 9.741699999998854e-05
+  },
+  {
+   "family": "SBP6",
+   "npts": 55,
+   "dofs": 3025,
+   "dt": 0.5,
+   "nsteps": 1,
+   "rel_l2_final": 0.0012231834204979954,
+   "cpu_seconds": 0.0007383460000000008
+  },
+  {
+   "family": "BMF6",
+   "npts": 55,
+   "dofs": 3025,
+   "dt": 0.07142857142857142,
+   "nsteps": 7,
+   "rel_l2_final": 5.560116548623057e-09,
+   "cpu_seconds": 0.004803647000000022
+  },
+  {
+   "family": "BMG6",
+   "npts": 55,
+   "dofs": 3025,
+   "dt": 0.07142857142857142,
+   "nsteps": 7,
+   "rel_l2_final": 9.655066811683249e-09,
+   "cpu_seconds": 0.004989836999999997
+  },
+  {
+   "family": "SEM6",
+   "npts": 55,
+   "dofs": 3025,
+   "dt": 0.16666666666666666,
+   "nsteps": 3,
+   "rel_l2_final": 1.5789406943894982e-06,
+   "rel_l2_final_native_gll": 1.6006896015914431e-06,
+   "cpu_seconds": 0.00034821499999998506
+  },
+  {
+   "family": "SBP6",
+   "npts": 73,
+   "dofs": 5329,
+   "dt": 0.5,
+   "nsteps": 1,
+   "rel_l2_final": 0.0005120943115718067,
+   "cpu_seconds": 0.0013613710000000001
+  },
+  {
+   "family": "BMF6",
+   "npts": 73,
+   "dofs": 5329,
+   "dt": 0.041666666666666664,
+   "nsteps": 12,
+   "rel_l2_final": 8.842250087582354e-10,
+   "cpu_seconds": 0.011252849999999981
+  },
+  {
+   "family": "BMG6",
+   "npts": 73,
+   "dofs": 5329,
+   "dt": 0.041666666666666664,
+   "nsteps": 12,
+   "rel_l2_final": 1.3862198223901384e-09,
+   "cpu_seconds": 0.011066565000000028
+  },
+  {
+   "family": "SEM6",
+   "npts": 73,
+   "dofs": 5329,
+   "dt": 0.1,
+   "nsteps": 5,
+   "rel_l2_final": 2.0393050721143672e-07,
+   "rel_l2_final_native_gll": 2.0632910727058201e-07,
+   "cpu_seconds": 0.0010035999999999934
+  },
+  {
+   "family": "SBP6",
+   "npts": 91,
+   "dofs": 8281,
+   "dt": 0.25,
+   "nsteps": 2,
+   "rel_l2_final": 0.00023838153254001845,
+   "cpu_seconds": 0.003102021999999982
+  },
+  {
+   "family": "BMF6",
+   "npts": 91,
+   "dofs": 8281,
+   "dt": 0.025,
+   "nsteps": 20,
+   "rel_l2_final": 1.9517143002898226e-10,
+   "cpu_seconds": 0.025920555999999983
+  },
+  {
+   "family": "BMG6",
+   "npts": 91,
+   "dofs": 8281,
+   "dt": 0.02631578947368421,
+   "nsteps": 19,
+   "rel_l2_final": 2.957543510872692e-10,
+   "cpu_seconds": 0.026557705000000098
+  },
+  {
+   "family": "SEM6",
+   "npts": 91,
+   "dofs": 8281,
+   "dt": 0.0625,
+   "nsteps": 8,
+   "rel_l2_final": 4.4891786444090355e-08,
+   "rel_l2_final_native_gll": 4.562284577623492e-08,
+   "cpu_seconds": 0.0029398039999999903
+  }
+ ],
+ "wave": [
+  {
+   "family": "SBP6",
+   "npts": 43,
+   "rel_l2_final": 0.04985818376545435,
+   "cpu_seconds": 0.6214114639999999
+  },
+  {
+   "family": "BMF6",
+   "npts": 43,
+   "rel_l2_final": 1.695183808222147e-08,
+   "cpu_seconds": 4.676601022
+  },
+  {
+   "family": "BMG6",
+   "npts": 43,
+   "rel_l2_final": 2.1293356456391654e-08,
+   "cpu_seconds": 4.685235871
+  },
+  {
+   "family": "SEM6",
+   "npts": 43,
+   "dt": 0.00028570068091995617,
+   "nsteps": 21001,
+   "rel_l2_final": 5.14166578912626e-05,
+   "cpu_seconds": 0.371678922,
+   "abscissa": 6.8833827526759706e-15
+  }
+ ]
+}

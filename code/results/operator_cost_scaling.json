@@ -1,0 +1,266 @@
+{
+  "schema": "operator-cost-benchmark-v2",
+  "protocol": {
+    "mode": "1d",
+    "timing_metric": "CPU process time",
+    "reported_statistic": "per-operation mean over the repetitions fixed in opbench.cpp",
+    "thread_policy": "single-thread execution",
+    "load_policy": "CPU process time is retained under shared-machine load; load is recorded but is not a wall-time validity gate"
+  },
+  "hardware": {
+    "cpu": "x86_64",
+    "platform": "Linux-x86_64",
+    "python": "3.14.0",
+    "threads": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "nice": 19,
+    "load_at_start": 3.25390625
+  },
+  "provenance": {
+    "driver": "code/operator_cost_benchmark.py",
+    "driver_sha256": "a2c4d88a69f591a0b0141edc17923097700a9b44619e37e6c50ceb66a882c31e",
+    "sources": {
+      "code/cavity/apps/opbench.cpp": "ac37c25d55d1f5c697b86ec7ad9569aed998b71ebb9314899a1252eb3ba81050",
+      "code/cavity/include/wall_ns2d.h": "d8ae02e40d35ecab4b880de4b4dee9d146ed4002dd57fc1ead9d449bf0c7a6bf",
+      "code/cavity/include/wall2d.h": "70b03313ae38050c5f9e91f5b289b3fd472cddd4a5fec8ebaa4dd0ec08a94587",
+      "code/cavity/include/bspline.h": "8b7984a01c3f30e0dc56700f780732e8cb566124e5c82c7fee8393cee4252128",
+      "code/cavity/include/linalg.h": "71343973b50beb3d68981af0ed6798a1e5954e10d4c7bece875129793da1175b"
+    },
+    "compiler": {
+      "executable": "g++",
+      "version": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+      "command": [
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "-fopenmp",
+        "-Icode/cavity/include",
+        "code/cavity/apps/opbench.cpp",
+        "-o",
+        "code/cavity/bin/opbench"
+      ]
+    },
+    "executable": "code/cavity/bin/opbench",
+    "executable_sha256": "85572fc16e4e2ed8fc269701be762da5d844eaf36f9ffa32e8cea266ed5b7f02",
+    "command": [
+      "code/cavity/bin/opbench",
+      "1d"
+    ]
+  },
+  "oned": [
+    {
+      "p": 4,
+      "N": 65,
+      "assemble_s": 0.000198213,
+      "factor_s": 1.159667e-06,
+      "msolve_s": 9.419824e-07,
+      "kapply_s": 1.645936e-07,
+      "band_bytes": 14040,
+      "dense_bytes": 33800
+    },
+    {
+      "p": 4,
+      "N": 129,
+      "assemble_s": 0.000528926,
+      "factor_s": 1.716667e-06,
+      "msolve_s": 1.89405e-06,
+      "kapply_s": 3.337755e-07,
+      "band_bytes": 27864,
+      "dense_bytes": 133128
+    },
+    {
+      "p": 4,
+      "N": 257,
+      "assemble_s": 0.001848667,
+      "factor_s": 3.836333e-06,
+      "msolve_s": 3.773006e-06,
+      "kapply_s": 6.66653e-07,
+      "band_bytes": 55512,
+      "dense_bytes": 528392
+    },
+    {
+      "p": 4,
+      "N": 513,
+      "assemble_s": 0.007560796,
+      "factor_s": 7.772e-06,
+      "msolve_s": 7.544545e-06,
+      "kapply_s": 1.449404e-06,
+      "band_bytes": 110808,
+      "dense_bytes": 2105352
+    },
+    {
+      "p": 4,
+      "N": 1025,
+      "assemble_s": 0.02884711,
+      "factor_s": 2.308033e-05,
+      "msolve_s": 1.587567e-05,
+      "kapply_s": 4.1422e-06,
+      "band_bytes": 221400,
+      "dense_bytes": 8405000
+    },
+    {
+      "p": 4,
+      "N": 2049,
+      "assemble_s": 0.1513192,
+      "factor_s": 5.6747e-05,
+      "msolve_s": 2.93473e-05,
+      "kapply_s": 6.703e-06,
+      "band_bytes": 442584,
+      "dense_bytes": 33587208
+    },
+    {
+      "p": 4,
+      "N": 4097,
+      "assemble_s": 0.5827864,
+      "factor_s": 0.0001317047,
+      "msolve_s": 5.928467e-05,
+      "kapply_s": 1.712202e-05,
+      "band_bytes": 884952,
+      "dense_bytes": 134283272
+    },
+    {
+      "p": 6,
+      "N": 65,
+      "assemble_s": 0.00014148,
+      "factor_s": 1.372333e-06,
+      "msolve_s": 9.564099e-07,
+      "kapply_s": 1.460072e-07,
+      "band_bytes": 20280,
+      "dense_bytes": 33800
+    },
+    {
+      "p": 6,
+      "N": 129,
+      "assemble_s": 0.00031044,
+      "factor_s": 1.85e-06,
+      "msolve_s": 1.91631e-06,
+      "kapply_s": 2.981206e-07,
+      "band_bytes": 40248,
+      "dense_bytes": 133128
+    },
+    {
+      "p": 6,
+      "N": 257,
+      "assemble_s": 0.000789222,
+      "factor_s": 3.79e-06,
+      "msolve_s": 3.882758e-06,
+      "kapply_s": 5.926967e-07,
+      "band_bytes": 80184,
+      "dense_bytes": 528392
+    },
+    {
+      "p": 6,
+      "N": 513,
+      "assemble_s": 0.006421329,
+      "factor_s": 9.594667e-06,
+      "msolve_s": 7.708512e-06,
+      "kapply_s": 1.269871e-06,
+      "band_bytes": 160056,
+      "dense_bytes": 2105352
+    },
+    {
+      "p": 6,
+      "N": 1025,
+      "assemble_s": 0.03043505,
+      "factor_s": 1.916067e-05,
+      "msolve_s": 1.549081e-05,
+      "kapply_s": 3.215574e-06,
+      "band_bytes": 319800,
+      "dense_bytes": 8405000
+    },
+    {
+      "p": 6,
+      "N": 2049,
+      "assemble_s": 0.141487,
+      "factor_s": 7.346967e-05,
+      "msolve_s": 3.102729e-05,
+      "kapply_s": 8.112701e-06,
+      "band_bytes": 639288,
+      "dense_bytes": 33587208
+    },
+    {
+      "p": 6,
+      "N": 4097,
+      "assemble_s": 0.5907877,
+      "factor_s": 0.0001711193,
+      "msolve_s": 6.238119e-05,
+      "kapply_s": 2.148208e-05,
+      "band_bytes": 1278264,
+      "dense_bytes": 134283272
+    },
+    {
+      "p": 8,
+      "N": 65,
+      "assemble_s": 0.000203971,
+      "factor_s": 2.016667e-06,
+      "msolve_s": 1.0012e-06,
+      "kapply_s": 1.74355e-07,
+      "band_bytes": 26520,
+      "dense_bytes": 33800
+    },
+    {
+      "p": 8,
+      "N": 129,
+      "assemble_s": 0.000434423,
+      "factor_s": 2.905667e-06,
+      "msolve_s": 2.022001e-06,
+      "kapply_s": 3.553252e-07,
+      "band_bytes": 52632,
+      "dense_bytes": 133128
+    },
+    {
+      "p": 8,
+      "N": 257,
+      "assemble_s": 0.000932585,
+      "factor_s": 7.142333e-06,
+      "msolve_s": 4.03756e-06,
+      "kapply_s": 7.143483e-07,
+      "band_bytes": 104856,
+      "dense_bytes": 528392
+    },
+    {
+      "p": 8,
+      "N": 513,
+      "assemble_s": 0.004048968,
+      "factor_s": 1.680933e-05,
+      "msolve_s": 8.127517e-06,
+      "kapply_s": 1.537262e-06,
+      "band_bytes": 209304,
+      "dense_bytes": 2105352
+    },
+    {
+      "p": 8,
+      "N": 1025,
+      "assemble_s": 0.02858043,
+      "factor_s": 4.169733e-05,
+      "msolve_s": 1.645617e-05,
+      "kapply_s": 3.910851e-06,
+      "band_bytes": 418200,
+      "dense_bytes": 8405000
+    },
+    {
+      "p": 8,
+      "N": 2049,
+      "assemble_s": 0.141977,
+      "factor_s": 9.295e-05,
+      "msolve_s": 3.294106e-05,
+      "kapply_s": 9.767722e-06,
+      "band_bytes": 835992,
+      "dense_bytes": 33587208
+    },
+    {
+      "p": 8,
+      "N": 4097,
+      "assemble_s": 0.6014345,
+      "factor_s": 0.0002137973,
+      "msolve_s": 6.600571e-05,
+      "kapply_s": 2.651225e-05,
+      "band_bytes": 1671576,
+      "dense_bytes": 134283272
+    }
+  ]
+}

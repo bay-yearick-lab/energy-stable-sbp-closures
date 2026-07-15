@@ -1,0 +1,44 @@
+{
+  "source": "staggered_wallmode_summary.json:second_order:q6",
+  "operators": [
+    "E",
+    "C",
+    "SBP",
+    "DRP",
+    "BMF-staggered",
+    "BMG"
+  ],
+  "excluded_diagnostic": "BMF-reconstruction",
+  "threshold_ppw_1pct": {
+    "E": {
+      "response": 5.818181818181818,
+      "contamination": 7.757575757575758,
+      "combined": 8.0
+    },
+    "C": {
+      "response": 3.240506329113924,
+      "contamination": 7.757575757575758,
+      "combined": 8.0
+    },
+    "SBP": {
+      "response": 5.12,
+      "contamination": 32.0,
+      "combined": 32.0
+    },
+    "DRP": {
+      "response": 4.923076923076923,
+      "contamination": 7.757575757575758,
+      "combined": 7.757575757575758
+    },
+    "BMF-staggered": {
+      "response": 2.0163934426229124,
+      "contamination": 2.3883495145630613,
+      "combined": 2.3883495145630613
+    },
+    "BMG": {
+      "response": 2.4848484848484373,
+      "contamination": 2.733333333333281,
+      "combined": 2.764044943820172
+    }
+  }
+}

@@ -1,0 +1,2900 @@
+{
+  "configuration": {
+    "npts": 65,
+    "qs": [
+      4,
+      6,
+      8
+    ],
+    "families": [
+      "E",
+      "C",
+      "SBP",
+      "DRP",
+      "BMF",
+      "BMG"
+    ],
+    "ell_max": 9,
+    "precision": {
+      "arithmetic": "IEEE-754 binary64",
+      "bits": 53
+    },
+    "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold"
+  },
+  "rows": [
+    {
+      "family": "E",
+      "q": 4,
+      "N": 65,
+      "h": 0.015625,
+      "h_definition": "1/(N-1)",
+      "output_grid": "family grid",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 2.2737367544323206e-13,
+          "scaled_tolerance": 2.2737367544323206e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 7.105427357601002e-15,
+          "scaled_tolerance": 4.547473508864641e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 2.7755575615628914e-16,
+          "scaled_tolerance": 1.1368683772161603e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 1.214306433183765e-17,
+          "scaled_tolerance": 3.183231456205249e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": -1.430511474609375e-06,
+          "scaled_moment": -24.0,
+          "raw_tolerance": 5.759824041329242e-19,
+          "scaled_tolerance": 9.663381206337363e-12,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": -2.2351741790771484e-07,
+          "scaled_moment": -240.0,
+          "raw_tolerance": 2.9010878443459787e-20,
+          "scaled_tolerance": 3.115019353572279e-11,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": -2.270098775625229e-08,
+          "scaled_moment": -1560.0,
+          "raw_tolerance": 1.5302841332231012e-21,
+          "scaled_tolerance": 1.0516032489249483e-10,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": -1.9099388737231493e-09,
+          "scaled_moment": -8400.0,
+          "raw_tolerance": 8.370033823270949e-23,
+          "scaled_tolerance": 3.681179805425927e-10,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": -1.4503598322335165e-10,
+          "scaled_moment": -40824.0,
+          "raw_tolerance": 4.7114559792143886e-24,
+          "scaled_tolerance": 1.326156962022651e-09,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.430511474609375e-06,
+        -2.2351741790771484e-07,
+        -2.270098775625229e-08,
+        -1.9099388737231493e-09,
+        -1.4503598322335165e-10
+      ],
+      "scaled_moments": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -24.0,
+        -240.0,
+        -1560.0,
+        -8400.0,
+        -40824.0
+      ],
+      "exact_polynomial_degree": 4,
+      "first_nonzero_moment_degree": 5,
+      "reference_exact_endpoint_N": null,
+      "reference_exact_endpoint_certificate": null,
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 5,
+        "raw_moment": -1.430511474609375e-06,
+        "scaled_moment": -24.0,
+        "raw_tolerance": 5.759824041329242e-19,
+        "scaled_tolerance": 9.663381206337363e-12,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell"
+      },
+      "wall_footprint": 5,
+      "wall_footprint_definition": "numerical nonzero count at 1e-12"
+    },
+    {
+      "family": "C",
+      "q": 4,
+      "N": 65,
+      "h": 0.015625,
+      "h_definition": "1/(N-1)",
+      "output_grid": "family grid",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 2.2737367544323206e-13,
+          "scaled_tolerance": 2.2737367544323206e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 7.105427357601002e-15,
+          "scaled_tolerance": 4.547473508864641e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 2.7755575615628914e-16,
+          "scaled_tolerance": 1.1368683772161603e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 1.214306433183765e-17,
+          "scaled_tolerance": 3.183231456205249e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": -1.430511474609375e-06,
+          "scaled_moment": -24.0,
+          "raw_tolerance": 5.759824041329242e-19,
+          "scaled_tolerance": 9.663381206337363e-12,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": -2.2351741790771484e-07,
+          "scaled_moment": -240.0,
+          "raw_tolerance": 2.9010878443459787e-20,
+          "scaled_tolerance": 3.115019353572279e-11,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": -2.270098775625229e-08,
+          "scaled_moment": -1560.0,
+          "raw_tolerance": 1.5302841332231012e-21,
+          "scaled_tolerance": 1.0516032489249483e-10,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": -1.9099388737231493e-09,
+          "scaled_moment": -8400.0,
+          "raw_tolerance": 8.370033823270949e-23,
+          "scaled_tolerance": 3.681179805425927e-10,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": -1.4503598322335165e-10,
+          "scaled_moment": -40824.0,
+          "raw_tolerance": 4.7114559792143886e-24,
+          "scaled_tolerance": 1.326156962022651e-09,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.430511474609375e-06,
+        -2.2351741790771484e-07,
+        -2.270098775625229e-08,
+        -1.9099388737231493e-09,
+        -1.4503598322335165e-10
+      ],
+      "scaled_moments": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -24.0,
+        -240.0,
+        -1560.0,
+        -8400.0,
+        -40824.0
+      ],
+      "exact_polynomial_degree": 4,
+      "first_nonzero_moment_degree": 5,
+      "reference_exact_endpoint_N": null,
+      "reference_exact_endpoint_certificate": null,
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 5,
+        "raw_moment": -1.430511474609375e-06,
+        "scaled_moment": -24.0,
+        "raw_tolerance": 5.759824041329242e-19,
+        "scaled_tolerance": 9.663381206337363e-12,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell"
+      },
+      "wall_footprint": 5,
+      "wall_footprint_definition": "numerical nonzero count at 1e-12"
+    },
+    {
+      "family": "SBP",
+      "q": 4,
+      "N": 65,
+      "h": 0.015625,
+      "h_definition": "1/(N-1)",
+      "output_grid": "family grid",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 4.9320025188054014e-14,
+          "scaled_tolerance": 4.9320025188054014e-14,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 7.70625393563344e-16,
+          "scaled_tolerance": 4.9320025188054014e-14,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": -0.000617532169117647,
+          "scaled_moment": -2.5294117647058822,
+          "raw_tolerance": 2.0816681711721685e-17,
+          "scaled_tolerance": 8.526512829121202e-14,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": -3.500545726102941e-05,
+          "scaled_moment": -9.176470588235293,
+          "raw_tolerance": 6.855984326011279e-19,
+          "scaled_tolerance": 1.7972551551579006e-13,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": -1.6233500312356387e-06,
+          "scaled_moment": -27.235294117647058,
+          "raw_tolerance": 2.6008894027455573e-20,
+          "scaled_tolerance": 4.363568330197321e-13,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": -7.231445873484893e-08,
+          "scaled_moment": -77.64705882352942,
+          "raw_tolerance": 1.0735831197276473e-21,
+          "scaled_tolerance": 1.1527510971919744e-12,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": -3.221109235549674e-09,
+          "scaled_moment": -221.35294117647058,
+          "raw_tolerance": 4.6492416193789295e-23,
+          "scaled_tolerance": 3.194934513029533e-12,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": -1.449306557119331e-10,
+          "scaled_moment": -637.4117647058824,
+          "raw_tolerance": 2.0708025675012036e-24,
+          "scaled_tolerance": 9.107486007183874e-12,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": -6.591955739435541e-12,
+          "scaled_moment": -1855.4705882352941,
+          "raw_tolerance": 9.385254523028486e-26,
+          "scaled_tolerance": 2.641714298293022e-11,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        0.0,
+        0.0,
+        -0.000617532169117647,
+        -3.500545726102941e-05,
+        -1.6233500312356387e-06,
+        -7.231445873484893e-08,
+        -3.221109235549674e-09,
+        -1.449306557119331e-10,
+        -6.591955739435541e-12
+      ],
+      "scaled_moments": [
+        0.0,
+        0.0,
+        -2.5294117647058822,
+        -9.176470588235293,
+        -27.235294117647058,
+        -77.64705882352942,
+        -221.35294117647058,
+        -637.4117647058824,
+        -1855.4705882352941
+      ],
+      "exact_polynomial_degree": 2,
+      "first_nonzero_moment_degree": 3,
+      "reference_exact_endpoint_N": null,
+      "reference_exact_endpoint_certificate": null,
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 3,
+        "raw_moment": -0.000617532169117647,
+        "scaled_moment": -2.5294117647058822,
+        "raw_tolerance": 2.0816681711721685e-17,
+        "scaled_tolerance": 8.526512829121202e-14,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell"
+      },
+      "wall_footprint": 4,
+      "wall_footprint_definition": "numerical nonzero count at 1e-12"
+    },
+    {
+      "family": "DRP",
+      "q": 4,
+      "N": 65,
+      "h": 0.015625,
+      "h_definition": "1/(N-1)",
+      "output_grid": "family grid",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 2.2737367544323206e-13,
+          "scaled_tolerance": 2.2737367544323206e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 7.105427357601002e-15,
+          "scaled_tolerance": 4.547473508864641e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 2.7755575615628914e-16,
+          "scaled_tolerance": 1.1368683772161603e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 1.214306433183765e-17,
+          "scaled_tolerance": 3.183231456205249e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": -1.430511474609375e-06,
+          "scaled_moment": -24.0,
+          "raw_tolerance": 5.759824041329242e-19,
+          "scaled_tolerance": 9.663381206337363e-12,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": -2.2351741790771484e-07,
+          "scaled_moment": -240.0,
+          "raw_tolerance": 2.9010878443459787e-20,
+          "scaled_tolerance": 3.115019353572279e-11,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": -2.270098775625229e-08,
+          "scaled_moment": -1560.0,
+          "raw_tolerance": 1.5302841332231012e-21,
+          "scaled_tolerance": 1.0516032489249483e-10,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": -1.9099388737231493e-09,
+          "scaled_moment": -8400.0,
+          "raw_tolerance": 8.370033823270949e-23,
+          "scaled_tolerance": 3.681179805425927e-10,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": -1.4503598322335165e-10,
+          "scaled_moment": -40824.0,
+          "raw_tolerance": 4.7114559792143886e-24,
+          "scaled_tolerance": 1.326156962022651e-09,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.430511474609375e-06,
+        -2.2351741790771484e-07,
+        -2.270098775625229e-08,
+        -1.9099388737231493e-09,
+        -1.4503598322335165e-10
+      ],
+      "scaled_moments": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -24.0,
+        -240.0,
+        -1560.0,
+        -8400.0,
+        -40824.0
+      ],
+      "exact_polynomial_degree": 4,
+      "first_nonzero_moment_degree": 5,
+      "reference_exact_endpoint_N": null,
+      "reference_exact_endpoint_certificate": null,
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 5,
+        "raw_moment": -1.430511474609375e-06,
+        "scaled_moment": -24.0,
+        "raw_tolerance": 5.759824041329242e-19,
+        "scaled_tolerance": 9.663381206337363e-12,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell"
+      },
+      "wall_footprint": 5,
+      "wall_footprint_definition": "numerical nonzero count at 1e-12"
+    },
+    {
+      "family": "BMF",
+      "q": 4,
+      "N": 65,
+      "h": 0.01639344262295082,
+      "h_definition": "1/(N-p)",
+      "output_grid": "derivative Greville",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 1.0899221754726449e-13,
+          "scaled_tolerance": 1.0899221754726449e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": -1.0328828207220777e-25,
+          "scaled_moment": -6.300585206404674e-24,
+          "raw_tolerance": 1.8183537626113463e-15,
+          "scaled_tolerance": 1.1091957951929213e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": 4.336807657059197e-19,
+          "scaled_moment": 1.613726129191727e-15,
+          "raw_tolerance": 7.11361948187107e-17,
+          "scaled_tolerance": 2.6469778092042245e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": -1.0328828207220777e-25,
+          "scaled_moment": -2.3444477553031788e-20,
+          "raw_tolerance": 4.28805398705956e-18,
+          "scaled_tolerance": 9.733067820367659e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": -8.526851510545823e-09,
+          "scaled_moment": -0.11806143024562726,
+          "raw_tolerance": 3.3896311972509776e-19,
+          "scaled_tolerance": 4.693229460577666e-12,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell",
+          "classification": "first free moment at N=65; floating backward-error classification here, with a separate exact-rational reference at N=13"
+        },
+        {
+          "ell": 6,
+          "raw_moment": 3.1678942326960746e-10,
+          "scaled_moment": 0.2675591750894337,
+          "raw_tolerance": 3.2599250366198996e-20,
+          "scaled_tolerance": 2.753320627466456e-11,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": 4.828911250118646e-11,
+          "scaled_moment": 2.4878731536215706,
+          "raw_tolerance": 3.670833332183965e-21,
+          "scaled_tolerance": 1.891227074909549e-10,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": 1.929348374383624e-12,
+          "scaled_moment": 6.063445781782894,
+          "raw_tolerance": 4.728146753917612e-22,
+          "scaled_tolerance": 1.4859349338530519e-09,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": -2.3818986520138863e-15,
+          "scaled_moment": -0.45662739040942757,
+          "raw_tolerance": 6.852641194188765e-23,
+          "scaled_tolerance": 1.3137014302724063e-08,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        0.0,
+        -1.0328828207220777e-25,
+        4.336807657059197e-19,
+        -1.0328828207220777e-25,
+        -8.526851510545823e-09,
+        3.1678942326960746e-10,
+        4.828911250118646e-11,
+        1.929348374383624e-12,
+        -2.3818986520138863e-15
+      ],
+      "scaled_moments": [
+        0.0,
+        -6.300585206404674e-24,
+        1.613726129191727e-15,
+        -2.3444477553031788e-20,
+        -0.11806143024562726,
+        0.2675591750894337,
+        2.4878731536215706,
+        6.063445781782894,
+        -0.45662739040942757
+      ],
+      "exact_polynomial_degree": 4,
+      "first_nonzero_moment_degree": 5,
+      "reference_exact_endpoint_N": 13,
+      "reference_exact_endpoint_certificate": {
+        "schema_version": 2,
+        "family": "BMF",
+        "degree": 4,
+        "N": 13,
+        "output_size": 12,
+        "output_grid": "derivative Greville",
+        "h": 0.1111111111111111,
+        "h_definition": "1/(N-p)",
+        "precision": {
+          "arithmetic": "exact rational; decimal serialization only",
+          "decimal_digits": 90
+        },
+        "exact_polynomial_degree": 4,
+        "first_nonzero_moment_degree": 5,
+        "endpoints": {
+          "left": {
+            "row": 0,
+            "scaled_moment_decimal": "-0.118023636026905387502265229413817463176744941154582752203393270232950545347201248879433976",
+            "scaled_moment_interval": [
+              -0.1180236360269054,
+              -0.11802363602690537
+            ],
+            "exact_rational_numerator": "-48606370659",
+            "exact_rational_denominator": "411835902496",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          },
+          "right": {
+            "row": 11,
+            "scaled_moment_decimal": "-0.118023636026905387502265229413817463176744941154582752203393270232950545347201248879433976",
+            "scaled_moment_interval": [
+              -0.1180236360269054,
+              -0.11802363602690537
+            ],
+            "exact_rational_numerator": "-48606370659",
+            "exact_rational_denominator": "411835902496",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          }
+        },
+        "claim_boundary": "Finite-grid exact-rational nonvanishing only; no all-N limit, uniform Peano bound, or endpoint-localization proof is inferred."
+      },
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 5,
+        "raw_moment": -8.526851510545823e-09,
+        "scaled_moment": -0.11806143024562726,
+        "raw_tolerance": 3.3896311972509776e-19,
+        "scaled_tolerance": 4.693229460577666e-12,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell",
+        "classification": "first free moment at N=65; floating backward-error classification here, with a separate exact-rational reference at N=13"
+      },
+      "wall_footprint": 65,
+      "wall_footprint_definition": "structural eliminated-row width"
+    },
+    {
+      "family": "BMG",
+      "q": 4,
+      "N": 65,
+      "h": 0.01639344262295082,
+      "h_definition": "1/(N-p)",
+      "output_grid": "primal Greville",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": -2.6645352591003757e-15,
+          "scaled_moment": -2.6645352591003757e-15,
+          "raw_tolerance": 2.509440422673991e-13,
+          "scaled_tolerance": 2.509440422673991e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": 1.7191075273956792e-17,
+          "scaled_moment": 1.0486555917113643e-15,
+          "raw_tolerance": 1.26905055058112e-14,
+          "scaled_tolerance": 7.741208358544832e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": -3.6256064377648936e-18,
+          "scaled_moment": -1.3490881554923167e-14,
+          "raw_tolerance": 1.2632595604560312e-15,
+          "scaled_tolerance": 4.700588824456892e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 7.1120225217712415e-19,
+          "scaled_moment": 1.614293984014158e-13,
+          "raw_tolerance": 1.7100893847828074e-16,
+          "scaled_tolerance": 3.881577986473863e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": -1.6819672947650588e-09,
+          "scaled_moment": -0.02328825173051713,
+          "raw_tolerance": 2.868711797593219e-17,
+          "scaled_tolerance": 3.9719727424299883e-10,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell",
+          "classification": "first free moment at N=65; floating backward-error classification here, with a separate exact-rational reference at N=13"
+        },
+        {
+          "ell": 6,
+          "raw_moment": 1.2097038893165605e-10,
+          "scaled_moment": 0.102171143022208,
+          "raw_tolerance": 5.728698306551793e-18,
+          "scaled_tolerance": 4.838437399258607e-09,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": -7.20727563625261e-12,
+          "scaled_moment": -0.3713215389026488,
+          "raw_tolerance": 1.3282322652373085e-18,
+          "scaled_tolerance": 6.843102354338516e-08,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": -6.355365116894861e-13,
+          "scaled_moment": -1.9973278191419084,
+          "raw_tolerance": 3.510330520197518e-19,
+          "scaled_tolerance": 1.1032066094416616e-06,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": 6.609622605317271e-14,
+          "scaled_moment": 12.671129895914614,
+          "raw_tolerance": 1.042281539009583e-19,
+          "scaled_tolerance": 1.9981299323019777e-05,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        -2.6645352591003757e-15,
+        1.7191075273956792e-17,
+        -3.6256064377648936e-18,
+        7.1120225217712415e-19,
+        -1.6819672947650588e-09,
+        1.2097038893165605e-10,
+        -7.20727563625261e-12,
+        -6.355365116894861e-13,
+        6.609622605317271e-14
+      ],
+      "scaled_moments": [
+        -2.6645352591003757e-15,
+        1.0486555917113643e-15,
+        -1.3490881554923167e-14,
+        1.614293984014158e-13,
+        -0.02328825173051713,
+        0.102171143022208,
+        -0.3713215389026488,
+        -1.9973278191419084,
+        12.671129895914614
+      ],
+      "exact_polynomial_degree": 4,
+      "first_nonzero_moment_degree": 5,
+      "reference_exact_endpoint_N": 13,
+      "reference_exact_endpoint_certificate": {
+        "schema_version": 2,
+        "family": "BMG",
+        "degree": 4,
+        "N": 13,
+        "output_size": 13,
+        "output_grid": "primal Greville",
+        "h": 0.1111111111111111,
+        "h_definition": "1/(N-p)",
+        "precision": {
+          "arithmetic": "exact rational; decimal serialization only",
+          "decimal_digits": 90
+        },
+        "exact_polynomial_degree": 4,
+        "first_nonzero_moment_degree": 5,
+        "endpoints": {
+          "left": {
+            "row": 0,
+            "scaled_moment_decimal": "-0.0192834172065954537498668682134616517305794048482618371512480474958242101033009698279636148",
+            "scaled_moment_interval": [
+              -0.019283417206595457,
+              -0.01928341720659545
+            ],
+            "exact_rational_numerator": "-122569517829102081555915413763",
+            "exact_rational_denominator": "6356213554679508206240014108192",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          },
+          "right": {
+            "row": 12,
+            "scaled_moment_decimal": "-0.0192834172065954537498668682134616517305794048482618371512480474958242101033009698279636148",
+            "scaled_moment_interval": [
+              -0.019283417206595457,
+              -0.01928341720659545
+            ],
+            "exact_rational_numerator": "-122569517829102081555915413763",
+            "exact_rational_denominator": "6356213554679508206240014108192",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          }
+        },
+        "claim_boundary": "Finite-grid exact-rational nonvanishing only; no all-N limit, uniform Peano bound, or endpoint-localization proof is inferred."
+      },
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 5,
+        "raw_moment": -1.6819672947650588e-09,
+        "scaled_moment": -0.02328825173051713,
+        "raw_tolerance": 2.868711797593219e-17,
+        "scaled_tolerance": 3.9719727424299883e-10,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell",
+        "classification": "first free moment at N=65; floating backward-error classification here, with a separate exact-rational reference at N=13"
+      },
+      "wall_footprint": 65,
+      "wall_footprint_definition": "structural eliminated-row width"
+    },
+    {
+      "family": "E",
+      "q": 6,
+      "N": 65,
+      "h": 0.015625,
+      "h_definition": "1/(N-1)",
+      "output_grid": "family grid",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 9.094947017729282e-13,
+          "scaled_tolerance": 9.094947017729282e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 4.263256414560601e-14,
+          "scaled_tolerance": 2.7284841053187847e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 2.3314683517128287e-15,
+          "scaled_tolerance": 9.549694368615746e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 1.4051260155412137e-16,
+          "scaled_tolerance": 3.6834535421803594e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 9.107298248878237e-18,
+          "scaled_tolerance": 1.5279510989785194e-10,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 6.2511031507367365e-19,
+          "scaled_tolerance": 6.71207089908421e-10,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": -1.0477378964424133e-08,
+          "scaled_moment": -720.0,
+          "raw_tolerance": 4.495561193103195e-20,
+          "scaled_tolerance": 3.089326128247194e-09,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": -3.4378899727016687e-09,
+          "scaled_moment": -15120.0,
+          "raw_tolerance": 3.360783130014667e-21,
+          "scaled_tolerance": 1.4780880519538186e-08,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": -6.804157237638719e-10,
+          "scaled_moment": -191520.0,
+          "raw_tolerance": 2.595780003896631e-22,
+          "scaled_tolerance": 7.306471161427908e-08,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0477378964424133e-08,
+        -3.4378899727016687e-09,
+        -6.804157237638719e-10
+      ],
+      "scaled_moments": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -720.0,
+        -15120.0,
+        -191520.0
+      ],
+      "exact_polynomial_degree": 6,
+      "first_nonzero_moment_degree": 7,
+      "reference_exact_endpoint_N": null,
+      "reference_exact_endpoint_certificate": null,
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 7,
+        "raw_moment": -1.0477378964424133e-08,
+        "scaled_moment": -720.0,
+        "raw_tolerance": 4.495561193103195e-20,
+        "scaled_tolerance": 3.089326128247194e-09,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell"
+      },
+      "wall_footprint": 7,
+      "wall_footprint_definition": "numerical nonzero count at 1e-12"
+    },
+    {
+      "family": "C",
+      "q": 6,
+      "N": 65,
+      "h": 0.015625,
+      "h_definition": "1/(N-1)",
+      "output_grid": "family grid",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 9.094947017729282e-13,
+          "scaled_tolerance": 9.094947017729282e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 4.263256414560601e-14,
+          "scaled_tolerance": 2.7284841053187847e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 2.3314683517128287e-15,
+          "scaled_tolerance": 9.549694368615746e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 1.4051260155412137e-16,
+          "scaled_tolerance": 3.6834535421803594e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 9.107298248878237e-18,
+          "scaled_tolerance": 1.5279510989785194e-10,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 6.2511031507367365e-19,
+          "scaled_tolerance": 6.71207089908421e-10,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": -1.0477378964424133e-08,
+          "scaled_moment": -720.0,
+          "raw_tolerance": 4.495561193103195e-20,
+          "scaled_tolerance": 3.089326128247194e-09,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": -3.4378899727016687e-09,
+          "scaled_moment": -15120.0,
+          "raw_tolerance": 3.360783130014667e-21,
+          "scaled_tolerance": 1.4780880519538186e-08,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": -6.804157237638719e-10,
+          "scaled_moment": -191520.0,
+          "raw_tolerance": 2.595780003896631e-22,
+          "scaled_tolerance": 7.306471161427908e-08,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0477378964424133e-08,
+        -3.4378899727016687e-09,
+        -6.804157237638719e-10
+      ],
+      "scaled_moments": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -720.0,
+        -15120.0,
+        -191520.0
+      ],
+      "exact_polynomial_degree": 6,
+      "first_nonzero_moment_degree": 7,
+      "reference_exact_endpoint_N": null,
+      "reference_exact_endpoint_certificate": null,
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 7,
+        "raw_moment": -1.0477378964424133e-08,
+        "scaled_moment": -720.0,
+        "raw_tolerance": 4.495561193103195e-20,
+        "scaled_tolerance": 3.089326128247194e-09,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell"
+      },
+      "wall_footprint": 7,
+      "wall_footprint_definition": "numerical nonzero count at 1e-12"
+    },
+    {
+      "family": "SBP",
+      "q": 6,
+      "N": 65,
+      "h": 0.015625,
+      "h_definition": "1/(N-1)",
+      "output_grid": "family grid",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": 4.440892098500626e-16,
+          "scaled_moment": 4.440892098500626e-16,
+          "raw_tolerance": 1.455046523322679e-13,
+          "scaled_tolerance": 1.455046523322679e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 5.895645685843672e-15,
+          "scaled_tolerance": 3.77321323893995e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 3.081851678769535e-16,
+          "scaled_tolerance": 1.2623264476240015e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 3.7451053820334885e-05,
+          "scaled_moment": 9.817569052677868,
+          "raw_tolerance": 1.7464858131584762e-17,
+          "scaled_tolerance": 4.578307770046156e-12,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": 3.765079859665744e-06,
+          "scaled_moment": 63.16755806286187,
+          "raw_tolerance": 1.0414780412102991e-18,
+          "scaled_tolerance": 1.747310205664209e-11,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": 2.170167877015739e-07,
+          "scaled_moment": 233.02000146530872,
+          "raw_tolerance": 6.457141980361359e-20,
+          "scaled_tolerance": 6.933303407820177e-11,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": 4.875046193612783e-09,
+          "scaled_moment": 335.010623488899,
+          "raw_tolerance": 4.137141467612479e-21,
+          "scaled_tolerance": 2.8430219683713665e-10,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": -7.409776409321187e-10,
+          "scaled_moment": -3258.854128507577,
+          "raw_tolerance": 2.727792578699801e-22,
+          "scaled_tolerance": 1.1996958633766043e-09,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": -1.4587093210628612e-10,
+          "scaled_moment": -41059.01721737857,
+          "raw_tolerance": 1.844373846883744e-23,
+          "scaled_tolerance": 5.191450855973449e-09,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        4.440892098500626e-16,
+        0.0,
+        0.0,
+        3.7451053820334885e-05,
+        3.765079859665744e-06,
+        2.170167877015739e-07,
+        4.875046193612783e-09,
+        -7.409776409321187e-10,
+        -1.4587093210628612e-10
+      ],
+      "scaled_moments": [
+        4.440892098500626e-16,
+        0.0,
+        0.0,
+        9.817569052677868,
+        63.16755806286187,
+        233.02000146530872,
+        335.010623488899,
+        -3258.854128507577,
+        -41059.01721737857
+      ],
+      "exact_polynomial_degree": 3,
+      "first_nonzero_moment_degree": 4,
+      "reference_exact_endpoint_N": null,
+      "reference_exact_endpoint_certificate": null,
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 4,
+        "raw_moment": 3.7451053820334885e-05,
+        "scaled_moment": 9.817569052677868,
+        "raw_tolerance": 1.7464858131584762e-17,
+        "scaled_tolerance": 4.578307770046156e-12,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell"
+      },
+      "wall_footprint": 6,
+      "wall_footprint_definition": "numerical nonzero count at 1e-12"
+    },
+    {
+      "family": "DRP",
+      "q": 6,
+      "N": 65,
+      "h": 0.015625,
+      "h_definition": "1/(N-1)",
+      "output_grid": "family grid",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 9.094947017729282e-13,
+          "scaled_tolerance": 9.094947017729282e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 4.263256414560601e-14,
+          "scaled_tolerance": 2.7284841053187847e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 2.3314683517128287e-15,
+          "scaled_tolerance": 9.549694368615746e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 1.4051260155412137e-16,
+          "scaled_tolerance": 3.6834535421803594e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 9.107298248878237e-18,
+          "scaled_tolerance": 1.5279510989785194e-10,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 6.2511031507367365e-19,
+          "scaled_tolerance": 6.71207089908421e-10,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": -1.0477378964424133e-08,
+          "scaled_moment": -720.0,
+          "raw_tolerance": 4.495561193103195e-20,
+          "scaled_tolerance": 3.089326128247194e-09,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": -3.4378899727016687e-09,
+          "scaled_moment": -15120.0,
+          "raw_tolerance": 3.360783130014667e-21,
+          "scaled_tolerance": 1.4780880519538186e-08,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": -6.804157237638719e-10,
+          "scaled_moment": -191520.0,
+          "raw_tolerance": 2.595780003896631e-22,
+          "scaled_tolerance": 7.306471161427908e-08,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0477378964424133e-08,
+        -3.4378899727016687e-09,
+        -6.804157237638719e-10
+      ],
+      "scaled_moments": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -720.0,
+        -15120.0,
+        -191520.0
+      ],
+      "exact_polynomial_degree": 6,
+      "first_nonzero_moment_degree": 7,
+      "reference_exact_endpoint_N": null,
+      "reference_exact_endpoint_certificate": null,
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 7,
+        "raw_moment": -1.0477378964424133e-08,
+        "scaled_moment": -720.0,
+        "raw_tolerance": 4.495561193103195e-20,
+        "scaled_tolerance": 3.089326128247194e-09,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell"
+      },
+      "wall_footprint": 7,
+      "wall_footprint_definition": "numerical nonzero count at 1e-12"
+    },
+    {
+      "family": "BMF",
+      "q": 6,
+      "N": 65,
+      "h": 0.01694915254237288,
+      "h_definition": "1/(N-p)",
+      "output_grid": "derivative Greville",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": -8.881784197001252e-16,
+          "scaled_moment": -8.881784197001252e-16,
+          "raw_tolerance": 1.897517368923206e-13,
+          "scaled_tolerance": 1.897517368923206e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": -4.7452814347023034e-17,
+          "scaled_moment": -2.799716046474359e-15,
+          "raw_tolerance": 3.982094116778668e-15,
+          "scaled_tolerance": 2.3494355288994145e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": -6.152804956492391e-19,
+          "scaled_moment": -2.1417914053550014e-15,
+          "raw_tolerance": 2.042353494155393e-16,
+          "scaled_tolerance": 7.109432513154923e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 3.524080784206353e-20,
+          "scaled_moment": 7.237721873795166e-15,
+          "raw_tolerance": 1.7179331958883505e-17,
+          "scaled_tolerance": 3.5282740183835355e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": -5.416773626142883e-21,
+          "scaled_moment": -6.563700148325236e-14,
+          "raw_tolerance": 1.9565736380688387e-18,
+          "scaled_tolerance": 2.3708509095563462e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": -3.345759426170813e-22,
+          "scaled_moment": -2.391964712377811e-13,
+          "raw_tolerance": 2.7453677203638462e-19,
+          "scaled_tolerance": 1.9627300929783507e-10,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": 4.8688948591402014e-12,
+          "scaled_moment": 0.20537258340045522,
+          "raw_tolerance": 4.529813967952141e-20,
+          "scaled_tolerance": 1.9106997046267698e-09,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell",
+          "classification": "first free moment at N=65; floating backward-error classification here, with a separate exact-rational reference at N=15"
+        },
+        {
+          "ell": 8,
+          "raw_moment": 8.308428791269468e-13,
+          "scaled_moment": 2.067678364790569,
+          "raw_tolerance": 8.561039440543471e-21,
+          "scaled_tolerance": 2.1305443515302532e-08,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": 3.5224500369341935e-14,
+          "scaled_moment": 5.172028803624043,
+          "raw_tolerance": 1.8213550431587103e-21,
+          "scaled_tolerance": 2.674303580198304e-07,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        -8.881784197001252e-16,
+        -4.7452814347023034e-17,
+        -6.152804956492391e-19,
+        3.524080784206353e-20,
+        -5.416773626142883e-21,
+        -3.345759426170813e-22,
+        4.8688948591402014e-12,
+        8.308428791269468e-13,
+        3.5224500369341935e-14
+      ],
+      "scaled_moments": [
+        -8.881784197001252e-16,
+        -2.799716046474359e-15,
+        -2.1417914053550014e-15,
+        7.237721873795166e-15,
+        -6.563700148325236e-14,
+        -2.391964712377811e-13,
+        0.20537258340045522,
+        2.067678364790569,
+        5.172028803624043
+      ],
+      "exact_polynomial_degree": 6,
+      "first_nonzero_moment_degree": 7,
+      "reference_exact_endpoint_N": 15,
+      "reference_exact_endpoint_certificate": {
+        "schema_version": 2,
+        "family": "BMF",
+        "degree": 6,
+        "N": 15,
+        "output_size": 14,
+        "output_grid": "derivative Greville",
+        "h": 0.1111111111111111,
+        "h_definition": "1/(N-p)",
+        "precision": {
+          "arithmetic": "exact rational; decimal serialization only",
+          "decimal_digits": 90
+        },
+        "exact_polynomial_degree": 6,
+        "first_nonzero_moment_degree": 7,
+        "endpoints": {
+          "left": {
+            "row": 0,
+            "scaled_moment_decimal": "0.204926981167983413673436852788765740103578206633895082782782483452739642450416610946263763",
+            "scaled_moment_interval": [
+              0.20492698116798339,
+              0.20492698116798344
+            ],
+            "exact_rational_numerator": "43026750220951171",
+            "exact_rational_denominator": "209961372464083404",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          },
+          "right": {
+            "row": 13,
+            "scaled_moment_decimal": "0.204926981167983413673436852788765740103578206633895082782782483452739642450416610946263763",
+            "scaled_moment_interval": [
+              0.20492698116798339,
+              0.20492698116798344
+            ],
+            "exact_rational_numerator": "43026750220951171",
+            "exact_rational_denominator": "209961372464083404",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          }
+        },
+        "claim_boundary": "Finite-grid exact-rational nonvanishing only; no all-N limit, uniform Peano bound, or endpoint-localization proof is inferred."
+      },
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 7,
+        "raw_moment": 4.8688948591402014e-12,
+        "scaled_moment": 0.20537258340045522,
+        "raw_tolerance": 4.529813967952141e-20,
+        "scaled_tolerance": 1.9106997046267698e-09,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell",
+        "classification": "first free moment at N=65; floating backward-error classification here, with a separate exact-rational reference at N=15"
+      },
+      "wall_footprint": 65,
+      "wall_footprint_definition": "structural eliminated-row width"
+    },
+    {
+      "family": "BMG",
+      "q": 6,
+      "N": 65,
+      "h": 0.01694915254237288,
+      "h_definition": "1/(N-p)",
+      "output_grid": "primal Greville",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": 7.327471962526033e-15,
+          "scaled_moment": 7.327471962526033e-15,
+          "raw_tolerance": 4.2174457778380566e-13,
+          "scaled_tolerance": 4.2174457778380566e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": 2.867055648712077e-17,
+          "scaled_moment": 1.6915628327401254e-15,
+          "raw_tolerance": 2.872734823861876e-14,
+          "scaled_tolerance": 1.6949135460785069e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": 9.149808714918562e-19,
+          "scaled_moment": 3.1850484136631516e-15,
+          "raw_tolerance": 4.139065960978333e-15,
+          "scaled_tolerance": 1.4408088610165577e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 7.853874775399085e-18,
+          "scaled_moment": 1.6130209474966886e-12,
+          "raw_tolerance": 8.20628106179967e-16,
+          "scaled_tolerance": 1.6853977981913546e-10,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": 9.149808714918562e-19,
+          "scaled_moment": 1.108715352796143e-11,
+          "raw_tolerance": 2.0131386037592568e-16,
+          "scaled_tolerance": 2.4393927204786873e-09,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": 4.813000024976545e-19,
+          "scaled_moment": 3.4409306689433387e-10,
+          "raw_tolerance": 5.86449723982568e-17,
+          "scaled_tolerance": 4.192671578169809e-08,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": 2.993486907920953e-12,
+          "scaled_moment": 0.1262668752234528,
+          "raw_tolerance": 1.980009574683421e-17,
+          "scaled_tolerance": 8.351786047443614e-07,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell",
+          "classification": "first free moment at N=65; floating backward-error classification here, with a separate exact-rational reference at N=15"
+        },
+        {
+          "ell": 8,
+          "raw_moment": 3.926531343133337e-13,
+          "scaled_moment": 0.9771768057277121,
+          "raw_tolerance": 7.610608454418839e-18,
+          "scaled_tolerance": 1.894015203046548e-05,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": 2.3812379933432637e-14,
+          "scaled_moment": 3.496382166026266,
+          "raw_tolerance": 3.282751337783139e-18,
+          "scaled_tolerance": 0.0004820078154728685,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        7.327471962526033e-15,
+        2.867055648712077e-17,
+        9.149808714918562e-19,
+        7.853874775399085e-18,
+        9.149808714918562e-19,
+        4.813000024976545e-19,
+        2.993486907920953e-12,
+        3.926531343133337e-13,
+        2.3812379933432637e-14
+      ],
+      "scaled_moments": [
+        7.327471962526033e-15,
+        1.6915628327401254e-15,
+        3.1850484136631516e-15,
+        1.6130209474966886e-12,
+        1.108715352796143e-11,
+        3.4409306689433387e-10,
+        0.1262668752234528,
+        0.9771768057277121,
+        3.496382166026266
+      ],
+      "exact_polynomial_degree": 6,
+      "first_nonzero_moment_degree": 7,
+      "reference_exact_endpoint_N": 15,
+      "reference_exact_endpoint_certificate": {
+        "schema_version": 2,
+        "family": "BMG",
+        "degree": 6,
+        "N": 15,
+        "output_size": 15,
+        "output_grid": "primal Greville",
+        "h": 0.1111111111111111,
+        "h_definition": "1/(N-p)",
+        "precision": {
+          "arithmetic": "exact rational; decimal serialization only",
+          "decimal_digits": 90
+        },
+        "exact_polynomial_degree": 6,
+        "first_nonzero_moment_degree": 7,
+        "endpoints": {
+          "left": {
+            "row": 0,
+            "scaled_moment_decimal": "0.124748670517160438312693405714051226808096501004766750769439833653095203086828583042564401",
+            "scaled_moment_interval": [
+              0.12474867051716042,
+              0.12474867051716045
+            ],
+            "exact_rational_numerator": "12704775028697625866172177560418560600342306222029651",
+            "exact_rational_denominator": "101842969356133986798317946196243556773107212250256140",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          },
+          "right": {
+            "row": 14,
+            "scaled_moment_decimal": "0.124748670517160438312693405714051226808096501004766750769439833653095203086828583042564401",
+            "scaled_moment_interval": [
+              0.12474867051716042,
+              0.12474867051716045
+            ],
+            "exact_rational_numerator": "12704775028697625866172177560418560600342306222029651",
+            "exact_rational_denominator": "101842969356133986798317946196243556773107212250256140",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          }
+        },
+        "claim_boundary": "Finite-grid exact-rational nonvanishing only; no all-N limit, uniform Peano bound, or endpoint-localization proof is inferred."
+      },
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 7,
+        "raw_moment": 2.993486907920953e-12,
+        "scaled_moment": 0.1262668752234528,
+        "raw_tolerance": 1.980009574683421e-17,
+        "scaled_tolerance": 8.351786047443614e-07,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell",
+        "classification": "first free moment at N=65; floating backward-error classification here, with a separate exact-rational reference at N=15"
+      },
+      "wall_footprint": 65,
+      "wall_footprint_definition": "structural eliminated-row width"
+    },
+    {
+      "family": "E",
+      "q": 8,
+      "N": 65,
+      "h": 0.015625,
+      "h_definition": "1/(N-1)",
+      "output_grid": "family grid",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 3.637978807091713e-12,
+          "scaled_tolerance": 3.637978807091713e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 2.2737367544323206e-13,
+          "scaled_tolerance": 1.4551915228366852e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 1.5987211554602254e-14,
+          "scaled_tolerance": 6.548361852765083e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 1.2212453270876722e-15,
+          "scaled_tolerance": 3.2014213502407074e-10,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 9.952975943416931e-17,
+          "scaled_tolerance": 1.6698322724550962e-09,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 8.551644635479416e-18,
+          "scaled_tolerance": 9.182258509099483e-09,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 7.680471249228368e-19,
+          "scaled_tolerance": 5.277979653328657e-08,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 7.164045849199262e-20,
+          "scaled_tolerance": 3.150780685245991e-07,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": -1.432454155292362e-10,
+          "scaled_moment": -40320.0,
+          "raw_tolerance": 6.904715679875938e-21,
+          "scaled_tolerance": 1.943504685186781e-06,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.432454155292362e-10
+      ],
+      "scaled_moments": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -40320.0
+      ],
+      "exact_polynomial_degree": 8,
+      "first_nonzero_moment_degree": 9,
+      "reference_exact_endpoint_N": null,
+      "reference_exact_endpoint_certificate": null,
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 9,
+        "raw_moment": -1.432454155292362e-10,
+        "scaled_moment": -40320.0,
+        "raw_tolerance": 6.904715679875938e-21,
+        "scaled_tolerance": 1.943504685186781e-06,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell"
+      },
+      "wall_footprint": 9,
+      "wall_footprint_definition": "numerical nonzero count at 1e-12"
+    },
+    {
+      "family": "C",
+      "q": 8,
+      "N": 65,
+      "h": 0.015625,
+      "h_definition": "1/(N-1)",
+      "output_grid": "family grid",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 3.637978807091713e-12,
+          "scaled_tolerance": 3.637978807091713e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 2.2737367544323206e-13,
+          "scaled_tolerance": 1.4551915228366852e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 1.5987211554602254e-14,
+          "scaled_tolerance": 6.548361852765083e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 1.2212453270876722e-15,
+          "scaled_tolerance": 3.2014213502407074e-10,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 9.952975943416931e-17,
+          "scaled_tolerance": 1.6698322724550962e-09,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 8.551644635479416e-18,
+          "scaled_tolerance": 9.182258509099483e-09,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 7.680471249228368e-19,
+          "scaled_tolerance": 5.277979653328657e-08,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 7.164045849199262e-20,
+          "scaled_tolerance": 3.150780685245991e-07,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": -1.432454155292362e-10,
+          "scaled_moment": -40320.0,
+          "raw_tolerance": 6.904715679875938e-21,
+          "scaled_tolerance": 1.943504685186781e-06,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.432454155292362e-10
+      ],
+      "scaled_moments": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -40320.0
+      ],
+      "exact_polynomial_degree": 8,
+      "first_nonzero_moment_degree": 9,
+      "reference_exact_endpoint_N": null,
+      "reference_exact_endpoint_certificate": null,
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 9,
+        "raw_moment": -1.432454155292362e-10,
+        "scaled_moment": -40320.0,
+        "raw_tolerance": 6.904715679875938e-21,
+        "scaled_tolerance": 1.943504685186781e-06,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell"
+      },
+      "wall_footprint": 9,
+      "wall_footprint_definition": "numerical nonzero count at 1e-12"
+    },
+    {
+      "family": "SBP",
+      "q": 8,
+      "N": 65,
+      "h": 0.015625,
+      "h_definition": "1/(N-1)",
+      "output_grid": "family grid",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 2.2347477193120887e-12,
+          "scaled_tolerance": 2.2347477193120887e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": -8.881784197001252e-16,
+          "scaled_moment": -5.684341886080802e-14,
+          "raw_tolerance": 1.3477281374747629e-13,
+          "scaled_tolerance": 8.625460079838482e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 8.796927710715078e-15,
+          "scaled_tolerance": 3.603221590308896e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": -6.938893903907228e-18,
+          "scaled_moment": -1.8189894035458565e-12,
+          "raw_tolerance": 6.093589932074702e-16,
+          "scaled_tolerance": 1.5973980391537906e-10,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": 3.365423862399788e-06,
+          "scaled_moment": 56.46244307103552,
+          "raw_tolerance": 4.4362867925748726e-17,
+          "scaled_tolerance": 7.442854175697583e-10,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": 1.5581826622588954e-06,
+          "scaled_moment": 1673.0858938990423,
+          "raw_tolerance": 3.3694115861438563e-18,
+          "scaled_tolerance": 3.6178781423128374e-09,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": 3.5132744417403176e-07,
+          "scaled_moment": 24143.038126635714,
+          "raw_tolerance": 2.654270697813136e-19,
+          "scaled_tolerance": 1.8240009346941627e-08,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": 5.752049176625087e-08,
+          "scaled_moment": 252977.798129546,
+          "raw_tolerance": 2.1585319322357604e-20,
+          "scaled_tolerance": 9.493323833676062e-08,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": 7.83861560813939e-09,
+          "scaled_moment": 2206374.145744819,
+          "raw_tolerance": 1.8052306583454156e-21,
+          "scaled_tolerance": 5.081272575151381e-07,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        0.0,
+        -8.881784197001252e-16,
+        0.0,
+        -6.938893903907228e-18,
+        3.365423862399788e-06,
+        1.5581826622588954e-06,
+        3.5132744417403176e-07,
+        5.752049176625087e-08,
+        7.83861560813939e-09
+      ],
+      "scaled_moments": [
+        0.0,
+        -5.684341886080802e-14,
+        0.0,
+        -1.8189894035458565e-12,
+        56.46244307103552,
+        1673.0858938990423,
+        24143.038126635714,
+        252977.798129546,
+        2206374.145744819
+      ],
+      "exact_polynomial_degree": 4,
+      "first_nonzero_moment_degree": 5,
+      "reference_exact_endpoint_N": null,
+      "reference_exact_endpoint_certificate": null,
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 5,
+        "raw_moment": 3.365423862399788e-06,
+        "scaled_moment": 56.46244307103552,
+        "raw_tolerance": 4.4362867925748726e-17,
+        "scaled_tolerance": 7.442854175697583e-10,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell"
+      },
+      "wall_footprint": 8,
+      "wall_footprint_definition": "numerical nonzero count at 1e-12"
+    },
+    {
+      "family": "DRP",
+      "q": 8,
+      "N": 65,
+      "h": 0.015625,
+      "h_definition": "1/(N-1)",
+      "output_grid": "family grid",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 3.637978807091713e-12,
+          "scaled_tolerance": 3.637978807091713e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 2.2737367544323206e-13,
+          "scaled_tolerance": 1.4551915228366852e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 1.5987211554602254e-14,
+          "scaled_tolerance": 6.548361852765083e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 1.2212453270876722e-15,
+          "scaled_tolerance": 3.2014213502407074e-10,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 9.952975943416931e-17,
+          "scaled_tolerance": 1.6698322724550962e-09,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 8.551644635479416e-18,
+          "scaled_tolerance": 9.182258509099483e-09,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 7.680471249228368e-19,
+          "scaled_tolerance": 5.277979653328657e-08,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": 0.0,
+          "scaled_moment": 0.0,
+          "raw_tolerance": 7.164045849199262e-20,
+          "scaled_tolerance": 3.150780685245991e-07,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": -1.432454155292362e-10,
+          "scaled_moment": -40320.0,
+          "raw_tolerance": 6.904715679875938e-21,
+          "scaled_tolerance": 1.943504685186781e-06,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell"
+        }
+      ],
+      "deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.432454155292362e-10
+      ],
+      "scaled_moments": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -40320.0
+      ],
+      "exact_polynomial_degree": 8,
+      "first_nonzero_moment_degree": 9,
+      "reference_exact_endpoint_N": null,
+      "reference_exact_endpoint_certificate": null,
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 9,
+        "raw_moment": -1.432454155292362e-10,
+        "scaled_moment": -40320.0,
+        "raw_tolerance": 6.904715679875938e-21,
+        "scaled_tolerance": 1.943504685186781e-06,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell"
+      },
+      "wall_footprint": 9,
+      "wall_footprint_definition": "numerical nonzero count at 1e-12"
+    },
+    {
+      "family": "BMF",
+      "q": 8,
+      "N": 65,
+      "h": 0.017543859649122806,
+      "h_definition": "1/(N-p)",
+      "output_grid": "derivative Greville",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": -7.771561172376096e-16,
+          "scaled_moment": -7.771561172376096e-16,
+          "raw_tolerance": 3.094030408154558e-13,
+          "scaled_tolerance": 3.094030408154558e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": 5.971380868044519e-17,
+          "scaled_moment": 3.403687094785376e-15,
+          "raw_tolerance": 7.832141257697975e-15,
+          "scaled_tolerance": 4.464320516887846e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": 1.1141551353094591e-17,
+          "scaled_moment": 3.619890034620433e-14,
+          "raw_tolerance": 4.864682763539795e-16,
+          "scaled_tolerance": 1.5805354298740796e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 1.6005722352221522e-18,
+          "scaled_moment": 2.964147739574961e-13,
+          "raw_tolerance": 5.20306983898945e-17,
+          "scaled_tolerance": 9.635721126919734e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": 2.4531951961527165e-19,
+          "scaled_moment": 2.5895930943783277e-12,
+          "raw_tolerance": 7.78020293928034e-18,
+          "scaled_tolerance": 8.212783000724622e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": 4.880787585227397e-20,
+          "scaled_moment": 2.936731121935536e-11,
+          "raw_tolerance": 1.4525128500133387e-18,
+          "scaled_tolerance": 8.739654445434585e-10,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": 9.844360278576153e-21,
+          "scaled_moment": 3.376265829943381e-10,
+          "raw_tolerance": 3.2034738849029496e-19,
+          "scaled_tolerance": 1.0986777310712314e-08,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": 2.22106375328745e-21,
+          "scaled_moment": 4.341951963523474e-09,
+          "raw_tolerance": 8.104520291843233e-20,
+          "scaled_tolerance": 1.5843506402056143e-07,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": 2.8241435807779016e-15,
+          "scaled_moment": 0.31469193876935003,
+          "raw_tolerance": 2.309166045514014e-20,
+          "scaled_tolerance": 2.5730842608327923e-06,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell",
+          "classification": "first free moment at N=65; floating backward-error classification here, with a separate exact-rational reference at N=17"
+        }
+      ],
+      "deltas": [
+        -7.771561172376096e-16,
+        5.971380868044519e-17,
+        1.1141551353094591e-17,
+        1.6005722352221522e-18,
+        2.4531951961527165e-19,
+        4.880787585227397e-20,
+        9.844360278576153e-21,
+        2.22106375328745e-21,
+        2.8241435807779016e-15
+      ],
+      "scaled_moments": [
+        -7.771561172376096e-16,
+        3.403687094785376e-15,
+        3.619890034620433e-14,
+        2.964147739574961e-13,
+        2.5895930943783277e-12,
+        2.936731121935536e-11,
+        3.376265829943381e-10,
+        4.341951963523474e-09,
+        0.31469193876935003
+      ],
+      "exact_polynomial_degree": 8,
+      "first_nonzero_moment_degree": 9,
+      "reference_exact_endpoint_N": 17,
+      "reference_exact_endpoint_certificate": {
+        "schema_version": 2,
+        "family": "BMF",
+        "degree": 8,
+        "N": 17,
+        "output_size": 16,
+        "output_grid": "derivative Greville",
+        "h": 0.1111111111111111,
+        "h_definition": "1/(N-p)",
+        "precision": {
+          "arithmetic": "exact rational; decimal serialization only",
+          "decimal_digits": 90
+        },
+        "exact_polynomial_degree": 8,
+        "first_nonzero_moment_degree": 9,
+        "endpoints": {
+          "left": {
+            "row": 0,
+            "scaled_moment_decimal": "0.311159754346086585741992934309027072055059796496147048673474362667276565895515005766993810",
+            "scaled_moment_interval": [
+              0.3111597543460865,
+              0.3111597543460866
+            ],
+            "exact_rational_numerator": "240793070373128116015361040366931372079625",
+            "exact_rational_denominator": "773856731180301299723071890497278936580096",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          },
+          "right": {
+            "row": 15,
+            "scaled_moment_decimal": "0.311159754346086585741992934309027072055059796496147048673474362667276565895515005766993810",
+            "scaled_moment_interval": [
+              0.3111597543460865,
+              0.3111597543460866
+            ],
+            "exact_rational_numerator": "240793070373128116015361040366931372079625",
+            "exact_rational_denominator": "773856731180301299723071890497278936580096",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          }
+        },
+        "claim_boundary": "Finite-grid exact-rational nonvanishing only; no all-N limit, uniform Peano bound, or endpoint-localization proof is inferred."
+      },
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 9,
+        "raw_moment": 2.8241435807779016e-15,
+        "scaled_moment": 0.31469193876935003,
+        "raw_tolerance": 2.309166045514014e-20,
+        "scaled_tolerance": 2.5730842608327923e-06,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell",
+        "classification": "first free moment at N=65; floating backward-error classification here, with a separate exact-rational reference at N=17"
+      },
+      "wall_footprint": 65,
+      "wall_footprint_definition": "structural eliminated-row width"
+    },
+    {
+      "family": "BMG",
+      "q": 8,
+      "N": 65,
+      "h": 0.017543859649122806,
+      "h_definition": "1/(N-p)",
+      "output_grid": "primal Greville",
+      "row": 0,
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "moments": [
+        {
+          "ell": 1,
+          "raw_moment": -7.993605777301127e-15,
+          "scaled_moment": -7.993605777301127e-15,
+          "raw_tolerance": 6.459415975061944e-13,
+          "scaled_tolerance": 6.459415975061944e-13,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 2,
+          "raw_moment": -9.048209230477777e-16,
+          "scaled_moment": -5.157479261372333e-14,
+          "raw_tolerance": 5.418689188041754e-14,
+          "scaled_tolerance": 3.0886528371838e-12,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 3,
+          "raw_moment": -1.6642503347652493e-17,
+          "scaled_moment": -5.4071493376522956e-14,
+          "raw_tolerance": 1.0319658116265115e-14,
+          "scaled_tolerance": 3.3528569219745364e-11,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 4,
+          "raw_moment": 3.8868647883605334e-17,
+          "scaled_moment": 7.1982015075085234e-12,
+          "raw_tolerance": 2.7422981769279046e-15,
+          "scaled_tolerance": 5.078544262798095e-10,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 5,
+          "raw_moment": 1.805196617188365e-17,
+          "scaled_moment": 1.9055657296237e-10,
+          "raw_tolerance": 9.009232231523549e-16,
+          "scaled_tolerance": 9.510146444519483e-09,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 6,
+          "raw_moment": 5.908901840045999e-18,
+          "scaled_moment": 3.555339302748363e-09,
+          "raw_tolerance": 3.5055943558014653e-16,
+          "scaled_tolerance": 2.109288278949774e-07,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 7,
+          "raw_moment": 7.047314121155779e-19,
+          "scaled_moment": 2.4169783700335203e-08,
+          "raw_tolerance": 1.5761788457139158e-16,
+          "scaled_tolerance": 5.405733463701704e-06,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 8,
+          "raw_moment": -1.6263032587282567e-19,
+          "scaled_moment": -3.179256163659477e-07,
+          "raw_tolerance": 8.034225175332605e-17,
+          "scaled_tolerance": 0.00015706086655005807,
+          "within_backward_tolerance": true,
+          "structural_zero": true,
+          "monomial": "(x-left_wall)^ell"
+        },
+        {
+          "ell": 9,
+          "raw_moment": 1.7456197078102864e-15,
+          "scaled_moment": 0.19451293267939776,
+          "raw_tolerance": 4.566057892549153e-17,
+          "scaled_tolerance": 0.00508791982291352,
+          "within_backward_tolerance": false,
+          "structural_zero": false,
+          "monomial": "(x-left_wall)^ell",
+          "classification": "first free moment at N=65; floating backward-error classification here, with a separate exact-rational reference at N=17"
+        }
+      ],
+      "deltas": [
+        -7.993605777301127e-15,
+        -9.048209230477777e-16,
+        -1.6642503347652493e-17,
+        3.8868647883605334e-17,
+        1.805196617188365e-17,
+        5.908901840045999e-18,
+        7.047314121155779e-19,
+        -1.6263032587282567e-19,
+        1.7456197078102864e-15
+      ],
+      "scaled_moments": [
+        -7.993605777301127e-15,
+        -5.157479261372333e-14,
+        -5.4071493376522956e-14,
+        7.1982015075085234e-12,
+        1.9055657296237e-10,
+        3.555339302748363e-09,
+        2.4169783700335203e-08,
+        -3.179256163659477e-07,
+        0.19451293267939776
+      ],
+      "exact_polynomial_degree": 8,
+      "first_nonzero_moment_degree": 9,
+      "reference_exact_endpoint_N": 17,
+      "reference_exact_endpoint_certificate": {
+        "schema_version": 2,
+        "family": "BMG",
+        "degree": 8,
+        "N": 17,
+        "output_size": 17,
+        "output_grid": "primal Greville",
+        "h": 0.1111111111111111,
+        "h_definition": "1/(N-p)",
+        "precision": {
+          "arithmetic": "exact rational; decimal serialization only",
+          "decimal_digits": 90
+        },
+        "exact_polynomial_degree": 8,
+        "first_nonzero_moment_degree": 9,
+        "endpoints": {
+          "left": {
+            "row": 0,
+            "scaled_moment_decimal": "0.125084454140761432462984389783935783798025530485714925793741561932996886914592471405779025",
+            "scaled_moment_interval": [
+              0.12508445414076141,
+              0.12508445414076147
+            ],
+            "exact_rational_numerator": "14878437243877572233226230209676818278781755028906272224338394477411217587930649147184185107",
+            "exact_rational_denominator": "118947133327490907532626070048864401770567620332878008760693767023524708213385929341731241984",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          },
+          "right": {
+            "row": 16,
+            "scaled_moment_decimal": "0.125084454140761432462984389783935783798025530485714925793741561932996886914592471405779025",
+            "scaled_moment_interval": [
+              0.12508445414076141,
+              0.12508445414076147
+            ],
+            "exact_rational_numerator": "14878437243877572233226230209676818278781755028906272224338394477411217587930649147184185107",
+            "exact_rational_denominator": "118947133327490907532626070048864401770567620332878008760693767023524708213385929341731241984",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          }
+        },
+        "claim_boundary": "Finite-grid exact-rational nonvanishing only; no all-N limit, uniform Peano bound, or endpoint-localization proof is inferred."
+      },
+      "floating_first_free_moment_at_N": {
+        "N": 65,
+        "ell": 9,
+        "raw_moment": 1.7456197078102864e-15,
+        "scaled_moment": 0.19451293267939776,
+        "raw_tolerance": 4.566057892549153e-17,
+        "scaled_tolerance": 0.00508791982291352,
+        "within_backward_tolerance": false,
+        "structural_zero": false,
+        "monomial": "(x-left_wall)^ell",
+        "classification": "first free moment at N=65; floating backward-error classification here, with a separate exact-rational reference at N=17"
+      },
+      "wall_footprint": 65,
+      "wall_footprint_definition": "structural eliminated-row width"
+    }
+  ]
+}
