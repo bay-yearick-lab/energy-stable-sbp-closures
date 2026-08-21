@@ -1,0 +1,679 @@
+{
+  "npts": 33,
+  "degrees": [
+    4,
+    6,
+    8
+  ],
+  "product_rule": {
+    "4": {
+      "BMG": {
+        "family": "BMG",
+        "grid_kind": "same-grid",
+        "npts": 33,
+        "degree": 4,
+        "exact_inf": 8.862298339801002e-18,
+        "exact_l2": 5.581084961908185e-18,
+        "shortcut_inf": 7.912654267288428e-06,
+        "shortcut_l2": 7.185526665348753e-06
+      },
+      "BMF": {
+        "family": "BMF",
+        "grid_kind": "staggered",
+        "npts": 33,
+        "degree": 4,
+        "exact_inf": 1.0006680060795314e-17,
+        "exact_l2": 6.6531922200914794e-18,
+        "shortcut_inf": 0.00012050766100632219,
+        "shortcut_l2": 0.00011934444835833001
+      }
+    },
+    "6": {
+      "BMG": {
+        "family": "BMG",
+        "grid_kind": "same-grid",
+        "npts": 33,
+        "degree": 6,
+        "exact_inf": 7.289822521356542e-18,
+        "exact_l2": 6.719777034540499e-18,
+        "shortcut_inf": 1.7593871922313837e-07,
+        "shortcut_l2": 2.1909523546652867e-07
+      },
+      "BMF": {
+        "family": "BMF",
+        "grid_kind": "staggered",
+        "npts": 33,
+        "degree": 6,
+        "exact_inf": 1.5899969845094446e-17,
+        "exact_l2": 8.602617769657758e-18,
+        "shortcut_inf": 2.0894636272781834e-06,
+        "shortcut_l2": 2.4219836021836383e-06
+      }
+    },
+    "8": {
+      "BMG": {
+        "family": "BMG",
+        "grid_kind": "same-grid",
+        "npts": 33,
+        "degree": 8,
+        "exact_inf": 9.192375413814129e-18,
+        "exact_l2": 7.438272952606818e-18,
+        "shortcut_inf": 8.243266857125883e-09,
+        "shortcut_l2": 9.81202206397858e-09
+      },
+      "BMF": {
+        "family": "BMF",
+        "grid_kind": "staggered",
+        "npts": 33,
+        "degree": 8,
+        "exact_inf": 6.773843826479991e-18,
+        "exact_l2": 4.8426853879517946e-18,
+        "shortcut_inf": 6.480447202686585e-08,
+        "shortcut_l2": 7.762996357364053e-08
+      }
+    }
+  },
+  "product_rule_nodal_controls": {
+    "4": {
+      "SBP": {
+        "family": "SBP",
+        "npts": 33,
+        "degree": 4,
+        "weak_leibniz_inf": 0.028394439443512047,
+        "weak_leibniz_l2": 0.017646847121406108
+      },
+      "C": {
+        "family": "C",
+        "npts": 33,
+        "degree": 4,
+        "weak_leibniz_inf": 0.0014776819400735223,
+        "weak_leibniz_l2": 0.0009925629398420098
+      },
+      "DRP": {
+        "family": "DRP",
+        "npts": 33,
+        "degree": 4,
+        "weak_leibniz_inf": 0.001477681940073867,
+        "weak_leibniz_l2": 0.0015117827160277487
+      },
+      "E": {
+        "family": "E",
+        "npts": 33,
+        "degree": 4,
+        "weak_leibniz_inf": 0.001477681940073867,
+        "weak_leibniz_l2": 0.0018918660627301367
+      }
+    },
+    "6": {
+      "SBP": {
+        "family": "SBP",
+        "npts": 33,
+        "degree": 6,
+        "weak_leibniz_inf": 0.020203565903864126,
+        "weak_leibniz_l2": 0.014183269151841984
+      },
+      "C": {
+        "family": "C",
+        "npts": 33,
+        "degree": 6,
+        "weak_leibniz_inf": 0.0005634824485555584,
+        "weak_leibniz_l2": 0.00033745997574800856
+      },
+      "DRP": {
+        "family": "DRP",
+        "npts": 33,
+        "degree": 6,
+        "weak_leibniz_inf": 0.0005634824485629597,
+        "weak_leibniz_l2": 0.0005771928625159308
+      },
+      "E": {
+        "family": "E",
+        "npts": 33,
+        "degree": 6,
+        "weak_leibniz_inf": 0.0005634824485629597,
+        "weak_leibniz_l2": 0.0003639261014777444
+      }
+    },
+    "8": {
+      "SBP": {
+        "family": "SBP",
+        "npts": 33,
+        "degree": 8,
+        "weak_leibniz_inf": 0.1016338690751793,
+        "weak_leibniz_l2": 0.08476931716962915
+      },
+      "C": {
+        "family": "C",
+        "npts": 33,
+        "degree": 8,
+        "weak_leibniz_inf": 0.0002902546119160239,
+        "weak_leibniz_l2": 0.00014476884297054177
+      },
+      "DRP": {
+        "family": "DRP",
+        "npts": 33,
+        "degree": 8,
+        "weak_leibniz_inf": 0.0003479114303499494,
+        "weak_leibniz_l2": 0.0004068743545396918
+      },
+      "E": {
+        "family": "E",
+        "npts": 33,
+        "degree": 8,
+        "weak_leibniz_inf": 0.0002902546119243303,
+        "weak_leibniz_l2": 0.00014522940989818392
+      }
+    }
+  },
+  "ke_cross": {
+    "4": {
+      "BMG": {
+        "family": "BMG",
+        "npts": 33,
+        "degree": 4,
+        "route": "same-grid metric-adjoint",
+        "ke_production": 2.3184837108911958e-15
+      },
+      "BMF": {
+        "family": "BMF",
+        "npts": 33,
+        "degree": 4,
+        "route": "staggered metric-adjoint",
+        "ke_production": 2.1138706752456597e-16
+      }
+    },
+    "6": {
+      "BMG": {
+        "family": "BMG",
+        "npts": 33,
+        "degree": 6,
+        "route": "same-grid metric-adjoint",
+        "ke_production": 3.378761165044704e-15
+      },
+      "BMF": {
+        "family": "BMF",
+        "npts": 33,
+        "degree": 6,
+        "route": "staggered metric-adjoint",
+        "ke_production": 1.7465815225048968e-15
+      }
+    },
+    "8": {
+      "BMG": {
+        "family": "BMG",
+        "npts": 33,
+        "degree": 8,
+        "route": "same-grid metric-adjoint",
+        "ke_production": 3.576399883966697e-16
+      },
+      "BMF": {
+        "family": "BMF",
+        "npts": 33,
+        "degree": 8,
+        "route": "staggered metric-adjoint",
+        "ke_production": 5.102175292260933e-16
+      }
+    }
+  },
+  "ke_nodal_controls": {
+    "4": {
+      "SBP": {
+        "family": "SBP",
+        "npts": 33,
+        "degree": 4,
+        "route": "native same-grid nodal product",
+        "ke_production": 9.019443952745487e-36
+      },
+      "C": {
+        "family": "C",
+        "npts": 33,
+        "degree": 4,
+        "route": "native same-grid nodal product",
+        "ke_production": 1.9424070372346326e-06
+      },
+      "DRP": {
+        "family": "DRP",
+        "npts": 33,
+        "degree": 4,
+        "route": "native same-grid nodal product",
+        "ke_production": 5.8437766521954845e-06
+      },
+      "E": {
+        "family": "E",
+        "npts": 33,
+        "degree": 4,
+        "route": "native same-grid nodal product",
+        "ke_production": 6.11028706203087e-06
+      }
+    },
+    "6": {
+      "SBP": {
+        "family": "SBP",
+        "npts": 33,
+        "degree": 6,
+        "route": "native same-grid nodal product",
+        "ke_production": 9.197516454622886e-16
+      },
+      "C": {
+        "family": "C",
+        "npts": 33,
+        "degree": 6,
+        "route": "native same-grid nodal product",
+        "ke_production": 1.129099587194472e-06
+      },
+      "DRP": {
+        "family": "DRP",
+        "npts": 33,
+        "degree": 6,
+        "route": "native same-grid nodal product",
+        "ke_production": 4.582657745252869e-06
+      },
+      "E": {
+        "family": "E",
+        "npts": 33,
+        "degree": 6,
+        "route": "native same-grid nodal product",
+        "ke_production": 8.36454139053672e-06
+      }
+    },
+    "8": {
+      "SBP": {
+        "family": "SBP",
+        "npts": 33,
+        "degree": 8,
+        "route": "native same-grid nodal product",
+        "ke_production": 4.181361337179397e-16
+      },
+      "C": {
+        "family": "C",
+        "npts": 33,
+        "degree": 8,
+        "route": "native same-grid nodal product",
+        "ke_production": 3.563899052434682e-07
+      },
+      "DRP": {
+        "family": "DRP",
+        "npts": 33,
+        "degree": 8,
+        "route": "native same-grid nodal product",
+        "ke_production": 2.8856338479486833e-06
+      },
+      "E": {
+        "family": "E",
+        "npts": 33,
+        "degree": 8,
+        "route": "native same-grid nodal product",
+        "ke_production": 6.323798206024535e-06
+      }
+    }
+  },
+  "local_fv": {
+    "4": {
+      "BMG": {
+        "family": "BMG",
+        "npts": 33,
+        "degree": 4,
+        "local_fv_residual": 1.2869905429421616e-15
+      },
+      "BMF": {
+        "family": "BMF",
+        "npts": 33,
+        "degree": 4,
+        "local_fv_residual": 4.239723670443256e-15
+      }
+    },
+    "6": {
+      "BMG": {
+        "family": "BMG",
+        "npts": 33,
+        "degree": 6,
+        "local_fv_residual": 1.490672780075562e-15
+      },
+      "BMF": {
+        "family": "BMF",
+        "npts": 33,
+        "degree": 6,
+        "local_fv_residual": 9.626519043450703e-15
+      }
+    },
+    "8": {
+      "BMG": {
+        "family": "BMG",
+        "npts": 33,
+        "degree": 8,
+        "local_fv_residual": 2.5907485300985512e-15
+      },
+      "BMF": {
+        "family": "BMF",
+        "npts": 33,
+        "degree": 8,
+        "local_fv_residual": 1.0601615804316082e-14
+      }
+    }
+  },
+  "local_fv_refinement_q8": {
+    "17": {
+      "BMG": {
+        "family": "BMG",
+        "npts": 17,
+        "degree": 8,
+        "local_fv_residual": 6.356568919023855e-16
+      },
+      "BMF": {
+        "family": "BMF",
+        "npts": 17,
+        "degree": 8,
+        "local_fv_residual": 6.5066354766775044e-15
+      }
+    },
+    "25": {
+      "BMG": {
+        "family": "BMG",
+        "npts": 25,
+        "degree": 8,
+        "local_fv_residual": 1.7129658186545495e-15
+      },
+      "BMF": {
+        "family": "BMF",
+        "npts": 25,
+        "degree": 8,
+        "local_fv_residual": 7.380869375604202e-15
+      }
+    },
+    "33": {
+      "BMG": {
+        "family": "BMG",
+        "npts": 33,
+        "degree": 8,
+        "local_fv_residual": 2.5907485300985512e-15
+      },
+      "BMF": {
+        "family": "BMF",
+        "npts": 33,
+        "degree": 8,
+        "local_fv_residual": 1.0601615804316082e-14
+      }
+    },
+    "49": {
+      "BMG": {
+        "family": "BMG",
+        "npts": 49,
+        "degree": 8,
+        "local_fv_residual": 3.4676529920562154e-15
+      },
+      "BMF": {
+        "family": "BMF",
+        "npts": 49,
+        "degree": 8,
+        "local_fv_residual": 1.7898424292920135e-14
+      }
+    }
+  },
+  "pressure_cross": {
+    "4": {
+      "BMG": {
+        "family": "BMG",
+        "npts": 33,
+        "degree": 4,
+        "pressure_work": 7.164763335552947e-15,
+        "divergence_inf": 4.725109192804666e-13
+      },
+      "BMF": {
+        "family": "BMF",
+        "npts": 33,
+        "degree": 4,
+        "pressure_work": 4.895204598022094e-16,
+        "divergence_inf": 2.851052727237402e-13
+      }
+    },
+    "6": {
+      "BMG": {
+        "family": "BMG",
+        "npts": 33,
+        "degree": 6,
+        "pressure_work": 1.7800641947480033e-16,
+        "divergence_inf": 4.334310688136611e-13
+      },
+      "BMF": {
+        "family": "BMF",
+        "npts": 33,
+        "degree": 6,
+        "pressure_work": 1.6465594044875916e-15,
+        "divergence_inf": 2.162714451969805e-13
+      }
+    },
+    "8": {
+      "BMG": {
+        "family": "BMG",
+        "npts": 33,
+        "degree": 8,
+        "pressure_work": 1.5130545486426534e-15,
+        "divergence_inf": 3.7614356074300304e-13
+      },
+      "BMF": {
+        "family": "BMF",
+        "npts": 33,
+        "degree": 8,
+        "pressure_work": 1.869067383817023e-15,
+        "divergence_inf": 2.2115642650533118e-13
+      }
+    }
+  },
+  "pressure_nodal_controls": {
+    "4": {
+      "SBP": {
+        "family": "SBP",
+        "npts": 33,
+        "degree": 4,
+        "pressure_work": 8.900853970989194e-17
+      },
+      "C": {
+        "family": "C",
+        "npts": 33,
+        "degree": 4,
+        "pressure_work": 2.764946814600665e-06
+      },
+      "DRP": {
+        "family": "DRP",
+        "npts": 33,
+        "degree": 4,
+        "pressure_work": 8.080814400694676e-06
+      },
+      "E": {
+        "family": "E",
+        "npts": 33,
+        "degree": 4,
+        "pressure_work": 7.391724060824627e-06
+      }
+    },
+    "6": {
+      "SBP": {
+        "family": "SBP",
+        "npts": 33,
+        "degree": 6,
+        "pressure_work": 1.780055350655367e-16
+      },
+      "C": {
+        "family": "C",
+        "npts": 33,
+        "degree": 6,
+        "pressure_work": 1.489518285687963e-06
+      },
+      "DRP": {
+        "family": "DRP",
+        "npts": 33,
+        "degree": 6,
+        "pressure_work": 1.7408663793687992e-07
+      },
+      "E": {
+        "family": "E",
+        "npts": 33,
+        "degree": 6,
+        "pressure_work": 2.500007572515693e-06
+      }
+    },
+    "8": {
+      "SBP": {
+        "family": "SBP",
+        "npts": 33,
+        "degree": 8,
+        "pressure_work": 0.0
+      },
+      "C": {
+        "family": "C",
+        "npts": 33,
+        "degree": 8,
+        "pressure_work": 1.4668138135442927e-06
+      },
+      "DRP": {
+        "family": "DRP",
+        "npts": 33,
+        "degree": 8,
+        "pressure_work": 3.805569994809939e-06
+      },
+      "E": {
+        "family": "E",
+        "npts": 33,
+        "degree": 8,
+        "pressure_work": 1.5775313503736721e-06
+      }
+    }
+  },
+  "ke_q8": {
+    "BMG": {
+      "family": "BMG",
+      "npts": 33,
+      "degree": 8,
+      "route": "same-grid metric-adjoint",
+      "ke_production": 3.576399883966697e-16
+    },
+    "BMF": {
+      "family": "BMF",
+      "npts": 33,
+      "degree": 8,
+      "route": "staggered metric-adjoint",
+      "ke_production": 5.102175292260933e-16
+    },
+    "SBP": {
+      "family": "SBP",
+      "npts": 33,
+      "degree": 8,
+      "route": "native same-grid nodal product",
+      "ke_production": 4.181361337179397e-16
+    },
+    "C": {
+      "family": "C",
+      "npts": 33,
+      "degree": 8,
+      "route": "native same-grid nodal product",
+      "ke_production": 3.563899052434682e-07
+    },
+    "DRP": {
+      "family": "DRP",
+      "npts": 33,
+      "degree": 8,
+      "route": "native same-grid nodal product",
+      "ke_production": 2.8856338479486833e-06
+    },
+    "E": {
+      "family": "E",
+      "npts": 33,
+      "degree": 8,
+      "route": "native same-grid nodal product",
+      "ke_production": 6.323798206024535e-06
+    }
+  },
+  "pressure_q8": {
+    "BMG": {
+      "family": "BMG",
+      "npts": 33,
+      "degree": 8,
+      "pressure_work": 1.5130545486426534e-15,
+      "divergence_inf": 3.7614356074300304e-13
+    },
+    "BMF": {
+      "family": "BMF",
+      "npts": 33,
+      "degree": 8,
+      "pressure_work": 1.869067383817023e-15,
+      "divergence_inf": 2.2115642650533118e-13
+    },
+    "SBP": {
+      "family": "SBP",
+      "npts": 33,
+      "degree": 8,
+      "pressure_work": 0.0
+    },
+    "C": {
+      "family": "C",
+      "npts": 33,
+      "degree": 8,
+      "pressure_work": 1.4668138135442927e-06
+    },
+    "DRP": {
+      "family": "DRP",
+      "npts": 33,
+      "degree": 8,
+      "pressure_work": 3.805569994809939e-06
+    },
+    "E": {
+      "family": "E",
+      "npts": 33,
+      "degree": 8,
+      "pressure_work": 1.5775313503736721e-06
+    }
+  },
+  "projected_product_trace_leak_bmg_p4": {
+    "9": {
+      "family": "BMG",
+      "npts": 9,
+      "degree": 4,
+      "advecting_left_trace": 0.0,
+      "advecting_right_trace": 1.4997597826618576e-32,
+      "state_left_trace": 1.0,
+      "state_right_trace": 1.3,
+      "projected_product_left_trace": 2.4270930776423932e-05,
+      "projected_product_right_trace": -2.427093077734238e-05,
+      "split_power": -2.7911570392809473e-05,
+      "sbp_boundary_work": -2.791157039348451e-05,
+      "boundary_identity_residual": 6.750378251166311e-16,
+      "relative_boundary_identity_residual": 4.550618830722612e-16
+    },
+    "17": {
+      "family": "BMG",
+      "npts": 17,
+      "degree": 4,
+      "advecting_left_trace": 0.0,
+      "advecting_right_trace": 1.4997597826618576e-32,
+      "state_left_trace": 1.0,
+      "state_right_trace": 1.3,
+      "projected_product_left_trace": 4.195549022074076e-07,
+      "projected_product_right_trace": -4.195549017779277e-07,
+      "split_power": -4.824881367464416e-07,
+      "sbp_boundary_work": -4.824881372593568e-07,
+      "boundary_identity_residual": 5.12915189616566e-16,
+      "relative_boundary_identity_residual": 3.4558288568598226e-16
+    },
+    "33": {
+      "family": "BMG",
+      "npts": 33,
+      "degree": 4,
+      "advecting_left_trace": 0.0,
+      "advecting_right_trace": 1.4997597826618576e-32,
+      "state_left_trace": 1.0,
+      "state_right_trace": 1.3,
+      "projected_product_left_trace": 8.019251007861501e-09,
+      "projected_product_right_trace": -8.019250905020385e-09,
+      "split_power": -9.222142524836196e-09,
+      "sbp_boundary_work": -9.222138592194002e-09,
+      "boundary_identity_residual": 3.9326421943039694e-15,
+      "relative_boundary_identity_residual": 2.649661330094762e-15
+    }
+  },
+  "notes": [
+    "Exact product-rule residual is the weak Leibniz residual assembled by quadrature on the product space.",
+    "Nodal-control residuals use each family's native-node diagonal product and trapezoidal-weighted test space.",
+    "The q=8 panels are used in the manuscript because they make the product-space and balance separation visually sharp.",
+    "The adversarial BMG trace test has zero advecting trace and nonzero transported trace; its split power equals the projected-product SBP boundary work and is not generally zero."
+  ]
+}
