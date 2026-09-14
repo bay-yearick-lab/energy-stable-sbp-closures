@@ -1,0 +1,2088 @@
+{
+  "schema_version": 2,
+  "claim_boundary": "Finite-grid formal-order evidence only. Uniform Peano-kernel and endpoint-localization statements require separate analytic proofs.",
+  "polynomial_exactness": {
+    "BMF4": {
+      "degree": 4,
+      "exact_polynomial_degree": 4,
+      "first_nonzero_moment_degree": 5,
+      "output_grid": "derivative Greville",
+      "h_definition": "1/(N-p)",
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "all_rows_exact_through_p_within_backward_tolerance": true,
+      "max_raw_moment_through_p": 2.1316282072803006e-14,
+      "max_raw_first_free_moment": 2.519742116976388e-07,
+      "error_on_x_p1": 2.519742116976388e-07,
+      "error_on_x_p2": null,
+      "boundary_moment_on_x_p1_nonzero": true,
+      "finite_grid_exact_endpoint_certificate": true,
+      "exact_endpoint_certificate": {
+        "schema_version": 2,
+        "family": "BMF",
+        "degree": 4,
+        "N": 13,
+        "output_size": 12,
+        "output_grid": "derivative Greville",
+        "h": 0.1111111111111111,
+        "h_definition": "1/(N-p)",
+        "precision": {
+          "arithmetic": "exact rational; decimal serialization only",
+          "decimal_digits": 90
+        },
+        "exact_polynomial_degree": 4,
+        "first_nonzero_moment_degree": 5,
+        "endpoints": {
+          "left": {
+            "row": 0,
+            "scaled_moment_decimal": "-0.118023636026905387502265229413817463176744941154582752203393270232950545347201248879433976",
+            "scaled_moment_interval": [
+              -0.1180236360269054,
+              -0.11802363602690537
+            ],
+            "exact_rational_numerator": "-48606370659",
+            "exact_rational_denominator": "411835902496",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          },
+          "right": {
+            "row": 11,
+            "scaled_moment_decimal": "-0.118023636026905387502265229413817463176744941154582752203393270232950545347201248879433976",
+            "scaled_moment_interval": [
+              -0.1180236360269054,
+              -0.11802363602690537
+            ],
+            "exact_rational_numerator": "-48606370659",
+            "exact_rational_denominator": "411835902496",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          }
+        },
+        "claim_boundary": "Finite-grid exact-rational nonvanishing only; no all-N limit, uniform Peano bound, or endpoint-localization proof is inferred."
+      }
+    },
+    "BMF6": {
+      "degree": 6,
+      "exact_polynomial_degree": 6,
+      "first_nonzero_moment_degree": 7,
+      "output_grid": "derivative Greville",
+      "h_definition": "1/(N-p)",
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "all_rows_exact_through_p_within_backward_tolerance": true,
+      "max_raw_moment_through_p": 7.460086744176661e-14,
+      "max_raw_first_free_moment": 5.301025323123151e-10,
+      "error_on_x_p1": 5.301025323123151e-10,
+      "error_on_x_p2": null,
+      "boundary_moment_on_x_p1_nonzero": true,
+      "finite_grid_exact_endpoint_certificate": true,
+      "exact_endpoint_certificate": {
+        "schema_version": 2,
+        "family": "BMF",
+        "degree": 6,
+        "N": 15,
+        "output_size": 14,
+        "output_grid": "derivative Greville",
+        "h": 0.1111111111111111,
+        "h_definition": "1/(N-p)",
+        "precision": {
+          "arithmetic": "exact rational; decimal serialization only",
+          "decimal_digits": 90
+        },
+        "exact_polynomial_degree": 6,
+        "first_nonzero_moment_degree": 7,
+        "endpoints": {
+          "left": {
+            "row": 0,
+            "scaled_moment_decimal": "0.204926981167983413673436852788765740103578206633895082782782483452739642450416610946263763",
+            "scaled_moment_interval": [
+              0.20492698116798339,
+              0.20492698116798344
+            ],
+            "exact_rational_numerator": "43026750220951171",
+            "exact_rational_denominator": "209961372464083404",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          },
+          "right": {
+            "row": 13,
+            "scaled_moment_decimal": "0.204926981167983413673436852788765740103578206633895082782782483452739642450416610946263763",
+            "scaled_moment_interval": [
+              0.20492698116798339,
+              0.20492698116798344
+            ],
+            "exact_rational_numerator": "43026750220951171",
+            "exact_rational_denominator": "209961372464083404",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          }
+        },
+        "claim_boundary": "Finite-grid exact-rational nonvanishing only; no all-N limit, uniform Peano bound, or endpoint-localization proof is inferred."
+      }
+    },
+    "BMF8": {
+      "degree": 8,
+      "exact_polynomial_degree": 8,
+      "first_nonzero_moment_degree": 9,
+      "output_grid": "derivative Greville",
+      "h_definition": "1/(N-p)",
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "all_rows_exact_through_p_within_backward_tolerance": true,
+      "max_raw_moment_through_p": 5.684341886080802e-14,
+      "max_raw_first_free_moment": 2.0623615238946373e-12,
+      "error_on_x_p1": 2.0623615238946373e-12,
+      "error_on_x_p2": null,
+      "boundary_moment_on_x_p1_nonzero": true,
+      "finite_grid_exact_endpoint_certificate": true,
+      "exact_endpoint_certificate": {
+        "schema_version": 2,
+        "family": "BMF",
+        "degree": 8,
+        "N": 17,
+        "output_size": 16,
+        "output_grid": "derivative Greville",
+        "h": 0.1111111111111111,
+        "h_definition": "1/(N-p)",
+        "precision": {
+          "arithmetic": "exact rational; decimal serialization only",
+          "decimal_digits": 90
+        },
+        "exact_polynomial_degree": 8,
+        "first_nonzero_moment_degree": 9,
+        "endpoints": {
+          "left": {
+            "row": 0,
+            "scaled_moment_decimal": "0.311159754346086585741992934309027072055059796496147048673474362667276565895515005766993810",
+            "scaled_moment_interval": [
+              0.3111597543460865,
+              0.3111597543460866
+            ],
+            "exact_rational_numerator": "240793070373128116015361040366931372079625",
+            "exact_rational_denominator": "773856731180301299723071890497278936580096",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          },
+          "right": {
+            "row": 15,
+            "scaled_moment_decimal": "0.311159754346086585741992934309027072055059796496147048673474362667276565895515005766993810",
+            "scaled_moment_interval": [
+              0.3111597543460865,
+              0.3111597543460866
+            ],
+            "exact_rational_numerator": "240793070373128116015361040366931372079625",
+            "exact_rational_denominator": "773856731180301299723071890497278936580096",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          }
+        },
+        "claim_boundary": "Finite-grid exact-rational nonvanishing only; no all-N limit, uniform Peano bound, or endpoint-localization proof is inferred."
+      }
+    },
+    "BMG4": {
+      "degree": 4,
+      "exact_polynomial_degree": 4,
+      "first_nonzero_moment_degree": 5,
+      "output_grid": "primal Greville",
+      "h_definition": "1/(N-p)",
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "all_rows_exact_through_p_within_backward_tolerance": true,
+      "max_raw_moment_through_p": 1.6802892763160063e-13,
+      "max_raw_first_free_moment": 6.433561323774846e-08,
+      "error_on_x_p1": 6.433561323774846e-08,
+      "error_on_x_p2": null,
+      "boundary_moment_on_x_p1_nonzero": true,
+      "finite_grid_exact_endpoint_certificate": true,
+      "exact_endpoint_certificate": {
+        "schema_version": 2,
+        "family": "BMG",
+        "degree": 4,
+        "N": 13,
+        "output_size": 13,
+        "output_grid": "primal Greville",
+        "h": 0.1111111111111111,
+        "h_definition": "1/(N-p)",
+        "precision": {
+          "arithmetic": "exact rational; decimal serialization only",
+          "decimal_digits": 90
+        },
+        "exact_polynomial_degree": 4,
+        "first_nonzero_moment_degree": 5,
+        "endpoints": {
+          "left": {
+            "row": 0,
+            "scaled_moment_decimal": "-0.0192834172065954537498668682134616517305794048482618371512480474958242101033009698279636148",
+            "scaled_moment_interval": [
+              -0.019283417206595457,
+              -0.01928341720659545
+            ],
+            "exact_rational_numerator": "-122569517829102081555915413763",
+            "exact_rational_denominator": "6356213554679508206240014108192",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          },
+          "right": {
+            "row": 12,
+            "scaled_moment_decimal": "-0.0192834172065954537498668682134616517305794048482618371512480474958242101033009698279636148",
+            "scaled_moment_interval": [
+              -0.019283417206595457,
+              -0.01928341720659545
+            ],
+            "exact_rational_numerator": "-122569517829102081555915413763",
+            "exact_rational_denominator": "6356213554679508206240014108192",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          }
+        },
+        "claim_boundary": "Finite-grid exact-rational nonvanishing only; no all-N limit, uniform Peano bound, or endpoint-localization proof is inferred."
+      }
+    },
+    "BMG6": {
+      "degree": 6,
+      "exact_polynomial_degree": 6,
+      "first_nonzero_moment_degree": 7,
+      "output_grid": "primal Greville",
+      "h_definition": "1/(N-p)",
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "all_rows_exact_through_p_within_backward_tolerance": true,
+      "max_raw_moment_through_p": 2.431969556293545e-13,
+      "max_raw_first_free_moment": 3.2590484217581706e-10,
+      "error_on_x_p1": 3.2590484217581706e-10,
+      "error_on_x_p2": null,
+      "boundary_moment_on_x_p1_nonzero": true,
+      "finite_grid_exact_endpoint_certificate": true,
+      "exact_endpoint_certificate": {
+        "schema_version": 2,
+        "family": "BMG",
+        "degree": 6,
+        "N": 15,
+        "output_size": 15,
+        "output_grid": "primal Greville",
+        "h": 0.1111111111111111,
+        "h_definition": "1/(N-p)",
+        "precision": {
+          "arithmetic": "exact rational; decimal serialization only",
+          "decimal_digits": 90
+        },
+        "exact_polynomial_degree": 6,
+        "first_nonzero_moment_degree": 7,
+        "endpoints": {
+          "left": {
+            "row": 0,
+            "scaled_moment_decimal": "0.124748670517160438312693405714051226808096501004766750769439833653095203086828583042564401",
+            "scaled_moment_interval": [
+              0.12474867051716042,
+              0.12474867051716045
+            ],
+            "exact_rational_numerator": "12704775028697625866172177560418560600342306222029651",
+            "exact_rational_denominator": "101842969356133986798317946196243556773107212250256140",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          },
+          "right": {
+            "row": 14,
+            "scaled_moment_decimal": "0.124748670517160438312693405714051226808096501004766750769439833653095203086828583042564401",
+            "scaled_moment_interval": [
+              0.12474867051716042,
+              0.12474867051716045
+            ],
+            "exact_rational_numerator": "12704775028697625866172177560418560600342306222029651",
+            "exact_rational_denominator": "101842969356133986798317946196243556773107212250256140",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          }
+        },
+        "claim_boundary": "Finite-grid exact-rational nonvanishing only; no all-N limit, uniform Peano bound, or endpoint-localization proof is inferred."
+      }
+    },
+    "BMG8": {
+      "degree": 8,
+      "exact_polynomial_degree": 8,
+      "first_nonzero_moment_degree": 9,
+      "output_grid": "primal Greville",
+      "h_definition": "1/(N-p)",
+      "precision": {
+        "arithmetic": "IEEE-754 binary64",
+        "bits": 53
+      },
+      "tolerance_rationale": "64 eps times the rowwise absolute matrix-product scale plus the exact derivative scale; this is a floating-point backward-error test, not a fixed absolute threshold",
+      "all_rows_exact_through_p_within_backward_tolerance": true,
+      "max_raw_moment_through_p": 2.0767415565003944e-13,
+      "max_raw_first_free_moment": 1.2707543350920503e-12,
+      "error_on_x_p1": 1.2707543350920503e-12,
+      "error_on_x_p2": null,
+      "boundary_moment_on_x_p1_nonzero": true,
+      "finite_grid_exact_endpoint_certificate": true,
+      "exact_endpoint_certificate": {
+        "schema_version": 2,
+        "family": "BMG",
+        "degree": 8,
+        "N": 17,
+        "output_size": 17,
+        "output_grid": "primal Greville",
+        "h": 0.1111111111111111,
+        "h_definition": "1/(N-p)",
+        "precision": {
+          "arithmetic": "exact rational; decimal serialization only",
+          "decimal_digits": 90
+        },
+        "exact_polynomial_degree": 8,
+        "first_nonzero_moment_degree": 9,
+        "endpoints": {
+          "left": {
+            "row": 0,
+            "scaled_moment_decimal": "0.125084454140761432462984389783935783798025530485714925793741561932996886914592471405779025",
+            "scaled_moment_interval": [
+              0.12508445414076141,
+              0.12508445414076147
+            ],
+            "exact_rational_numerator": "14878437243877572233226230209676818278781755028906272224338394477411217587930649147184185107",
+            "exact_rational_denominator": "118947133327490907532626070048864401770567620332878008760693767023524708213385929341731241984",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          },
+          "right": {
+            "row": 16,
+            "scaled_moment_decimal": "0.125084454140761432462984389783935783798025530485714925793741561932996886914592471405779025",
+            "scaled_moment_interval": [
+              0.12508445414076141,
+              0.12508445414076147
+            ],
+            "exact_rational_numerator": "14878437243877572233226230209676818278781755028906272224338394477411217587930649147184185107",
+            "exact_rational_denominator": "118947133327490907532626070048864401770567620332878008760693767023524708213385929341731241984",
+            "exact_rational_nonzero": true,
+            "interval_excludes_zero": true
+          }
+        },
+        "claim_boundary": "Finite-grid exact-rational nonvanishing only; no all-N limit, uniform Peano bound, or endpoint-localization proof is inferred."
+      }
+    }
+  },
+  "quartet_calibration": {
+    "q4": {
+      "E4": {
+        "degree_or_order": 4,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.027943888312521814,
+          0.005463289131391491,
+          0.0016937774783061244,
+          0.0003247856990595821,
+          0.00010092090261437647
+        ],
+        "observed_orders": [
+          4.025371023610905,
+          4.070777767107291,
+          4.073225778235897,
+          4.062917441377937
+        ],
+        "final_retained_pair_order": 4.062917441377937,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 7.123076923076923,
+        "storage_per_point": 4.061538461538461
+      },
+      "C4": {
+        "degree_or_order": 4,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.027943888312521814,
+          0.005463289131391491,
+          0.0016937774783061244,
+          0.0003247856990595821,
+          0.00010092090261437647
+        ],
+        "observed_orders": [
+          4.025371023610905,
+          4.070777767107291,
+          4.073225778235897,
+          4.062917441377937
+        ],
+        "final_retained_pair_order": 4.062917441377937,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 7.369230769230769,
+        "storage_per_point": 5.061538461538461
+      },
+      "SBP4": {
+        "degree_or_order": 4,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.15645092039762254,
+          0.07743668779060009,
+          0.04540547944164608,
+          0.0208785913059355,
+          0.011913553405383581
+        ],
+        "observed_orders": [
+          1.7345060482244155,
+          1.8556174734600377,
+          1.9160921130527873,
+          1.9502348412666892
+        ],
+        "final_retained_pair_order": 1.9502348412666892,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 6.876923076923077,
+        "storage_per_point": 4.938461538461539
+      },
+      "DRP4": {
+        "degree_or_order": 4,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.027943888312521814,
+          0.005463289131391491,
+          0.004447794995146026,
+          0.004804947202925902,
+          0.005017507425420398
+        ],
+        "observed_orders": [
+          4.025371023610905,
+          0.7148257275211334,
+          -0.19049133009799996,
+          -0.15046897710911125
+        ],
+        "final_retained_pair_order": -0.15046897710911125,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 7.123076923076923,
+        "storage_per_point": 4.061538461538461
+      },
+      "BMF4": {
+        "degree_or_order": 4,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.07692307692307693,
+          0.047619047619047616,
+          0.034482758620689655,
+          0.022222222222222223,
+          0.01639344262295082
+        ],
+        "h_definition": "1/(N-p)",
+        "output_grid": "derivative Greville",
+        "errors_inf": [
+          0.0004791016652827551,
+          7.117171931092514e-05,
+          1.9094844864397942e-05,
+          3.175524488696624e-06,
+          9.372678597685535e-07
+        ],
+        "endpoint_errors": [
+          0.0002662364282643992,
+          3.879420463359651e-05,
+          1.071717926759419e-05,
+          1.8631140337177499e-06,
+          5.543964523013756e-07
+        ],
+        "roundoff_floors": [
+          5.6281489976849915e-12,
+          9.22814653798251e-12,
+          1.2828547594992733e-11,
+          2.002810429296462e-11,
+          2.7226660318811448e-11
+        ],
+        "fit_mask": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "observed_orders": [
+          3.9760723847853847,
+          4.076163569011015,
+          4.083026202136912,
+          4.011220758701629
+        ],
+        "pre_roundoff_fit_order": 4.0426566283254814,
+        "fit_N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "fit_N_count": 5,
+        "fit_N_min": 17,
+        "fit_N_max": 65,
+        "final_retained_pair_order": 4.011220758701629,
+        "endpoint_pre_roundoff_fit_order": 3.9922461519237284,
+        "roundoff_floor_guard_applied": true,
+        "tolerance_rationale": "32 eps times the full absolute matrix-product and exact-derivative scale; points at or below this condition-aware floor, and every finer point, are excluded from the slope fit",
+        "work_per_point_nodal": 20.56923076923077,
+        "storage_per_point": 9.661538461538461
+      },
+      "BMG4": {
+        "degree_or_order": 4,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.07692307692307693,
+          0.047619047619047616,
+          0.034482758620689655,
+          0.022222222222222223,
+          0.01639344262295082
+        ],
+        "h_definition": "1/(N-p)",
+        "output_grid": "primal Greville",
+        "errors_inf": [
+          0.0001239976120182007,
+          1.6673259993105205e-05,
+          4.464862771946798e-06,
+          7.547026008580815e-07,
+          2.2164396096258088e-07
+        ],
+        "endpoint_errors": [
+          3.9934751256076595e-05,
+          6.9664275201830606e-06,
+          2.000938478907699e-06,
+          3.5683133159380986e-07,
+          1.0718731946468552e-07
+        ],
+        "roundoff_floors": [
+          6.6693085298981116e-12,
+          1.1067697027465098e-11,
+          1.54995330711045e-11,
+          2.4387117202068965e-11,
+          3.32797139425541e-11
+        ],
+        "fit_mask": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "observed_orders": [
+          4.183837984168567,
+          4.082020978216122,
+          4.045982901950318,
+          4.027631948050638
+        ],
+        "pre_roundoff_fit_order": 4.088226402121097,
+        "fit_N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "fit_N_count": 5,
+        "fit_N_min": 17,
+        "fit_N_max": 65,
+        "final_retained_pair_order": 4.027631948050638,
+        "endpoint_pre_roundoff_fit_order": 3.839782905692556,
+        "roundoff_floor_guard_applied": true,
+        "tolerance_rationale": "32 eps times the full absolute matrix-product and exact-derivative scale; points at or below this condition-aware floor, and every finer point, are excluded from the slope fit",
+        "work_per_point_nodal": 51.2,
+        "storage_per_point": 21.29230769230769,
+        "work_per_point_coefficient": 30.446153846153845
+      }
+    },
+    "q6": {
+      "E6": {
+        "degree_or_order": 6,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.0025535379860386342,
+          0.00021602989855562527,
+          3.482564298984414e-05,
+          3.5248570267043533e-06,
+          6.592714836273217e-07
+        ],
+        "observed_orders": [
+          6.0913214363236445,
+          6.3440269977160675,
+          5.649102873479794,
+          5.827473806939798
+        ],
+        "final_retained_pair_order": 5.827473806939798,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 11.184615384615384,
+        "storage_per_point": 6.092307692307692
+      },
+      "C6": {
+        "degree_or_order": 6,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.0025535379860386342,
+          0.00021602989855562527,
+          3.482564298984414e-05,
+          3.5248570267043533e-06,
+          6.592714836273217e-07
+        ],
+        "observed_orders": [
+          6.0913214363236445,
+          6.3440269977160675,
+          5.649102873479794,
+          5.827473806939798
+        ],
+        "final_retained_pair_order": 5.827473806939798,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 11.553846153846154,
+        "storage_per_point": 7.092307692307692
+      },
+      "SBP6": {
+        "degree_or_order": 6,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.14886349078381667,
+          0.03862770641011615,
+          0.01569416361549436,
+          0.006190170412848417,
+          0.0029279536552309082
+        ],
+        "observed_orders": [
+          3.32719113965382,
+          3.130820405154967,
+          2.294466931273916,
+          2.6023827012989713
+        ],
+        "final_retained_pair_order": 2.6023827012989713,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 11.061538461538461,
+        "storage_per_point": 7.030769230769231
+      },
+      "DRP6": {
+        "degree_or_order": 6,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.0025535379860386342,
+          0.002822950400863,
+          0.0032331444183721914,
+          0.0035025149086900242,
+          0.0036206313180935368
+        ],
+        "observed_orders": [
+          -0.2473769860670594,
+          -0.4716059892393316,
+          -0.19736861786194554,
+          -0.1152909940049985
+        ],
+        "final_retained_pair_order": -0.1152909940049985,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 11.184615384615384,
+        "storage_per_point": 6.092307692307692
+      },
+      "BMF6": {
+        "degree_or_order": 6,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.09090909090909091,
+          0.05263157894736842,
+          0.037037037037037035,
+          0.023255813953488372,
+          0.01694915254237288
+        ],
+        "h_definition": "1/(N-p)",
+        "output_grid": "derivative Greville",
+        "errors_inf": [
+          8.672082636884682e-06,
+          2.7446645711748374e-07,
+          3.397050685194358e-08,
+          2.14318074398534e-09,
+          3.2522429194159486e-10
+        ],
+        "endpoint_errors": [
+          8.672082636884682e-06,
+          2.6736264979732027e-07,
+          3.397050685194358e-08,
+          2.14318074398534e-09,
+          3.2522429194159486e-10
+        ],
+        "roundoff_floors": [
+          8.839367323566242e-12,
+          1.557853994586448e-11,
+          2.2325049093468537e-11,
+          3.581835244414545e-11,
+          4.931022487545136e-11
+        ],
+        "fit_mask": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "observed_orders": [
+          6.317948876498348,
+          5.945785199092758,
+          5.937730686676424,
+          5.960508267527623
+        ],
+        "pre_roundoff_fit_order": 6.049072707890871,
+        "fit_N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "fit_N_count": 5,
+        "fit_N_min": 17,
+        "fit_N_max": 65,
+        "final_retained_pair_order": 5.960508267527623,
+        "endpoint_pre_roundoff_fit_order": 6.043836100029087,
+        "roundoff_floor_guard_applied": true,
+        "tolerance_rationale": "32 eps times the full absolute matrix-product and exact-derivative scale; points at or below this condition-aware floor, and every finer point, are excluded from the slope fit",
+        "work_per_point_nodal": 32.47692307692308,
+        "storage_per_point": 13.523076923076923
+      },
+      "BMG6": {
+        "degree_or_order": 6,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.09090909090909091,
+          0.05263157894736842,
+          0.037037037037037035,
+          0.023255813953488372,
+          0.01694915254237288
+        ],
+        "h_definition": "1/(N-p)",
+        "output_grid": "primal Greville",
+        "errors_inf": [
+          4.1043128078399604e-06,
+          1.6562895499561137e-07,
+          2.1006941519630118e-08,
+          1.3221392869411375e-09,
+          2.002704668768729e-10
+        ],
+        "endpoint_errors": [
+          4.1043128078399604e-06,
+          1.6562895499561137e-07,
+          2.1006941519630118e-08,
+          1.3221392869411375e-09,
+          2.002704668768729e-10
+        ],
+        "roundoff_floors": [
+          9.983313992579423e-12,
+          1.777681483401119e-11,
+          2.562798072098779e-11,
+          4.1407600691399794e-11,
+          5.7215846732154437e-11
+        ],
+        "fit_mask": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "observed_orders": [
+          5.873351922460756,
+          5.876236657531957,
+          5.942888349806513,
+          5.966218400303393
+        ],
+        "pre_roundoff_fit_order": 5.910126234850146,
+        "fit_N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "fit_N_count": 5,
+        "fit_N_min": 17,
+        "fit_N_max": 65,
+        "final_retained_pair_order": 5.966218400303393,
+        "endpoint_pre_roundoff_fit_order": 5.910126234850146,
+        "roundoff_floor_guard_applied": true,
+        "tolerance_rationale": "32 eps times the full absolute matrix-product and exact-derivative scale; points at or below this condition-aware floor, and every finer point, are excluded from the slope fit",
+        "work_per_point_nodal": 78.33846153846154,
+        "storage_per_point": 30.523076923076925,
+        "work_per_point_coefficient": 45.76923076923077
+      }
+    },
+    "q8": {
+      "E8": {
+        "degree_or_order": 8,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.0004087178129017488,
+          2.0067182261662708e-05,
+          2.0082660308062827e-06,
+          7.261839751748767e-08,
+          6.7793486380196555e-09
+        ],
+        "observed_orders": [
+          7.4332887250387305,
+          8.001242688801293,
+          8.1876555887321,
+          8.242909447228923
+        ],
+        "final_retained_pair_order": 8.242909447228923,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 15.246153846153845,
+        "storage_per_point": 8.123076923076923
+      },
+      "C8": {
+        "degree_or_order": 8,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.0004087178129017488,
+          2.0067182261662708e-05,
+          2.0082660308062827e-06,
+          7.261839751748767e-08,
+          6.7793486380196555e-09
+        ],
+        "observed_orders": [
+          7.4332887250387305,
+          8.001242688801293,
+          8.1876555887321,
+          8.242909447228923
+        ],
+        "final_retained_pair_order": 8.242909447228923,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 15.738461538461538,
+        "storage_per_point": 9.123076923076923
+      },
+      "SBP8": {
+        "degree_or_order": 8,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          2.53668088824757,
+          0.5746909380954293,
+          0.18372398447326788,
+          0.03546819420613456,
+          0.010968276416205569
+        ],
+        "observed_orders": [
+          3.6619165041751898,
+          3.9640907778434435,
+          4.056571470753923,
+          4.079604971655022
+        ],
+        "final_retained_pair_order": 4.079604971655022,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 15.184615384615384,
+        "storage_per_point": 9.092307692307692
+      },
+      "DRP8": {
+        "degree_or_order": 8,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.001664505408057515,
+          0.0024956361292316487,
+          0.0029808296393820655,
+          0.003295107444779788,
+          0.0034027170753931912
+        ],
+        "observed_orders": [
+          -0.998891453634502,
+          -0.6175497986769111,
+          -0.2472151354124437,
+          -0.11170482808968799
+        ],
+        "final_retained_pair_order": -0.11170482808968799,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 15.246153846153845,
+        "storage_per_point": 8.123076923076923
+      },
+      "BMF8": {
+        "degree_or_order": 8,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.1111111111111111,
+          0.058823529411764705,
+          0.04,
+          0.024390243902439025,
+          0.017543859649122806
+        ],
+        "h_definition": "1/(N-p)",
+        "output_grid": "derivative Greville",
+        "errors_inf": [
+          7.564658250913681e-07,
+          3.026256578664288e-09,
+          1.2020784367905435e-10,
+          2.2009061240169103e-12,
+          1.6866508190105378e-12
+        ],
+        "endpoint_errors": [
+          7.564658250913681e-07,
+          3.026256578664288e-09,
+          1.2020784367905435e-10,
+          1.9415580254644738e-12,
+          1.6866508190105378e-12
+        ],
+        "roundoff_floors": [
+          1.1289844179399071e-11,
+          2.1926054326825444e-11,
+          3.260468341529207e-11,
+          5.396858023378866e-11,
+          7.533113054857854e-11
+        ],
+        "fit_mask": [
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "observed_orders": [
+          8.681491313943868,
+          8.364462625763798
+        ],
+        "pre_roundoff_fit_order": 8.573746821176082,
+        "fit_N": [
+          17,
+          25,
+          33
+        ],
+        "fit_N_count": 3,
+        "fit_N_min": 17,
+        "fit_N_max": 33,
+        "final_retained_pair_order": 8.364462625763798,
+        "endpoint_pre_roundoff_fit_order": 8.573746821176082,
+        "roundoff_floor_guard_applied": true,
+        "tolerance_rationale": "32 eps times the full absolute matrix-product and exact-derivative scale; points at or below this condition-aware floor, and every finer point, are excluded from the slope fit",
+        "work_per_point_nodal": 44.353846153846156,
+        "storage_per_point": 17.43076923076923
+      },
+      "BMG8": {
+        "degree_or_order": 8,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.1111111111111111,
+          0.058823529411764705,
+          0.04,
+          0.024390243902439025,
+          0.017543859649122806
+        ],
+        "h_definition": "1/(N-p)",
+        "output_grid": "primal Greville",
+        "errors_inf": [
+          3.4500958046024266e-07,
+          1.745128930252804e-09,
+          7.246825362017262e-11,
+          1.191047260817868e-12,
+          7.94031507211912e-13
+        ],
+        "endpoint_errors": [
+          2.251799395835974e-07,
+          1.745128930252804e-09,
+          7.246825362017262e-11,
+          1.191047260817868e-12,
+          7.94031507211912e-13
+        ],
+        "roundoff_floors": [
+          1.2327235593373575e-11,
+          2.4339576511977328e-11,
+          3.6379874421891354e-11,
+          6.058624948250003e-11,
+          8.486225836327503e-11
+        ],
+        "fit_mask": [
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "observed_orders": [
+          8.312636990279827,
+          8.249273110204808
+        ],
+        "pre_roundoff_fit_order": 8.291102317321132,
+        "fit_N": [
+          17,
+          25,
+          33
+        ],
+        "fit_N_count": 3,
+        "fit_N_min": 17,
+        "fit_N_max": 33,
+        "final_retained_pair_order": 8.249273110204808,
+        "endpoint_pre_roundoff_fit_order": 7.848225500967817,
+        "roundoff_floor_guard_applied": true,
+        "tolerance_rationale": "32 eps times the full absolute matrix-product and exact-derivative scale; points at or below this condition-aware floor, and every finer point, are excluded from the slope fit",
+        "work_per_point_nodal": 105.35384615384615,
+        "storage_per_point": 37.93846153846154,
+        "work_per_point_coefficient": 60.84615384615385
+      }
+    }
+  },
+  "matched_order_calibration": {
+    "q4": {
+      "E4": {
+        "degree_or_order": 4,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.027943888312521814,
+          0.005463289131391491,
+          0.0016937774783061244,
+          0.0003247856990595821,
+          0.00010092090261437647
+        ],
+        "observed_orders": [
+          4.025371023610905,
+          4.070777767107291,
+          4.073225778235897,
+          4.062917441377937
+        ],
+        "final_retained_pair_order": 4.062917441377937,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 7.123076923076923,
+        "storage_per_point": 4.061538461538461
+      },
+      "C4": {
+        "degree_or_order": 4,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.027943888312521814,
+          0.005463289131391491,
+          0.0016937774783061244,
+          0.0003247856990595821,
+          0.00010092090261437647
+        ],
+        "observed_orders": [
+          4.025371023610905,
+          4.070777767107291,
+          4.073225778235897,
+          4.062917441377937
+        ],
+        "final_retained_pair_order": 4.062917441377937,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 7.369230769230769,
+        "storage_per_point": 5.061538461538461
+      },
+      "SBP4": {
+        "degree_or_order": 4,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.15645092039762254,
+          0.07743668779060009,
+          0.04540547944164608,
+          0.0208785913059355,
+          0.011913553405383581
+        ],
+        "observed_orders": [
+          1.7345060482244155,
+          1.8556174734600377,
+          1.9160921130527873,
+          1.9502348412666892
+        ],
+        "final_retained_pair_order": 1.9502348412666892,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 6.876923076923077,
+        "storage_per_point": 4.938461538461539
+      },
+      "DRP4": {
+        "degree_or_order": 4,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.027943888312521814,
+          0.005463289131391491,
+          0.004447794995146026,
+          0.004804947202925902,
+          0.005017507425420398
+        ],
+        "observed_orders": [
+          4.025371023610905,
+          0.7148257275211334,
+          -0.19049133009799996,
+          -0.15046897710911125
+        ],
+        "final_retained_pair_order": -0.15046897710911125,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 7.123076923076923,
+        "storage_per_point": 4.061538461538461
+      },
+      "BMF4": {
+        "degree_or_order": 4,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.07692307692307693,
+          0.047619047619047616,
+          0.034482758620689655,
+          0.022222222222222223,
+          0.01639344262295082
+        ],
+        "h_definition": "1/(N-p)",
+        "output_grid": "derivative Greville",
+        "errors_inf": [
+          0.0004791016652827551,
+          7.117171931092514e-05,
+          1.9094844864397942e-05,
+          3.175524488696624e-06,
+          9.372678597685535e-07
+        ],
+        "endpoint_errors": [
+          0.0002662364282643992,
+          3.879420463359651e-05,
+          1.071717926759419e-05,
+          1.8631140337177499e-06,
+          5.543964523013756e-07
+        ],
+        "roundoff_floors": [
+          5.6281489976849915e-12,
+          9.22814653798251e-12,
+          1.2828547594992733e-11,
+          2.002810429296462e-11,
+          2.7226660318811448e-11
+        ],
+        "fit_mask": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "observed_orders": [
+          3.9760723847853847,
+          4.076163569011015,
+          4.083026202136912,
+          4.011220758701629
+        ],
+        "pre_roundoff_fit_order": 4.0426566283254814,
+        "fit_N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "fit_N_count": 5,
+        "fit_N_min": 17,
+        "fit_N_max": 65,
+        "final_retained_pair_order": 4.011220758701629,
+        "endpoint_pre_roundoff_fit_order": 3.9922461519237284,
+        "roundoff_floor_guard_applied": true,
+        "tolerance_rationale": "32 eps times the full absolute matrix-product and exact-derivative scale; points at or below this condition-aware floor, and every finer point, are excluded from the slope fit",
+        "work_per_point_nodal": 20.56923076923077,
+        "storage_per_point": 9.661538461538461
+      },
+      "BMG4": {
+        "degree_or_order": 4,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.07692307692307693,
+          0.047619047619047616,
+          0.034482758620689655,
+          0.022222222222222223,
+          0.01639344262295082
+        ],
+        "h_definition": "1/(N-p)",
+        "output_grid": "primal Greville",
+        "errors_inf": [
+          0.0001239976120182007,
+          1.6673259993105205e-05,
+          4.464862771946798e-06,
+          7.547026008580815e-07,
+          2.2164396096258088e-07
+        ],
+        "endpoint_errors": [
+          3.9934751256076595e-05,
+          6.9664275201830606e-06,
+          2.000938478907699e-06,
+          3.5683133159380986e-07,
+          1.0718731946468552e-07
+        ],
+        "roundoff_floors": [
+          6.6693085298981116e-12,
+          1.1067697027465098e-11,
+          1.54995330711045e-11,
+          2.4387117202068965e-11,
+          3.32797139425541e-11
+        ],
+        "fit_mask": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "observed_orders": [
+          4.183837984168567,
+          4.082020978216122,
+          4.045982901950318,
+          4.027631948050638
+        ],
+        "pre_roundoff_fit_order": 4.088226402121097,
+        "fit_N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "fit_N_count": 5,
+        "fit_N_min": 17,
+        "fit_N_max": 65,
+        "final_retained_pair_order": 4.027631948050638,
+        "endpoint_pre_roundoff_fit_order": 3.839782905692556,
+        "roundoff_floor_guard_applied": true,
+        "tolerance_rationale": "32 eps times the full absolute matrix-product and exact-derivative scale; points at or below this condition-aware floor, and every finer point, are excluded from the slope fit",
+        "work_per_point_nodal": 51.2,
+        "storage_per_point": 21.29230769230769,
+        "work_per_point_coefficient": 30.446153846153845
+      }
+    },
+    "q6": {
+      "E6": {
+        "degree_or_order": 6,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.0025535379860386342,
+          0.00021602989855562527,
+          3.482564298984414e-05,
+          3.5248570267043533e-06,
+          6.592714836273217e-07
+        ],
+        "observed_orders": [
+          6.0913214363236445,
+          6.3440269977160675,
+          5.649102873479794,
+          5.827473806939798
+        ],
+        "final_retained_pair_order": 5.827473806939798,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 11.184615384615384,
+        "storage_per_point": 6.092307692307692
+      },
+      "C6": {
+        "degree_or_order": 6,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.0025535379860386342,
+          0.00021602989855562527,
+          3.482564298984414e-05,
+          3.5248570267043533e-06,
+          6.592714836273217e-07
+        ],
+        "observed_orders": [
+          6.0913214363236445,
+          6.3440269977160675,
+          5.649102873479794,
+          5.827473806939798
+        ],
+        "final_retained_pair_order": 5.827473806939798,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 11.553846153846154,
+        "storage_per_point": 7.092307692307692
+      },
+      "SBP6": {
+        "degree_or_order": 6,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.14886349078381667,
+          0.03862770641011615,
+          0.01569416361549436,
+          0.006190170412848417,
+          0.0029279536552309082
+        ],
+        "observed_orders": [
+          3.32719113965382,
+          3.130820405154967,
+          2.294466931273916,
+          2.6023827012989713
+        ],
+        "final_retained_pair_order": 2.6023827012989713,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 11.061538461538461,
+        "storage_per_point": 7.030769230769231
+      },
+      "DRP6": {
+        "degree_or_order": 6,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.0025535379860386342,
+          0.002822950400863,
+          0.0032331444183721914,
+          0.0035025149086900242,
+          0.0036206313180935368
+        ],
+        "observed_orders": [
+          -0.2473769860670594,
+          -0.4716059892393316,
+          -0.19736861786194554,
+          -0.1152909940049985
+        ],
+        "final_retained_pair_order": -0.1152909940049985,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 11.184615384615384,
+        "storage_per_point": 6.092307692307692
+      },
+      "BMF6": {
+        "degree_or_order": 6,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.09090909090909091,
+          0.05263157894736842,
+          0.037037037037037035,
+          0.023255813953488372,
+          0.01694915254237288
+        ],
+        "h_definition": "1/(N-p)",
+        "output_grid": "derivative Greville",
+        "errors_inf": [
+          8.672082636884682e-06,
+          2.7446645711748374e-07,
+          3.397050685194358e-08,
+          2.14318074398534e-09,
+          3.2522429194159486e-10
+        ],
+        "endpoint_errors": [
+          8.672082636884682e-06,
+          2.6736264979732027e-07,
+          3.397050685194358e-08,
+          2.14318074398534e-09,
+          3.2522429194159486e-10
+        ],
+        "roundoff_floors": [
+          8.839367323566242e-12,
+          1.557853994586448e-11,
+          2.2325049093468537e-11,
+          3.581835244414545e-11,
+          4.931022487545136e-11
+        ],
+        "fit_mask": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "observed_orders": [
+          6.317948876498348,
+          5.945785199092758,
+          5.937730686676424,
+          5.960508267527623
+        ],
+        "pre_roundoff_fit_order": 6.049072707890871,
+        "fit_N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "fit_N_count": 5,
+        "fit_N_min": 17,
+        "fit_N_max": 65,
+        "final_retained_pair_order": 5.960508267527623,
+        "endpoint_pre_roundoff_fit_order": 6.043836100029087,
+        "roundoff_floor_guard_applied": true,
+        "tolerance_rationale": "32 eps times the full absolute matrix-product and exact-derivative scale; points at or below this condition-aware floor, and every finer point, are excluded from the slope fit",
+        "work_per_point_nodal": 32.47692307692308,
+        "storage_per_point": 13.523076923076923
+      },
+      "BMG6": {
+        "degree_or_order": 6,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.09090909090909091,
+          0.05263157894736842,
+          0.037037037037037035,
+          0.023255813953488372,
+          0.01694915254237288
+        ],
+        "h_definition": "1/(N-p)",
+        "output_grid": "primal Greville",
+        "errors_inf": [
+          4.1043128078399604e-06,
+          1.6562895499561137e-07,
+          2.1006941519630118e-08,
+          1.3221392869411375e-09,
+          2.002704668768729e-10
+        ],
+        "endpoint_errors": [
+          4.1043128078399604e-06,
+          1.6562895499561137e-07,
+          2.1006941519630118e-08,
+          1.3221392869411375e-09,
+          2.002704668768729e-10
+        ],
+        "roundoff_floors": [
+          9.983313992579423e-12,
+          1.777681483401119e-11,
+          2.562798072098779e-11,
+          4.1407600691399794e-11,
+          5.7215846732154437e-11
+        ],
+        "fit_mask": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "observed_orders": [
+          5.873351922460756,
+          5.876236657531957,
+          5.942888349806513,
+          5.966218400303393
+        ],
+        "pre_roundoff_fit_order": 5.910126234850146,
+        "fit_N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "fit_N_count": 5,
+        "fit_N_min": 17,
+        "fit_N_max": 65,
+        "final_retained_pair_order": 5.966218400303393,
+        "endpoint_pre_roundoff_fit_order": 5.910126234850146,
+        "roundoff_floor_guard_applied": true,
+        "tolerance_rationale": "32 eps times the full absolute matrix-product and exact-derivative scale; points at or below this condition-aware floor, and every finer point, are excluded from the slope fit",
+        "work_per_point_nodal": 78.33846153846154,
+        "storage_per_point": 30.523076923076925,
+        "work_per_point_coefficient": 45.76923076923077
+      }
+    },
+    "q8": {
+      "E8": {
+        "degree_or_order": 8,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.0004087178129017488,
+          2.0067182261662708e-05,
+          2.0082660308062827e-06,
+          7.261839751748767e-08,
+          6.7793486380196555e-09
+        ],
+        "observed_orders": [
+          7.4332887250387305,
+          8.001242688801293,
+          8.1876555887321,
+          8.242909447228923
+        ],
+        "final_retained_pair_order": 8.242909447228923,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 15.246153846153845,
+        "storage_per_point": 8.123076923076923
+      },
+      "C8": {
+        "degree_or_order": 8,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.0004087178129017488,
+          2.0067182261662708e-05,
+          2.0082660308062827e-06,
+          7.261839751748767e-08,
+          6.7793486380196555e-09
+        ],
+        "observed_orders": [
+          7.4332887250387305,
+          8.001242688801293,
+          8.1876555887321,
+          8.242909447228923
+        ],
+        "final_retained_pair_order": 8.242909447228923,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 15.738461538461538,
+        "storage_per_point": 9.123076923076923
+      },
+      "SBP8": {
+        "degree_or_order": 8,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          2.53668088824757,
+          0.5746909380954293,
+          0.18372398447326788,
+          0.03546819420613456,
+          0.010968276416205569
+        ],
+        "observed_orders": [
+          3.6619165041751898,
+          3.9640907778434435,
+          4.056571470753923,
+          4.079604971655022
+        ],
+        "final_retained_pair_order": 4.079604971655022,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 15.184615384615384,
+        "storage_per_point": 9.092307692307692
+      },
+      "DRP8": {
+        "degree_or_order": 8,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.0625,
+          0.041666666666666664,
+          0.03125,
+          0.020833333333333332,
+          0.015625
+        ],
+        "h_definition": "1/(N-1)",
+        "output_grid": "family grid",
+        "errors_inf": [
+          0.001664505408057515,
+          0.0024956361292316487,
+          0.0029808296393820655,
+          0.003295107444779788,
+          0.0034027170753931912
+        ],
+        "observed_orders": [
+          -0.998891453634502,
+          -0.6175497986769111,
+          -0.2472151354124437,
+          -0.11170482808968799
+        ],
+        "final_retained_pair_order": -0.11170482808968799,
+        "roundoff_floor_guard_applied": false,
+        "work_per_point_nodal": 15.246153846153845,
+        "storage_per_point": 8.123076923076923
+      },
+      "BMF8": {
+        "degree_or_order": 8,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.1111111111111111,
+          0.058823529411764705,
+          0.04,
+          0.024390243902439025,
+          0.017543859649122806
+        ],
+        "h_definition": "1/(N-p)",
+        "output_grid": "derivative Greville",
+        "errors_inf": [
+          7.564658250913681e-07,
+          3.026256578664288e-09,
+          1.2020784367905435e-10,
+          2.2009061240169103e-12,
+          1.6866508190105378e-12
+        ],
+        "endpoint_errors": [
+          7.564658250913681e-07,
+          3.026256578664288e-09,
+          1.2020784367905435e-10,
+          1.9415580254644738e-12,
+          1.6866508190105378e-12
+        ],
+        "roundoff_floors": [
+          1.1289844179399071e-11,
+          2.1926054326825444e-11,
+          3.260468341529207e-11,
+          5.396858023378866e-11,
+          7.533113054857854e-11
+        ],
+        "fit_mask": [
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "observed_orders": [
+          8.681491313943868,
+          8.364462625763798
+        ],
+        "pre_roundoff_fit_order": 8.573746821176082,
+        "fit_N": [
+          17,
+          25,
+          33
+        ],
+        "fit_N_count": 3,
+        "fit_N_min": 17,
+        "fit_N_max": 33,
+        "final_retained_pair_order": 8.364462625763798,
+        "endpoint_pre_roundoff_fit_order": 8.573746821176082,
+        "roundoff_floor_guard_applied": true,
+        "tolerance_rationale": "32 eps times the full absolute matrix-product and exact-derivative scale; points at or below this condition-aware floor, and every finer point, are excluded from the slope fit",
+        "work_per_point_nodal": 44.353846153846156,
+        "storage_per_point": 17.43076923076923
+      },
+      "BMG8": {
+        "degree_or_order": 8,
+        "N": [
+          17,
+          25,
+          33,
+          49,
+          65
+        ],
+        "h": [
+          0.1111111111111111,
+          0.058823529411764705,
+          0.04,
+          0.024390243902439025,
+          0.017543859649122806
+        ],
+        "h_definition": "1/(N-p)",
+        "output_grid": "primal Greville",
+        "errors_inf": [
+          3.4500958046024266e-07,
+          1.745128930252804e-09,
+          7.246825362017262e-11,
+          1.191047260817868e-12,
+          7.94031507211912e-13
+        ],
+        "endpoint_errors": [
+          2.251799395835974e-07,
+          1.745128930252804e-09,
+          7.246825362017262e-11,
+          1.191047260817868e-12,
+          7.94031507211912e-13
+        ],
+        "roundoff_floors": [
+          1.2327235593373575e-11,
+          2.4339576511977328e-11,
+          3.6379874421891354e-11,
+          6.058624948250003e-11,
+          8.486225836327503e-11
+        ],
+        "fit_mask": [
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "observed_orders": [
+          8.312636990279827,
+          8.249273110204808
+        ],
+        "pre_roundoff_fit_order": 8.291102317321132,
+        "fit_N": [
+          17,
+          25,
+          33
+        ],
+        "fit_N_count": 3,
+        "fit_N_min": 17,
+        "fit_N_max": 33,
+        "final_retained_pair_order": 8.249273110204808,
+        "endpoint_pre_roundoff_fit_order": 7.848225500967817,
+        "roundoff_floor_guard_applied": true,
+        "tolerance_rationale": "32 eps times the full absolute matrix-product and exact-derivative scale; points at or below this condition-aware floor, and every finer point, are excluded from the slope fit",
+        "work_per_point_nodal": 105.35384615384615,
+        "storage_per_point": 37.93846153846154,
+        "work_per_point_coefficient": 60.84615384615385
+      }
+    }
+  }
+}

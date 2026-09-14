@@ -1,0 +1,99 @@
+{
+  "schema": "tensor-compatible-flow-equivalence-v1",
+  "source_sha256": "02ebfdb4c426d3d77eff99e89d9869366630c0bdfc83e30e84bc59fe7c2a6c4b",
+  "operator_source_sha256": "86262f80c699011084188dcc03b32e0889d4dba84dcd242058f3a7f1a0f9dd6f",
+  "legacy_oracle_source_sha256": "baab050b9448de2218379f07ef3dacff309da95141a9c254b12fc8b6059b3d23",
+  "residual_tolerance": 2e-12,
+  "traction_tolerance": 2e-11,
+  "degree_records": [
+    {
+      "degree": 2,
+      "npts": 7,
+      "mass_relative_error": 2.5863896904538607e-15,
+      "viscous_relative_error": 7.854723731542697e-16,
+      "pressure_relative_error": 1.711355698359234e-16,
+      "convection_relative_error": 7.679225279773866e-16,
+      "wall_load_relative_error": 3.3992295556769554e-16,
+      "divergence_relative_error": 1.5196174489376757e-16,
+      "convective_energy_relative_residual": 2.0917582551150946e-17,
+      "historical_reduced_convection_relative_difference": 0.12727424397373147,
+      "stored_factor_entries": 275,
+      "maximum_factor_bandwidth": 2,
+      "velocity_states": 84,
+      "pressure_states": 36
+    },
+    {
+      "degree": 4,
+      "npts": 9,
+      "mass_relative_error": 1.8148745998955893e-15,
+      "viscous_relative_error": 1.244246604529847e-15,
+      "pressure_relative_error": 4.79401758997938e-16,
+      "convection_relative_error": 9.148513577730646e-16,
+      "wall_load_relative_error": 3.1963742243880256e-16,
+      "divergence_relative_error": 2.48804001876872e-16,
+      "convective_energy_relative_residual": 8.943439048884189e-18,
+      "historical_reduced_convection_relative_difference": 0.02599433646488446,
+      "stored_factor_entries": 829,
+      "maximum_factor_bandwidth": 4,
+      "velocity_states": 144,
+      "pressure_states": 64
+    },
+    {
+      "degree": 6,
+      "npts": 11,
+      "mass_relative_error": 3.866146449724607e-15,
+      "viscous_relative_error": 1.4973306901293691e-15,
+      "pressure_relative_error": 1.1459014450866397e-15,
+      "convection_relative_error": 4.019066677302827e-15,
+      "wall_load_relative_error": 5.037409569801595e-16,
+      "divergence_relative_error": 3.8558890026436945e-16,
+      "convective_energy_relative_residual": 1.3744361434125634e-17,
+      "historical_reduced_convection_relative_difference": 0.027166709356843066,
+      "stored_factor_entries": 1666,
+      "maximum_factor_bandwidth": 6,
+      "velocity_states": 220,
+      "pressure_states": 100
+    },
+    {
+      "degree": 8,
+      "npts": 13,
+      "mass_relative_error": 2.8363756387031136e-15,
+      "viscous_relative_error": 2.0875894091717542e-15,
+      "pressure_relative_error": 8.431293398483689e-15,
+      "convection_relative_error": 3.2169130963406284e-15,
+      "wall_load_relative_error": 9.035100749306841e-16,
+      "divergence_relative_error": 3.8589029092189687e-16,
+      "convective_energy_relative_residual": 1.3643801005164976e-18,
+      "historical_reduced_convection_relative_difference": 0.03673517273813431,
+      "stored_factor_entries": 2793,
+      "maximum_factor_bandwidth": 8,
+      "velocity_states": 312,
+      "pressure_states": 144
+    }
+  ],
+  "three_dimensional_smoke": {
+    "degree": 4,
+    "npts": 7,
+    "mass_relative_error": 3.467774055365627e-16,
+    "viscous_relative_error": 2.498650232256979e-16,
+    "convection_relative_error": 2.2599449667813e-16,
+    "divergence_relative_error": 4.564583596248222e-17,
+    "convective_energy_relative_residual": 6.291175459578996e-18,
+    "stored_factor_entries": 525,
+    "maximum_factor_bandwidth": 4,
+    "velocity_states": 756,
+    "pressure_states": 216,
+    "quadrature_slabs": 3,
+    "maximum_scalar_slab_entries": 1944,
+    "global_scalar_volume_entries": 5832
+  },
+  "polynomial_wall_traction": {
+    "maximum_absolute_traction_error": 8.881784197001252e-16,
+    "maximum_absolute_normal_flux": 0.0
+  },
+  "classification": {
+    "linear_and_direct_weak_equivalence": "verified_current",
+    "historical_cavity_convection": "implementation_defect",
+    "repair": "accumulate direct weak dual moments before normal-trace restriction"
+  }
+}

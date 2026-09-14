@@ -1,0 +1,221 @@
+{
+  "asymptotic_cost": {
+    "factorization": "O(n^3) once per enforced operator",
+    "new_time_propagator": "O(n^3) per requested time",
+    "packet_application": "O(n^2) per packet",
+    "storage": "O(n^2)"
+  },
+  "environment": {
+    "application_loops_per_repetition": 2000,
+    "clock": "time.process_time",
+    "propagator_time": 7.0,
+    "repetitions": 7,
+    "thread_variables": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "warmup": "one complete factorization, one propagator build, and 100 batched applications per method"
+  },
+  "median_ranges": {
+    "factorization_process_seconds": [
+      0.002466232000000068,
+      0.005908275000000018
+    ],
+    "per_packet_application_process_seconds": [
+      1.4899244999999895e-06,
+      1.5687752500000152e-06
+    ],
+    "per_time_build_process_seconds": [
+      0.0007692799999999833,
+      0.0008715800000000384
+    ]
+  },
+  "methods": [
+    {
+      "factored_state_dimension": 95,
+      "factorization_median_process_seconds": 0.002740530000000019,
+      "factorization_process_seconds": [
+        0.002740530000000019,
+        0.0029319389999999945,
+        0.0027539360000000124,
+        0.002783024000000023,
+        0.0026452400000000487,
+        0.0026360089999999947,
+        0.002682909999999983
+      ],
+      "full_state_dimension": 97,
+      "method": "BMF6",
+      "packet_batch_size": 2,
+      "per_packet_application_median_process_seconds": 1.5603889999999954e-06,
+      "per_packet_application_process_seconds": [
+        1.5603889999999954e-06,
+        1.5569047500000044e-06,
+        1.5627982499999971e-06,
+        1.562414249999991e-06,
+        1.5603222500000097e-06,
+        1.5598939999999923e-06,
+        1.5610830000000048e-06
+      ],
+      "per_time_build_median_process_seconds": 0.0008715800000000384,
+      "per_time_build_process_seconds": [
+        0.0009119290000000335,
+        0.0008768909999999908,
+        0.000870528000000037,
+        0.0008727570000000018,
+        0.0008666740000000117,
+        0.0008624680000000051,
+        0.0008715800000000384
+      ]
+    },
+    {
+      "factored_state_dimension": 96,
+      "factorization_median_process_seconds": 0.003004549000000023,
+      "factorization_process_seconds": [
+        0.0030621890000000485,
+        0.0032204539999999837,
+        0.003087707999999967,
+        0.003004549000000023,
+        0.002925317000000094,
+        0.002825743999999908,
+        0.00284400600000001
+      ],
+      "full_state_dimension": 98,
+      "method": "BMG6",
+      "packet_batch_size": 2,
+      "per_packet_application_median_process_seconds": 1.5687752500000152e-06,
+      "per_packet_application_process_seconds": [
+        1.5636170000000171e-06,
+        1.577826750000011e-06,
+        1.580160499999983e-06,
+        1.575271249999982e-06,
+        1.566120000000004e-06,
+        1.5678707500000055e-06,
+        1.5687752500000152e-06
+      ],
+      "per_time_build_median_process_seconds": 0.0008359870000000935,
+      "per_time_build_process_seconds": [
+        0.0008533379999999813,
+        0.0008458660000000284,
+        0.0008402840000000245,
+        0.0008359870000000935,
+        0.0008338220000000396,
+        0.0008309640000000451,
+        0.0008278469999999372
+      ]
+    },
+    {
+      "factored_state_dimension": 96,
+      "factorization_median_process_seconds": 0.002466232000000068,
+      "factorization_process_seconds": [
+        0.0026181499999999858,
+        0.002743806999999987,
+        0.0025044020000000167,
+        0.002466232000000068,
+        0.0024552519999999634,
+        0.002433370999999962,
+        0.002436021000000066
+      ],
+      "full_state_dimension": 96,
+      "method": "SBP6",
+      "packet_batch_size": 2,
+      "per_packet_application_median_process_seconds": 1.4911590000000196e-06,
+      "per_packet_application_process_seconds": [
+        1.51720050000001e-06,
+        1.4916185000000138e-06,
+        1.4954499999999816e-06,
+        1.489152999999993e-06,
+        1.4911590000000196e-06,
+        1.4900322499999951e-06,
+        1.4876872500000081e-06
+      ],
+      "per_time_build_median_process_seconds": 0.0007693749999999611,
+      "per_time_build_process_seconds": [
+        0.0008247410000000732,
+        0.0007793249999999974,
+        0.0007631710000000069,
+        0.0007646170000000785,
+        0.0007664790000000421,
+        0.0007709919999999704,
+        0.0007693749999999611
+      ]
+    },
+    {
+      "factored_state_dimension": 96,
+      "factorization_median_process_seconds": 0.005908275000000018,
+      "factorization_process_seconds": [
+        0.005781066000000057,
+        0.006167593000000027,
+        0.0058826779999999745,
+        0.00589075799999994,
+        0.005908275000000018,
+        0.005970947999999976,
+        0.005950593000000004
+      ],
+      "full_state_dimension": 96,
+      "method": "CSB-T6",
+      "packet_batch_size": 2,
+      "per_packet_application_median_process_seconds": 1.4911579999999925e-06,
+      "per_packet_application_process_seconds": [
+        1.4911579999999925e-06,
+        1.489990999999996e-06,
+        1.4896072499999968e-06,
+        1.4893312500000033e-06,
+        1.49468224999999e-06,
+        1.5090014999999956e-06,
+        1.4933177500000006e-06
+      ],
+      "per_time_build_median_process_seconds": 0.0007692799999999833,
+      "per_time_build_process_seconds": [
+        0.0008086720000000103,
+        0.0007898109999999736,
+        0.0007692799999999833,
+        0.0007844799999999763,
+        0.0007619820000001054,
+        0.0007663989999999732,
+        0.0007585230000000109
+      ]
+    },
+    {
+      "factored_state_dimension": 96,
+      "factorization_median_process_seconds": 0.002822830000000054,
+      "factorization_process_seconds": [
+        0.00287348300000001,
+        0.0030316250000000933,
+        0.0027858940000000665,
+        0.002847482000000068,
+        0.002809523000000036,
+        0.0028044540000000673,
+        0.002822830000000054
+      ],
+      "full_state_dimension": 96,
+      "method": "SEM6",
+      "packet_batch_size": 2,
+      "per_packet_application_median_process_seconds": 1.4899244999999895e-06,
+      "per_packet_application_process_seconds": [
+        1.4899244999999895e-06,
+        1.4863374999999902e-06,
+        1.4853645000000027e-06,
+        1.5109257500000028e-06,
+        1.4904440000000075e-06,
+        1.4905510000000067e-06,
+        1.4833125000000003e-06
+      ],
+      "per_time_build_median_process_seconds": 0.0007756500000000166,
+      "per_time_build_process_seconds": [
+        0.0007954029999999168,
+        0.0007854649999999852,
+        0.0007773939999999868,
+        0.0007731309999999825,
+        0.0007756500000000166,
+        0.0007752089999999434,
+        0.0007740529999999968
+      ]
+    }
+  ],
+  "schema": "wall-spectrum-full-propagator-cost-v1",
+  "scientific_acceptance_unchanged": true,
+  "status": "post_result_performance_certificate"
+}

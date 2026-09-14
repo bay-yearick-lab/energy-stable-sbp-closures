@@ -1,0 +1,17 @@
+{
+  "schema": "cavity-compatible-comparator-v1-gate",
+  "source_sha256": "b138cf1790fe1f7a52b0c60577991c6e035f6ab1432ee5dfc902aa4fb469add0",
+  "config_sha256": "4d2104604d07b2c1bb13472693030e514822bce8d7cef0570dbdad2a2fa692e9",
+  "candidate": "second-order staggered MAC",
+  "pressure_nullity": 1,
+  "constant_pressure_gradient_max": 0.0,
+  "projected_divergence_l2": 2.5741540299236767e-16,
+  "projected_pressure_gauge_residual": 9.107298248878237e-17,
+  "no_penetration": "boundary-normal face velocities are absent from the active state and fixed to zero",
+  "tangential_wall_treatment": "reflected Dirichlet ghosts; unit top lid and zero other tangential traces",
+  "nonlinear_short_march_finite": true,
+  "short_march_divergence_l2": 9.652601328625872e-17,
+  "short_march_pressure_gauge_residual": 3.8163916471489756e-17,
+  "identical_cavity_reference_score_zero": 0.0,
+  "steady_criterion": "first step at t>=10 with relative velocity rate below the frozen tolerance; otherwise t=60"
+}

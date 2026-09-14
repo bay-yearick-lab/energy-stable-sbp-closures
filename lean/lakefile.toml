@@ -1,0 +1,11 @@
+name = "BsplineBoundary"
+version = "0.1.0"
+defaultTargets = ["BsplineBoundary"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.33.1"
+
+[[lean_lib]]
+name = "BsplineBoundary"

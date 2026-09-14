@@ -1,0 +1,1071 @@
+{
+  "classification": "model_reduction_defect",
+  "corrected_phase_relation": "absolute spatial shift equals absolute encounters times packet-weighted signed response bias at leading order",
+  "dimensional_defect": "the first phase driver incorrectly divided spatial shift by carrier mode",
+  "fallback": "retain rho and eta curves for mechanism diagnosis and the reported-packet ranking; do not make a quantitative held-out predictor claim",
+  "first_holdout_scalar_ranker": {
+    "checks": [
+      {
+        "encounters": 4,
+        "k0_over_pi": 4.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 4.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 4.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 4.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 4.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 4.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 16.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 1.0,
+        "sigma": 0.055,
+        "strict_order_pass": true
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 16.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 16.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 1.0,
+        "sigma": 0.055,
+        "strict_order_pass": true
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 16.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 16.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 16.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.6,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 40.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 40.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.5,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 40.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 40.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 40.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.5,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 40.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.055,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 4.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 4.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 4.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 4.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 4.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 4.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 16.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 16.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 16.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 16.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 16.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 16.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 40.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 40.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.6,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 4,
+        "k0_over_pi": 40.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 40.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.6,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 40.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.5,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 8,
+        "k0_over_pi": 40.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.085,
+        "strict_order_pass": false
+      }
+    ],
+    "median_pairwise_order_fraction": 0.8,
+    "strict_order_pass_count": 2,
+    "strict_order_total": 36
+  },
+  "quantitative_predictor_status": "scalar and truncated-kernel predictors rejected; full operator-valued response unresolved",
+  "residual_theory_question": "Can a finite-time Duhamel or pseudospectral bound using outward and return coupling blocks predict phase and distortion without advancing the full enforced generator?",
+  "scalar_spectrum_status": "mechanism-aligned diagnostic and reported-packet ranker only",
+  "strongest_preserved_ranker_result": {
+    "checks": [
+      {
+        "actual_order": [
+          "BMG6",
+          "BMF6",
+          "SBP6"
+        ],
+        "encounters": 2,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 1.0,
+        "predicted_order": [
+          "BMG6",
+          "BMF6",
+          "SBP6"
+        ],
+        "strict_order_pass": true
+      },
+      {
+        "actual_order": [
+          "BMF6",
+          "BMG6",
+          "SBP6"
+        ],
+        "encounters": 2,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.6666666666666666,
+        "predicted_order": [
+          "BMG6",
+          "BMF6",
+          "SBP6"
+        ],
+        "strict_order_pass": false
+      },
+      {
+        "actual_order": [
+          "BMG6",
+          "BMF6",
+          "SBP6"
+        ],
+        "encounters": 2,
+        "metric": "leakage",
+        "pairwise_order_fraction": 1.0,
+        "predicted_order": [
+          "BMG6",
+          "BMF6",
+          "SBP6"
+        ],
+        "strict_order_pass": true
+      },
+      {
+        "actual_order": [
+          "BMG6",
+          "BMF6",
+          "SBP6"
+        ],
+        "encounters": 6,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 1.0,
+        "predicted_order": [
+          "BMG6",
+          "BMF6",
+          "SBP6"
+        ],
+        "strict_order_pass": true
+      },
+      {
+        "actual_order": [
+          "BMF6",
+          "BMG6",
+          "SBP6"
+        ],
+        "encounters": 6,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.6666666666666666,
+        "predicted_order": [
+          "BMG6",
+          "BMF6",
+          "SBP6"
+        ],
+        "strict_order_pass": false
+      },
+      {
+        "actual_order": [
+          "BMG6",
+          "BMF6",
+          "SBP6"
+        ],
+        "encounters": 6,
+        "metric": "leakage",
+        "pairwise_order_fraction": 1.0,
+        "predicted_order": [
+          "BMG6",
+          "BMF6",
+          "SBP6"
+        ],
+        "strict_order_pass": true
+      }
+    ],
+    "median_pairwise_order_fraction": 1.0,
+    "scope": "reported packet, q6, N97, BMF6/BMG6/classical SBP6",
+    "strict_order_pass_count": 4,
+    "strict_order_total": 6
+  },
+  "subspace_coupling": {
+    "initial_complement_fraction_median": 0.0032253540512582157,
+    "initial_complement_fraction_worst": 0.4451594183723728,
+    "records": [
+      {
+        "full_dimension": 97,
+        "initial_complement_fraction": 0.00334816642083236,
+        "k0_over_pi": 8.0,
+        "method": "BMF6",
+        "outward_coupling_2norm": 1.010285360322996,
+        "reduced_dimension": 57,
+        "relative_outward_coupling": 0.010259195274321082,
+        "retained_mode_max": 28,
+        "return_coupling_2norm": 411.1603535166663,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 97,
+        "initial_complement_fraction": 6.640359900935214e-09,
+        "k0_over_pi": 28.0,
+        "method": "BMF6",
+        "outward_coupling_2norm": 367.24241486576284,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.6113608070637573,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 377.4356867202093,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 97,
+        "initial_complement_fraction": 2.88716830391581e-08,
+        "k0_over_pi": 44.0,
+        "method": "BMF6",
+        "outward_coupling_2norm": 367.24241486576284,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.6113608070637573,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 377.4356867202093,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 97,
+        "initial_complement_fraction": 0.003222734630663072,
+        "k0_over_pi": 8.0,
+        "method": "BMF6",
+        "outward_coupling_2norm": 0.12167253125214063,
+        "reduced_dimension": 43,
+        "relative_outward_coupling": 0.0016606567335454845,
+        "retained_mode_max": 21,
+        "return_coupling_2norm": 385.93385927113206,
+        "sigma": 0.1
+      },
+      {
+        "full_dimension": 97,
+        "initial_complement_fraction": 0.0033420661010500944,
+        "k0_over_pi": 28.0,
+        "method": "BMF6",
+        "outward_coupling_2norm": 19.41932453538217,
+        "reduced_dimension": 83,
+        "relative_outward_coupling": 0.14131107819843952,
+        "retained_mode_max": 41,
+        "return_coupling_2norm": 445.2081176201031,
+        "sigma": 0.1
+      },
+      {
+        "full_dimension": 97,
+        "initial_complement_fraction": 8.425654753355706e-08,
+        "k0_over_pi": 44.0,
+        "method": "BMF6",
+        "outward_coupling_2norm": 367.24241486576284,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.6113608070637573,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 377.4356867202093,
+        "sigma": 0.1
+      },
+      {
+        "full_dimension": 98,
+        "initial_complement_fraction": 0.0033587930913832856,
+        "k0_over_pi": 8.0,
+        "method": "BMG6",
+        "outward_coupling_2norm": 0.3380175406662995,
+        "reduced_dimension": 57,
+        "relative_outward_coupling": 0.0035505040058258657,
+        "retained_mode_max": 28,
+        "return_coupling_2norm": 502.61944795870284,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 98,
+        "initial_complement_fraction": 3.4131633059577737e-07,
+        "k0_over_pi": 28.0,
+        "method": "BMG6",
+        "outward_coupling_2norm": 594.731216824963,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.7484474081598089,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 691.1469758598482,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 98,
+        "initial_complement_fraction": 7.175613604178635e-06,
+        "k0_over_pi": 44.0,
+        "method": "BMG6",
+        "outward_coupling_2norm": 594.731216824963,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.7484474081598089,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 691.1469758598482,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 98,
+        "initial_complement_fraction": 0.0032273127178285618,
+        "k0_over_pi": 8.0,
+        "method": "BMG6",
+        "outward_coupling_2norm": 0.018017820599642204,
+        "reduced_dimension": 43,
+        "relative_outward_coupling": 0.0002507012807512209,
+        "retained_mode_max": 21,
+        "return_coupling_2norm": 470.67835055327737,
+        "sigma": 0.1
+      },
+      {
+        "full_dimension": 98,
+        "initial_complement_fraction": 0.0023325186641046276,
+        "k0_over_pi": 28.0,
+        "method": "BMG6",
+        "outward_coupling_2norm": 58.762023471315366,
+        "reduced_dimension": 83,
+        "relative_outward_coupling": 0.4022777555149203,
+        "retained_mode_max": 41,
+        "return_coupling_2norm": 547.3932735831106,
+        "sigma": 0.1
+      },
+      {
+        "full_dimension": 98,
+        "initial_complement_fraction": 1.4101536547293927e-05,
+        "k0_over_pi": 44.0,
+        "method": "BMG6",
+        "outward_coupling_2norm": 594.731216824963,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.7484474081598089,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 691.1469758598482,
+        "sigma": 0.1
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.0033070932108838396,
+        "k0_over_pi": 8.0,
+        "method": "SBP6",
+        "outward_coupling_2norm": 75.46397700393794,
+        "reduced_dimension": 57,
+        "relative_outward_coupling": 0.6561523868676157,
+        "retained_mode_max": 28,
+        "return_coupling_2norm": 61.23132395708528,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.00947103587236646,
+        "k0_over_pi": 28.0,
+        "method": "SBP6",
+        "outward_coupling_2norm": 66.17759657600008,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.499736521290457,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 56.00873422236872,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.4329423204890665,
+        "k0_over_pi": 44.0,
+        "method": "SBP6",
+        "outward_coupling_2norm": 66.17759657600008,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.499736521290457,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 56.00873422236872,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.003161203007188668,
+        "k0_over_pi": 8.0,
+        "method": "SBP6",
+        "outward_coupling_2norm": 30.70937599287927,
+        "reduced_dimension": 43,
+        "relative_outward_coupling": 0.4025795117857343,
+        "retained_mode_max": 21,
+        "return_coupling_2norm": 65.25028584812684,
+        "sigma": 0.1
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.0032233953846878697,
+        "k0_over_pi": 28.0,
+        "method": "SBP6",
+        "outward_coupling_2norm": 99.3897163799435,
+        "reduced_dimension": 83,
+        "relative_outward_coupling": 0.762987654150911,
+        "retained_mode_max": 41,
+        "return_coupling_2norm": 79.17321694651187,
+        "sigma": 0.1
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.4451594183723728,
+        "k0_over_pi": 44.0,
+        "method": "SBP6",
+        "outward_coupling_2norm": 66.17759657600008,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.499736521290457,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 56.00873422236872,
+        "sigma": 0.1
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.0033070932108838396,
+        "k0_over_pi": 8.0,
+        "method": "CSB-T6",
+        "outward_coupling_2norm": 70.3834791987879,
+        "reduced_dimension": 57,
+        "relative_outward_coupling": 0.5888231612785537,
+        "retained_mode_max": 28,
+        "return_coupling_2norm": 1250.1476334445301,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.00947103587236646,
+        "k0_over_pi": 28.0,
+        "method": "CSB-T6",
+        "outward_coupling_2norm": 261.9690300772194,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.1684157449296825,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 220.3967521197598,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.4329423204890665,
+        "k0_over_pi": 44.0,
+        "method": "CSB-T6",
+        "outward_coupling_2norm": 261.9690300772194,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.1684157449296825,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 220.3967521197598,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.003161203007188668,
+        "k0_over_pi": 8.0,
+        "method": "CSB-T6",
+        "outward_coupling_2norm": 15.110830320242066,
+        "reduced_dimension": 43,
+        "relative_outward_coupling": 0.23299918873053338,
+        "retained_mode_max": 21,
+        "return_coupling_2norm": 1076.8717826251795,
+        "sigma": 0.1
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.0032233953846878697,
+        "k0_over_pi": 28.0,
+        "method": "CSB-T6",
+        "outward_coupling_2norm": 347.6621896025004,
+        "reduced_dimension": 83,
+        "relative_outward_coupling": 0.2992353256757635,
+        "retained_mode_max": 41,
+        "return_coupling_2norm": 1112.8693682304552,
+        "sigma": 0.1
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.4451594183723728,
+        "k0_over_pi": 44.0,
+        "method": "CSB-T6",
+        "outward_coupling_2norm": 261.9690300772194,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.1684157449296825,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 220.3967521197598,
+        "sigma": 0.1
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.003124083132908915,
+        "k0_over_pi": 8.0,
+        "method": "SEM6",
+        "outward_coupling_2norm": 32.02206881913033,
+        "reduced_dimension": 57,
+        "relative_outward_coupling": 0.3300178450942345,
+        "retained_mode_max": 28,
+        "return_coupling_2norm": 158.55926447341724,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.0034078908738228698,
+        "k0_over_pi": 28.0,
+        "method": "SEM6",
+        "outward_coupling_2norm": 112.35847896813829,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.42736569737377067,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 25.551795778417414,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.21609860151873425,
+        "k0_over_pi": 44.0,
+        "method": "SEM6",
+        "outward_coupling_2norm": 112.35847896813829,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.42736569737377067,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 25.551795778417414,
+        "sigma": 0.065
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.0029156457719381615,
+        "k0_over_pi": 8.0,
+        "method": "SEM6",
+        "outward_coupling_2norm": 9.470352098973057,
+        "reduced_dimension": 43,
+        "relative_outward_coupling": 0.13517039816803525,
+        "retained_mode_max": 21,
+        "return_coupling_2norm": 146.25992472099264,
+        "sigma": 0.1
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.0011845868379713085,
+        "k0_over_pi": 28.0,
+        "method": "SEM6",
+        "outward_coupling_2norm": 173.6783640148551,
+        "reduced_dimension": 83,
+        "relative_outward_coupling": 0.6659395879808495,
+        "retained_mode_max": 41,
+        "return_coupling_2norm": 54.94162147201818,
+        "sigma": 0.1
+      },
+      {
+        "full_dimension": 96,
+        "initial_complement_fraction": 0.20235408498274418,
+        "k0_over_pi": 44.0,
+        "method": "SEM6",
+        "outward_coupling_2norm": 112.35847896813829,
+        "reduced_dimension": 93,
+        "relative_outward_coupling": 0.42736569737377067,
+        "retained_mode_max": 46,
+        "return_coupling_2norm": 25.551795778417414,
+        "sigma": 0.1
+      }
+    ],
+    "relative_outward_coupling_median": 0.42736569737377067,
+    "relative_outward_coupling_worst": 0.762987654150911
+  },
+  "successor_holdout_scalar_ranker": {
+    "checks": [
+      {
+        "encounters": 6,
+        "k0_over_pi": 8.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 8.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 8.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 8.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 8.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 8.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 28.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 28.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 28.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 28.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.6,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 28.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 28.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 44.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 44.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.4,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 44.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 44.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.6,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 44.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.5,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 44.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.065,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 8.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 8.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 8.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 8.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 8.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 8.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 1.0,
+        "sigma": 0.1,
+        "strict_order_pass": true
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 28.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 28.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 28.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 28.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 28.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 28.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 44.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.8,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 44.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.4,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 6,
+        "k0_over_pi": 44.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 44.0,
+        "metric": "phase_shift",
+        "pairwise_order_fraction": 0.6,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 44.0,
+        "metric": "waveform_distortion",
+        "pairwise_order_fraction": 0.7,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      },
+      {
+        "encounters": 10,
+        "k0_over_pi": 44.0,
+        "metric": "leakage",
+        "pairwise_order_fraction": 0.9,
+        "sigma": 0.1,
+        "strict_order_pass": false
+      }
+    ],
+    "median_pairwise_order_fraction": 0.8,
+    "strict_order_pass_count": 1,
+    "strict_order_total": 36
+  }
+}

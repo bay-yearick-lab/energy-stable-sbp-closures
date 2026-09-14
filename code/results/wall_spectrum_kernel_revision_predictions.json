@@ -1,0 +1,2776 @@
+{
+  "artifact_state": "immutable_pre_result_predictions",
+  "decision_contract": {
+    "absolute_floors": {
+      "leakage": 1e-10,
+      "phase_shift": 1e-10,
+      "waveform_distortion": 1e-10
+    },
+    "promotion": "every second-holdout case must pass quantitative metrics, threshold sides, and strict family ordering",
+    "relative_tolerance": 0.2,
+    "scalar_spectrum_status": "diagnostic_ranker_only regardless of enriched-kernel outcome",
+    "thresholds": {
+      "leakage_excess": 0.01,
+      "orthogonal_contamination": 0.01,
+      "phase_normalized": 0.01,
+      "response_bias": 0.01,
+      "waveform_distortion": 0.01
+    }
+  },
+  "diagnosis_inherited": "scalar modal RMS compression loses signed cross-mode coupling",
+  "dimensional_diagnosis": {
+    "defect": "the first frozen phase driver divided encounter-scaled response bias by carrier mode",
+    "derivation": "omega equals k rho, temporal phase error equals k T (rho minus 1), and spatial shift equals temporal phase error divided by k, giving T (rho minus 1)",
+    "threshold_reconciliation": "k0 times shift divided by encounters estimates carrier-scaled response bias and contains no inverse carrier factor"
+  },
+  "information_boundary": {
+    "available": [
+      "reported packet calibration",
+      "first held-out failure diagnosis",
+      "enforced operator response matrices"
+    ],
+    "forbidden": "second-held-out numerical fields and metrics"
+  },
+  "model_family": "phase-resolved truncated cosine-sine response kernel",
+  "predictions": [
+    {
+      "case_id": "sig0.065_k8_b6_BMF6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.0009084766926763312,
+        "contamination_driver": 0.0008988697664381597,
+        "signed_bias_spread_driver": 2.0971672452532517e-05,
+        "signed_mean_response_bias": 6.482354388173399e-07,
+        "spatial_phase_shift_driver": 3.88941263290404e-06
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 0.00014981162773969328,
+        "distortion_driver": 0.0018808462020118485,
+        "leakage_driver": 8.079668570165919e-07,
+        "mean_response_bias": 6.482354388173399e-07,
+        "modal_mean_mode": 7.817372081152297,
+        "phase_driver": 4.86176579113005e-07,
+        "response_bias_rms": 3.5548815267229716e-06,
+        "response_bias_spread": 3.495278742088753e-06
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 97,
+        "reduced_dimension": 57,
+        "retained_mode_max": 28,
+        "rk4_step_count": 129001
+      },
+      "method": "BMF6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.0011360002451027277,
+        "leakage_excess": 1.6211116409350391e-06,
+        "phase_shift": 1.5796937330947003e-05,
+        "waveform_distortion": 0.004022779218087405
+      },
+      "predicted_threshold_side": {
+        "contamination": true,
+        "distortion": true,
+        "leakage": true,
+        "phase": true,
+        "response": true
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k8_b6_BMG6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.0004065126466506406,
+        "contamination_driver": 0.0003715351162297628,
+        "signed_bias_spread_driver": 2.625535122237284e-05,
+        "signed_mean_response_bias": 3.912581180565108e-08,
+        "spatial_phase_shift_driver": 2.3475487083390647e-07
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 6.192251937162713e-05,
+        "distortion_driver": 0.003038603493036874,
+        "leakage_driver": 1.3803834259186335e-07,
+        "mean_response_bias": 3.912581180565108e-08,
+        "modal_mean_mode": 7.817372081152297,
+        "phase_driver": 2.934435885423831e-08,
+        "response_bias_rms": 4.376066783144727e-06,
+        "response_bias_spread": 4.375891870395473e-06
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 98,
+        "reduced_dimension": 57,
+        "retained_mode_max": 28,
+        "rk4_step_count": 129001
+      },
+      "method": "BMG6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.0011340454166845302,
+        "leakage_excess": 3.337167772624744e-07,
+        "phase_shift": 9.292722523923658e-07,
+        "waveform_distortion": 0.0026261791344731945
+      },
+      "predicted_threshold_side": {
+        "contamination": true,
+        "distortion": true,
+        "leakage": true,
+        "phase": true,
+        "response": true
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k8_b6_SBP6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.5146710337229446,
+        "contamination_driver": 0.4977620993398425,
+        "signed_bias_spread_driver": 0.020823869133397635,
+        "signed_mean_response_bias": 0.0006285045325894331,
+        "spatial_phase_shift_driver": 0.0037710271955365983
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 0.08296034988997375,
+        "distortion_driver": 1.6364656023605035,
+        "leakage_driver": 0.24776710753920722,
+        "mean_response_bias": 0.0006285045325894331,
+        "modal_mean_mode": 7.817372081193024,
+        "phase_driver": 0.0004713783994420748,
+        "response_bias_rms": 0.0035270942234301153,
+        "response_bias_spread": 0.0034706448555662725
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 57,
+        "retained_mode_max": 28,
+        "rk4_step_count": 24000
+      },
+      "method": "SBP6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.0408961890000234,
+        "leakage_excess": 0.03993020329975712,
+        "phase_shift": 0.0002716619832340257,
+        "waveform_distortion": 0.9958553448942319
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": true,
+        "response": true
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k8_b6_BL-T6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.1913438527754989,
+        "contamination_driver": 0.18191911480131503,
+        "signed_bias_spread_driver": 0.00943978768176885,
+        "signed_mean_response_bias": 0.0004895795003754843,
+        "spatial_phase_shift_driver": 0.0029374770022529057
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 0.03031985246688584,
+        "distortion_driver": 0.6293922335444895,
+        "leakage_driver": 0.03309456433009404,
+        "mean_response_bias": 0.0004895795003754843,
+        "modal_mean_mode": 7.817372081193024,
+        "phase_driver": 0.0003671846252816132,
+        "response_bias_rms": 0.0016477119035502234,
+        "response_bias_spread": 0.001573297946961475
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 57,
+        "retained_mode_max": 28,
+        "rk4_step_count": 24000
+      },
+      "method": "CSB-T6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.002456729330825791,
+        "leakage_excess": 0.0014907436305595125,
+        "phase_shift": 0.27711796895615715,
+        "waveform_distortion": 6471.737396189948
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": true
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k8_b6_SEM6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.10232570202720118,
+        "contamination_driver": 0.09769629546052447,
+        "signed_bias_spread_driver": 0.004843080338328673,
+        "signed_mean_response_bias": -0.00041949147850271214,
+        "spatial_phase_shift_driver": 0.0025169488710162728
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 0.01628271591008741,
+        "distortion_driver": 0.28547779611029744,
+        "leakage_driver": 0.009544566146710095,
+        "mean_response_bias": -0.00041949147850271214,
+        "modal_mean_mode": 7.817371470047697,
+        "phase_driver": 0.0003146186088770341,
+        "response_bias_rms": 0.0009096772746238676,
+        "response_bias_spread": 0.0008071800563881122
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 57,
+        "retained_mode_max": 28,
+        "rk4_step_count": 47121
+      },
+      "method": "SEM6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.011236404008291985,
+        "leakage_excess": 0.009520106584970713,
+        "phase_shift": 0.005263208183894335,
+        "waveform_distortion": 0.4196117042882655
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": true
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k8_b10_BMF6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.0015141278211272186,
+        "contamination_driver": 0.0014981162773969328,
+        "signed_bias_spread_driver": 3.495278742088753e-05,
+        "signed_mean_response_bias": 6.482354388173399e-07,
+        "spatial_phase_shift_driver": 6.482354388173399e-06
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 0.00014981162773969328,
+        "distortion_driver": 0.0031347436700197473,
+        "leakage_driver": 2.2443523806016434e-06,
+        "mean_response_bias": 6.482354388173399e-07,
+        "modal_mean_mode": 7.817372081152297,
+        "phase_driver": 8.102942985216748e-07,
+        "response_bias_rms": 3.5548815267229716e-06,
+        "response_bias_spread": 3.495278742088753e-06
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 97,
+        "reduced_dimension": 57,
+        "retained_mode_max": 28,
+        "rk4_step_count": 215000
+      },
+      "method": "BMF6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.0011366329006106993,
+        "leakage_excess": 2.2537671489103895e-06,
+        "phase_shift": 2.6372302747176945e-05,
+        "waveform_distortion": 0.005708613249645134
+      },
+      "predicted_threshold_side": {
+        "contamination": true,
+        "distortion": true,
+        "leakage": true,
+        "phase": true,
+        "response": true
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k8_b10_BMG6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.0006775210777510677,
+        "contamination_driver": 0.0006192251937162714,
+        "signed_bias_spread_driver": 4.375891870395473e-05,
+        "signed_mean_response_bias": 3.912581180565108e-08,
+        "spatial_phase_shift_driver": 3.912581180565108e-07
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 6.192251937162713e-05,
+        "distortion_driver": 0.005064339155061457,
+        "leakage_driver": 3.834398405329538e-07,
+        "mean_response_bias": 3.912581180565108e-08,
+        "modal_mean_mode": 7.817372081152297,
+        "phase_driver": 4.890726475706385e-08,
+        "response_bias_rms": 4.376066783144727e-06,
+        "response_bias_spread": 4.375891870395473e-06
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 98,
+        "reduced_dimension": 57,
+        "retained_mode_max": 28,
+        "rk4_step_count": 215000
+      },
+      "method": "BMG6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.0011339361011646679,
+        "leakage_excess": 4.430322971210685e-07,
+        "phase_shift": 1.4962568274086152e-06,
+        "waveform_distortion": 0.002689434940809906
+      },
+      "predicted_threshold_side": {
+        "contamination": true,
+        "distortion": true,
+        "leakage": true,
+        "phase": true,
+        "response": true
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k8_b10_SBP6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.8577850562049077,
+        "contamination_driver": 0.8296034988997375,
+        "signed_bias_spread_driver": 0.034706448555662725,
+        "signed_mean_response_bias": 0.0006285045325894331,
+        "spatial_phase_shift_driver": 0.00628504532589433
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 0.08296034988997375,
+        "distortion_driver": 2.7274426706008392,
+        "leakage_driver": 0.6882419653866868,
+        "mean_response_bias": 0.0006285045325894331,
+        "modal_mean_mode": 7.817372081193024,
+        "phase_driver": 0.0007856306657367913,
+        "response_bias_rms": 0.0035270942234301153,
+        "response_bias_spread": 0.0034706448555662725
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 57,
+        "retained_mode_max": 28,
+        "rk4_step_count": 40000
+      },
+      "method": "SBP6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.049954333580177944,
+        "leakage_excess": 0.04898834787991144,
+        "phase_shift": 0.03618191775252387,
+        "waveform_distortion": 4.14075493833447
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": true
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k8_b10_BL-T6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.31890642129249813,
+        "contamination_driver": 0.3031985246688584,
+        "signed_bias_spread_driver": 0.01573297946961475,
+        "signed_mean_response_bias": 0.0004895795003754843,
+        "spatial_phase_shift_driver": 0.004895795003754843
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 0.03031985246688584,
+        "distortion_driver": 1.0489870559074825,
+        "leakage_driver": 0.09192934536137233,
+        "mean_response_bias": 0.0004895795003754843,
+        "modal_mean_mode": 7.817372081193024,
+        "phase_driver": 0.0006119743754693554,
+        "response_bias_rms": 0.0016477119035502234,
+        "response_bias_spread": 0.001573297946961475
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 57,
+        "retained_mode_max": 28,
+        "rk4_step_count": 40000
+      },
+      "method": "CSB-T6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.0016170410747990975,
+        "leakage_excess": 0.0006510553745325907,
+        "phase_shift": 0.19134273645207894,
+        "waveform_distortion": 10248833.803394753
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": true
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k8_b10_SEM6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.17054283671200196,
+        "contamination_driver": 0.1628271591008741,
+        "signed_bias_spread_driver": 0.008071800563881121,
+        "signed_mean_response_bias": -0.00041949147850271214,
+        "spatial_phase_shift_driver": 0.0041949147850271215
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 0.01628271591008741,
+        "distortion_driver": 0.4757963268504957,
+        "leakage_driver": 0.02651268374086137,
+        "mean_response_bias": -0.00041949147850271214,
+        "modal_mean_mode": 7.817371470047697,
+        "phase_driver": 0.0005243643481283902,
+        "response_bias_rms": 0.0009096772746238676,
+        "response_bias_spread": 0.0008071800563881122
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 57,
+        "retained_mode_max": 28,
+        "rk4_step_count": 78535
+      },
+      "method": "SEM6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.002462171430447056,
+        "leakage_excess": 0.0007458740071258393,
+        "phase_shift": 0.008458319582493119,
+        "waveform_distortion": 0.5198451151414342
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": true
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k28_b6_BMF6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.1030213303469264,
+        "contamination_driver": 0.07052127454241926,
+        "signed_bias_spread_driver": 0.011952678578285313,
+        "signed_mean_response_bias": 0.0008251289740626491,
+        "spatial_phase_shift_driver": 0.004950773844375894
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.011753545757069876,
+        "distortion_driver": 1.4290381140811785,
+        "leakage_driver": 0.0049732501630872705,
+        "mean_response_bias": 0.0008251289740626491,
+        "modal_mean_mode": 27.96953545300712,
+        "phase_driver": 0.00017681335158485336,
+        "response_bias_rms": 0.0021562357043259255,
+        "response_bias_spread": 0.0019921130963808857
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 97,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 129001
+      },
+      "method": "BMF6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.07043306016660371,
+        "leakage_excess": 0.0032046326856438323,
+        "phase_shift": 0.0022144549046362273,
+        "waveform_distortion": 0.6288544169882162
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": true
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k28_b6_BMG6",
+      "corrected_features": {
+        "combined_distortion_driver": 1.2037884281027484,
+        "contamination_driver": 0.25061980587786814,
+        "signed_bias_spread_driver": 0.18739075566761182,
+        "signed_mean_response_bias": -0.005614988369250824,
+        "spatial_phase_shift_driver": 0.03368993021550494
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.04176996764631136,
+        "distortion_driver": 23.73354076465351,
+        "leakage_driver": 0.06281028709826031,
+        "mean_response_bias": -0.005614988369250824,
+        "modal_mean_mode": 27.96953545300712,
+        "phase_driver": 0.0012032117934108906,
+        "response_bias_rms": 0.03173252218308712,
+        "response_bias_spread": 0.031231792611268638
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 98,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 129001
+      },
+      "method": "BMG6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.058960837253059895,
+        "leakage_excess": 0.008267590227899982,
+        "phase_shift": 0.0011327879843667007,
+        "waveform_distortion": 0.8986327692503158
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k28_b6_SBP6",
+      "corrected_features": {
+        "combined_distortion_driver": 5.187281888833666,
+        "contamination_driver": 1.440058483056978,
+        "signed_bias_spread_driver": 0.7931303385365063,
+        "signed_mean_response_bias": -0.20594114421940882,
+        "spatial_phase_shift_driver": 1.235646865316453
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.24000974717616302,
+        "distortion_driver": 74.68701330077653,
+        "leakage_driver": 2.0737684346243648,
+        "mean_response_bias": -0.20594114421940882,
+        "modal_mean_mode": 27.999145836394167,
+        "phase_driver": 0.04413024518987332,
+        "response_bias_rms": 0.24471519214937565,
+        "response_bias_spread": 0.13218838975608438
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 24000
+      },
+      "method": "SBP6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.06877633048944595,
+        "leakage_excess": 0.028717588290509313,
+        "phase_shift": 0.3967520778445746,
+        "waveform_distortion": 1.1320729894190145
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k28_b6_BL-T6",
+      "corrected_features": {
+        "combined_distortion_driver": 2.882931145048793,
+        "contamination_driver": 2.387580939366438,
+        "signed_bias_spread_driver": 0.25715958260556315,
+        "signed_mean_response_bias": -0.05791897270957159,
+        "spatial_phase_shift_driver": 0.34751383625742954
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.39793015656107295,
+        "distortion_driver": 28.516895637297555,
+        "leakage_driver": 5.700542742025921,
+        "mean_response_bias": -0.05791897270957159,
+        "modal_mean_mode": 27.999145836394167,
+        "phase_driver": 0.012411208437765341,
+        "response_bias_rms": 0.07205262685399992,
+        "response_bias_spread": 0.04285993043426053
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 24000
+      },
+      "method": "CSB-T6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.13957886222078913,
+        "leakage_excess": 0.0995201200218525,
+        "phase_shift": 0.20658758891810966,
+        "waveform_distortion": 1.3106294556879483
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k28_b6_SEM6",
+      "corrected_features": {
+        "combined_distortion_driver": 3.157385430133205,
+        "contamination_driver": 3.0650085707839656,
+        "signed_bias_spread_driver": 0.12066476784048782,
+        "signed_mean_response_bias": -0.005243405092742734,
+        "spatial_phase_shift_driver": 0.031460430556456406
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.5108347617973276,
+        "distortion_driver": 12.043124186286798,
+        "leakage_driver": 9.394277538979168,
+        "mean_response_bias": -0.005243405092742734,
+        "modal_mean_mode": 27.174710018296608,
+        "phase_driver": 0.0011235868055877289,
+        "response_bias_rms": 0.020783102704411662,
+        "response_bias_spread": 0.020110794640081305
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 47121
+      },
+      "method": "SEM6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.41321198408978693,
+        "leakage_excess": 0.36901846464890026,
+        "phase_shift": 0.10018997799299405,
+        "waveform_distortion": 1.6421244456939592
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k28_b10_BMF6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.17170221724487736,
+        "contamination_driver": 0.11753545757069876,
+        "signed_bias_spread_driver": 0.019921130963808858,
+        "signed_mean_response_bias": 0.0008251289740626491,
+        "spatial_phase_shift_driver": 0.008251289740626491
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.011753545757069876,
+        "distortion_driver": 2.381730190135298,
+        "leakage_driver": 0.01381458378635353,
+        "mean_response_bias": 0.0008251289740626491,
+        "modal_mean_mode": 27.96953545300712,
+        "phase_driver": 0.00029468891930808894,
+        "response_bias_rms": 0.0021562357043259255,
+        "response_bias_spread": 0.0019921130963808857
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 97,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 215000
+      },
+      "method": "BMF6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.0720236317002791,
+        "leakage_excess": 0.0047952042193192684,
+        "phase_shift": 0.003585889474537112,
+        "waveform_distortion": 0.8405447148544517
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": true
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k28_b10_BMG6",
+      "corrected_features": {
+        "combined_distortion_driver": 2.006314046837914,
+        "contamination_driver": 0.41769967646311357,
+        "signed_bias_spread_driver": 0.3123179261126864,
+        "signed_mean_response_bias": -0.005614988369250824,
+        "spatial_phase_shift_driver": 0.05614988369250824
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.04176996764631136,
+        "distortion_driver": 39.55590127442252,
+        "leakage_driver": 0.17447301971738974,
+        "mean_response_bias": -0.005614988369250824,
+        "modal_mean_mode": 27.96953545300712,
+        "phase_driver": 0.0020053529890181514,
+        "response_bias_rms": 0.03173252218308712,
+        "response_bias_spread": 0.031231792611268638
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 98,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 215000
+      },
+      "method": "BMG6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.24548273466231704,
+        "leakage_excess": 0.1782543071813572,
+        "phase_shift": 0.0009862463679163511,
+        "waveform_distortion": 1.0184562206459753
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": true,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k28_b10_SBP6",
+      "corrected_features": {
+        "combined_distortion_driver": 8.645469814722777,
+        "contamination_driver": 2.4000974717616304,
+        "signed_bias_spread_driver": 1.3218838975608438,
+        "signed_mean_response_bias": -0.20594114421940882,
+        "spatial_phase_shift_driver": 2.0594114421940883
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.24000974717616302,
+        "distortion_driver": 124.47835550129422,
+        "leakage_driver": 5.76046787395657,
+        "mean_response_bias": -0.20594114421940882,
+        "modal_mean_mode": 27.999145836394167,
+        "phase_driver": 0.07355040864978887,
+        "response_bias_rms": 0.24471519214937565,
+        "response_bias_spread": 0.13218838975608438
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 40000
+      },
+      "method": "SBP6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.16957380016428936,
+        "leakage_excess": 0.12951505796535068,
+        "phase_shift": 0.05784817487349778,
+        "waveform_distortion": 1.6413502706061713
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k28_b10_BL-T6",
+      "corrected_features": {
+        "combined_distortion_driver": 4.804885241747988,
+        "contamination_driver": 3.9793015656107293,
+        "signed_bias_spread_driver": 0.4285993043426053,
+        "signed_mean_response_bias": -0.05791897270957159,
+        "spatial_phase_shift_driver": 0.5791897270957159
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.39793015656107295,
+        "distortion_driver": 47.528159395495926,
+        "leakage_driver": 15.834840950072001,
+        "mean_response_bias": -0.05791897270957159,
+        "modal_mean_mode": 27.999145836394167,
+        "phase_driver": 0.020685347396275568,
+        "response_bias_rms": 0.07205262685399992,
+        "response_bias_spread": 0.04285993043426053
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 40000
+      },
+      "method": "CSB-T6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.16408650120767831,
+        "leakage_excess": 0.12402775900873962,
+        "phase_shift": 0.3958335079066653,
+        "waveform_distortion": 1.3715773816758168
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k28_b10_SEM6",
+      "corrected_features": {
+        "combined_distortion_driver": 5.262309050222008,
+        "contamination_driver": 5.108347617973275,
+        "signed_bias_spread_driver": 0.20110794640081306,
+        "signed_mean_response_bias": -0.005243405092742734,
+        "spatial_phase_shift_driver": 0.05243405092742734
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.5108347617973276,
+        "distortion_driver": 20.07187364381133,
+        "leakage_driver": 26.095215386053237,
+        "mean_response_bias": -0.005243405092742734,
+        "modal_mean_mode": 27.174710018296608,
+        "phase_driver": 0.0018726446759795479,
+        "response_bias_rms": 0.020783102704411662,
+        "response_bias_spread": 0.020110794640081305
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 78535
+      },
+      "method": "SEM6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.20314867426472602,
+        "leakage_excess": 0.15895515482383882,
+        "phase_shift": 0.0056321056986480475,
+        "waveform_distortion": 1.3003480172632875
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k44_b6_BMF6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.47053773917521574,
+        "contamination_driver": 0.43361095558093765,
+        "signed_bias_spread_driver": 0.029081098146670425,
+        "signed_mean_response_bias": 0.010499629514870984,
+        "spatial_phase_shift_driver": 0.06299777708922591
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.07226849259682294,
+        "distortion_driver": 3.3892509960266266,
+        "leakage_driver": 0.18801846079981388,
+        "mean_response_bias": 0.010499629514870984,
+        "modal_mean_mode": 38.805873413196984,
+        "phase_driver": 0.0014317676611187709,
+        "response_bias_rms": 0.011564349176576252,
+        "response_bias_spread": 0.004846849691111738
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 97,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 129001
+      },
+      "method": "BMF6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.031923415175082064,
+        "leakage_excess": 0.0018179884792305853,
+        "phase_shift": 0.34878785610827984,
+        "waveform_distortion": 3.9058181642039886
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k44_b6_BMG6",
+      "corrected_features": {
+        "combined_distortion_driver": 7.125925643256643,
+        "contamination_driver": 1.2985070089107178,
+        "signed_bias_spread_driver": 1.115137889319102,
+        "signed_mean_response_bias": -0.21180609251130073,
+        "spatial_phase_shift_driver": 1.2708365550678042
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.21641783481845295,
+        "distortion_driver": 139.13204273251043,
+        "leakage_driver": 1.6861204521902589,
+        "mean_response_bias": -0.21180609251130073,
+        "modal_mean_mode": 38.805873413196984,
+        "phase_driver": 0.02888264897881374,
+        "response_bias_rms": 0.28178784680695834,
+        "response_bias_spread": 0.185856314886517
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 98,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 129001
+      },
+      "method": "BMG6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.9953185611600267,
+        "leakage_excess": 0.961577157505714,
+        "phase_shift": 0.6751768381533043,
+        "waveform_distortion": 17.128524757523117
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k44_b6_SBP6",
+      "corrected_features": {
+        "combined_distortion_driver": 3.37474620522268,
+        "contamination_driver": 0.90899611883328,
+        "signed_bias_spread_driver": 0.5172569441568764,
+        "signed_mean_response_bias": -0.5854399494831679,
+        "spatial_phase_shift_driver": 3.5126396968990075
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.15149935313888,
+        "distortion_driver": 59.505460214332864,
+        "leakage_driver": 0.8262739440539665,
+        "mean_response_bias": -0.5854399494831679,
+        "modal_mean_mode": 41.824696500020735,
+        "phase_driver": 0.07983272038406837,
+        "response_bias_rms": 0.5917533360585037,
+        "response_bias_spread": 0.08620949069281274
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 24000
+      },
+      "method": "SBP6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.7745237298316142,
+        "leakage_excess": 0.7525849379048946,
+        "phase_shift": 0.16692641206390238,
+        "waveform_distortion": 1.6252785714215752
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k44_b6_BL-T6",
+      "corrected_features": {
+        "combined_distortion_driver": 15.420120525663513,
+        "contamination_driver": 6.617241487679923,
+        "signed_bias_spread_driver": 2.2167274627132696,
+        "signed_mean_response_bias": -0.4978366167982161,
+        "spatial_phase_shift_driver": 2.987019700789297
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 1.1028735812799872,
+        "distortion_driver": 295.4519673220092,
+        "leakage_driver": 43.7878849062724,
+        "mean_response_bias": -0.4978366167982161,
+        "modal_mean_mode": 41.824696500020735,
+        "phase_driver": 0.06788681138157494,
+        "response_bias_rms": 0.6199499831270124,
+        "response_bias_spread": 0.36945457711887825
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 24000
+      },
+      "method": "CSB-T6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.9856466760314387,
+        "leakage_excess": 0.9637078841047191,
+        "phase_shift": 0.3328212925037284,
+        "waveform_distortion": 9.924114742668147
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k44_b6_SEM6",
+      "corrected_features": {
+        "combined_distortion_driver": 4.04524341732565,
+        "contamination_driver": 3.9972439365862416,
+        "signed_bias_spread_driver": 0.09888572330973731,
+        "signed_mean_response_bias": -0.031284942898536186,
+        "spatial_phase_shift_driver": 0.18770965739121712
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.6662073227643736,
+        "distortion_driver": 10.383040066213024,
+        "leakage_driver": 15.977959088575473,
+        "mean_response_bias": -0.031284942898536186,
+        "modal_mean_mode": 32.87304371897356,
+        "phase_driver": 0.004266128577073117,
+        "response_bias_rms": 0.03536056409508653,
+        "response_bias_spread": 0.01648095388495622
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 47121
+      },
+      "method": "SEM6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.6440583911860751,
+        "leakage_excess": 0.09757332436356358,
+        "phase_shift": 0.004680593175238982,
+        "waveform_distortion": 1.1973631398292888
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k44_b10_BMF6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.7842295652920263,
+        "contamination_driver": 0.7226849259682294,
+        "signed_bias_spread_driver": 0.048468496911117376,
+        "signed_mean_response_bias": 0.010499629514870984,
+        "spatial_phase_shift_driver": 0.10499629514870984
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.07226849259682294,
+        "distortion_driver": 5.648751660044377,
+        "leakage_driver": 0.5222735022217052,
+        "mean_response_bias": 0.010499629514870984,
+        "modal_mean_mode": 38.805873413196984,
+        "phase_driver": 0.0023862794351979513,
+        "response_bias_rms": 0.011564349176576252,
+        "response_bias_spread": 0.004846849691111738
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 97,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 215000
+      },
+      "method": "BMF6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.023312128382958586,
+        "leakage_excess": 0.01042927527135443,
+        "phase_shift": 0.34930842712836035,
+        "waveform_distortion": 3.4597428058240722
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k44_b10_BMG6",
+      "corrected_features": {
+        "combined_distortion_driver": 11.87654273876107,
+        "contamination_driver": 2.1641783481845294,
+        "signed_bias_spread_driver": 1.85856314886517,
+        "signed_mean_response_bias": -0.21180609251130073,
+        "spatial_phase_shift_driver": 2.1180609251130074
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.21641783481845295,
+        "distortion_driver": 231.88673788751734,
+        "leakage_driver": 4.683667922750718,
+        "mean_response_bias": -0.21180609251130073,
+        "modal_mean_mode": 38.805873413196984,
+        "phase_driver": 0.0481377482980229,
+        "response_bias_rms": 0.28178784680695834,
+        "response_bias_spread": 0.185856314886517
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 98,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 215000
+      },
+      "method": "BMG6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.998442928029215,
+        "leakage_excess": 0.964701524374902,
+        "phase_shift": 0.674033758288387,
+        "waveform_distortion": 27.112902397795335
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k44_b10_SBP6",
+      "corrected_features": {
+        "combined_distortion_driver": 5.624577008704467,
+        "contamination_driver": 1.5149935313887999,
+        "signed_bias_spread_driver": 0.8620949069281274,
+        "signed_mean_response_bias": -0.5854399494831679,
+        "spatial_phase_shift_driver": 5.854399494831679
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.15149935313888,
+        "distortion_driver": 99.1757670238881,
+        "leakage_driver": 2.2952054001499067,
+        "mean_response_bias": -0.5854399494831679,
+        "modal_mean_mode": 41.824696500020735,
+        "phase_driver": 0.13305453397344727,
+        "response_bias_rms": 0.5917533360585037,
+        "response_bias_spread": 0.08620949069281274
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 40000
+      },
+      "method": "SBP6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.4360472093565693,
+        "leakage_excess": 0.4141084174298484,
+        "phase_shift": 0.18657609875481376,
+        "waveform_distortion": 1.560315368247647
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k44_b10_BL-T6",
+      "corrected_features": {
+        "combined_distortion_driver": 25.700200876105853,
+        "contamination_driver": 11.028735812799873,
+        "signed_bias_spread_driver": 3.6945457711887824,
+        "signed_mean_response_bias": -0.4978366167982161,
+        "spatial_phase_shift_driver": 4.978366167982161
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 1.1028735812799872,
+        "distortion_driver": 492.419945536682,
+        "leakage_driver": 121.63301362853447,
+        "mean_response_bias": -0.4978366167982161,
+        "modal_mean_mode": 41.824696500020735,
+        "phase_driver": 0.11314468563595823,
+        "response_bias_rms": 0.6199499831270124,
+        "response_bias_spread": 0.36945457711887825
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 40000
+      },
+      "method": "CSB-T6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.9937709751728251,
+        "leakage_excess": 0.9718321832461041,
+        "phase_shift": 0.36749884903910207,
+        "waveform_distortion": 25.551097145088036
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.065_k44_b10_SEM6",
+      "corrected_features": {
+        "combined_distortion_driver": 6.7420723622094165,
+        "contamination_driver": 6.662073227643735,
+        "signed_bias_spread_driver": 0.16480953884956218,
+        "signed_mean_response_bias": -0.031284942898536186,
+        "spatial_phase_shift_driver": 0.31284942898536183
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.6662073227643736,
+        "distortion_driver": 17.305066777021707,
+        "leakage_driver": 44.383219690487415,
+        "mean_response_bias": -0.031284942898536186,
+        "modal_mean_mode": 32.87304371897356,
+        "phase_driver": 0.007110214295121861,
+        "response_bias_rms": 0.03536056409508653,
+        "response_bias_spread": 0.01648095388495622
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 78535
+      },
+      "method": "SEM6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.6826103020919528,
+        "leakage_excess": 0.05902141345770162,
+        "phase_shift": 0.31345989066016544,
+        "waveform_distortion": 1.363392110838014
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.065
+    },
+    {
+      "case_id": "sig0.100_k8_b6_BMF6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.00021872838455089323,
+        "contamination_driver": 0.00021768084312756434,
+        "signed_bias_spread_driver": 3.402927503016073e-06,
+        "signed_mean_response_bias": 2.1392206186560246e-07,
+        "spatial_phase_shift_driver": 1.2835323711936147e-06
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 3.628014052126072e-05,
+        "distortion_driver": 0.0002797192800805613,
+        "leakage_driver": 4.738494946472727e-08,
+        "mean_response_bias": 2.1392206186560246e-07,
+        "modal_mean_mode": 7.943941229101011,
+        "phase_driver": 1.6044154639920183e-07,
+        "response_bias_rms": 6.061575459556953e-07,
+        "response_bias_spread": 5.671545838360121e-07
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 97,
+        "reduced_dimension": 43,
+        "retained_mode_max": 21,
+        "rk4_step_count": 129001
+      },
+      "method": "BMF6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.0019307342116336014,
+        "leakage_excess": 5.7502189927003886e-06,
+        "phase_shift": 6.605914321539786e-06,
+        "waveform_distortion": 0.0026400644910077133
+      },
+      "predicted_threshold_side": {
+        "contamination": true,
+        "distortion": true,
+        "leakage": true,
+        "phase": true,
+        "response": true
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k8_b6_BMG6",
+      "corrected_features": {
+        "combined_distortion_driver": 5.768331436385691e-05,
+        "contamination_driver": 5.7566807554381693e-05,
+        "signed_bias_spread_driver": 5.831986138047236e-07,
+        "signed_mean_response_bias": 4.578715266244445e-08,
+        "spatial_phase_shift_driver": 2.7472291597466673e-07
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 9.594467925730283e-06,
+        "distortion_driver": 6.372729485586334e-05,
+        "leakage_driver": 3.3139373320032173e-09,
+        "mean_response_bias": 4.578715266244445e-08,
+        "modal_mean_mode": 7.943941229101011,
+        "phase_driver": 3.434036449683334e-08,
+        "response_bias_rms": 1.0744421080849546e-07,
+        "response_bias_spread": 9.719976896745393e-08
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 98,
+        "reduced_dimension": 43,
+        "retained_mode_max": 21,
+        "rk4_step_count": 129001
+      },
+      "method": "BMG6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.0019322220477086423,
+        "leakage_excess": 7.2380550677412885e-06,
+        "phase_shift": 6.955044610776895e-07,
+        "waveform_distortion": 0.0025512483263643087
+      },
+      "predicted_threshold_side": {
+        "contamination": true,
+        "distortion": true,
+        "leakage": true,
+        "phase": true,
+        "response": true
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k8_b6_SBP6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.4007023637285038,
+        "contamination_driver": 0.39760397547854454,
+        "signed_bias_spread_driver": 0.007915399499669792,
+        "signed_mean_response_bias": 0.0008499157886421574,
+        "spatial_phase_shift_driver": 0.005099494731852944
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 0.06626732924642409,
+        "distortion_driver": 0.4861647548317289,
+        "leakage_driver": 0.15808892131634306,
+        "mean_response_bias": 0.0008499157886421574,
+        "modal_mean_mode": 7.943941229101011,
+        "phase_driver": 0.000637436841481618,
+        "response_bias_rms": 0.001569309789539202,
+        "response_bias_spread": 0.0013192332499449653
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 43,
+        "retained_mode_max": 21,
+        "rk4_step_count": 24000
+      },
+      "method": "SBP6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.00478736492538058,
+        "leakage_excess": 0.0029191630180760756,
+        "phase_shift": 0.0010152784798921175,
+        "waveform_distortion": 0.18977561375965712
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": true,
+        "response": true
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k8_b6_BL-T6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.10077179729214389,
+        "contamination_driver": 0.09683049104554214,
+        "signed_bias_spread_driver": 0.004441566893188947,
+        "signed_mean_response_bias": 0.00027431291258884783,
+        "spatial_phase_shift_driver": 0.0016458774755330869
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 0.016138415174257025,
+        "distortion_driver": 0.2198610970550749,
+        "leakage_driver": 0.009376143996120818,
+        "mean_response_bias": 0.00027431291258884783,
+        "modal_mean_mode": 7.943941229101011,
+        "phase_driver": 0.00020573468444163586,
+        "response_bias_rms": 0.0007894517987386226,
+        "response_bias_spread": 0.0007402611488648245
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 43,
+        "retained_mode_max": 21,
+        "rk4_step_count": 24000
+      },
+      "method": "CSB-T6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.003759864185955098,
+        "leakage_excess": 0.0018916622786505936,
+        "phase_shift": 0.001959424546636683,
+        "waveform_distortion": 0.20141463147269173
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": true,
+        "response": true
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k8_b6_SEM6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.06307224214036991,
+        "contamination_driver": 0.06028132768154315,
+        "signed_bias_spread_driver": 0.0029530394965748942,
+        "signed_mean_response_bias": -0.00039070740527106065,
+        "spatial_phase_shift_driver": 0.0023442444316263637
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 0.010046887946923858,
+        "distortion_driver": 0.1304672465024132,
+        "leakage_driver": 0.0036338384670495803,
+        "mean_response_bias": -0.00039070740527106065,
+        "modal_mean_mode": 7.943941229101012,
+        "phase_driver": 0.00029303055395329546,
+        "response_bias_rms": 0.0006284001782202901,
+        "response_bias_spread": 0.000492173249429149
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 43,
+        "retained_mode_max": 21,
+        "rk4_step_count": 47121
+      },
+      "method": "SEM6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.003835880210206106,
+        "leakage_excess": 0.0017228641430104318,
+        "phase_shift": 0.0026231343684245305,
+        "waveform_distortion": 0.2187228663962709
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": true
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k8_b10_BMF6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.00036454730758482204,
+        "contamination_driver": 0.00036280140521260723,
+        "signed_bias_spread_driver": 5.6715458383601214e-06,
+        "signed_mean_response_bias": 2.1392206186560246e-07,
+        "spatial_phase_shift_driver": 2.1392206186560247e-06
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 3.628014052126072e-05,
+        "distortion_driver": 0.00046619880013426876,
+        "leakage_driver": 1.3162485962424243e-07,
+        "mean_response_bias": 2.1392206186560246e-07,
+        "modal_mean_mode": 7.943941229101011,
+        "phase_driver": 2.674025773320031e-07,
+        "response_bias_rms": 6.061575459556953e-07,
+        "response_bias_spread": 5.671545838360121e-07
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 97,
+        "reduced_dimension": 43,
+        "retained_mode_max": 21,
+        "rk4_step_count": 215000
+      },
+      "method": "BMF6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.0019297367133787892,
+        "leakage_excess": 4.752720737910988e-06,
+        "phase_shift": 1.1347972174917232e-05,
+        "waveform_distortion": 0.002797003680516908
+      },
+      "predicted_threshold_side": {
+        "contamination": true,
+        "distortion": true,
+        "leakage": true,
+        "phase": true,
+        "response": true
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k8_b10_BMG6",
+      "corrected_features": {
+        "combined_distortion_driver": 9.613885727309486e-05,
+        "contamination_driver": 9.594467925730283e-05,
+        "signed_bias_spread_driver": 9.719976896745393e-07,
+        "signed_mean_response_bias": 4.578715266244445e-08,
+        "spatial_phase_shift_driver": 4.578715266244445e-07
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 9.594467925730283e-06,
+        "distortion_driver": 0.00010621215809310557,
+        "leakage_driver": 9.205381477786716e-09,
+        "mean_response_bias": 4.578715266244445e-08,
+        "modal_mean_mode": 7.943941229101011,
+        "phase_driver": 5.723394082805556e-08,
+        "response_bias_rms": 1.0744421080849546e-07,
+        "response_bias_spread": 9.719976896745393e-08
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 98,
+        "reduced_dimension": 43,
+        "retained_mode_max": 21,
+        "rk4_step_count": 215000
+      },
+      "method": "BMG6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.0019322292227275323,
+        "leakage_excess": 7.245230086654064e-06,
+        "phase_shift": 8.208040387671645e-07,
+        "waveform_distortion": 0.0025513309202768106
+      },
+      "predicted_threshold_side": {
+        "contamination": true,
+        "distortion": true,
+        "leakage": true,
+        "phase": true,
+        "response": true
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k8_b10_SBP6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.6678372728808397,
+        "contamination_driver": 0.6626732924642409,
+        "signed_bias_spread_driver": 0.013192332499449653,
+        "signed_mean_response_bias": 0.0008499157886421574,
+        "spatial_phase_shift_driver": 0.008499157886421574
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 0.06626732924642409,
+        "distortion_driver": 0.8102745913862148,
+        "leakage_driver": 0.43913589254539737,
+        "mean_response_bias": 0.0008499157886421574,
+        "modal_mean_mode": 7.943941229101011,
+        "phase_driver": 0.0010623947358026967,
+        "response_bias_rms": 0.001569309789539202,
+        "response_bias_spread": 0.0013192332499449653
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 43,
+        "retained_mode_max": 21,
+        "rk4_step_count": 40000
+      },
+      "method": "SBP6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.007720315605125387,
+        "leakage_excess": 0.005852113697820461,
+        "phase_shift": 0.0003386520688796964,
+        "waveform_distortion": 0.38737701905110594
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": true,
+        "response": true
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k8_b10_BL-T6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.16795299548690648,
+        "contamination_driver": 0.16138415174257026,
+        "signed_bias_spread_driver": 0.007402611488648245,
+        "signed_mean_response_bias": 0.00027431291258884783,
+        "spatial_phase_shift_driver": 0.0027431291258884784
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 0.016138415174257025,
+        "distortion_driver": 0.36643516175845814,
+        "leakage_driver": 0.026044844433668942,
+        "mean_response_bias": 0.00027431291258884783,
+        "modal_mean_mode": 7.943941229101011,
+        "phase_driver": 0.0003428911407360598,
+        "response_bias_rms": 0.0007894517987386226,
+        "response_bias_spread": 0.0007402611488648245
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 43,
+        "retained_mode_max": 21,
+        "rk4_step_count": 40000
+      },
+      "method": "CSB-T6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.0029092298410315185,
+        "leakage_excess": 0.001041027933726593,
+        "phase_shift": 0.004220718017289983,
+        "waveform_distortion": 0.27510637736998284
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": true
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k8_b10_SEM6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.10512040356728318,
+        "contamination_driver": 0.10046887946923858,
+        "signed_bias_spread_driver": 0.00492173249429149,
+        "signed_mean_response_bias": -0.00039070740527106065,
+        "spatial_phase_shift_driver": 0.003907074052710607
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 8.0,
+        "contamination_rms": 0.010046887946923858,
+        "distortion_driver": 0.2174454108373553,
+        "leakage_driver": 0.010093995741804388,
+        "mean_response_bias": -0.00039070740527106065,
+        "modal_mean_mode": 7.943941229101012,
+        "phase_driver": 0.0004883842565888258,
+        "response_bias_rms": 0.0006284001782202901,
+        "response_bias_spread": 0.000492173249429149
+      },
+      "k0_over_pi": 8.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 43,
+        "retained_mode_max": 21,
+        "rk4_step_count": 78535
+      },
+      "method": "SEM6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.0028929187707489664,
+        "leakage_excess": 0.0007799027035533903,
+        "phase_shift": 0.0037935777629576253,
+        "waveform_distortion": 0.2816686850904409
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": true,
+        "response": true
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k28_b6_BMF6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.04366374632722498,
+        "contamination_driver": 0.036281247609702603,
+        "signed_bias_spread_driver": 0.0038664950515821445,
+        "signed_mean_response_bias": 0.0003873497411009253,
+        "spatial_phase_shift_driver": 0.0023240984466055517
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.006046874601617101,
+        "distortion_driver": 0.4355251933594711,
+        "leakage_driver": 0.001316328928116551,
+        "mean_response_bias": 0.0003873497411009253,
+        "modal_mean_mode": 27.999941662057303,
+        "phase_driver": 8.300351595019827e-05,
+        "response_bias_rms": 0.0007518720630943572,
+        "response_bias_spread": 0.0006444158419303574
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 97,
+        "reduced_dimension": 83,
+        "retained_mode_max": 41,
+        "rk4_step_count": 129001
+      },
+      "method": "BMF6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.06538293987333232,
+        "leakage_excess": 0.00023578020208615824,
+        "phase_shift": 0.0019042205978450966,
+        "waveform_distortion": 0.48538503766161806
+      },
+      "predicted_threshold_side": {
+        "contamination": true,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": true
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k28_b6_BMG6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.22354620739348238,
+        "contamination_driver": 0.10440687204035529,
+        "signed_bias_spread_driver": 0.03145962740642345,
+        "signed_mean_response_bias": -0.0008403379349919039,
+        "spatial_phase_shift_driver": 0.005042027609951424
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.017401145340059213,
+        "distortion_driver": 3.835353075080694,
+        "leakage_driver": 0.010900794929251122,
+        "mean_response_bias": -0.0008403379349919039,
+        "modal_mean_mode": 27.999941662057303,
+        "phase_driver": 0.00018007241464112228,
+        "response_bias_rms": 0.005310184656159703,
+        "response_bias_spread": 0.005243271234403908
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 98,
+        "reduced_dimension": 83,
+        "retained_mode_max": 41,
+        "rk4_step_count": 129001
+      },
+      "method": "BMG6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.06302962311922759,
+        "leakage_excess": 0.002117536552018573,
+        "phase_shift": 0.0024813890097942705,
+        "waveform_distortion": 0.6280071674971988
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": true
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k28_b6_SBP6",
+      "corrected_features": {
+        "combined_distortion_driver": 3.825404799845697,
+        "contamination_driver": 1.5498573486442169,
+        "signed_bias_spread_driver": 0.5566252515509644,
+        "signed_mean_response_bias": -0.20589782446095545,
+        "spatial_phase_shift_driver": 1.2353869467657326
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.2583095581073695,
+        "distortion_driver": 48.59657903785903,
+        "leakage_driver": 2.4020578011464817,
+        "mean_response_bias": -0.20589782446095545,
+        "modal_mean_mode": 27.99999999020591,
+        "phase_driver": 0.044120962384490446,
+        "response_bias_rms": 0.2258325694269573,
+        "response_bias_spread": 0.09277087525849408
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 83,
+        "retained_mode_max": 41,
+        "rk4_step_count": 24000
+      },
+      "method": "SBP6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.046770625347548764,
+        "leakage_excess": 0.008440341298180408,
+        "phase_shift": 0.37970367194980986,
+        "waveform_distortion": 1.0446923079696342
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k28_b6_BL-T6",
+      "corrected_features": {
+        "combined_distortion_driver": 1.796963159117077,
+        "contamination_driver": 1.5150150424402298,
+        "signed_bias_spread_driver": 0.15379721297407728,
+        "signed_mean_response_bias": -0.06253223563638663,
+        "spatial_phase_shift_driver": 0.3751934138183198
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.25250250707337163,
+        "distortion_driver": 12.764948044270302,
+        "leakage_driver": 2.2952705788201713,
+        "mean_response_bias": -0.06253223563638663,
+        "modal_mean_mode": 27.99999999020591,
+        "phase_driver": 0.013399764779225706,
+        "response_bias_rms": 0.06758198323584447,
+        "response_bias_spread": 0.02563286882901288
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 83,
+        "retained_mode_max": 41,
+        "rk4_step_count": 24000
+      },
+      "method": "CSB-T6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.0671696491412856,
+        "leakage_excess": 0.02883936509191725,
+        "phase_shift": 0.23061475412993604,
+        "waveform_distortion": 1.4541611643695749
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k28_b6_SEM6",
+      "corrected_features": {
+        "combined_distortion_driver": 3.3053018139324326,
+        "contamination_driver": 3.227181603228952,
+        "signed_bias_spread_driver": 0.11369490224564843,
+        "signed_mean_response_bias": -0.003596312993296058,
+        "spatial_phase_shift_driver": 0.02157787795977635
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.5378636005381586,
+        "distortion_driver": 11.481719964151429,
+        "leakage_driver": 10.41470110021939,
+        "mean_response_bias": -0.003596312993296058,
+        "modal_mean_mode": 27.86036985674279,
+        "phase_driver": 0.0007706384985634411,
+        "response_bias_rms": 0.01928739917802881,
+        "response_bias_spread": 0.018949150374274738
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 83,
+        "retained_mode_max": 41,
+        "rk4_step_count": 47121
+      },
+      "method": "SEM6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.2996206258877704,
+        "leakage_excess": 0.22473673134968886,
+        "phase_shift": 0.5791046974840113,
+        "waveform_distortion": 1.1504841151459133
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k28_b10_BMF6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.07277291054537496,
+        "contamination_driver": 0.060468746016171006,
+        "signed_bias_spread_driver": 0.006444158419303575,
+        "signed_mean_response_bias": 0.0003873497411009253,
+        "spatial_phase_shift_driver": 0.003873497411009253
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.006046874601617101,
+        "distortion_driver": 0.7258753222657851,
+        "leakage_driver": 0.003656469244768197,
+        "mean_response_bias": 0.0003873497411009253,
+        "modal_mean_mode": 27.999941662057303,
+        "phase_driver": 0.00013833919325033047,
+        "response_bias_rms": 0.0007518720630943572,
+        "response_bias_spread": 0.0006444158419303574
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 97,
+        "reduced_dimension": 83,
+        "retained_mode_max": 41,
+        "rk4_step_count": 215000
+      },
+      "method": "BMF6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.06816741977721347,
+        "leakage_excess": 0.0030202601059670375,
+        "phase_shift": 0.0033358460117611914,
+        "waveform_distortion": 0.7513118157771764
+      },
+      "predicted_threshold_side": {
+        "contamination": true,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": true
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k28_b10_BMG6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.3725770123224706,
+        "contamination_driver": 0.17401145340059213,
+        "signed_bias_spread_driver": 0.052432712344039074,
+        "signed_mean_response_bias": -0.0008403379349919039,
+        "spatial_phase_shift_driver": 0.008403379349919039
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.017401145340059213,
+        "distortion_driver": 6.392255125134491,
+        "leakage_driver": 0.030279985914586444,
+        "mean_response_bias": -0.0008403379349919039,
+        "modal_mean_mode": 27.999941662057303,
+        "phase_driver": 0.0003001206910685371,
+        "response_bias_rms": 0.005310184656159703,
+        "response_bias_spread": 0.005243271234403908
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 98,
+        "reduced_dimension": 83,
+        "retained_mode_max": 41,
+        "rk4_step_count": 215000
+      },
+      "method": "BMG6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.10117166609340822,
+        "leakage_excess": 0.03602450642216179,
+        "phase_shift": 0.002610337581957083,
+        "waveform_distortion": 0.7515934660095873
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": true
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k28_b10_SBP6",
+      "corrected_features": {
+        "combined_distortion_driver": 6.3756746664094965,
+        "contamination_driver": 2.583095581073695,
+        "signed_bias_spread_driver": 0.9277087525849408,
+        "signed_mean_response_bias": -0.20589782446095545,
+        "spatial_phase_shift_driver": 2.0589782446095546
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.2583095581073695,
+        "distortion_driver": 80.99429839643172,
+        "leakage_driver": 6.67238278096245,
+        "mean_response_bias": -0.20589782446095545,
+        "modal_mean_mode": 27.99999999020591,
+        "phase_driver": 0.07353493730748409,
+        "response_bias_rms": 0.2258325694269573,
+        "response_bias_spread": 0.09277087525849408
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 83,
+        "retained_mode_max": 41,
+        "rk4_step_count": 40000
+      },
+      "method": "SBP6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.06205498268019369,
+        "leakage_excess": 0.02372469863082456,
+        "phase_shift": 0.03724696994295153,
+        "waveform_distortion": 0.9646034718033631
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k28_b10_BL-T6",
+      "corrected_features": {
+        "combined_distortion_driver": 2.9949385985284613,
+        "contamination_driver": 2.525025070733716,
+        "signed_bias_spread_driver": 0.2563286882901288,
+        "signed_mean_response_bias": -0.06253223563638663,
+        "spatial_phase_shift_driver": 0.6253223563638663
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.25250250707337163,
+        "distortion_driver": 21.274913407117168,
+        "leakage_driver": 6.3757516078338075,
+        "mean_response_bias": -0.06253223563638663,
+        "modal_mean_mode": 27.99999999020591,
+        "phase_driver": 0.022332941298709514,
+        "response_bias_rms": 0.06758198323584447,
+        "response_bias_spread": 0.02563286882901288
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 83,
+        "retained_mode_max": 41,
+        "rk4_step_count": 40000
+      },
+      "method": "CSB-T6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.12975080186275936,
+        "leakage_excess": 0.09142051781339024,
+        "phase_shift": 0.0015931831093765822,
+        "waveform_distortion": 0.9023579639013652
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k28_b10_SEM6",
+      "corrected_features": {
+        "combined_distortion_driver": 5.5088363565540535,
+        "contamination_driver": 5.378636005381586,
+        "signed_bias_spread_driver": 0.18949150374274737,
+        "signed_mean_response_bias": -0.003596312993296058,
+        "spatial_phase_shift_driver": 0.03596312993296058
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 28.0,
+        "contamination_rms": 0.5378636005381586,
+        "distortion_driver": 19.13619994025238,
+        "leakage_driver": 28.929725278387185,
+        "mean_response_bias": -0.003596312993296058,
+        "modal_mean_mode": 27.86036985674279,
+        "phase_driver": 0.001284397497605735,
+        "response_bias_rms": 0.01928739917802881,
+        "response_bias_spread": 0.018949150374274738
+      },
+      "k0_over_pi": 28.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 83,
+        "retained_mode_max": 41,
+        "rk4_step_count": 78535
+      },
+      "method": "SEM6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.4040959143189827,
+        "leakage_excess": 0.32921201978089354,
+        "phase_shift": 0.00040025380021222644,
+        "waveform_distortion": 0.925081777753641
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": true,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k44_b6_BMF6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.5326981010883596,
+        "contamination_driver": 0.5187783824793303,
+        "signed_bias_spread_driver": 0.01925462840828104,
+        "signed_mean_response_bias": 0.012632081465283305,
+        "spatial_phase_shift_driver": 0.07579248879169984
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.08646306374655505,
+        "distortion_driver": 2.3569632060895094,
+        "leakage_driver": 0.2691310101278703,
+        "mean_response_bias": 0.012632081465283305,
+        "modal_mean_mode": 40.140469789168094,
+        "phase_driver": 0.001722556563447724,
+        "response_bias_rms": 0.01303333554175272,
+        "response_bias_spread": 0.0032091047347135066
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 97,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 129001
+      },
+      "method": "BMF6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.03745144049916818,
+        "leakage_excess": 0.030204158966821312,
+        "phase_shift": 0.34871032239770355,
+        "waveform_distortion": 3.424089873986199
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k44_b6_BMG6",
+      "corrected_features": {
+        "combined_distortion_driver": 7.066100120165271,
+        "contamination_driver": 1.4975734864917385,
+        "signed_bias_spread_driver": 1.0990573005194917,
+        "signed_mean_response_bias": -0.3031429018530821,
+        "spatial_phase_shift_driver": 1.8188574111184928
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.24959558108195642,
+        "distortion_driver": 138.9154786407655,
+        "leakage_driver": 2.2427263474430212,
+        "mean_response_bias": -0.3031429018530821,
+        "modal_mean_mode": 40.140469789168094,
+        "phase_driver": 0.041337668434511206,
+        "response_bias_rms": 0.35418800844740705,
+        "response_bias_spread": 0.1831762167532486
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 98,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 129001
+      },
+      "method": "BMG6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.9972290523456586,
+        "leakage_excess": 0.9295734528796691,
+        "phase_shift": 0.6736794113454926,
+        "waveform_distortion": 19.445724345814515
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k44_b6_SBP6",
+      "corrected_features": {
+        "combined_distortion_driver": 1.9816215747658457,
+        "contamination_driver": 0.953008974691097,
+        "signed_bias_spread_driver": 0.27651759357261807,
+        "signed_mean_response_bias": -0.616615181543912,
+        "spatial_phase_shift_driver": 3.6996910892634722
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.15883482911518285,
+        "distortion_driver": 33.611124510411486,
+        "leakage_driver": 0.908226105841776,
+        "mean_response_bias": -0.616615181543912,
+        "modal_mean_mode": 43.06086328478871,
+        "phase_driver": 0.08408388839235166,
+        "response_bias_rms": 0.618335043473168,
+        "response_bias_spread": 0.04608626559543635
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 24000
+      },
+      "method": "SBP6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.8412493021562657,
+        "leakage_excess": 0.7429194657634257,
+        "phase_shift": 0.22938091043977535,
+        "waveform_distortion": 1.7527283825659374
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k44_b6_BL-T6",
+      "corrected_features": {
+        "combined_distortion_driver": 14.381156223426393,
+        "contamination_driver": 6.391055045619559,
+        "signed_bias_spread_driver": 2.0503954835746434,
+        "signed_mean_response_bias": -0.6028273542664273,
+        "spatial_phase_shift_driver": 3.616964125598564
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 1.0651758409365932,
+        "distortion_driver": 275.4171974384895,
+        "leakage_driver": 40.845584596139226,
+        "mean_response_bias": -0.6028273542664273,
+        "modal_mean_mode": 43.06086328478871,
+        "phase_driver": 0.0822037301272401,
+        "response_bias_rms": 0.6929516402264358,
+        "response_bias_spread": 0.34173258059577394
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 24000
+      },
+      "method": "CSB-T6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.9936009983207775,
+        "leakage_excess": 0.8952711619279375,
+        "phase_shift": 0.3307086823109427,
+        "waveform_distortion": 12.65523543205594
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k44_b6_SEM6",
+      "corrected_features": {
+        "combined_distortion_driver": 3.884833346826288,
+        "contamination_driver": 3.871226552589537,
+        "signed_bias_spread_driver": 0.051703342194814185,
+        "signed_mean_response_bias": -0.03210677782946193,
+        "spatial_phase_shift_driver": 0.1926406669767716
+      },
+      "encounters": 6,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.6452044254315895,
+        "distortion_driver": 6.4612578356162595,
+        "leakage_driver": 14.98639502147427,
+        "mean_response_bias": -0.03210677782946193,
+        "modal_mean_mode": 33.756662995873135,
+        "phase_driver": 0.00437819697674481,
+        "response_bias_rms": 0.033243070358668345,
+        "response_bias_spread": 0.008617223699135697
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 47121
+      },
+      "method": "SEM6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.7781533359454892,
+        "leakage_excess": 0.04093682818540967,
+        "phase_shift": 0.004664639598987378,
+        "waveform_distortion": 1.213088313938667
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k44_b10_BMF6",
+      "corrected_features": {
+        "combined_distortion_driver": 0.8878301684805993,
+        "contamination_driver": 0.8646306374655505,
+        "signed_bias_spread_driver": 0.03209104734713507,
+        "signed_mean_response_bias": 0.012632081465283305,
+        "spatial_phase_shift_driver": 0.12632081465283304
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.08646306374655505,
+        "distortion_driver": 3.9282720101491817,
+        "leakage_driver": 0.7475861392440841,
+        "mean_response_bias": 0.012632081465283305,
+        "modal_mean_mode": 40.140469789168094,
+        "phase_driver": 0.002870927605746206,
+        "response_bias_rms": 0.01303333554175272,
+        "response_bias_spread": 0.0032091047347135066
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 97,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 215000
+      },
+      "method": "BMF6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.06365113941410995,
+        "leakage_excess": 0.004004460051872327,
+        "phase_shift": 0.3956060474045255,
+        "waveform_distortion": 2.7802699019035773
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": true,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k44_b10_BMG6",
+      "corrected_features": {
+        "combined_distortion_driver": 11.776833533608785,
+        "contamination_driver": 2.4959558108195643,
+        "signed_bias_spread_driver": 1.831762167532486,
+        "signed_mean_response_bias": -0.3031429018530821,
+        "spatial_phase_shift_driver": 3.0314290185308215
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.24959558108195642,
+        "distortion_driver": 231.52579773460917,
+        "leakage_driver": 6.229795409563948,
+        "mean_response_bias": -0.3031429018530821,
+        "modal_mean_mode": 40.140469789168094,
+        "phase_driver": 0.06889611405751868,
+        "response_bias_rms": 0.35418800844740705,
+        "response_bias_spread": 0.1831762167532486
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 98,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 215000
+      },
+      "method": "BMG6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.9991171802082932,
+        "leakage_excess": 0.9314615807423109,
+        "phase_shift": 0.6725289779561131,
+        "waveform_distortion": 28.753702296041983
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k44_b10_SBP6",
+      "corrected_features": {
+        "combined_distortion_driver": 3.3027026246097426,
+        "contamination_driver": 1.5883482911518285,
+        "signed_bias_spread_driver": 0.4608626559543635,
+        "signed_mean_response_bias": -0.616615181543912,
+        "spatial_phase_shift_driver": 6.16615181543912
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.15883482911518285,
+        "distortion_driver": 56.01854085068582,
+        "leakage_driver": 2.5228502940049338,
+        "mean_response_bias": -0.616615181543912,
+        "modal_mean_mode": 43.06086328478871,
+        "phase_driver": 0.14013981398725275,
+        "response_bias_rms": 0.618335043473168,
+        "response_bias_spread": 0.04608626559543635
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 40000
+      },
+      "method": "SBP6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.4970380427082436,
+        "leakage_excess": 0.3987082063154035,
+        "phase_shift": 0.041522780127692845,
+        "waveform_distortion": 1.3182706243343694
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k44_b10_BL-T6",
+      "corrected_features": {
+        "combined_distortion_driver": 23.968593705710656,
+        "contamination_driver": 10.651758409365932,
+        "signed_bias_spread_driver": 3.4173258059577396,
+        "signed_mean_response_bias": -0.6028273542664273,
+        "spatial_phase_shift_driver": 6.028273542664273
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 1.0651758409365932,
+        "distortion_driver": 459.0286623974824,
+        "leakage_driver": 113.45995721149785,
+        "mean_response_bias": -0.6028273542664273,
+        "modal_mean_mode": 43.06086328478871,
+        "phase_driver": 0.1370062168787335,
+        "response_bias_rms": 0.6929516402264358,
+        "response_bias_spread": 0.34173258059577394
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 40000
+      },
+      "method": "CSB-T6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.9962169926435336,
+        "leakage_excess": 0.8978871562506935,
+        "phase_shift": 0.36830398876345327,
+        "waveform_distortion": 26.17165784567161
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    },
+    {
+      "case_id": "sig0.100_k44_b10_SEM6",
+      "corrected_features": {
+        "combined_distortion_driver": 6.47472224471048,
+        "contamination_driver": 6.452044254315895,
+        "signed_bias_spread_driver": 0.08617223699135698,
+        "signed_mean_response_bias": -0.03210677782946193,
+        "spatial_phase_shift_driver": 0.3210677782946193
+      },
+      "encounters": 10,
+      "features": {
+        "carrier_mode": 43.99999999999999,
+        "contamination_rms": 0.6452044254315895,
+        "distortion_driver": 10.768763059360433,
+        "leakage_driver": 41.62887505965076,
+        "mean_response_bias": -0.03210677782946193,
+        "modal_mean_mode": 33.756662995873135,
+        "phase_driver": 0.007296994961241349,
+        "response_bias_rms": 0.033243070358668345,
+        "response_bias_spread": 0.008617223699135697
+      },
+      "k0_over_pi": 44.0,
+      "kernel": {
+        "full_dimension": 96,
+        "reduced_dimension": 93,
+        "retained_mode_max": 46,
+        "rk4_step_count": 78535
+      },
+      "method": "SEM6",
+      "npts": 49,
+      "predicted": {
+        "leakage": 0.9168214541820137,
+        "leakage_excess": 0.17960494642190838,
+        "phase_shift": 0.07993083801286446,
+        "waveform_distortion": 1.7413689423699648
+      },
+      "predicted_threshold_side": {
+        "contamination": false,
+        "distortion": false,
+        "leakage": false,
+        "phase": false,
+        "response": false
+      },
+      "sigma": 0.1
+    }
+  ],
+  "primary_matrix": {
+    "case_count": 60,
+    "encounters": [
+      6,
+      10
+    ],
+    "k0_over_pi": [
+      8.0,
+      28.0,
+      44.0
+    ],
+    "methods": [
+      "BMF6",
+      "BMG6",
+      "SBP6",
+      "CSB-T6",
+      "SEM6"
+    ],
+    "npts": 49,
+    "sigmas": [
+      0.065,
+      0.1
+    ]
+  },
+  "revision_count": 1,
+  "schema": "wall-spectrum-kernel-revision-v1",
+  "semidiscrete_model": {
+    "contamination": "the phase-resolved off-target response is retained through the projected generator rather than reduced to one unsigned RMS scalar",
+    "evolution": "the reduced enforced generator is advanced by the same classical RK4 stability polynomial and declared step count",
+    "signed_bias": "packet-weighted signed response bias accumulates as encounters times mean bias in spatial shift",
+    "spread": "signed modal bias variation accumulates across the packet band and distorts the waveform"
+  },
+  "source_sha256": {
+    "first_holdout_raw": "b6d4cb2007c2d3bd5a59899f965143945de47753b178dd4a1c1c0dd175febd39",
+    "first_holdout_summary": "fb5ae5a282d689a9642beeeea2493b6bdbe6449cb48a6f884fe2af39fa7fc318",
+    "frozen_scalar_predictions": "c30161fc03775eb493f94206967eb847786d2df0ef5e5f00cd535918d73dadd0",
+    "revision_driver": "56f9f1e37d9cb791d2703535849357597e4a7f1ee4352cd287b9ef8676a1ea60"
+  },
+  "truncation_contract": "cosine-sine modes through carrier plus four divided by pi sigma, capped at N minus 3"
+}

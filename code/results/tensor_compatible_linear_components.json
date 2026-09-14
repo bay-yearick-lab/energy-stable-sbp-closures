@@ -1,0 +1,4975 @@
+{
+  "schema": "tensor-compatible-linear-components-v1",
+  "case": {
+    "degree": 4,
+    "grids": [
+      9,
+      17,
+      33,
+      65
+    ],
+    "blocks": 3,
+    "raw_samples": 5,
+    "minimum_sample_seconds": 0.02,
+    "timing_metric": "process_time_seconds"
+  },
+  "source_sha256": {
+    "tensor_compatible_flow.py": "86262f80c699011084188dcc03b32e0889d4dba84dcd242058f3a7f1a0f9dd6f",
+    "benchmark_tensor_linear_components.py": "0b200fddbbae47891c1b6111e2b713b9632664010a2420b3555f37b8dd0910c4"
+  },
+  "blocks": [
+    {
+      "block_index": 0,
+      "execution_order": [
+        9,
+        17,
+        33,
+        65
+      ],
+      "rows": [
+        {
+          "npts": 9,
+          "components": {
+            "mass": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 7.931900000002212e-05
+                    },
+                    {
+                      "calls": 265,
+                      "elapsed_seconds": 0.017929094999999978
+                    },
+                    {
+                      "calls": 348,
+                      "elapsed_seconds": 0.02327512200000001
+                    }
+                  ],
+                  "calls": 348,
+                  "elapsed_seconds": 0.02327512200000001,
+                  "seconds_per_call": 6.688253448275864e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 7.02720000000101e-05
+                    },
+                    {
+                      "calls": 299,
+                      "elapsed_seconds": 0.019887691000000013
+                    },
+                    {
+                      "calls": 393,
+                      "elapsed_seconds": 0.026205907999999972
+                    }
+                  ],
+                  "calls": 393,
+                  "elapsed_seconds": 0.026205907999999972,
+                  "seconds_per_call": 6.668169974554701e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 6.73600000000163e-05
+                    },
+                    {
+                      "calls": 312,
+                      "elapsed_seconds": 0.02080183000000002
+                    }
+                  ],
+                  "calls": 312,
+                  "elapsed_seconds": 0.02080183000000002,
+                  "seconds_per_call": 6.667253205128212e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 6.639699999999582e-05
+                    },
+                    {
+                      "calls": 317,
+                      "elapsed_seconds": 0.021057298999999974
+                    }
+                  ],
+                  "calls": 317,
+                  "elapsed_seconds": 0.021057298999999974,
+                  "seconds_per_call": 6.642681072555196e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 6.746600000001601e-05
+                    },
+                    {
+                      "calls": 312,
+                      "elapsed_seconds": 0.020683713999999964
+                    }
+                  ],
+                  "calls": 312,
+                  "elapsed_seconds": 0.020683713999999964,
+                  "seconds_per_call": 6.629395512820501e-05
+                }
+              ],
+              "median_seconds_per_call": 6.667253205128212e-05
+            },
+            "viscous": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00019677800000000856
+                    },
+                    {
+                      "calls": 107,
+                      "elapsed_seconds": 0.02045930100000004
+                    }
+                  ],
+                  "calls": 107,
+                  "elapsed_seconds": 0.02045930100000004,
+                  "seconds_per_call": 0.00019120842056074804
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00019257499999997263
+                    },
+                    {
+                      "calls": 110,
+                      "elapsed_seconds": 0.021059832
+                    }
+                  ],
+                  "calls": 110,
+                  "elapsed_seconds": 0.021059832,
+                  "seconds_per_call": 0.00019145301818181818
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00019290500000002098
+                    },
+                    {
+                      "calls": 109,
+                      "elapsed_seconds": 0.021000344000000004
+                    }
+                  ],
+                  "calls": 109,
+                  "elapsed_seconds": 0.021000344000000004,
+                  "seconds_per_call": 0.00019266370642201838
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00019443699999999176
+                    },
+                    {
+                      "calls": 109,
+                      "elapsed_seconds": 0.020931853999999972
+                    }
+                  ],
+                  "calls": 109,
+                  "elapsed_seconds": 0.020931853999999972,
+                  "seconds_per_call": 0.0001920353577981649
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00019147299999999756
+                    },
+                    {
+                      "calls": 110,
+                      "elapsed_seconds": 0.02114163899999999
+                    }
+                  ],
+                  "calls": 110,
+                  "elapsed_seconds": 0.02114163899999999,
+                  "seconds_per_call": 0.00019219671818181808
+                }
+              ],
+              "median_seconds_per_call": 0.0001920353577981649
+            },
+            "divergence": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00010780100000001847
+                    },
+                    {
+                      "calls": 195,
+                      "elapsed_seconds": 0.018069216
+                    },
+                    {
+                      "calls": 256,
+                      "elapsed_seconds": 0.023639593999999986
+                    }
+                  ],
+                  "calls": 256,
+                  "elapsed_seconds": 0.023639593999999986,
+                  "seconds_per_call": 9.234216406249995e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 9.534300000002549e-05
+                    },
+                    {
+                      "calls": 221,
+                      "elapsed_seconds": 0.02103938999999999
+                    }
+                  ],
+                  "calls": 221,
+                  "elapsed_seconds": 0.02103938999999999,
+                  "seconds_per_call": 9.520085972850675e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 9.961400000002563e-05
+                    },
+                    {
+                      "calls": 211,
+                      "elapsed_seconds": 0.020177610000000012
+                    }
+                  ],
+                  "calls": 211,
+                  "elapsed_seconds": 0.020177610000000012,
+                  "seconds_per_call": 9.562848341232234e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00010263300000001863
+                    },
+                    {
+                      "calls": 205,
+                      "elapsed_seconds": 0.019094954000000053
+                    },
+                    {
+                      "calls": 270,
+                      "elapsed_seconds": 0.024960289999999996
+                    }
+                  ],
+                  "calls": 270,
+                  "elapsed_seconds": 0.024960289999999996,
+                  "seconds_per_call": 9.24455185185185e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 9.770700000000243e-05
+                    },
+                    {
+                      "calls": 215,
+                      "elapsed_seconds": 0.019934770999999962
+                    },
+                    {
+                      "calls": 283,
+                      "elapsed_seconds": 0.026278232999999984
+                    }
+                  ],
+                  "calls": 283,
+                  "elapsed_seconds": 0.026278232999999984,
+                  "seconds_per_call": 9.285594699646637e-05
+                }
+              ],
+              "median_seconds_per_call": 9.285594699646637e-05
+            },
+            "pressure": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00011936700000003686
+                    },
+                    {
+                      "calls": 176,
+                      "elapsed_seconds": 0.01921690499999995
+                    },
+                    {
+                      "calls": 231,
+                      "elapsed_seconds": 0.025226846000000025
+                    }
+                  ],
+                  "calls": 231,
+                  "elapsed_seconds": 0.025226846000000025,
+                  "seconds_per_call": 0.00010920712554112564
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00011310099999994883
+                    },
+                    {
+                      "calls": 186,
+                      "elapsed_seconds": 0.02046037200000006
+                    }
+                  ],
+                  "calls": 186,
+                  "elapsed_seconds": 0.02046037200000006,
+                  "seconds_per_call": 0.00011000200000000032
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00011670299999999578
+                    },
+                    {
+                      "calls": 180,
+                      "elapsed_seconds": 0.020150966000000103
+                    }
+                  ],
+                  "calls": 180,
+                  "elapsed_seconds": 0.020150966000000103,
+                  "seconds_per_call": 0.00011194981111111169
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00011426699999994572
+                    },
+                    {
+                      "calls": 184,
+                      "elapsed_seconds": 0.020169071999999955
+                    }
+                  ],
+                  "calls": 184,
+                  "elapsed_seconds": 0.020169071999999955,
+                  "seconds_per_call": 0.00010961452173913018
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0001155120000000398
+                    },
+                    {
+                      "calls": 182,
+                      "elapsed_seconds": 0.01997788899999997
+                    },
+                    {
+                      "calls": 239,
+                      "elapsed_seconds": 0.026171495000000045
+                    }
+                  ],
+                  "calls": 239,
+                  "elapsed_seconds": 0.026171495000000045,
+                  "seconds_per_call": 0.0001095041631799165
+                }
+              ],
+              "median_seconds_per_call": 0.00010961452173913018
+            },
+            "aggregate": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004840189999999467
+                    },
+                    {
+                      "calls": 44,
+                      "elapsed_seconds": 0.020772475000000012
+                    }
+                  ],
+                  "calls": 44,
+                  "elapsed_seconds": 0.020772475000000012,
+                  "seconds_per_call": 0.00047210170454545485
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004720669999999094
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.021235818000000073
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.021235818000000073,
+                  "seconds_per_call": 0.0004719070666666683
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00047476199999996194
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.02119768299999991
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.02119768299999991,
+                  "seconds_per_call": 0.00047105962222222027
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00047498100000009646
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.02130416600000007
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.02130416600000007,
+                  "seconds_per_call": 0.00047342591111111264
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00048285100000000636
+                    },
+                    {
+                      "calls": 44,
+                      "elapsed_seconds": 0.020790984000000012
+                    }
+                  ],
+                  "calls": 44,
+                  "elapsed_seconds": 0.020790984000000012,
+                  "seconds_per_call": 0.0004725223636363639
+                }
+              ],
+              "median_seconds_per_call": 0.00047210170454545485
+            }
+          },
+          "component_sum_seconds": 0.00046117835858504357,
+          "viscous_fraction": 0.41640149461339615,
+          "aggregate_to_component_sum_ratio": 1.0236857297335582
+        },
+        {
+          "npts": 17,
+          "components": {
+            "mass": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00016670100000004684
+                    },
+                    {
+                      "calls": 126,
+                      "elapsed_seconds": 0.01945307399999996
+                    },
+                    {
+                      "calls": 166,
+                      "elapsed_seconds": 0.025410979
+                    }
+                  ],
+                  "calls": 166,
+                  "elapsed_seconds": 0.025410979,
+                  "seconds_per_call": 0.00015307818674698795
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00015633999999997705
+                    },
+                    {
+                      "calls": 135,
+                      "elapsed_seconds": 0.020773266000000068
+                    }
+                  ],
+                  "calls": 135,
+                  "elapsed_seconds": 0.020773266000000068,
+                  "seconds_per_call": 0.00015387604444444495
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00015669600000001171
+                    },
+                    {
+                      "calls": 135,
+                      "elapsed_seconds": 0.020737216000000003
+                    }
+                  ],
+                  "calls": 135,
+                  "elapsed_seconds": 0.020737216000000003,
+                  "seconds_per_call": 0.00015360900740740742
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00015475199999992473
+                    },
+                    {
+                      "calls": 136,
+                      "elapsed_seconds": 0.02095242900000005
+                    }
+                  ],
+                  "calls": 136,
+                  "elapsed_seconds": 0.02095242900000005,
+                  "seconds_per_call": 0.00015406197794117684
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0001569489999999618
+                    },
+                    {
+                      "calls": 134,
+                      "elapsed_seconds": 0.020594552000000044
+                    }
+                  ],
+                  "calls": 134,
+                  "elapsed_seconds": 0.020594552000000044,
+                  "seconds_per_call": 0.0001536906865671645
+                }
+              ],
+              "median_seconds_per_call": 0.0001536906865671645
+            },
+            "viscous": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004555639999999084
+                    },
+                    {
+                      "calls": 47,
+                      "elapsed_seconds": 0.02130062399999999
+                    }
+                  ],
+                  "calls": 47,
+                  "elapsed_seconds": 0.02130062399999999,
+                  "seconds_per_call": 0.0004532047659574466
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004547299999999588
+                    },
+                    {
+                      "calls": 47,
+                      "elapsed_seconds": 0.02135374499999987
+                    }
+                  ],
+                  "calls": 47,
+                  "elapsed_seconds": 0.02135374499999987,
+                  "seconds_per_call": 0.00045433499999999723
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004741370000000966
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.02063776099999992
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.02063776099999992,
+                  "seconds_per_call": 0.00045861691111110937
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004589820000000522
+                    },
+                    {
+                      "calls": 46,
+                      "elapsed_seconds": 0.020818082000000127
+                    }
+                  ],
+                  "calls": 46,
+                  "elapsed_seconds": 0.020818082000000127,
+                  "seconds_per_call": 0.00045256700000000273
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00045281200000002464
+                    },
+                    {
+                      "calls": 47,
+                      "elapsed_seconds": 0.021461758999999914
+                    }
+                  ],
+                  "calls": 47,
+                  "elapsed_seconds": 0.021461758999999914,
+                  "seconds_per_call": 0.0004566331702127641
+                }
+              ],
+              "median_seconds_per_call": 0.00045433499999999723
+            },
+            "divergence": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00017412000000005534
+                    },
+                    {
+                      "calls": 121,
+                      "elapsed_seconds": 0.01936193899999994
+                    },
+                    {
+                      "calls": 159,
+                      "elapsed_seconds": 0.02580689700000005
+                    }
+                  ],
+                  "calls": 159,
+                  "elapsed_seconds": 0.02580689700000005,
+                  "seconds_per_call": 0.00016230752830188712
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00016567899999997415
+                    },
+                    {
+                      "calls": 127,
+                      "elapsed_seconds": 0.020698713000000035
+                    }
+                  ],
+                  "calls": 127,
+                  "elapsed_seconds": 0.020698713000000035,
+                  "seconds_per_call": 0.00016298199212598453
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00016165700000003724
+                    },
+                    {
+                      "calls": 130,
+                      "elapsed_seconds": 0.020875144999999984
+                    }
+                  ],
+                  "calls": 130,
+                  "elapsed_seconds": 0.020875144999999984,
+                  "seconds_per_call": 0.00016057803846153835
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00015832499999990368
+                    },
+                    {
+                      "calls": 133,
+                      "elapsed_seconds": 0.021272300000000133
+                    }
+                  ],
+                  "calls": 133,
+                  "elapsed_seconds": 0.021272300000000133,
+                  "seconds_per_call": 0.0001599421052631589
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0001627860000001924
+                    },
+                    {
+                      "calls": 130,
+                      "elapsed_seconds": 0.02072214200000011
+                    }
+                  ],
+                  "calls": 130,
+                  "elapsed_seconds": 0.02072214200000011,
+                  "seconds_per_call": 0.00015940109230769316
+                }
+              ],
+              "median_seconds_per_call": 0.00016057803846153835
+            },
+            "pressure": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00018142099999995942
+                    },
+                    {
+                      "calls": 116,
+                      "elapsed_seconds": 0.02018456599999996
+                    }
+                  ],
+                  "calls": 116,
+                  "elapsed_seconds": 0.02018456599999996,
+                  "seconds_per_call": 0.0001740048793103445
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00017859799999997428
+                    },
+                    {
+                      "calls": 118,
+                      "elapsed_seconds": 0.020476544999999957
+                    }
+                  ],
+                  "calls": 118,
+                  "elapsed_seconds": 0.020476544999999957,
+                  "seconds_per_call": 0.000173530042372881
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00017469900000000038
+                    },
+                    {
+                      "calls": 121,
+                      "elapsed_seconds": 0.02100824000000001
+                    }
+                  ],
+                  "calls": 121,
+                  "elapsed_seconds": 0.02100824000000001,
+                  "seconds_per_call": 0.00017362181818181827
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00017283099999998441
+                    },
+                    {
+                      "calls": 122,
+                      "elapsed_seconds": 0.021207323999999916
+                    }
+                  ],
+                  "calls": 122,
+                  "elapsed_seconds": 0.021207323999999916,
+                  "seconds_per_call": 0.00017383052459016325
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0001767249999999887
+                    },
+                    {
+                      "calls": 119,
+                      "elapsed_seconds": 0.020613832
+                    }
+                  ],
+                  "calls": 119,
+                  "elapsed_seconds": 0.020613832,
+                  "seconds_per_call": 0.00017322547899159663
+                }
+              ],
+              "median_seconds_per_call": 0.00017362181818181827
+            },
+            "aggregate": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009572639999999577
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.021019058000000035
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.021019058000000035,
+                  "seconds_per_call": 0.0009554117272727289
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009568290000001589
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.021001089000000084
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.021001089000000084,
+                  "seconds_per_call": 0.0009545949545454583
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009640490000000224
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.020981024999999986
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.020981024999999986,
+                  "seconds_per_call": 0.0009536829545454539
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009530779999999961
+                    },
+                    {
+                      "calls": 23,
+                      "elapsed_seconds": 0.022028002999999963
+                    }
+                  ],
+                  "calls": 23,
+                  "elapsed_seconds": 0.022028002999999963,
+                  "seconds_per_call": 0.0009577392608695636
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009614559999999717
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.021004859000000042
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.021004859000000042,
+                  "seconds_per_call": 0.0009547663181818201
+                }
+              ],
+              "median_seconds_per_call": 0.0009547663181818201
+            }
+          },
+          "component_sum_seconds": 0.0009422255432105183,
+          "viscous_fraction": 0.4821934655389476,
+          "aggregate_to_component_sum_ratio": 1.013309737845326
+        },
+        {
+          "npts": 33,
+          "components": {
+            "mass": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009663339999999021
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.020688771000000106
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.020688771000000106,
+                  "seconds_per_call": 0.0009403986818181866
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009363389999998972
+                    },
+                    {
+                      "calls": 23,
+                      "elapsed_seconds": 0.021528223999999874
+                    }
+                  ],
+                  "calls": 23,
+                  "elapsed_seconds": 0.021528223999999874,
+                  "seconds_per_call": 0.0009360097391304293
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009499139999999962
+                    },
+                    {
+                      "calls": 23,
+                      "elapsed_seconds": 0.021677488000000134
+                    }
+                  ],
+                  "calls": 23,
+                  "elapsed_seconds": 0.021677488000000134,
+                  "seconds_per_call": 0.0009424994782608754
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009482880000000193
+                    },
+                    {
+                      "calls": 23,
+                      "elapsed_seconds": 0.02167336800000008
+                    }
+                  ],
+                  "calls": 23,
+                  "elapsed_seconds": 0.02167336800000008,
+                  "seconds_per_call": 0.0009423203478260905
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009562770000000054
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.020597867999999853
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.020597867999999853,
+                  "seconds_per_call": 0.0009362667272727206
+                }
+              ],
+              "median_seconds_per_call": 0.0009403986818181866
+            },
+            "viscous": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0022369380000000216
+                    },
+                    {
+                      "calls": 10,
+                      "elapsed_seconds": 0.02237601899999997
+                    }
+                  ],
+                  "calls": 10,
+                  "elapsed_seconds": 0.02237601899999997,
+                  "seconds_per_call": 0.002237601899999997
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0022719689999999293
+                    },
+                    {
+                      "calls": 10,
+                      "elapsed_seconds": 0.022541490000000053
+                    }
+                  ],
+                  "calls": 10,
+                  "elapsed_seconds": 0.022541490000000053,
+                  "seconds_per_call": 0.002254149000000005
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0022464559999999523
+                    },
+                    {
+                      "calls": 10,
+                      "elapsed_seconds": 0.02252035199999991
+                    }
+                  ],
+                  "calls": 10,
+                  "elapsed_seconds": 0.02252035199999991,
+                  "seconds_per_call": 0.002252035199999991
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.002251643999999997
+                    },
+                    {
+                      "calls": 10,
+                      "elapsed_seconds": 0.02244894899999994
+                    }
+                  ],
+                  "calls": 10,
+                  "elapsed_seconds": 0.02244894899999994,
+                  "seconds_per_call": 0.002244894899999994
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0022356059999999456
+                    },
+                    {
+                      "calls": 10,
+                      "elapsed_seconds": 0.022471443000000146
+                    }
+                  ],
+                  "calls": 10,
+                  "elapsed_seconds": 0.022471443000000146,
+                  "seconds_per_call": 0.002247144300000015
+                }
+              ],
+              "median_seconds_per_call": 0.002247144300000015
+            },
+            "divergence": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0008256920000000445
+                    },
+                    {
+                      "calls": 26,
+                      "elapsed_seconds": 0.020706936999999925
+                    }
+                  ],
+                  "calls": 26,
+                  "elapsed_seconds": 0.020706936999999925,
+                  "seconds_per_call": 0.000796420653846151
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0008029350000000601
+                    },
+                    {
+                      "calls": 27,
+                      "elapsed_seconds": 0.021483246000000067
+                    }
+                  ],
+                  "calls": 27,
+                  "elapsed_seconds": 0.021483246000000067,
+                  "seconds_per_call": 0.0007956757777777803
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0008002899999999258
+                    },
+                    {
+                      "calls": 27,
+                      "elapsed_seconds": 0.02150191200000018
+                    }
+                  ],
+                  "calls": 27,
+                  "elapsed_seconds": 0.02150191200000018,
+                  "seconds_per_call": 0.0007963671111111177
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0007995849999999916
+                    },
+                    {
+                      "calls": 27,
+                      "elapsed_seconds": 0.021410543000000004
+                    }
+                  ],
+                  "calls": 27,
+                  "elapsed_seconds": 0.021410543000000004,
+                  "seconds_per_call": 0.0007929830740740743
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0007948749999999727
+                    },
+                    {
+                      "calls": 27,
+                      "elapsed_seconds": 0.021456851000000166
+                    }
+                  ],
+                  "calls": 27,
+                  "elapsed_seconds": 0.021456851000000166,
+                  "seconds_per_call": 0.0007946981851851913
+                }
+              ],
+              "median_seconds_per_call": 0.0007956757777777803
+            },
+            "pressure": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0007976860000000752
+                    },
+                    {
+                      "calls": 27,
+                      "elapsed_seconds": 0.02127125899999993
+                    }
+                  ],
+                  "calls": 27,
+                  "elapsed_seconds": 0.02127125899999993,
+                  "seconds_per_call": 0.0007878244074074049
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0007904970000001121
+                    },
+                    {
+                      "calls": 27,
+                      "elapsed_seconds": 0.02129629700000013
+                    }
+                  ],
+                  "calls": 27,
+                  "elapsed_seconds": 0.02129629700000013,
+                  "seconds_per_call": 0.0007887517407407456
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0007938549999999545
+                    },
+                    {
+                      "calls": 27,
+                      "elapsed_seconds": 0.021195172000000095
+                    }
+                  ],
+                  "calls": 27,
+                  "elapsed_seconds": 0.021195172000000095,
+                  "seconds_per_call": 0.0007850063703703739
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0007846190000000419
+                    },
+                    {
+                      "calls": 27,
+                      "elapsed_seconds": 0.02116326199999996
+                    }
+                  ],
+                  "calls": 27,
+                  "elapsed_seconds": 0.02116326199999996,
+                  "seconds_per_call": 0.0007838245185185171
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0007892890000000818
+                    },
+                    {
+                      "calls": 27,
+                      "elapsed_seconds": 0.021149368999999973
+                    }
+                  ],
+                  "calls": 27,
+                  "elapsed_seconds": 0.021149368999999973,
+                  "seconds_per_call": 0.000783309962962962
+                }
+              ],
+              "median_seconds_per_call": 0.0007850063703703739
+            },
+            "aggregate": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.004823099999999858
+                    },
+                    {
+                      "calls": 5,
+                      "elapsed_seconds": 0.023855249999999995
+                    }
+                  ],
+                  "calls": 5,
+                  "elapsed_seconds": 0.023855249999999995,
+                  "seconds_per_call": 0.004771049999999999
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.004781767999999964
+                    },
+                    {
+                      "calls": 5,
+                      "elapsed_seconds": 0.02390738399999992
+                    }
+                  ],
+                  "calls": 5,
+                  "elapsed_seconds": 0.02390738399999992,
+                  "seconds_per_call": 0.0047814767999999844
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.004740081000000007
+                    },
+                    {
+                      "calls": 5,
+                      "elapsed_seconds": 0.023724343999999897
+                    }
+                  ],
+                  "calls": 5,
+                  "elapsed_seconds": 0.023724343999999897,
+                  "seconds_per_call": 0.00474486879999998
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.004830574000000087
+                    },
+                    {
+                      "calls": 5,
+                      "elapsed_seconds": 0.02384494600000009
+                    }
+                  ],
+                  "calls": 5,
+                  "elapsed_seconds": 0.02384494600000009,
+                  "seconds_per_call": 0.004768989200000018
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.004803572999999783
+                    },
+                    {
+                      "calls": 5,
+                      "elapsed_seconds": 0.02391846700000011
+                    }
+                  ],
+                  "calls": 5,
+                  "elapsed_seconds": 0.02391846700000011,
+                  "seconds_per_call": 0.004783693400000022
+                }
+              ],
+              "median_seconds_per_call": 0.004771049999999999
+            }
+          },
+          "component_sum_seconds": 0.0047682251299663555,
+          "viscous_fraction": 0.47127479067161215,
+          "aggregate_to_component_sum_ratio": 1.0005924363797107
+        },
+        {
+          "npts": 65,
+          "components": {
+            "mass": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.009020323000000108
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.024789734999999702
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.024789734999999702,
+                  "seconds_per_call": 0.0082632449999999
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008175373999999902
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.02549643700000015
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.02549643700000015,
+                  "seconds_per_call": 0.008498812333333383
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008120050999999684
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.025494682000000157
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.025494682000000157,
+                  "seconds_per_call": 0.008498227333333386
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008057868000000301
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.025137722000000196
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.025137722000000196,
+                  "seconds_per_call": 0.008379240666666732
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008441769999999682
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.024345036999999792
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.024345036999999792,
+                  "seconds_per_call": 0.008115012333333263
+                }
+              ],
+              "median_seconds_per_call": 0.008379240666666732
+            },
+            "viscous": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.019215122000000306
+                    },
+                    {
+                      "calls": 2,
+                      "elapsed_seconds": 0.03918812999999988
+                    }
+                  ],
+                  "calls": 2,
+                  "elapsed_seconds": 0.03918812999999988,
+                  "seconds_per_call": 0.01959406499999994
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.01972610699999988
+                    },
+                    {
+                      "calls": 2,
+                      "elapsed_seconds": 0.039224626999999845
+                    }
+                  ],
+                  "calls": 2,
+                  "elapsed_seconds": 0.039224626999999845,
+                  "seconds_per_call": 0.019612313499999923
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.01928295499999999
+                    },
+                    {
+                      "calls": 2,
+                      "elapsed_seconds": 0.03904716399999986
+                    }
+                  ],
+                  "calls": 2,
+                  "elapsed_seconds": 0.03904716399999986,
+                  "seconds_per_call": 0.01952358199999993
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.019458460000000066
+                    },
+                    {
+                      "calls": 2,
+                      "elapsed_seconds": 0.039850107999999995
+                    }
+                  ],
+                  "calls": 2,
+                  "elapsed_seconds": 0.039850107999999995,
+                  "seconds_per_call": 0.019925053999999998
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.02040635400000035
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.02040635400000035,
+                  "seconds_per_call": 0.02040635400000035
+                }
+              ],
+              "median_seconds_per_call": 0.019612313499999923
+            },
+            "divergence": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008568472999999965
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.025482200999999982
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.025482200999999982,
+                  "seconds_per_call": 0.008494066999999994
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.007727687999999677
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.023381441999999808
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.023381441999999808,
+                  "seconds_per_call": 0.007793813999999936
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0075364979999998916
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.023498231000000036
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.023498231000000036,
+                  "seconds_per_call": 0.007832743666666678
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.007808621999999765
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.02263891100000004
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.02263891100000004,
+                  "seconds_per_call": 0.00754630366666668
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.007518659000000039
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.023742125999999697
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.023742125999999697,
+                  "seconds_per_call": 0.007914041999999899
+                }
+              ],
+              "median_seconds_per_call": 0.007832743666666678
+            },
+            "pressure": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0058016429999998564
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.023950560999999926
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.023950560999999926,
+                  "seconds_per_call": 0.0059876402499999815
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.006297376000000021
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.023676963000000217
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.023676963000000217,
+                  "seconds_per_call": 0.005919240750000054
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.005779926000000213
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.023025553999999726
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.023025553999999726,
+                  "seconds_per_call": 0.0057563884999999315
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0059043829999998465
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.023746647999999926
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.023746647999999926,
+                  "seconds_per_call": 0.0059366619999999815
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00578688000000005
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.023770751000000256
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.023770751000000256,
+                  "seconds_per_call": 0.005942687750000064
+                }
+              ],
+              "median_seconds_per_call": 0.0059366619999999815
+            },
+            "aggregate": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.04194106299999989
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.04194106299999989,
+                  "seconds_per_call": 0.04194106299999989
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.04217176399999989
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.04217176399999989,
+                  "seconds_per_call": 0.04217176399999989
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.04215571400000018
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.04215571400000018,
+                  "seconds_per_call": 0.04215571400000018
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.04198490800000032
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.04198490800000032,
+                  "seconds_per_call": 0.04198490800000032
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.042831556999999965
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.042831556999999965,
+                  "seconds_per_call": 0.042831556999999965
+                }
+              ],
+              "median_seconds_per_call": 0.04215571400000018
+            }
+          },
+          "component_sum_seconds": 0.04176095983333331,
+          "viscous_fraction": 0.4696327282292374,
+          "aggregate_to_component_sum_ratio": 1.0094527081810936
+        }
+      ],
+      "exponents": {
+        "mass": 2.9822942632891825,
+        "viscous": 2.808724675655892,
+        "divergence": 2.9001631654766706,
+        "pressure": 2.6348172813012374,
+        "aggregate": 2.825566115226708,
+        "component_sum": 2.8283515416674625
+      }
+    },
+    {
+      "block_index": 1,
+      "execution_order": [
+        65,
+        33,
+        17,
+        9
+      ],
+      "rows": [
+        {
+          "npts": 9,
+          "components": {
+            "mass": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 7.533299999984422e-05
+                    },
+                    {
+                      "calls": 279,
+                      "elapsed_seconds": 0.018705160000000554
+                    },
+                    {
+                      "calls": 367,
+                      "elapsed_seconds": 0.024272947000000045
+                    }
+                  ],
+                  "calls": 367,
+                  "elapsed_seconds": 0.024272947000000045,
+                  "seconds_per_call": 6.613882016348786e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 6.820799999918137e-05
+                    },
+                    {
+                      "calls": 308,
+                      "elapsed_seconds": 0.020423452000000175
+                    }
+                  ],
+                  "calls": 308,
+                  "elapsed_seconds": 0.020423452000000175,
+                  "seconds_per_call": 6.630990909090967e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 6.76069999991924e-05
+                    },
+                    {
+                      "calls": 311,
+                      "elapsed_seconds": 0.02068201099999989
+                    }
+                  ],
+                  "calls": 311,
+                  "elapsed_seconds": 0.02068201099999989,
+                  "seconds_per_call": 6.650164308681636e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 6.763499999973277e-05
+                    },
+                    {
+                      "calls": 311,
+                      "elapsed_seconds": 0.020729337999999764
+                    }
+                  ],
+                  "calls": 311,
+                  "elapsed_seconds": 0.020729337999999764,
+                  "seconds_per_call": 6.665381993569057e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 6.779100000020577e-05
+                    },
+                    {
+                      "calls": 310,
+                      "elapsed_seconds": 0.020601740000000035
+                    }
+                  ],
+                  "calls": 310,
+                  "elapsed_seconds": 0.020601740000000035,
+                  "seconds_per_call": 6.645722580645172e-05
+                }
+              ],
+              "median_seconds_per_call": 6.645722580645172e-05
+            },
+            "viscous": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0001984930000000773
+                    },
+                    {
+                      "calls": 106,
+                      "elapsed_seconds": 0.020421920000000426
+                    }
+                  ],
+                  "calls": 106,
+                  "elapsed_seconds": 0.020421920000000426,
+                  "seconds_per_call": 0.00019265962264151346
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00019803899999981667
+                    },
+                    {
+                      "calls": 107,
+                      "elapsed_seconds": 0.020499620999999912
+                    }
+                  ],
+                  "calls": 107,
+                  "elapsed_seconds": 0.020499620999999912,
+                  "seconds_per_call": 0.0001915852429906534
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00019471199999987476
+                    },
+                    {
+                      "calls": 108,
+                      "elapsed_seconds": 0.020665774999999442
+                    }
+                  ],
+                  "calls": 108,
+                  "elapsed_seconds": 0.020665774999999442,
+                  "seconds_per_call": 0.00019134976851851334
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00019242000000030401
+                    },
+                    {
+                      "calls": 110,
+                      "elapsed_seconds": 0.021053553999999863
+                    }
+                  ],
+                  "calls": 110,
+                  "elapsed_seconds": 0.021053553999999863,
+                  "seconds_per_call": 0.0001913959454545442
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0001924049999999511
+                    },
+                    {
+                      "calls": 110,
+                      "elapsed_seconds": 0.021184709999999995
+                    }
+                  ],
+                  "calls": 110,
+                  "elapsed_seconds": 0.021184709999999995,
+                  "seconds_per_call": 0.0001925882727272727
+                }
+              ],
+              "median_seconds_per_call": 0.0001915852429906534
+            },
+            "divergence": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00010547499999979948
+                    },
+                    {
+                      "calls": 200,
+                      "elapsed_seconds": 0.019098789999999255
+                    },
+                    {
+                      "calls": 263,
+                      "elapsed_seconds": 0.0253182479999996
+                    }
+                  ],
+                  "calls": 263,
+                  "elapsed_seconds": 0.0253182479999996,
+                  "seconds_per_call": 9.626710266159543e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 9.805000000007169e-05
+                    },
+                    {
+                      "calls": 215,
+                      "elapsed_seconds": 0.020234156999999975
+                    }
+                  ],
+                  "calls": 215,
+                  "elapsed_seconds": 0.020234156999999975,
+                  "seconds_per_call": 9.411235813953476e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 9.639199999966763e-05
+                    },
+                    {
+                      "calls": 218,
+                      "elapsed_seconds": 0.020324291999999744
+                    }
+                  ],
+                  "calls": 218,
+                  "elapsed_seconds": 0.020324291999999744,
+                  "seconds_per_call": 9.323069724770525e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 9.425000000007344e-05
+                    },
+                    {
+                      "calls": 223,
+                      "elapsed_seconds": 0.020847631999999727
+                    }
+                  ],
+                  "calls": 223,
+                  "elapsed_seconds": 0.020847631999999727,
+                  "seconds_per_call": 9.348713901345169e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 9.7260000000432e-05
+                    },
+                    {
+                      "calls": 216,
+                      "elapsed_seconds": 0.020119594000000518
+                    }
+                  ],
+                  "calls": 216,
+                  "elapsed_seconds": 0.020119594000000518,
+                  "seconds_per_call": 9.314626851852091e-05
+                }
+              ],
+              "median_seconds_per_call": 9.348713901345169e-05
+            },
+            "pressure": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00011570499999979944
+                    },
+                    {
+                      "calls": 182,
+                      "elapsed_seconds": 0.019972401000000417
+                    },
+                    {
+                      "calls": 239,
+                      "elapsed_seconds": 0.026279794999999773
+                    }
+                  ],
+                  "calls": 239,
+                  "elapsed_seconds": 0.026279794999999773,
+                  "seconds_per_call": 0.00010995730125522917
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00011272600000022948
+                    },
+                    {
+                      "calls": 187,
+                      "elapsed_seconds": 0.020565895999999917
+                    }
+                  ],
+                  "calls": 187,
+                  "elapsed_seconds": 0.020565895999999917,
+                  "seconds_per_call": 0.00010997805347593539
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00011472100000009533
+                    },
+                    {
+                      "calls": 184,
+                      "elapsed_seconds": 0.02025559500000007
+                    }
+                  ],
+                  "calls": 184,
+                  "elapsed_seconds": 0.02025559500000007,
+                  "seconds_per_call": 0.00011008475543478299
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00010989799999983063
+                    },
+                    {
+                      "calls": 192,
+                      "elapsed_seconds": 0.021065770999999955
+                    }
+                  ],
+                  "calls": 192,
+                  "elapsed_seconds": 0.021065770999999955,
+                  "seconds_per_call": 0.00010971755729166643
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00010977600000039445
+                    },
+                    {
+                      "calls": 192,
+                      "elapsed_seconds": 0.020982515000000035
+                    }
+                  ],
+                  "calls": 192,
+                  "elapsed_seconds": 0.020982515000000035,
+                  "seconds_per_call": 0.00010928393229166684
+                }
+              ],
+              "median_seconds_per_call": 0.00010995730125522917
+            },
+            "aggregate": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00047613699999971004
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.021241150999999903
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.021241150999999903,
+                  "seconds_per_call": 0.0004720255777777756
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00048505899999984337
+                    },
+                    {
+                      "calls": 44,
+                      "elapsed_seconds": 0.02075711300000016
+                    }
+                  ],
+                  "calls": 44,
+                  "elapsed_seconds": 0.02075711300000016,
+                  "seconds_per_call": 0.00047175256818182183
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00047160300000026467
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.02132064300000014
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.02132064300000014,
+                  "seconds_per_call": 0.00047379206666666975
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004747510000004951
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.02115711399999931
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.02115711399999931,
+                  "seconds_per_call": 0.00047015808888887356
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00048169400000031004
+                    },
+                    {
+                      "calls": 44,
+                      "elapsed_seconds": 0.02071691500000039
+                    }
+                  ],
+                  "calls": 44,
+                  "elapsed_seconds": 0.02071691500000039,
+                  "seconds_per_call": 0.00047083897727273616
+                }
+              ],
+              "median_seconds_per_call": 0.00047175256818182183
+            }
+          },
+          "component_sum_seconds": 0.00046148690906578597,
+          "viscous_fraction": 0.41514773057916254,
+          "aggregate_to_component_sum_ratio": 1.0222447460900186
+        },
+        {
+          "npts": 17,
+          "components": {
+            "mass": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0001625790000003846
+                    },
+                    {
+                      "calls": 130,
+                      "elapsed_seconds": 0.02019600499999985
+                    }
+                  ],
+                  "calls": 130,
+                  "elapsed_seconds": 0.02019600499999985,
+                  "seconds_per_call": 0.00015535388461538347
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00016086199999953976
+                    },
+                    {
+                      "calls": 131,
+                      "elapsed_seconds": 0.020346783000000812
+                    }
+                  ],
+                  "calls": 131,
+                  "elapsed_seconds": 0.020346783000000812,
+                  "seconds_per_call": 0.00015531895419847947
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00015480999999972767
+                    },
+                    {
+                      "calls": 136,
+                      "elapsed_seconds": 0.021077861999999392
+                    }
+                  ],
+                  "calls": 136,
+                  "elapsed_seconds": 0.021077861999999392,
+                  "seconds_per_call": 0.00015498427941176024
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00015724999999999767
+                    },
+                    {
+                      "calls": 134,
+                      "elapsed_seconds": 0.02086507900000001
+                    }
+                  ],
+                  "calls": 134,
+                  "elapsed_seconds": 0.02086507900000001,
+                  "seconds_per_call": 0.00015570954477611948
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00015614899999949472
+                    },
+                    {
+                      "calls": 135,
+                      "elapsed_seconds": 0.020911992999999462
+                    }
+                  ],
+                  "calls": 135,
+                  "elapsed_seconds": 0.020911992999999462,
+                  "seconds_per_call": 0.00015490365185184788
+                }
+              ],
+              "median_seconds_per_call": 0.00015531895419847947
+            },
+            "viscous": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004609539999993473
+                    },
+                    {
+                      "calls": 46,
+                      "elapsed_seconds": 0.021100393000000217
+                    }
+                  ],
+                  "calls": 46,
+                  "elapsed_seconds": 0.021100393000000217,
+                  "seconds_per_call": 0.00045870419565217864
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00045864099999981534
+                    },
+                    {
+                      "calls": 46,
+                      "elapsed_seconds": 0.021025874999999417
+                    }
+                  ],
+                  "calls": 46,
+                  "elapsed_seconds": 0.021025874999999417,
+                  "seconds_per_call": 0.0004570842391304221
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004651710000000975
+                    },
+                    {
+                      "calls": 46,
+                      "elapsed_seconds": 0.02106611899999944
+                    }
+                  ],
+                  "calls": 46,
+                  "elapsed_seconds": 0.02106611899999944,
+                  "seconds_per_call": 0.00045795910869563997
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004601290000003644
+                    },
+                    {
+                      "calls": 46,
+                      "elapsed_seconds": 0.021066857000000105
+                    }
+                  ],
+                  "calls": 46,
+                  "elapsed_seconds": 0.021066857000000105,
+                  "seconds_per_call": 0.00045797515217391535
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004634159999996612
+                    },
+                    {
+                      "calls": 46,
+                      "elapsed_seconds": 0.02104130599999987
+                    }
+                  ],
+                  "calls": 46,
+                  "elapsed_seconds": 0.02104130599999987,
+                  "seconds_per_call": 0.0004574196956521711
+                }
+              ],
+              "median_seconds_per_call": 0.00045795910869563997
+            },
+            "divergence": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0001740099999993916
+                    },
+                    {
+                      "calls": 121,
+                      "elapsed_seconds": 0.019456748999999718
+                    },
+                    {
+                      "calls": 159,
+                      "elapsed_seconds": 0.025624129999999745
+                    }
+                  ],
+                  "calls": 159,
+                  "elapsed_seconds": 0.025624129999999745,
+                  "seconds_per_call": 0.0001611580503144638
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00016083199999972209
+                    },
+                    {
+                      "calls": 131,
+                      "elapsed_seconds": 0.021095780999999647
+                    }
+                  ],
+                  "calls": 131,
+                  "elapsed_seconds": 0.021095780999999647,
+                  "seconds_per_call": 0.00016103649618320342
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0001621419999997542
+                    },
+                    {
+                      "calls": 130,
+                      "elapsed_seconds": 0.02086418900000009
+                    }
+                  ],
+                  "calls": 130,
+                  "elapsed_seconds": 0.02086418900000009,
+                  "seconds_per_call": 0.00016049376153846222
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00016183099999977912
+                    },
+                    {
+                      "calls": 130,
+                      "elapsed_seconds": 0.02094710499999941
+                    }
+                  ],
+                  "calls": 130,
+                  "elapsed_seconds": 0.02094710499999941,
+                  "seconds_per_call": 0.0001611315769230724
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00016152099999988678
+                    },
+                    {
+                      "calls": 131,
+                      "elapsed_seconds": 0.02098270599999985
+                    }
+                  ],
+                  "calls": 131,
+                  "elapsed_seconds": 0.02098270599999985,
+                  "seconds_per_call": 0.00016017332824427367
+                }
+              ],
+              "median_seconds_per_call": 0.00016103649618320342
+            },
+            "pressure": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00018176000000025283
+                    },
+                    {
+                      "calls": 116,
+                      "elapsed_seconds": 0.020201232999999874
+                    }
+                  ],
+                  "calls": 116,
+                  "elapsed_seconds": 0.020201232999999874,
+                  "seconds_per_call": 0.0001741485603448265
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00017499800000031485
+                    },
+                    {
+                      "calls": 121,
+                      "elapsed_seconds": 0.02106018899999995
+                    }
+                  ],
+                  "calls": 121,
+                  "elapsed_seconds": 0.02106018899999995,
+                  "seconds_per_call": 0.0001740511487603302
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00017420399999945602
+                    },
+                    {
+                      "calls": 121,
+                      "elapsed_seconds": 0.021066845
+                    }
+                  ],
+                  "calls": 121,
+                  "elapsed_seconds": 0.021066845,
+                  "seconds_per_call": 0.00017410615702479339
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00018244299999992108
+                    },
+                    {
+                      "calls": 116,
+                      "elapsed_seconds": 0.02017695100000072
+                    }
+                  ],
+                  "calls": 116,
+                  "elapsed_seconds": 0.02017695100000072,
+                  "seconds_per_call": 0.0001739392327586269
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00017302499999960474
+                    },
+                    {
+                      "calls": 122,
+                      "elapsed_seconds": 0.02121769400000062
+                    }
+                  ],
+                  "calls": 122,
+                  "elapsed_seconds": 0.02121769400000062,
+                  "seconds_per_call": 0.000173915524590169
+                }
+              ],
+              "median_seconds_per_call": 0.0001740511487603302
+            },
+            "aggregate": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009725900000008281
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.021133458999999633
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.021133458999999633,
+                  "seconds_per_call": 0.000960611772727256
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009683879999995426
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.021115845000000633
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.021115845000000633,
+                  "seconds_per_call": 0.0009598111363636651
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009597869999993236
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.02108991700000029
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.02108991700000029,
+                  "seconds_per_call": 0.0009586325909091042
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.000955084000000106
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.021137860999999702
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.021137860999999702,
+                  "seconds_per_call": 0.0009608118636363502
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009549529999999251
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.021042999000000506
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.021042999000000506,
+                  "seconds_per_call": 0.0009564999545454776
+                }
+              ],
+              "median_seconds_per_call": 0.0009598111363636651
+            }
+          },
+          "component_sum_seconds": 0.000948365707837653,
+          "viscous_fraction": 0.48289294405195443,
+          "aggregate_to_component_sum_ratio": 1.0120685811722447
+        },
+        {
+          "npts": 33,
+          "components": {
+            "mass": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.000659895000000077
+                    },
+                    {
+                      "calls": 32,
+                      "elapsed_seconds": 0.020256003000000078
+                    }
+                  ],
+                  "calls": 32,
+                  "elapsed_seconds": 0.020256003000000078,
+                  "seconds_per_call": 0.0006330000937500024
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0006387559999998516
+                    },
+                    {
+                      "calls": 33,
+                      "elapsed_seconds": 0.021165986000000636
+                    }
+                  ],
+                  "calls": 33,
+                  "elapsed_seconds": 0.021165986000000636,
+                  "seconds_per_call": 0.0006413935151515345
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0006255639999999119
+                    },
+                    {
+                      "calls": 34,
+                      "elapsed_seconds": 0.02147843299999952
+                    }
+                  ],
+                  "calls": 34,
+                  "elapsed_seconds": 0.02147843299999952,
+                  "seconds_per_call": 0.0006317186176470447
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0006264169999994351
+                    },
+                    {
+                      "calls": 34,
+                      "elapsed_seconds": 0.021548660999999747
+                    }
+                  ],
+                  "calls": 34,
+                  "elapsed_seconds": 0.021548660999999747,
+                  "seconds_per_call": 0.0006337841470588161
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0006325040000003668
+                    },
+                    {
+                      "calls": 34,
+                      "elapsed_seconds": 0.021567505999999348
+                    }
+                  ],
+                  "calls": 34,
+                  "elapsed_seconds": 0.021567505999999348,
+                  "seconds_per_call": 0.0006343384117646867
+                }
+              ],
+              "median_seconds_per_call": 0.0006337841470588161
+            },
+            "viscous": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0019024940000003099
+                    },
+                    {
+                      "calls": 12,
+                      "elapsed_seconds": 0.022738065999999613
+                    }
+                  ],
+                  "calls": 12,
+                  "elapsed_seconds": 0.022738065999999613,
+                  "seconds_per_call": 0.001894838833333301
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.001872324999999897
+                    },
+                    {
+                      "calls": 12,
+                      "elapsed_seconds": 0.022647091000000508
+                    }
+                  ],
+                  "calls": 12,
+                  "elapsed_seconds": 0.022647091000000508,
+                  "seconds_per_call": 0.0018872575833333756
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0019193539999999842
+                    },
+                    {
+                      "calls": 11,
+                      "elapsed_seconds": 0.02067065099999965
+                    }
+                  ],
+                  "calls": 11,
+                  "elapsed_seconds": 0.02067065099999965,
+                  "seconds_per_call": 0.0018791500909090591
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0018967480000000592
+                    },
+                    {
+                      "calls": 12,
+                      "elapsed_seconds": 0.02260746400000002
+                    }
+                  ],
+                  "calls": 12,
+                  "elapsed_seconds": 0.02260746400000002,
+                  "seconds_per_call": 0.0018839553333333352
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0018992940000002179
+                    },
+                    {
+                      "calls": 12,
+                      "elapsed_seconds": 0.022575177000000224
+                    }
+                  ],
+                  "calls": 12,
+                  "elapsed_seconds": 0.022575177000000224,
+                  "seconds_per_call": 0.0018812647500000186
+                }
+              ],
+              "median_seconds_per_call": 0.0018839553333333352
+            },
+            "divergence": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004910760000003123
+                    },
+                    {
+                      "calls": 43,
+                      "elapsed_seconds": 0.020021650000000335
+                    }
+                  ],
+                  "calls": 43,
+                  "elapsed_seconds": 0.020021650000000335,
+                  "seconds_per_call": 0.00046561976744186826
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004652019999999979
+                    },
+                    {
+                      "calls": 46,
+                      "elapsed_seconds": 0.021256359999999752
+                    }
+                  ],
+                  "calls": 46,
+                  "elapsed_seconds": 0.021256359999999752,
+                  "seconds_per_call": 0.0004620947826086903
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004618519999999293
+                    },
+                    {
+                      "calls": 46,
+                      "elapsed_seconds": 0.02132613399999972
+                    }
+                  ],
+                  "calls": 46,
+                  "elapsed_seconds": 0.02132613399999972,
+                  "seconds_per_call": 0.0004636116086956461
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004663230000003793
+                    },
+                    {
+                      "calls": 46,
+                      "elapsed_seconds": 0.021364458999999947
+                    }
+                  ],
+                  "calls": 46,
+                  "elapsed_seconds": 0.021364458999999947,
+                  "seconds_per_call": 0.0004644447608695641
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004706949999997434
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.020896142999999867
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.020896142999999867,
+                  "seconds_per_call": 0.00046435873333333037
+                }
+              ],
+              "median_seconds_per_call": 0.00046435873333333037
+            },
+            "pressure": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00048817299999992514
+                    },
+                    {
+                      "calls": 44,
+                      "elapsed_seconds": 0.0209394249999999
+                    }
+                  ],
+                  "calls": 44,
+                  "elapsed_seconds": 0.0209394249999999,
+                  "seconds_per_call": 0.0004758960227272705
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00047664199999974954
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.021500585000000072
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.021500585000000072,
+                  "seconds_per_call": 0.0004777907777777794
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004831910000007156
+                    },
+                    {
+                      "calls": 44,
+                      "elapsed_seconds": 0.021005245999999644
+                    }
+                  ],
+                  "calls": 44,
+                  "elapsed_seconds": 0.021005245999999644,
+                  "seconds_per_call": 0.00047739195454544645
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004903640000000209
+                    },
+                    {
+                      "calls": 43,
+                      "elapsed_seconds": 0.020633883999999547
+                    }
+                  ],
+                  "calls": 43,
+                  "elapsed_seconds": 0.020633883999999547,
+                  "seconds_per_call": 0.0004798577674418499
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004937560000000119
+                    },
+                    {
+                      "calls": 43,
+                      "elapsed_seconds": 0.020599245999999738
+                    }
+                  ],
+                  "calls": 43,
+                  "elapsed_seconds": 0.020599245999999738,
+                  "seconds_per_call": 0.00047905223255813344
+                }
+              ],
+              "median_seconds_per_call": 0.0004777907777777794
+            },
+            "aggregate": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0034596499999999253
+                    },
+                    {
+                      "calls": 7,
+                      "elapsed_seconds": 0.024261486000000332
+                    }
+                  ],
+                  "calls": 7,
+                  "elapsed_seconds": 0.024261486000000332,
+                  "seconds_per_call": 0.0034659265714286186
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.003467728000000392
+                    },
+                    {
+                      "calls": 7,
+                      "elapsed_seconds": 0.02430932600000002
+                    }
+                  ],
+                  "calls": 7,
+                  "elapsed_seconds": 0.02430932600000002,
+                  "seconds_per_call": 0.00347276085714286
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.003430532000000319
+                    },
+                    {
+                      "calls": 7,
+                      "elapsed_seconds": 0.024121811999999743
+                    }
+                  ],
+                  "calls": 7,
+                  "elapsed_seconds": 0.024121811999999743,
+                  "seconds_per_call": 0.003445973142857106
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0034274070000002155
+                    },
+                    {
+                      "calls": 7,
+                      "elapsed_seconds": 0.024006414000000476
+                    }
+                  ],
+                  "calls": 7,
+                  "elapsed_seconds": 0.024006414000000476,
+                  "seconds_per_call": 0.003429487714285782
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0034441279999999352
+                    },
+                    {
+                      "calls": 7,
+                      "elapsed_seconds": 0.024093700999999967
+                    }
+                  ],
+                  "calls": 7,
+                  "elapsed_seconds": 0.024093700999999967,
+                  "seconds_per_call": 0.003441957285714281
+                }
+              ],
+              "median_seconds_per_call": 0.003445973142857106
+            }
+          },
+          "component_sum_seconds": 0.003459888991503261,
+          "viscous_fraction": 0.5445132309042059,
+          "aggregate_to_component_sum_ratio": 0.9959779493849863
+        },
+        {
+          "npts": 65,
+          "components": {
+            "mass": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008442370000000032
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.02468958499999996
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.02468958499999996,
+                  "seconds_per_call": 0.008229861666666652
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00809635100000028
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.025339670999999786
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.025339670999999786,
+                  "seconds_per_call": 0.00844655699999993
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008649939999999745
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.025777319999999992
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.025777319999999992,
+                  "seconds_per_call": 0.008592439999999998
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008408316999999776
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.025877820999999912
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.025877820999999912,
+                  "seconds_per_call": 0.008625940333333304
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00882616000000036
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.02678764900000008
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.02678764900000008,
+                  "seconds_per_call": 0.00892921633333336
+                }
+              ],
+              "median_seconds_per_call": 0.008592439999999998
+            },
+            "viscous": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.020316533999999997
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.020316533999999997,
+                  "seconds_per_call": 0.020316533999999997
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0203417560000001
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.0203417560000001,
+                  "seconds_per_call": 0.0203417560000001
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.019881142999999657
+                    },
+                    {
+                      "calls": 2,
+                      "elapsed_seconds": 0.04029432199999983
+                    }
+                  ],
+                  "calls": 2,
+                  "elapsed_seconds": 0.04029432199999983,
+                  "seconds_per_call": 0.020147160999999913
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.019960923000000186
+                    },
+                    {
+                      "calls": 2,
+                      "elapsed_seconds": 0.03985094899999986
+                    }
+                  ],
+                  "calls": 2,
+                  "elapsed_seconds": 0.03985094899999986,
+                  "seconds_per_call": 0.01992547449999993
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.020096072999999937
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.020096072999999937,
+                  "seconds_per_call": 0.020096072999999937
+                }
+              ],
+              "median_seconds_per_call": 0.020147160999999913
+            },
+            "divergence": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008434248000000366
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.02522442399999969
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.02522442399999969,
+                  "seconds_per_call": 0.00840814133333323
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008455284000000063
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.024726668000000007
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.024726668000000007,
+                  "seconds_per_call": 0.008242222666666668
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00838063499999997
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.024334713000000008
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.024334713000000008,
+                  "seconds_per_call": 0.008111571000000003
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.007735294999999809
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.02455169700000015
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.02455169700000015,
+                  "seconds_per_call": 0.00818389900000005
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008077225000000077
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.023829286000000227
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.023829286000000227,
+                  "seconds_per_call": 0.007943095333333408
+                }
+              ],
+              "median_seconds_per_call": 0.00818389900000005
+            },
+            "pressure": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.006489956000000241
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.02455620699999983
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.02455620699999983,
+                  "seconds_per_call": 0.0061390517499999575
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0063852230000001065
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.025158234000000057
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.025158234000000057,
+                  "seconds_per_call": 0.006289558500000014
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.006397363000000045
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.0248691950000004
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.0248691950000004,
+                  "seconds_per_call": 0.0062172987500001
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.005894037000000019
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.024026269000000156
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.024026269000000156,
+                  "seconds_per_call": 0.006006567250000039
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.006443272999999916
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.024631886999999963
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.024631886999999963,
+                  "seconds_per_call": 0.006157971749999991
+                }
+              ],
+              "median_seconds_per_call": 0.006157971749999991
+            },
+            "aggregate": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.04350763400000002
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.04350763400000002,
+                  "seconds_per_call": 0.04350763400000002
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.04434595399999974
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.04434595399999974,
+                  "seconds_per_call": 0.04434595399999974
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0435440650000003
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.0435440650000003,
+                  "seconds_per_call": 0.0435440650000003
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.04414814400000022
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.04414814400000022,
+                  "seconds_per_call": 0.04414814400000022
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.04377485799999992
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.04377485799999992,
+                  "seconds_per_call": 0.04377485799999992
+                }
+              ],
+              "median_seconds_per_call": 0.04377485799999992
+            }
+          },
+          "component_sum_seconds": 0.043081471749999954,
+          "viscous_fraction": 0.46765257038833485,
+          "aggregate_to_component_sum_ratio": 1.0160947670038678
+        }
+      ],
+      "exponents": {
+        "mass": 2.995399337800559,
+        "viscous": 2.82390862880241,
+        "divergence": 2.933773145103652,
+        "pressure": 2.663054227617618,
+        "aggregate": 2.8516124987741307,
+        "component_sum": 2.8485549478174748
+      }
+    },
+    {
+      "block_index": 2,
+      "execution_order": [
+        9,
+        17,
+        33,
+        65
+      ],
+      "rows": [
+        {
+          "npts": 9,
+          "components": {
+            "mass": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 7.11730000002575e-05
+                    },
+                    {
+                      "calls": 296,
+                      "elapsed_seconds": 0.01971814299999952
+                    },
+                    {
+                      "calls": 389,
+                      "elapsed_seconds": 0.02599657000000022
+                    }
+                  ],
+                  "calls": 389,
+                  "elapsed_seconds": 0.02599657000000022,
+                  "seconds_per_call": 6.682922879177434e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 6.719299999957684e-05
+                    },
+                    {
+                      "calls": 313,
+                      "elapsed_seconds": 0.020818934000000233
+                    }
+                  ],
+                  "calls": 313,
+                  "elapsed_seconds": 0.020818934000000233,
+                  "seconds_per_call": 6.651416613418605e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 6.733499999977965e-05
+                    },
+                    {
+                      "calls": 312,
+                      "elapsed_seconds": 0.02075381700000012
+                    }
+                  ],
+                  "calls": 312,
+                  "elapsed_seconds": 0.02075381700000012,
+                  "seconds_per_call": 6.651864423076962e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 6.69660000003347e-05
+                    },
+                    {
+                      "calls": 314,
+                      "elapsed_seconds": 0.020846151000000646
+                    }
+                  ],
+                  "calls": 314,
+                  "elapsed_seconds": 0.020846151000000646,
+                  "seconds_per_call": 6.638901592356893e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 6.824899999990919e-05
+                    },
+                    {
+                      "calls": 308,
+                      "elapsed_seconds": 0.02054870200000014
+                    }
+                  ],
+                  "calls": 308,
+                  "elapsed_seconds": 0.02054870200000014,
+                  "seconds_per_call": 6.671656493506539e-05
+                }
+              ],
+              "median_seconds_per_call": 6.651864423076962e-05
+            },
+            "viscous": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00019474100000049788
+                    },
+                    {
+                      "calls": 108,
+                      "elapsed_seconds": 0.020711534000000142
+                    }
+                  ],
+                  "calls": 108,
+                  "elapsed_seconds": 0.020711534000000142,
+                  "seconds_per_call": 0.00019177346296296428
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00019778400000003415
+                    },
+                    {
+                      "calls": 107,
+                      "elapsed_seconds": 0.020603286000000054
+                    }
+                  ],
+                  "calls": 107,
+                  "elapsed_seconds": 0.020603286000000054,
+                  "seconds_per_call": 0.00019255407476635565
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00019229799999997965
+                    },
+                    {
+                      "calls": 110,
+                      "elapsed_seconds": 0.02100307599999951
+                    }
+                  ],
+                  "calls": 110,
+                  "elapsed_seconds": 0.02100307599999951,
+                  "seconds_per_call": 0.0001909370545454501
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00019286499999981999
+                    },
+                    {
+                      "calls": 109,
+                      "elapsed_seconds": 0.020928323999999776
+                    }
+                  ],
+                  "calls": 109,
+                  "elapsed_seconds": 0.020928323999999776,
+                  "seconds_per_call": 0.00019200297247706216
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00019351999999983605
+                    },
+                    {
+                      "calls": 109,
+                      "elapsed_seconds": 0.02089000000000052
+                    }
+                  ],
+                  "calls": 109,
+                  "elapsed_seconds": 0.02089000000000052,
+                  "seconds_per_call": 0.00019165137614679376
+                }
+              ],
+              "median_seconds_per_call": 0.00019177346296296428
+            },
+            "divergence": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00010469600000018175
+                    },
+                    {
+                      "calls": 201,
+                      "elapsed_seconds": 0.018867579000000134
+                    },
+                    {
+                      "calls": 264,
+                      "elapsed_seconds": 0.02466305299999938
+                    }
+                  ],
+                  "calls": 264,
+                  "elapsed_seconds": 0.02466305299999938,
+                  "seconds_per_call": 9.342065530302796e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 9.4406999999741e-05
+                    },
+                    {
+                      "calls": 223,
+                      "elapsed_seconds": 0.020827922999999693
+                    }
+                  ],
+                  "calls": 223,
+                  "elapsed_seconds": 0.020827922999999693,
+                  "seconds_per_call": 9.339875784753225e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 9.850700000058055e-05
+                    },
+                    {
+                      "calls": 214,
+                      "elapsed_seconds": 0.019917018999999314
+                    },
+                    {
+                      "calls": 281,
+                      "elapsed_seconds": 0.02631574200000042
+                    }
+                  ],
+                  "calls": 281,
+                  "elapsed_seconds": 0.02631574200000042,
+                  "seconds_per_call": 9.365032740213672e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 9.722500000020062e-05
+                    },
+                    {
+                      "calls": 216,
+                      "elapsed_seconds": 0.020148360999999504
+                    }
+                  ],
+                  "calls": 216,
+                  "elapsed_seconds": 0.020148360999999504,
+                  "seconds_per_call": 9.327944907407178e-05
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 9.593399999996421e-05
+                    },
+                    {
+                      "calls": 219,
+                      "elapsed_seconds": 0.02044740399999956
+                    }
+                  ],
+                  "calls": 219,
+                  "elapsed_seconds": 0.02044740399999956,
+                  "seconds_per_call": 9.33671415525094e-05
+                }
+              ],
+              "median_seconds_per_call": 9.339875784753225e-05
+            },
+            "pressure": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00011674900000002708
+                    },
+                    {
+                      "calls": 180,
+                      "elapsed_seconds": 0.019786507000000064
+                    },
+                    {
+                      "calls": 237,
+                      "elapsed_seconds": 0.026098540999999642
+                    }
+                  ],
+                  "calls": 237,
+                  "elapsed_seconds": 0.026098540999999642,
+                  "seconds_per_call": 0.00011012042616033605
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00011225100000000765
+                    },
+                    {
+                      "calls": 188,
+                      "elapsed_seconds": 0.020722780999999912
+                    }
+                  ],
+                  "calls": 188,
+                  "elapsed_seconds": 0.020722780999999912,
+                  "seconds_per_call": 0.00011022755851063783
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00011752599999947932
+                    },
+                    {
+                      "calls": 179,
+                      "elapsed_seconds": 0.019708282999999938
+                    },
+                    {
+                      "calls": 235,
+                      "elapsed_seconds": 0.02588929100000037
+                    }
+                  ],
+                  "calls": 235,
+                  "elapsed_seconds": 0.02588929100000037,
+                  "seconds_per_call": 0.00011016719574468243
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00011159399999982611
+                    },
+                    {
+                      "calls": 189,
+                      "elapsed_seconds": 0.02073688000000029
+                    }
+                  ],
+                  "calls": 189,
+                  "elapsed_seconds": 0.02073688000000029,
+                  "seconds_per_call": 0.00010971894179894334
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00011048499999954942
+                    },
+                    {
+                      "calls": 191,
+                      "elapsed_seconds": 0.021027658999999588
+                    }
+                  ],
+                  "calls": 191,
+                  "elapsed_seconds": 0.021027658999999588,
+                  "seconds_per_call": 0.00011009245549738004
+                }
+              ],
+              "median_seconds_per_call": 0.00011012042616033605
+            },
+            "aggregate": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004744749999998632
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.021218093999999965
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.021218093999999965,
+                  "seconds_per_call": 0.0004715131999999992
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00046818099999956786
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.021299681000000348
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.021299681000000348,
+                  "seconds_per_call": 0.0004733262444444522
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00046938000000018576
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.021192301000000136
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.021192301000000136,
+                  "seconds_per_call": 0.00047094002222222524
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00047243300000054944
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.021365907999999934
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.021365907999999934,
+                  "seconds_per_call": 0.00047479795555555406
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00047861999999998517
+                    },
+                    {
+                      "calls": 44,
+                      "elapsed_seconds": 0.020762893999999754
+                    }
+                  ],
+                  "calls": 44,
+                  "elapsed_seconds": 0.020762893999999754,
+                  "seconds_per_call": 0.00047188395454544896
+                }
+              ],
+              "median_seconds_per_call": 0.00047188395454544896
+            }
+          },
+          "component_sum_seconds": 0.0004618112912016022,
+          "viscous_fraction": 0.415263694536317,
+          "aggregate_to_component_sum_ratio": 1.0218112106302952
+        },
+        {
+          "npts": 17,
+          "components": {
+            "mass": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0001665430000006296
+                    },
+                    {
+                      "calls": 127,
+                      "elapsed_seconds": 0.020066238999999264
+                    }
+                  ],
+                  "calls": 127,
+                  "elapsed_seconds": 0.020066238999999264,
+                  "seconds_per_call": 0.00015800188188975798
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00016526699999985794
+                    },
+                    {
+                      "calls": 128,
+                      "elapsed_seconds": 0.02011707199999968
+                    }
+                  ],
+                  "calls": 128,
+                  "elapsed_seconds": 0.02011707199999968,
+                  "seconds_per_call": 0.0001571646249999975
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00015843100000001442
+                    },
+                    {
+                      "calls": 133,
+                      "elapsed_seconds": 0.020803453000000083
+                    }
+                  ],
+                  "calls": 133,
+                  "elapsed_seconds": 0.020803453000000083,
+                  "seconds_per_call": 0.00015641693984962468
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0001581919999997794
+                    },
+                    {
+                      "calls": 133,
+                      "elapsed_seconds": 0.020656318999999534
+                    }
+                  ],
+                  "calls": 133,
+                  "elapsed_seconds": 0.020656318999999534,
+                  "seconds_per_call": 0.00015531066917292882
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00016101300000048724
+                    },
+                    {
+                      "calls": 131,
+                      "elapsed_seconds": 0.020483183000000516
+                    }
+                  ],
+                  "calls": 131,
+                  "elapsed_seconds": 0.020483183000000516,
+                  "seconds_per_call": 0.00015636017557252302
+                }
+              ],
+              "median_seconds_per_call": 0.00015641693984962468
+            },
+            "viscous": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.000466932000000142
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.020651893000000143
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.020651893000000143,
+                  "seconds_per_call": 0.00045893095555555875
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004615480000005334
+                    },
+                    {
+                      "calls": 46,
+                      "elapsed_seconds": 0.021169897999999243
+                    }
+                  ],
+                  "calls": 46,
+                  "elapsed_seconds": 0.021169897999999243,
+                  "seconds_per_call": 0.00046021517391302703
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004589680000002261
+                    },
+                    {
+                      "calls": 46,
+                      "elapsed_seconds": 0.021185927000000326
+                    }
+                  ],
+                  "calls": 46,
+                  "elapsed_seconds": 0.021185927000000326,
+                  "seconds_per_call": 0.0004605636304347897
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00046348600000012397
+                    },
+                    {
+                      "calls": 46,
+                      "elapsed_seconds": 0.021177607000000265
+                    }
+                  ],
+                  "calls": 46,
+                  "elapsed_seconds": 0.021177607000000265,
+                  "seconds_per_call": 0.00046038276086957097
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004633640000006878
+                    },
+                    {
+                      "calls": 46,
+                      "elapsed_seconds": 0.021092735999999945
+                    }
+                  ],
+                  "calls": 46,
+                  "elapsed_seconds": 0.021092735999999945,
+                  "seconds_per_call": 0.0004585377391304336
+                }
+              ],
+              "median_seconds_per_call": 0.00046021517391302703
+            },
+            "divergence": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00017532599999992016
+                    },
+                    {
+                      "calls": 120,
+                      "elapsed_seconds": 0.019411192000000632
+                    },
+                    {
+                      "calls": 158,
+                      "elapsed_seconds": 0.02536200399999977
+                    }
+                  ],
+                  "calls": 158,
+                  "elapsed_seconds": 0.02536200399999977,
+                  "seconds_per_call": 0.0001605190126582264
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00016259299999976662
+                    },
+                    {
+                      "calls": 130,
+                      "elapsed_seconds": 0.020949268999999937
+                    }
+                  ],
+                  "calls": 130,
+                  "elapsed_seconds": 0.020949268999999937,
+                  "seconds_per_call": 0.00016114822307692258
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00016146799999994244
+                    },
+                    {
+                      "calls": 131,
+                      "elapsed_seconds": 0.021052544000000672
+                    }
+                  ],
+                  "calls": 131,
+                  "elapsed_seconds": 0.021052544000000672,
+                  "seconds_per_call": 0.00016070644274809675
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00016978599999983857
+                    },
+                    {
+                      "calls": 124,
+                      "elapsed_seconds": 0.019936445999999997
+                    },
+                    {
+                      "calls": 163,
+                      "elapsed_seconds": 0.026210934999999935
+                    }
+                  ],
+                  "calls": 163,
+                  "elapsed_seconds": 0.026210934999999935,
+                  "seconds_per_call": 0.00016080328220858855
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0001630840000004241
+                    },
+                    {
+                      "calls": 129,
+                      "elapsed_seconds": 0.020755954000000187
+                    }
+                  ],
+                  "calls": 129,
+                  "elapsed_seconds": 0.020755954000000187,
+                  "seconds_per_call": 0.0001608988682170557
+                }
+              ],
+              "median_seconds_per_call": 0.00016080328220858855
+            },
+            "pressure": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00018113099999972349
+                    },
+                    {
+                      "calls": 116,
+                      "elapsed_seconds": 0.020426424000000054
+                    }
+                  ],
+                  "calls": 116,
+                  "elapsed_seconds": 0.020426424000000054,
+                  "seconds_per_call": 0.00017608986206896598
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00018491300000000876
+                    },
+                    {
+                      "calls": 114,
+                      "elapsed_seconds": 0.020062210000000746
+                    }
+                  ],
+                  "calls": 114,
+                  "elapsed_seconds": 0.020062210000000746,
+                  "seconds_per_call": 0.00017598429824562057
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0001777099999999976
+                    },
+                    {
+                      "calls": 119,
+                      "elapsed_seconds": 0.020938139000000078
+                    }
+                  ],
+                  "calls": 119,
+                  "elapsed_seconds": 0.020938139000000078,
+                  "seconds_per_call": 0.00017595074789916032
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00017444499999985652
+                    },
+                    {
+                      "calls": 121,
+                      "elapsed_seconds": 0.021221526999999796
+                    }
+                  ],
+                  "calls": 121,
+                  "elapsed_seconds": 0.021221526999999796,
+                  "seconds_per_call": 0.00017538452066115533
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00017570600000027525
+                    },
+                    {
+                      "calls": 120,
+                      "elapsed_seconds": 0.021114820999999395
+                    }
+                  ],
+                  "calls": 120,
+                  "elapsed_seconds": 0.021114820999999395,
+                  "seconds_per_call": 0.00017595684166666164
+                }
+              ],
+              "median_seconds_per_call": 0.00017595684166666164
+            },
+            "aggregate": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009724470000005425
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.021299100000000237
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.021299100000000237,
+                  "seconds_per_call": 0.0009681409090909199
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009657670000002838
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.021324210999999593
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.021324210999999593,
+                  "seconds_per_call": 0.0009692823181817997
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009702140000005244
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.021160545999999947
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.021160545999999947,
+                  "seconds_per_call": 0.0009618429999999976
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009575550000002764
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.021116155000000525
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.021116155000000525,
+                  "seconds_per_call": 0.0009598252272727512
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0009621019999999092
+                    },
+                    {
+                      "calls": 22,
+                      "elapsed_seconds": 0.021190932999999745
+                    }
+                  ],
+                  "calls": 22,
+                  "elapsed_seconds": 0.021190932999999745,
+                  "seconds_per_call": 0.0009632242272727157
+                }
+              ],
+              "median_seconds_per_call": 0.0009632242272727157
+            }
+          },
+          "component_sum_seconds": 0.0009533922376379019,
+          "viscous_fraction": 0.4827133636552814,
+          "aggregate_to_component_sum_ratio": 1.01031263864616
+        },
+        {
+          "npts": 33,
+          "components": {
+            "mass": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0006619790000002013
+                    },
+                    {
+                      "calls": 32,
+                      "elapsed_seconds": 0.0200579430000003
+                    }
+                  ],
+                  "calls": 32,
+                  "elapsed_seconds": 0.0200579430000003,
+                  "seconds_per_call": 0.0006268107187500094
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.000620100999999984
+                    },
+                    {
+                      "calls": 34,
+                      "elapsed_seconds": 0.02097289900000021
+                    }
+                  ],
+                  "calls": 34,
+                  "elapsed_seconds": 0.02097289900000021,
+                  "seconds_per_call": 0.0006168499705882415
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0006097239999993675
+                    },
+                    {
+                      "calls": 35,
+                      "elapsed_seconds": 0.021907770000000326
+                    }
+                  ],
+                  "calls": 35,
+                  "elapsed_seconds": 0.021907770000000326,
+                  "seconds_per_call": 0.000625936285714295
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0006237980000003418
+                    },
+                    {
+                      "calls": 34,
+                      "elapsed_seconds": 0.021088323999999936
+                    }
+                  ],
+                  "calls": 34,
+                  "elapsed_seconds": 0.021088323999999936,
+                  "seconds_per_call": 0.0006202448235294099
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0006303330000001495
+                    },
+                    {
+                      "calls": 34,
+                      "elapsed_seconds": 0.021300896000000513
+                    }
+                  ],
+                  "calls": 34,
+                  "elapsed_seconds": 0.021300896000000513,
+                  "seconds_per_call": 0.0006264969411764856
+                }
+              ],
+              "median_seconds_per_call": 0.000625936285714295
+            },
+            "viscous": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0018849640000002665
+                    },
+                    {
+                      "calls": 12,
+                      "elapsed_seconds": 0.02275324000000012
+                    }
+                  ],
+                  "calls": 12,
+                  "elapsed_seconds": 0.02275324000000012,
+                  "seconds_per_call": 0.0018961033333333432
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.001888032000000095
+                    },
+                    {
+                      "calls": 12,
+                      "elapsed_seconds": 0.022656987000000406
+                    }
+                  ],
+                  "calls": 12,
+                  "elapsed_seconds": 0.022656987000000406,
+                  "seconds_per_call": 0.0018880822500000338
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0018776689999997487
+                    },
+                    {
+                      "calls": 12,
+                      "elapsed_seconds": 0.022476213000000023
+                    }
+                  ],
+                  "calls": 12,
+                  "elapsed_seconds": 0.022476213000000023,
+                  "seconds_per_call": 0.0018730177500000018
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0018697879999995948
+                    },
+                    {
+                      "calls": 12,
+                      "elapsed_seconds": 0.022692529000000405
+                    }
+                  ],
+                  "calls": 12,
+                  "elapsed_seconds": 0.022692529000000405,
+                  "seconds_per_call": 0.001891044083333367
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0019326380000004306
+                    },
+                    {
+                      "calls": 11,
+                      "elapsed_seconds": 0.020829200000000547
+                    }
+                  ],
+                  "calls": 11,
+                  "elapsed_seconds": 0.020829200000000547,
+                  "seconds_per_call": 0.0018935636363636862
+                }
+              ],
+              "median_seconds_per_call": 0.001891044083333367
+            },
+            "divergence": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0005072469999998219
+                    },
+                    {
+                      "calls": 42,
+                      "elapsed_seconds": 0.020061721000000254
+                    }
+                  ],
+                  "calls": 42,
+                  "elapsed_seconds": 0.020061721000000254,
+                  "seconds_per_call": 0.00047766002380952985
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00047773499999959057
+                    },
+                    {
+                      "calls": 44,
+                      "elapsed_seconds": 0.020592408000000617
+                    }
+                  ],
+                  "calls": 44,
+                  "elapsed_seconds": 0.020592408000000617,
+                  "seconds_per_call": 0.00046800927272728674
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004841730000002542
+                    },
+                    {
+                      "calls": 44,
+                      "elapsed_seconds": 0.020515109999999837
+                    }
+                  ],
+                  "calls": 44,
+                  "elapsed_seconds": 0.020515109999999837,
+                  "seconds_per_call": 0.0004662524999999963
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00047798500000073574
+                    },
+                    {
+                      "calls": 44,
+                      "elapsed_seconds": 0.020498843999999572
+                    }
+                  ],
+                  "calls": 44,
+                  "elapsed_seconds": 0.020498843999999572,
+                  "seconds_per_call": 0.0004658828181818085
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004665519999997869
+                    },
+                    {
+                      "calls": 46,
+                      "elapsed_seconds": 0.021423570000000502
+                    }
+                  ],
+                  "calls": 46,
+                  "elapsed_seconds": 0.021423570000000502,
+                  "seconds_per_call": 0.0004657297826087066
+                }
+              ],
+              "median_seconds_per_call": 0.0004662524999999963
+            },
+            "pressure": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0005056179999991528
+                    },
+                    {
+                      "calls": 42,
+                      "elapsed_seconds": 0.02028619900000006
+                    }
+                  ],
+                  "calls": 42,
+                  "elapsed_seconds": 0.02028619900000006,
+                  "seconds_per_call": 0.00048300473809523954
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004803840000002779
+                    },
+                    {
+                      "calls": 44,
+                      "elapsed_seconds": 0.021176006000000136
+                    }
+                  ],
+                  "calls": 44,
+                  "elapsed_seconds": 0.021176006000000136,
+                  "seconds_per_call": 0.0004812728636363667
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004913220000002383
+                    },
+                    {
+                      "calls": 43,
+                      "elapsed_seconds": 0.020853363999999708
+                    }
+                  ],
+                  "calls": 43,
+                  "elapsed_seconds": 0.020853363999999708,
+                  "seconds_per_call": 0.0004849619534883653
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004957680000003961
+                    },
+                    {
+                      "calls": 43,
+                      "elapsed_seconds": 0.02068497299999983
+                    }
+                  ],
+                  "calls": 43,
+                  "elapsed_seconds": 0.02068497299999983,
+                  "seconds_per_call": 0.00048104588372092623
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0004756530000005199
+                    },
+                    {
+                      "calls": 45,
+                      "elapsed_seconds": 0.021584468000000356
+                    }
+                  ],
+                  "calls": 45,
+                  "elapsed_seconds": 0.021584468000000356,
+                  "seconds_per_call": 0.00047965484444445234
+                }
+              ],
+              "median_seconds_per_call": 0.0004812728636363667
+            },
+            "aggregate": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.003493171999999767
+                    },
+                    {
+                      "calls": 7,
+                      "elapsed_seconds": 0.02452602900000045
+                    }
+                  ],
+                  "calls": 7,
+                  "elapsed_seconds": 0.02452602900000045,
+                  "seconds_per_call": 0.003503718428571493
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.003424850000000035
+                    },
+                    {
+                      "calls": 7,
+                      "elapsed_seconds": 0.02427590100000021
+                    }
+                  ],
+                  "calls": 7,
+                  "elapsed_seconds": 0.02427590100000021,
+                  "seconds_per_call": 0.0034679858571428873
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0034523450000003564
+                    },
+                    {
+                      "calls": 7,
+                      "elapsed_seconds": 0.023953170000000412
+                    }
+                  ],
+                  "calls": 7,
+                  "elapsed_seconds": 0.023953170000000412,
+                  "seconds_per_call": 0.0034218814285714876
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.003435850000000684
+                    },
+                    {
+                      "calls": 7,
+                      "elapsed_seconds": 0.024305033000000087
+                    }
+                  ],
+                  "calls": 7,
+                  "elapsed_seconds": 0.024305033000000087,
+                  "seconds_per_call": 0.003472147571428584
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.0034395949999996844
+                    },
+                    {
+                      "calls": 7,
+                      "elapsed_seconds": 0.024159288999999973
+                    }
+                  ],
+                  "calls": 7,
+                  "elapsed_seconds": 0.024159288999999973,
+                  "seconds_per_call": 0.0034513269999999962
+                }
+              ],
+              "median_seconds_per_call": 0.0034679858571428873
+            }
+          },
+          "component_sum_seconds": 0.003464505732684025,
+          "viscous_fraction": 0.5458337290348011,
+          "aggregate_to_component_sum_ratio": 1.0010045082119596
+        },
+        {
+          "npts": 65,
+          "components": {
+            "mass": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008948833999999906
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.026767237999999693
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.026767237999999693,
+                  "seconds_per_call": 0.008922412666666565
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00842377200000044
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.026792866000000082
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.026792866000000082,
+                  "seconds_per_call": 0.00893095533333336
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008715200000000145
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.025609379999999682
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.025609379999999682,
+                  "seconds_per_call": 0.008536459999999893
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.009109555000000213
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.026221778999999223
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.026221778999999223,
+                  "seconds_per_call": 0.008740592999999741
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008656733000000472
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.0264970739999999
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.0264970739999999,
+                  "seconds_per_call": 0.008832357999999966
+                }
+              ],
+              "median_seconds_per_call": 0.008832357999999966
+            },
+            "viscous": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.020197306000000026
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.020197306000000026,
+                  "seconds_per_call": 0.020197306000000026
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.020730036000000673
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.020730036000000673,
+                  "seconds_per_call": 0.020730036000000673
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.019896207999999582
+                    },
+                    {
+                      "calls": 2,
+                      "elapsed_seconds": 0.04038111000000022
+                    }
+                  ],
+                  "calls": 2,
+                  "elapsed_seconds": 0.04038111000000022,
+                  "seconds_per_call": 0.02019055500000011
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.020202549999999597
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.020202549999999597,
+                  "seconds_per_call": 0.020202549999999597
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.02023141299999942
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.02023141299999942,
+                  "seconds_per_call": 0.02023141299999942
+                }
+              ],
+              "median_seconds_per_call": 0.020202549999999597
+            },
+            "divergence": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008175636000000708
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.024583439000000595
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.024583439000000595,
+                  "seconds_per_call": 0.008194479666666865
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00857166900000017
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.02517925799999965
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.02517925799999965,
+                  "seconds_per_call": 0.008393085999999883
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008082171999999943
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.02527969600000013
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.02527969600000013,
+                  "seconds_per_call": 0.008426565333333377
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.00840063399999913
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.024396067999999715
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.024396067999999715,
+                  "seconds_per_call": 0.008132022666666572
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.008360366999999869
+                    },
+                    {
+                      "calls": 3,
+                      "elapsed_seconds": 0.024630914999999476
+                    }
+                  ],
+                  "calls": 3,
+                  "elapsed_seconds": 0.024630914999999476,
+                  "seconds_per_call": 0.008210304999999826
+                }
+              ],
+              "median_seconds_per_call": 0.008210304999999826
+            },
+            "pressure": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.006122940000000909
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.024099134000000078
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.024099134000000078,
+                  "seconds_per_call": 0.006024783500000019
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.005773326999999995
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.024414391000000535
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.024414391000000535,
+                  "seconds_per_call": 0.006103597750000134
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.005784992999998906
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.023955167000000444
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.023955167000000444,
+                  "seconds_per_call": 0.005988791750000111
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.006029146999999568
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.023183802000000142
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.023183802000000142,
+                  "seconds_per_call": 0.0057959505000000355
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.005867917999999861
+                    },
+                    {
+                      "calls": 4,
+                      "elapsed_seconds": 0.024190489000000426
+                    }
+                  ],
+                  "calls": 4,
+                  "elapsed_seconds": 0.024190489000000426,
+                  "seconds_per_call": 0.0060476222500001064
+                }
+              ],
+              "median_seconds_per_call": 0.006024783500000019
+            },
+            "aggregate": {
+              "samples": [
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.04215048599999882
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.04215048599999882,
+                  "seconds_per_call": 0.04215048599999882
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.04205717299999989
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.04205717299999989,
+                  "seconds_per_call": 0.04205717299999989
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.042717475999999976
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.042717475999999976,
+                  "seconds_per_call": 0.042717475999999976
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.044210042999999644
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.044210042999999644,
+                  "seconds_per_call": 0.044210042999999644
+                },
+                {
+                  "attempts": [
+                    {
+                      "calls": 1,
+                      "elapsed_seconds": 0.04390371500000079
+                    }
+                  ],
+                  "calls": 1,
+                  "elapsed_seconds": 0.04390371500000079,
+                  "seconds_per_call": 0.04390371500000079
+                }
+              ],
+              "median_seconds_per_call": 0.042717475999999976
+            }
+          },
+          "component_sum_seconds": 0.04326999649999941,
+          "viscous_fraction": 0.4668951151867986,
+          "aggregate_to_component_sum_ratio": 0.9872308633073396
+        }
+      ],
+      "exponents": {
+        "mass": 3.010840885423111,
+        "viscous": 2.822292000866341,
+        "divergence": 2.937238298838155,
+        "pressure": 2.638563301831911,
+        "aggregate": 2.8306442664273344,
+        "component_sum": 2.8478880783098712
+      }
+    }
+  ],
+  "summary": {
+    "median_exponents": {
+      "mass": 2.995399337800559,
+      "viscous": 2.822292000866341,
+      "divergence": 2.933773145103652,
+      "pressure": 2.638563301831911,
+      "aggregate": 2.8306442664273344,
+      "component_sum": 2.8478880783098712
+    },
+    "largest_viscous_fraction": 0.46765257038833485,
+    "largest_aggregate_to_component_sum_ratio": 1.0094527081810936
+  }
+}

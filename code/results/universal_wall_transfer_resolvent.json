@@ -1,0 +1,1048 @@
+{
+  "artifact_state": "verified_boundary_channel_resolvent",
+  "decision": {
+    "accepted": true,
+    "maximum_coefficient_forward_residual": 3.4700936566862385e-09,
+    "maximum_resolvent_relative_residual": 2.608351031526434e-12,
+    "maximum_structural_relative_residual": 3.445700947371974e-15,
+    "tolerance": 5e-12
+  },
+  "formula": "Q0^-1 - Q0^-1 U (I + C(z) Q0^-1 U)^-1 C(z) Q0^-1",
+  "records": [
+    {
+      "boundary_channel_dimension": 10,
+      "degree": 2,
+      "expected_minimal_common_pencil_dimension": 10,
+      "metric_skew_residual": 2.2565003738588523e-16,
+      "npts": 25,
+      "pencil_identity_residual": 0.0,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 1.3880361087864455e-15,
+          "coefficient_state_forward_residual": 1.3699778516075291e-15,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 6.127834170599605e-16,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.4836616745058213e-15,
+          "coefficient_state_forward_residual": 1.2764597196846733e-15,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 5.428670860542676e-16,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.4009065068273404e-15,
+          "coefficient_state_forward_residual": 9.255871512045108e-16,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 5.054059196334272e-16,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMG",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 48
+    },
+    {
+      "boundary_channel_dimension": 10,
+      "degree": 2,
+      "expected_minimal_common_pencil_dimension": 10,
+      "metric_skew_residual": 1.9633689607575092e-16,
+      "npts": 33,
+      "pencil_identity_residual": 7.804667054357025e-18,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 1.993565516962539e-15,
+          "coefficient_state_forward_residual": 1.7047978802275495e-15,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 5.552139578164513e-16,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 2.2677310297116884e-15,
+          "coefficient_state_forward_residual": 1.3875323038792344e-15,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 5.554832759936777e-16,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 2.097605714300459e-15,
+          "coefficient_state_forward_residual": 1.0929591079001794e-15,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 4.685198831875298e-16,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMG",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 64
+    },
+    {
+      "boundary_channel_dimension": 26,
+      "degree": 4,
+      "expected_minimal_common_pencil_dimension": 26,
+      "metric_skew_residual": 3.259601005446408e-16,
+      "npts": 33,
+      "pencil_identity_residual": 4.3537702233480194e-18,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 7.174132638656488e-15,
+          "coefficient_state_forward_residual": 4.999771628376612e-15,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.5174957724264068e-15,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 4.053089458716949e-15,
+          "coefficient_state_forward_residual": 4.573019771661992e-15,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 1.2487159804585002e-15,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 2.2810249255109137e-15,
+          "coefficient_state_forward_residual": 2.4090763560618513e-15,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 7.954192596229248e-16,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMG",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 64
+    },
+    {
+      "boundary_channel_dimension": 26,
+      "degree": 4,
+      "expected_minimal_common_pencil_dimension": 26,
+      "metric_skew_residual": 3.1256268421040176e-16,
+      "npts": 49,
+      "pencil_identity_residual": 9.333483909885943e-18,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 4.979651240936278e-15,
+          "coefficient_state_forward_residual": 5.58950317678132e-15,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.7759912251704727e-15,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 5.698622321781992e-15,
+          "coefficient_state_forward_residual": 3.968215969330322e-15,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 1.22718983354342e-15,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 4.6722689113539e-15,
+          "coefficient_state_forward_residual": 2.712999972604602e-15,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 9.667985682341433e-16,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMG",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 96
+    },
+    {
+      "boundary_channel_dimension": 42,
+      "degree": 6,
+      "expected_minimal_common_pencil_dimension": 42,
+      "metric_skew_residual": 4.4335343677590666e-16,
+      "npts": 41,
+      "pencil_identity_residual": 1.482051152911605e-17,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 1.3801162449738935e-14,
+          "coefficient_state_forward_residual": 6.504239395825616e-14,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 2.86895645713677e-15,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.649749013923368e-14,
+          "coefficient_state_forward_residual": 6.074802060855478e-14,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 1.9108198931172566e-15,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.5775676481969984e-14,
+          "coefficient_state_forward_residual": 3.568026840080807e-14,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 2.351084192723553e-15,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMG",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 80
+    },
+    {
+      "boundary_channel_dimension": 42,
+      "degree": 6,
+      "expected_minimal_common_pencil_dimension": 42,
+      "metric_skew_residual": 4.161543957858641e-16,
+      "npts": 65,
+      "pencil_identity_residual": 8.540379250270973e-18,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 2.156148700411304e-14,
+          "coefficient_state_forward_residual": 7.067217488526537e-14,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 3.5038995844654837e-15,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 2.7226733413587396e-14,
+          "coefficient_state_forward_residual": 4.46968724433859e-14,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 2.696566217046841e-15,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.1895366678628035e-14,
+          "coefficient_state_forward_residual": 3.3865008534624813e-14,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.4770343660961014e-15,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMG",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 128
+    },
+    {
+      "boundary_channel_dimension": 58,
+      "degree": 8,
+      "expected_minimal_common_pencil_dimension": 58,
+      "metric_skew_residual": 6.077799076359642e-16,
+      "npts": 49,
+      "pencil_identity_residual": 1.6152513257814103e-17,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 6.435117659166952e-14,
+          "coefficient_state_forward_residual": 2.017463558348671e-12,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 3.733101031654461e-14,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.2245375788529805e-13,
+          "coefficient_state_forward_residual": 1.532261425077206e-12,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 2.4154755474512686e-14,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 3.8268446449738954e-14,
+          "coefficient_state_forward_residual": 1.251624485813689e-12,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.1450596880359589e-14,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMG",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 96
+    },
+    {
+      "boundary_channel_dimension": 58,
+      "degree": 8,
+      "expected_minimal_common_pencil_dimension": 58,
+      "metric_skew_residual": 5.817172508682434e-16,
+      "npts": 81,
+      "pencil_identity_residual": 1.284595156425717e-17,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 8.543511219818556e-14,
+          "coefficient_state_forward_residual": 2.7270734623149902e-12,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.2427109215629004e-14,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.4409620923509338e-13,
+          "coefficient_state_forward_residual": 1.640107141645054e-12,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 8.323201261491448e-15,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 8.345505474913773e-14,
+          "coefficient_state_forward_residual": 7.467108890819017e-13,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 8.219802162049703e-15,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMG",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 160
+    },
+    {
+      "boundary_channel_dimension": 74,
+      "degree": 10,
+      "expected_minimal_common_pencil_dimension": 74,
+      "metric_skew_residual": 1.2694251330697817e-15,
+      "npts": 57,
+      "pencil_identity_residual": 1.7043855623033485e-17,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 1.9188297922511014e-13,
+          "coefficient_state_forward_residual": 7.423794981325912e-11,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 8.266433796857773e-14,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 3.731087135754286e-13,
+          "coefficient_state_forward_residual": 6.000553119005483e-11,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 1.0857794383851836e-13,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 2.815497722777864e-13,
+          "coefficient_state_forward_residual": 3.708640823138141e-11,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 8.681363649579618e-14,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMG",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 112
+    },
+    {
+      "boundary_channel_dimension": 74,
+      "degree": 10,
+      "expected_minimal_common_pencil_dimension": 74,
+      "metric_skew_residual": 1.1937696624152991e-15,
+      "npts": 97,
+      "pencil_identity_residual": 1.1511416688193583e-17,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 3.4890517150302456e-13,
+          "coefficient_state_forward_residual": 7.420999243544812e-11,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 9.703423393096109e-14,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 3.4819699148551245e-13,
+          "coefficient_state_forward_residual": 5.2768544757090034e-11,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 1.0024596042638206e-13,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 6.572752394215534e-13,
+          "coefficient_state_forward_residual": 2.774133380899866e-11,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 7.314145669344795e-14,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMG",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 192
+    },
+    {
+      "boundary_channel_dimension": 90,
+      "degree": 12,
+      "expected_minimal_common_pencil_dimension": 90,
+      "metric_skew_residual": 3.445700947371974e-15,
+      "npts": 65,
+      "pencil_identity_residual": 1.8558969382326706e-17,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 4.3483621272238705e-12,
+          "coefficient_state_forward_residual": 3.4700936566862385e-09,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 8.635875238183001e-13,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 4.653706142807976e-12,
+          "coefficient_state_forward_residual": 1.9968738666345007e-09,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 7.901019230986341e-13,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 3.2554292159206527e-12,
+          "coefficient_state_forward_residual": 9.358751002111705e-10,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 4.103282221485157e-13,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMG",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 128
+    },
+    {
+      "boundary_channel_dimension": 90,
+      "degree": 12,
+      "expected_minimal_common_pencil_dimension": 90,
+      "metric_skew_residual": 2.625451582759508e-15,
+      "npts": 113,
+      "pencil_identity_residual": 9.571297968766894e-18,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 3.404041291116917e-12,
+          "coefficient_state_forward_residual": 2.6115673337147405e-09,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 7.599903438919201e-13,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 2.693839297145624e-12,
+          "coefficient_state_forward_residual": 1.4635794309496308e-09,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 7.734422101079695e-13,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 4.921567917751554e-12,
+          "coefficient_state_forward_residual": 8.455160562429989e-10,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.7226377979697395e-13,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMG",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 224
+    },
+    {
+      "boundary_channel_dimension": 8,
+      "degree": 2,
+      "expected_minimal_common_pencil_dimension": 8,
+      "metric_skew_residual": 2.5439452518389995e-16,
+      "npts": 25,
+      "pencil_identity_residual": 0.0,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 1.0598346707678721e-15,
+          "coefficient_state_forward_residual": 1.4332321568032167e-15,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.069086129447614e-15,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 6.46760829765264e-16,
+          "coefficient_state_forward_residual": 7.9154027794601455e-16,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 5.288500562238183e-16,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 6.620587814731903e-16,
+          "coefficient_state_forward_residual": 8.893345622675745e-16,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 4.687626806350621e-16,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMF",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 47
+    },
+    {
+      "boundary_channel_dimension": 8,
+      "degree": 2,
+      "expected_minimal_common_pencil_dimension": 8,
+      "metric_skew_residual": 2.459316671758902e-16,
+      "npts": 33,
+      "pencil_identity_residual": 7.334191101866464e-18,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 1.1864942036265919e-15,
+          "coefficient_state_forward_residual": 1.1087943209070378e-15,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.0319877748637693e-15,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.2608058686335995e-15,
+          "coefficient_state_forward_residual": 1.3318464640898375e-15,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 5.839159989450753e-16,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 9.412483077505061e-16,
+          "coefficient_state_forward_residual": 1.1010958896356867e-15,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 6.130503585206914e-16,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMF",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 63
+    },
+    {
+      "boundary_channel_dimension": 24,
+      "degree": 4,
+      "expected_minimal_common_pencil_dimension": 24,
+      "metric_skew_residual": 3.0254023184636843e-16,
+      "npts": 33,
+      "pencil_identity_residual": 9.43217152315271e-18,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 2.323400930356218e-15,
+          "coefficient_state_forward_residual": 4.242472549731353e-15,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 2.6863789293768633e-15,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 2.706246677152204e-15,
+          "coefficient_state_forward_residual": 5.810426680423591e-15,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 2.944502163616804e-15,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.7456948565280104e-15,
+          "coefficient_state_forward_residual": 2.4452270779048476e-15,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.3047004631334137e-15,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMF",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 63
+    },
+    {
+      "boundary_channel_dimension": 24,
+      "degree": 4,
+      "expected_minimal_common_pencil_dimension": 24,
+      "metric_skew_residual": 2.957001856877713e-16,
+      "npts": 49,
+      "pencil_identity_residual": 7.411296492972361e-18,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 3.002503111804477e-15,
+          "coefficient_state_forward_residual": 4.683310422600471e-15,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 3.9087286318449675e-15,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.9454896242140453e-15,
+          "coefficient_state_forward_residual": 4.000158787860656e-15,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 2.8473578815510928e-15,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 2.546812264728935e-15,
+          "coefficient_state_forward_residual": 2.845432837147904e-15,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.1583444094931105e-15,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMF",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 95
+    },
+    {
+      "boundary_channel_dimension": 40,
+      "degree": 6,
+      "expected_minimal_common_pencil_dimension": 40,
+      "metric_skew_residual": 4.614297247713605e-16,
+      "npts": 41,
+      "pencil_identity_residual": 1.3560833526797775e-17,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 6.380727450800992e-15,
+          "coefficient_state_forward_residual": 2.303040306672028e-14,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.2137761032978871e-14,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.1601568872699658e-14,
+          "coefficient_state_forward_residual": 2.1926154111981042e-14,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 1.0850144898700945e-14,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.515384880062936e-14,
+          "coefficient_state_forward_residual": 2.7522278036863264e-14,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 4.033391675145774e-15,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMF",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 79
+    },
+    {
+      "boundary_channel_dimension": 40,
+      "degree": 6,
+      "expected_minimal_common_pencil_dimension": 40,
+      "metric_skew_residual": 4.828877825452134e-16,
+      "npts": 65,
+      "pencil_identity_residual": 8.97920053240033e-18,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 1.0073193959844059e-14,
+          "coefficient_state_forward_residual": 3.8251946436334597e-14,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.1933717464284e-14,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.2488493251222565e-14,
+          "coefficient_state_forward_residual": 2.3865110060955478e-14,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 1.10464575748454e-14,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.2651281772177522e-14,
+          "coefficient_state_forward_residual": 1.988133807834253e-14,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.00453974691955e-14,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMF",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 127
+    },
+    {
+      "boundary_channel_dimension": 56,
+      "degree": 8,
+      "expected_minimal_common_pencil_dimension": 56,
+      "metric_skew_residual": 5.462791418482384e-16,
+      "npts": 49,
+      "pencil_identity_residual": 1.545154532786334e-17,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 1.0637125604014208e-13,
+          "coefficient_state_forward_residual": 5.276824266307716e-13,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 8.585115650908645e-14,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.251210958043475e-13,
+          "coefficient_state_forward_residual": 6.316507494981545e-13,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 4.999385608570009e-14,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 6.630238960676348e-14,
+          "coefficient_state_forward_residual": 5.08304454687869e-13,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 3.8426520701897834e-14,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMF",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 95
+    },
+    {
+      "boundary_channel_dimension": 56,
+      "degree": 8,
+      "expected_minimal_common_pencil_dimension": 56,
+      "metric_skew_residual": 6.020075266660355e-16,
+      "npts": 81,
+      "pencil_identity_residual": 9.655121321476501e-18,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 7.841370528443037e-14,
+          "coefficient_state_forward_residual": 5.405767126284519e-13,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.325760286544651e-13,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 4.956696774582354e-14,
+          "coefficient_state_forward_residual": 4.1751107002163875e-13,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 5.034223873920806e-14,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 8.080546055176555e-14,
+          "coefficient_state_forward_residual": 6.17984365686665e-13,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 2.9180372279846637e-14,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMF",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 159
+    },
+    {
+      "boundary_channel_dimension": 72,
+      "degree": 10,
+      "expected_minimal_common_pencil_dimension": 72,
+      "metric_skew_residual": 1.0544277266821584e-15,
+      "npts": 57,
+      "pencil_identity_residual": 1.714708674081934e-17,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 4.544995264647845e-13,
+          "coefficient_state_forward_residual": 1.6845692063197697e-11,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 2.1094103196850913e-13,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 4.97244902777661e-13,
+          "coefficient_state_forward_residual": 8.075421825607868e-12,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 2.949862719988079e-13,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 6.068929087301789e-13,
+          "coefficient_state_forward_residual": 5.947363634442048e-12,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 1.2884757766926715e-13,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMF",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 111
+    },
+    {
+      "boundary_channel_dimension": 72,
+      "degree": 10,
+      "expected_minimal_common_pencil_dimension": 72,
+      "metric_skew_residual": 8.426546535252103e-16,
+      "npts": 97,
+      "pencil_identity_residual": 1.1471326921600472e-17,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 4.524595590955695e-13,
+          "coefficient_state_forward_residual": 1.2402529937849174e-11,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 2.786243680662372e-13,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.0470710627247733e-12,
+          "coefficient_state_forward_residual": 8.69480345650785e-12,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 3.7383474513745623e-13,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 1.171550178756316e-12,
+          "coefficient_state_forward_residual": 8.712104305541926e-12,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 3.9267242206737146e-13,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMF",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 191
+    },
+    {
+      "boundary_channel_dimension": 88,
+      "degree": 12,
+      "expected_minimal_common_pencil_dimension": 88,
+      "metric_skew_residual": 2.3618202975409195e-15,
+      "npts": 65,
+      "pencil_identity_residual": 1.6935661448843132e-17,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 3.1602724968928944e-12,
+          "coefficient_state_forward_residual": 2.4812332522912985e-10,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 2.392644599052846e-12,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 3.729828367109087e-12,
+          "coefficient_state_forward_residual": 2.4840043443615933e-10,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 2.1718764497306758e-12,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 2.642409091791026e-12,
+          "coefficient_state_forward_residual": 1.98428376287334e-10,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 6.298952671378516e-13,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMF",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 127
+    },
+    {
+      "boundary_channel_dimension": 88,
+      "degree": 12,
+      "expected_minimal_common_pencil_dimension": 88,
+      "metric_skew_residual": 1.5246048248356241e-15,
+      "npts": 113,
+      "pencil_identity_residual": 8.728578649186477e-18,
+      "points": [
+        {
+          "coefficient_generalized_forward_residual": 3.359652826974267e-12,
+          "coefficient_state_forward_residual": 2.869044239369411e-10,
+          "energy_resolvent_upper_bound": 1.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 2.608351031526434e-12,
+          "z": [
+            0.75,
+            0.37
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 3.573662319465573e-12,
+          "coefficient_state_forward_residual": 2.8829704923666095e-10,
+          "energy_resolvent_upper_bound": 0.6666666666666666,
+          "energy_scaled_resolvent_relative_residual": 2.6077301688865508e-12,
+          "z": [
+            1.5,
+            2.25
+          ]
+        },
+        {
+          "coefficient_generalized_forward_residual": 2.4229668324317383e-12,
+          "coefficient_state_forward_residual": 2.1069526588089607e-10,
+          "energy_resolvent_upper_bound": 0.3333333333333333,
+          "energy_scaled_resolvent_relative_residual": 7.815555065743463e-13,
+          "z": [
+            3.0,
+            7.0
+          ]
+        }
+      ],
+      "route": "BMF",
+      "skew_pencil_residual": 0.0,
+      "state_dimension": 223
+    }
+  ],
+  "schema": "universal-wall-transfer-v1",
+  "source_sha256": "37e5a34d2144123d086dc088d4de3a5a4a005b7abe5ffa9af8013e830c1e4fb1",
+  "structure_sha256": "7363405c2365f76acc1749efc5566f94e105f830ef55111d86a4d08c82a43742"
+}

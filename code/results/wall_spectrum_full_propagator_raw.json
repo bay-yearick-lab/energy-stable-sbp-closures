@@ -1,0 +1,248 @@
+{
+  "artifact_state": "heldout_raw_once",
+  "prediction_sha256": "92586de00744aa320c9db3295a121084a9ef6c177958929570d09443c697099b",
+  "results": [
+    {
+      "case_id": "sig0.075_k12_b5_BMF6",
+      "metrics": {
+        "amplitude_ratio": 0.9999999947437893,
+        "exact_leakage": 0.002425036501001915,
+        "full_rel_l2": 0.0011337846256942476,
+        "leakage": 0.0024250351367486917,
+        "leakage_excess": 1.364253223411216e-09,
+        "phase_shift": 9.474233945638844e-07,
+        "waveform_distortion": 0.0006998606609633744
+      }
+    },
+    {
+      "case_id": "sig0.075_k12_b5_BMG6",
+      "metrics": {
+        "amplitude_ratio": 0.9999996035580472,
+        "exact_leakage": 0.002425036501001915,
+        "full_rel_l2": 0.0020428996968852526,
+        "leakage": 0.002425520447828955,
+        "leakage_excess": 4.839468270398557e-07,
+        "phase_shift": 9.900920463223884e-07,
+        "waveform_distortion": 0.0014497889241979068
+      }
+    },
+    {
+      "case_id": "sig0.075_k12_b5_SBP6",
+      "metrics": {
+        "amplitude_ratio": 0.9893576276063953,
+        "exact_leakage": 0.0017907584298864257,
+        "full_rel_l2": 0.8115625394844316,
+        "leakage": 0.10501529744634563,
+        "leakage_excess": 0.10322453901645921,
+        "phase_shift": 0.0023095285990274305,
+        "waveform_distortion": 0.7757374412556147
+      }
+    },
+    {
+      "case_id": "sig0.075_k12_b5_BL-T6",
+      "metrics": {
+        "amplitude_ratio": 0.9949712759717316,
+        "exact_leakage": 0.0017907584298864257,
+        "full_rel_l2": 0.5873343440107119,
+        "leakage": 0.0032905221071879726,
+        "leakage_excess": 0.001499763677301547,
+        "phase_shift": 0.0011316283020958054,
+        "waveform_distortion": 0.4813566401551951
+      }
+    },
+    {
+      "case_id": "sig0.075_k12_b5_SEM6",
+      "metrics": {
+        "amplitude_ratio": 1.0018497358948477,
+        "exact_leakage": 0.004225316314209428,
+        "full_rel_l2": 0.18241002131048656,
+        "leakage": 0.0069888260395464,
+        "leakage_excess": 0.002763509725336972,
+        "phase_shift": 0.00012391193235714582,
+        "waveform_distortion": 0.19374499158601138
+      }
+    },
+    {
+      "case_id": "sig0.075_k12_b9_BMF6",
+      "metrics": {
+        "amplitude_ratio": 0.9999999882842724,
+        "exact_leakage": 0.0024250365010019133,
+        "full_rel_l2": 0.0017597463686643794,
+        "leakage": 0.0024248752952331326,
+        "leakage_excess": 1.61205768780745e-07,
+        "phase_shift": 1.6930181051293403e-06,
+        "waveform_distortion": 0.0012191402546363498
+      }
+    },
+    {
+      "case_id": "sig0.075_k12_b9_BMG6",
+      "metrics": {
+        "amplitude_ratio": 0.9999986005254088,
+        "exact_leakage": 0.0024250365010019133,
+        "full_rel_l2": 0.003166887423402381,
+        "leakage": 0.0024245401346183956,
+        "leakage_excess": 4.963663835177122e-07,
+        "phase_shift": 1.622229586132562e-06,
+        "waveform_distortion": 0.001963633431878706
+      }
+    },
+    {
+      "case_id": "sig0.075_k12_b9_SBP6",
+      "metrics": {
+        "amplitude_ratio": 0.954433610738512,
+        "exact_leakage": 0.001790758429886535,
+        "full_rel_l2": 0.6909013965507492,
+        "leakage": 0.020673289802833228,
+        "leakage_excess": 0.018882531372946692,
+        "phase_shift": 0.005010618002159618,
+        "waveform_distortion": 0.5274058041172869
+      }
+    },
+    {
+      "case_id": "sig0.075_k12_b9_BL-T6",
+      "metrics": {
+        "amplitude_ratio": 0.9961242795286067,
+        "exact_leakage": 0.001790758429886535,
+        "full_rel_l2": 0.6626429533611695,
+        "leakage": 0.0035973256121171948,
+        "leakage_excess": 0.0018065671822306598,
+        "phase_shift": 0.006153268880662495,
+        "waveform_distortion": 0.6061359563114689
+      }
+    },
+    {
+      "case_id": "sig0.075_k12_b9_SEM6",
+      "metrics": {
+        "amplitude_ratio": 1.0034543137288043,
+        "exact_leakage": 0.00422531631420941,
+        "full_rel_l2": 0.22562546312541273,
+        "leakage": 0.0054442425368767524,
+        "leakage_excess": 0.0012189262226673424,
+        "phase_shift": 7.367454939787877e-05,
+        "waveform_distortion": 0.18504640250675405
+      }
+    },
+    {
+      "case_id": "sig0.075_k36_b5_BMF6",
+      "metrics": {
+        "amplitude_ratio": 1.2346669949531544,
+        "exact_leakage": 0.11700354011809146,
+        "full_rel_l2": 1.2065282235038723,
+        "leakage": 0.1210308764000558,
+        "leakage_excess": 0.004027336281964347,
+        "phase_shift": 0.06952649811565562,
+        "waveform_distortion": 1.528361926661008
+      }
+    },
+    {
+      "case_id": "sig0.075_k36_b5_BMG6",
+      "metrics": {
+        "amplitude_ratio": 1.2165480903247075,
+        "exact_leakage": 0.11700354011809146,
+        "full_rel_l2": 1.1001298810214601,
+        "leakage": 0.14585954282502592,
+        "leakage_excess": 0.02885600270693446,
+        "phase_shift": 0.07055961670873467,
+        "waveform_distortion": 1.8901892919190297
+      }
+    },
+    {
+      "case_id": "sig0.075_k36_b5_SBP6",
+      "metrics": {
+        "amplitude_ratio": 1.0439723456126748,
+        "exact_leakage": 0.13132805576918555,
+        "full_rel_l2": 1.459392466541694,
+        "leakage": 0.3987980881268167,
+        "leakage_excess": 0.26747003235763117,
+        "phase_shift": 0.4599894771460545,
+        "waveform_distortion": 1.0535558115545185
+      }
+    },
+    {
+      "case_id": "sig0.075_k36_b5_BL-T6",
+      "metrics": {
+        "amplitude_ratio": 15.461703263409346,
+        "exact_leakage": 0.13132805576918555,
+        "full_rel_l2": 8.998271945629435,
+        "leakage": 0.9414467878344095,
+        "leakage_excess": 0.8101187320652239,
+        "phase_shift": 0.6387885668782421,
+        "waveform_distortion": 15.461703259189877
+      }
+    },
+    {
+      "case_id": "sig0.075_k36_b5_SEM6",
+      "metrics": {
+        "amplitude_ratio": 0.9828526372979279,
+        "exact_leakage": 0.18655066784365004,
+        "full_rel_l2": 1.3213414532860972,
+        "leakage": 0.37782952847838286,
+        "leakage_excess": 0.19127886063473282,
+        "phase_shift": 0.1342038596897205,
+        "waveform_distortion": 1.536570884079959
+      }
+    },
+    {
+      "case_id": "sig0.075_k36_b9_BMF6",
+      "metrics": {
+        "amplitude_ratio": 1.2214308432028167,
+        "exact_leakage": 0.11700354011809137,
+        "full_rel_l2": 1.2373254353454908,
+        "leakage": 0.08892337648943618,
+        "leakage_excess": 0.02808016362865519,
+        "phase_shift": 0.2570695361374874,
+        "waveform_distortion": 1.5072880162634124
+      }
+    },
+    {
+      "case_id": "sig0.075_k36_b9_BMG6",
+      "metrics": {
+        "amplitude_ratio": 0.8194375166414734,
+        "exact_leakage": 0.11700354011809137,
+        "full_rel_l2": 1.0714767622502617,
+        "leakage": 0.1488314053605253,
+        "leakage_excess": 0.03182786524243393,
+        "phase_shift": 0.0009997238825533259,
+        "waveform_distortion": 0.560927071548389
+      }
+    },
+    {
+      "case_id": "sig0.075_k36_b9_SBP6",
+      "metrics": {
+        "amplitude_ratio": 0.9224188440820082,
+        "exact_leakage": 0.13132805576918472,
+        "full_rel_l2": 1.259108382450707,
+        "leakage": 0.2494510596639663,
+        "leakage_excess": 0.11812300389478159,
+        "phase_shift": 0.05200562365686744,
+        "waveform_distortion": 1.395716578116819
+      }
+    },
+    {
+      "case_id": "sig0.075_k36_b9_BL-T6",
+      "metrics": {
+        "amplitude_ratio": 12.272231671493572,
+        "exact_leakage": 0.13132805576918472,
+        "full_rel_l2": 8.810153733230026,
+        "leakage": 0.8585023867666721,
+        "leakage_excess": 0.7271743309974874,
+        "phase_shift": 0.6194330274775917,
+        "waveform_distortion": 12.272231667082622
+      }
+    },
+    {
+      "case_id": "sig0.075_k36_b9_SEM6",
+      "metrics": {
+        "amplitude_ratio": 1.08181284538832,
+        "exact_leakage": 0.18655066784366559,
+        "full_rel_l2": 1.2042645470709432,
+        "leakage": 0.5529108122918786,
+        "leakage_excess": 0.36636014444821297,
+        "phase_shift": 0.005367730140716617,
+        "waveform_distortion": 1.3117887132554336
+      }
+    }
+  ],
+  "runner_sha256": "6a9707b4e07b8fb0929a2d72cd058133858cfaa4e190fc507999da842d349fdb",
+  "schema": "wall-spectrum-full-propagator-v1"
+}

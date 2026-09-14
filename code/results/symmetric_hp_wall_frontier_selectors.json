@@ -1,0 +1,2791 @@
+{
+ "protocol_id": "symmetric-hp-wall-frontier-v2",
+ "spec_sha256": "5d3d40a655b0d729bfad1896c83fb76af3dafb85865b7be42e95a5a1d2ac8f1c",
+ "design_sha256": "0f34bcd9c67429174cf51154bbe11ff5f36cb1917165e0532a9d6c25440c30f5",
+ "selectors": [
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 1,
+   "resource_value": 19401452,
+   "design_score": 84.31236540737514,
+   "config": {
+    "key": "spline:p5:k17",
+    "family": "spline",
+    "degree": 5,
+    "elements": 17,
+    "n": 22
+   },
+   "cost": {
+    "state_1d": 22,
+    "scalar_state": 1452,
+    "state_bytes": 11616,
+    "operator_nonzeros": 968,
+    "factor_nonzeros": 242,
+    "evaluation_plan_nonzeros": 6144,
+    "persistent_storage_bytes": 70448,
+    "setup_work": 13388,
+    "state_prepare_work": 58080,
+    "marginal_query_work": 221664,
+    "operator_step_work": 191664
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 1,
+   "resource_value": 48524288,
+   "design_score": 0.5759904546040361,
+   "config": {
+    "key": "spline:p8:k20",
+    "family": "spline",
+    "degree": 8,
+    "elements": 20,
+    "n": 28
+   },
+   "cost": {
+    "state_1d": 28,
+    "scalar_state": 2352,
+    "state_bytes": 18816,
+    "operator_nonzeros": 1904,
+    "factor_nonzeros": 476,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 111584,
+    "setup_work": 22016,
+    "state_prepare_work": 150528,
+    "marginal_query_work": 521472,
+    "operator_step_work": 479808
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 1,
+   "resource_value": 95302664,
+   "design_score": 0.04008285096324132,
+   "config": {
+    "key": "spline:p6:k39",
+    "family": "spline",
+    "degree": 6,
+    "elements": 39,
+    "n": 45
+   },
+   "cost": {
+    "state_1d": 45,
+    "scalar_state": 6075,
+    "state_bytes": 48600,
+    "operator_nonzeros": 2340,
+    "factor_nonzeros": 585,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 129344,
+    "setup_work": 17576,
+    "state_prepare_work": 291600,
+    "marginal_query_work": 515088,
+    "operator_step_work": 947700
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 10,
+   "resource_value": 18787376,
+   "design_score": 168.99902587148935,
+   "config": {
+    "key": "spline:p4:k19",
+    "family": "spline",
+    "degree": 4,
+    "elements": 19,
+    "n": 23
+   },
+   "cost": {
+    "state_1d": 23,
+    "scalar_state": 1587,
+    "state_bytes": 12696,
+    "operator_nonzeros": 828,
+    "factor_nonzeros": 207,
+    "evaluation_plan_nonzeros": 5120,
+    "persistent_storage_bytes": 61936,
+    "setup_work": 10976,
+    "state_prepare_work": 50784,
+    "marginal_query_work": 163680,
+    "operator_step_work": 171396
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 10,
+   "resource_value": 49745808,
+   "design_score": 1.0122351128325477,
+   "config": {
+    "key": "spline:p8:k19",
+    "family": "spline",
+    "degree": 8,
+    "elements": 19,
+    "n": 27
+   },
+   "cost": {
+    "state_1d": 27,
+    "scalar_state": 2187,
+    "state_bytes": 17496,
+    "operator_nonzeros": 1836,
+    "factor_nonzeros": 459,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 109584,
+    "setup_work": 21888,
+    "state_prepare_work": 139968,
+    "marginal_query_work": 510912,
+    "operator_step_work": 446148
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 10,
+   "resource_value": 99938456,
+   "design_score": 0.04008285096324132,
+   "config": {
+    "key": "spline:p6:k39",
+    "family": "spline",
+    "degree": 6,
+    "elements": 39,
+    "n": 45
+   },
+   "cost": {
+    "state_1d": 45,
+    "scalar_state": 6075,
+    "state_bytes": 48600,
+    "operator_nonzeros": 2340,
+    "factor_nonzeros": 585,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 129344,
+    "setup_work": 17576,
+    "state_prepare_work": 291600,
+    "marginal_query_work": 515088,
+    "operator_step_work": 947700
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 100,
+   "resource_value": 19335952,
+   "design_score": 1251.1977766737157,
+   "config": {
+    "key": "spline:p2:k24",
+    "family": "spline",
+    "degree": 2,
+    "elements": 24,
+    "n": 26
+   },
+   "cost": {
+    "state_1d": 26,
+    "scalar_state": 2028,
+    "state_bytes": 16224,
+    "operator_nonzeros": 520,
+    "factor_nonzeros": 130,
+    "evaluation_plan_nonzeros": 3072,
+    "persistent_storage_bytes": 46000,
+    "setup_work": 6352,
+    "state_prepare_work": 32448,
+    "marginal_query_work": 71616,
+    "operator_step_work": 121680
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 100,
+   "resource_value": 49100800,
+   "design_score": 24.710573210820428,
+   "config": {
+    "key": "spline:p4:k26",
+    "family": "spline",
+    "degree": 4,
+    "elements": 26,
+    "n": 30
+   },
+   "cost": {
+    "state_1d": 30,
+    "scalar_state": 2700,
+    "state_bytes": 21600,
+    "operator_nonzeros": 1080,
+    "factor_nonzeros": 270,
+    "evaluation_plan_nonzeros": 5120,
+    "persistent_storage_bytes": 73360,
+    "setup_work": 11200,
+    "state_prepare_work": 86400,
+    "marginal_query_work": 199296,
+    "operator_step_work": 291600
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 100,
+   "resource_value": 97335656,
+   "design_score": 0.3951661921831609,
+   "config": {
+    "key": "spline:p6:k29",
+    "family": "spline",
+    "degree": 6,
+    "elements": 29,
+    "n": 35
+   },
+   "cost": {
+    "state_1d": 35,
+    "scalar_state": 3675,
+    "state_bytes": 29400,
+    "operator_nonzeros": 1820,
+    "factor_nonzeros": 455,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 104944,
+    "setup_work": 16856,
+    "state_prepare_work": 176400,
+    "marginal_query_work": 399888,
+    "operator_step_work": 573300
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "operator_work",
+   "resource_cap": 50000,
+   "query_count": null,
+   "resource_value": 46080,
+   "design_score": 8186.932824190272,
+   "config": {
+    "key": "spline:p2:k14",
+    "family": "spline",
+    "degree": 2,
+    "elements": 14,
+    "n": 16
+   },
+   "cost": {
+    "state_1d": 16,
+    "scalar_state": 768,
+    "state_bytes": 6144,
+    "operator_nonzeros": 320,
+    "factor_nonzeros": 80,
+    "evaluation_plan_nonzeros": 3072,
+    "persistent_storage_bytes": 33920,
+    "setup_work": 6272,
+    "state_prepare_work": 12288,
+    "marginal_query_work": 51456,
+    "operator_step_work": 46080
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "operator_work",
+   "resource_cap": 150000,
+   "query_count": null,
+   "resource_value": 129600,
+   "design_score": 416.26676952918524,
+   "config": {
+    "key": "spline:p4:k16",
+    "family": "spline",
+    "degree": 4,
+    "elements": 16,
+    "n": 20
+   },
+   "cost": {
+    "state_1d": 20,
+    "scalar_state": 1200,
+    "state_bytes": 9600,
+    "operator_nonzeros": 720,
+    "factor_nonzeros": 180,
+    "evaluation_plan_nonzeros": 5120,
+    "persistent_storage_bytes": 57760,
+    "setup_work": 10880,
+    "state_prepare_work": 38400,
+    "marginal_query_work": 151296,
+    "operator_step_work": 129600
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "operator_work",
+   "resource_cap": 500000,
+   "query_count": null,
+   "resource_value": 479808,
+   "design_score": 0.5759904546040361,
+   "config": {
+    "key": "spline:p8:k20",
+    "family": "spline",
+    "degree": 8,
+    "elements": 20,
+    "n": 28
+   },
+   "cost": {
+    "state_1d": 28,
+    "scalar_state": 2352,
+    "state_bytes": 18816,
+    "operator_nonzeros": 1904,
+    "factor_nonzeros": 476,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 111584,
+    "setup_work": 22016,
+    "state_prepare_work": 150528,
+    "marginal_query_work": 521472,
+    "operator_step_work": 479808
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "state",
+   "resource_cap": 17,
+   "query_count": null,
+   "resource_value": 17,
+   "design_score": 2393.436354145394,
+   "config": {
+    "key": "spline:p5:k12",
+    "family": "spline",
+    "degree": 5,
+    "elements": 12,
+    "n": 17
+   },
+   "cost": {
+    "state_1d": 17,
+    "scalar_state": 867,
+    "state_bytes": 6936,
+    "operator_nonzeros": 748,
+    "factor_nonzeros": 187,
+    "evaluation_plan_nonzeros": 6144,
+    "persistent_storage_bytes": 63568,
+    "setup_work": 13138,
+    "state_prepare_work": 34680,
+    "marginal_query_work": 198264,
+    "operator_step_work": 114444
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "state",
+   "resource_cap": 25,
+   "query_count": null,
+   "resource_value": 24,
+   "design_score": 4.458173537426225,
+   "config": {
+    "key": "spline:p8:k16",
+    "family": "spline",
+    "degree": 8,
+    "elements": 16,
+    "n": 24
+   },
+   "cost": {
+    "state_1d": 24,
+    "scalar_state": 1728,
+    "state_bytes": 13824,
+    "operator_nonzeros": 1632,
+    "factor_nonzeros": 408,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 103872,
+    "setup_work": 21504,
+    "state_prepare_work": 110592,
+    "marginal_query_work": 481536,
+    "operator_step_work": 352512
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "state",
+   "resource_cap": 37,
+   "query_count": null,
+   "resource_value": 37,
+   "design_score": 0.09594853640679916,
+   "config": {
+    "key": "spline:p8:k29",
+    "family": "spline",
+    "degree": 8,
+    "elements": 29,
+    "n": 37
+   },
+   "cost": {
+    "state_1d": 37,
+    "scalar_state": 4107,
+    "state_bytes": 32856,
+    "operator_nonzeros": 2516,
+    "factor_nonzeros": 629,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 131744,
+    "setup_work": 23168,
+    "state_prepare_work": 262848,
+    "marginal_query_work": 633792,
+    "operator_step_work": 837828
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "spline",
+   "resource_kind": "state",
+   "resource_cap": 49,
+   "query_count": null,
+   "resource_value": 48,
+   "design_score": 0.03169124088368826,
+   "config": {
+    "key": "spline:p6:k42",
+    "family": "spline",
+    "degree": 6,
+    "elements": 42,
+    "n": 48
+   },
+   "cost": {
+    "state_1d": 48,
+    "scalar_state": 6912,
+    "state_bytes": 55296,
+    "operator_nonzeros": 2496,
+    "factor_nonzeros": 624,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 137600,
+    "setup_work": 17792,
+    "state_prepare_work": 331776,
+    "marginal_query_work": 555264,
+    "operator_step_work": 1078272
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 1,
+   "resource_value": 17164167,
+   "design_score": 185.10619331230427,
+   "config": {
+    "key": "sem:p6:e5",
+    "family": "sem",
+    "degree": 6,
+    "elements": 5,
+    "n": 31
+   },
+   "cost": {
+    "state_1d": 31,
+    "scalar_state": 2883,
+    "state_bytes": 23064,
+    "operator_nonzeros": 142,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 81544,
+    "setup_work": 14679,
+    "state_prepare_work": 0,
+    "marginal_query_work": 223488,
+    "operator_step_work": 169260
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 1,
+   "resource_value": 44095269,
+   "design_score": 0.4720572106707007,
+   "config": {
+    "key": "sem:p12:e3",
+    "family": "sem",
+    "degree": 12,
+    "elements": 3,
+    "n": 37
+   },
+   "cost": {
+    "state_1d": 37,
+    "scalar_state": 4107,
+    "state_bytes": 32856,
+    "operator_nonzeros": 280,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 141592,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 432900
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 1,
+   "resource_value": 77245269,
+   "design_score": 0.1413305254131558,
+   "config": {
+    "key": "sem:p12:e4",
+    "family": "sem",
+    "degree": 12,
+    "elements": 4,
+    "n": 49
+   },
+   "cost": {
+    "state_1d": 49,
+    "scalar_state": 7203,
+    "state_bytes": 57624,
+    "operator_nonzeros": 316,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 166648,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 764400
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 10,
+   "resource_value": 19175559,
+   "design_score": 185.10619331230427,
+   "config": {
+    "key": "sem:p6:e5",
+    "family": "sem",
+    "degree": 6,
+    "elements": 5,
+    "n": 31
+   },
+   "cost": {
+    "state_1d": 31,
+    "scalar_state": 2883,
+    "state_bytes": 23064,
+    "operator_nonzeros": 142,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 81544,
+    "setup_work": 14679,
+    "state_prepare_work": 0,
+    "marginal_query_work": 223488,
+    "operator_step_work": 169260
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 10,
+   "resource_value": 41366601,
+   "design_score": 4.04595200727586,
+   "config": {
+    "key": "sem:p8:e5",
+    "family": "sem",
+    "degree": 8,
+    "elements": 5,
+    "n": 41
+   },
+   "cost": {
+    "state_1d": 41,
+    "scalar_state": 5043,
+    "state_bytes": 40344,
+    "operator_nonzeros": 204,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 115704,
+    "setup_work": 19161,
+    "state_prepare_work": 0,
+    "marginal_query_work": 370944,
+    "operator_step_work": 376380
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 10,
+   "resource_value": 84233301,
+   "design_score": 0.1413305254131558,
+   "config": {
+    "key": "sem:p12:e4",
+    "family": "sem",
+    "degree": 12,
+    "elements": 4,
+    "n": 49
+   },
+   "cost": {
+    "state_1d": 49,
+    "scalar_state": 7203,
+    "state_bytes": 57624,
+    "operator_nonzeros": 316,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 166648,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 764400
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 100,
+   "resource_value": 19717056,
+   "design_score": 1057.5485370806382,
+   "config": {
+    "key": "sem:p3:e11",
+    "family": "sem",
+    "degree": 3,
+    "elements": 11,
+    "n": 34
+   },
+   "cost": {
+    "state_1d": 34,
+    "scalar_state": 3468,
+    "state_bytes": 27744,
+    "operator_nonzeros": 118,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 4096,
+    "persistent_storage_bytes": 61456,
+    "setup_work": 8256,
+    "state_prepare_work": 0,
+    "marginal_query_work": 71424,
+    "operator_step_work": 125664
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 100,
+   "resource_value": 49159704,
+   "design_score": 32.07023937671574,
+   "config": {
+    "key": "sem:p5:e9",
+    "family": "sem",
+    "degree": 5,
+    "elements": 9,
+    "n": 46
+   },
+   "cost": {
+    "state_1d": 46,
+    "scalar_state": 6348,
+    "state_bytes": 50784,
+    "operator_nonzeros": 174,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 6144,
+    "persistent_storage_bytes": 101328,
+    "setup_work": 12504,
+    "state_prepare_work": 0,
+    "marginal_query_work": 163584,
+    "operator_step_work": 327888
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 100,
+   "resource_value": 91091961,
+   "design_score": 0.8007009471288931,
+   "config": {
+    "key": "sem:p8:e6",
+    "family": "sem",
+    "degree": 8,
+    "elements": 6,
+    "n": 49
+   },
+   "cost": {
+    "state_1d": 49,
+    "scalar_state": 7203,
+    "state_bytes": 57624,
+    "operator_nonzeros": 228,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 133176,
+    "setup_work": 19161,
+    "state_prepare_work": 0,
+    "marginal_query_work": 370944,
+    "operator_step_work": 539784
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "operator_work",
+   "resource_cap": 50000,
+   "query_count": null,
+   "resource_value": 45540,
+   "design_score": 6383.348687020434,
+   "config": {
+    "key": "sem:p2:e11",
+    "family": "sem",
+    "degree": 2,
+    "elements": 11,
+    "n": 23
+   },
+   "cost": {
+    "state_1d": 23,
+    "scalar_state": 1587,
+    "state_bytes": 12696,
+    "operator_nonzeros": 78,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 3072,
+    "persistent_storage_bytes": 37896,
+    "setup_work": 6171,
+    "state_prepare_work": 0,
+    "marginal_query_work": 39168,
+    "operator_step_work": 45540
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "operator_work",
+   "resource_cap": 150000,
+   "query_count": null,
+   "resource_value": 137700,
+   "design_score": 349.7018963053144,
+   "config": {
+    "key": "sem:p8:e3",
+    "family": "sem",
+    "degree": 8,
+    "elements": 3,
+    "n": 25
+   },
+   "cost": {
+    "state_1d": 25,
+    "scalar_state": 1875,
+    "state_bytes": 15000,
+    "operator_nonzeros": 156,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 89976,
+    "setup_work": 19161,
+    "state_prepare_work": 0,
+    "marginal_query_work": 370944,
+    "operator_step_work": 137700
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "operator_work",
+   "resource_cap": 500000,
+   "query_count": null,
+   "resource_value": 432900,
+   "design_score": 0.4720572106707007,
+   "config": {
+    "key": "sem:p12:e3",
+    "family": "sem",
+    "degree": 12,
+    "elements": 3,
+    "n": 37
+   },
+   "cost": {
+    "state_1d": 37,
+    "scalar_state": 4107,
+    "state_bytes": 32856,
+    "operator_nonzeros": 280,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 141592,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 432900
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "state",
+   "resource_cap": 17,
+   "query_count": null,
+   "resource_value": 17,
+   "design_score": 7231.413736848364,
+   "config": {
+    "key": "sem:p8:e2",
+    "family": "sem",
+    "degree": 8,
+    "elements": 2,
+    "n": 17
+   },
+   "cost": {
+    "state_1d": 17,
+    "scalar_state": 867,
+    "state_bytes": 6936,
+    "operator_nonzeros": 132,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 81720,
+    "setup_work": 19161,
+    "state_prepare_work": 0,
+    "marginal_query_work": 370944,
+    "operator_step_work": 62424
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "state",
+   "resource_cap": 25,
+   "query_count": null,
+   "resource_value": 25,
+   "design_score": 73.70544123228244,
+   "config": {
+    "key": "sem:p12:e2",
+    "family": "sem",
+    "degree": 12,
+    "elements": 2,
+    "n": 25
+   },
+   "cost": {
+    "state_1d": 25,
+    "scalar_state": 1875,
+    "state_bytes": 15000,
+    "operator_nonzeros": 244,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 123448,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 195000
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "state",
+   "resource_cap": 37,
+   "query_count": null,
+   "resource_value": 37,
+   "design_score": 0.4720572106707007,
+   "config": {
+    "key": "sem:p12:e3",
+    "family": "sem",
+    "degree": 12,
+    "elements": 3,
+    "n": 37
+   },
+   "cost": {
+    "state_1d": 37,
+    "scalar_state": 4107,
+    "state_bytes": 32856,
+    "operator_nonzeros": 280,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 141592,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 432900
+   }
+  },
+  {
+   "objective": "volume",
+   "family": "sem",
+   "resource_kind": "state",
+   "resource_cap": 49,
+   "query_count": null,
+   "resource_value": 49,
+   "design_score": 0.1413305254131558,
+   "config": {
+    "key": "sem:p12:e4",
+    "family": "sem",
+    "degree": 12,
+    "elements": 4,
+    "n": 49
+   },
+   "cost": {
+    "state_1d": 49,
+    "scalar_state": 7203,
+    "state_bytes": 57624,
+    "operator_nonzeros": 316,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 166648,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 764400
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 1,
+   "resource_value": 19401452,
+   "design_score": 108.94310057047598,
+   "config": {
+    "key": "spline:p5:k17",
+    "family": "spline",
+    "degree": 5,
+    "elements": 17,
+    "n": 22
+   },
+   "cost": {
+    "state_1d": 22,
+    "scalar_state": 1452,
+    "state_bytes": 11616,
+    "operator_nonzeros": 968,
+    "factor_nonzeros": 242,
+    "evaluation_plan_nonzeros": 6144,
+    "persistent_storage_bytes": 70448,
+    "setup_work": 13388,
+    "state_prepare_work": 58080,
+    "marginal_query_work": 221664,
+    "operator_step_work": 191664
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 1,
+   "resource_value": 48524288,
+   "design_score": 0.5071503834256526,
+   "config": {
+    "key": "spline:p8:k20",
+    "family": "spline",
+    "degree": 8,
+    "elements": 20,
+    "n": 28
+   },
+   "cost": {
+    "state_1d": 28,
+    "scalar_state": 2352,
+    "state_bytes": 18816,
+    "operator_nonzeros": 1904,
+    "factor_nonzeros": 476,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 111584,
+    "setup_work": 22016,
+    "state_prepare_work": 150528,
+    "marginal_query_work": 521472,
+    "operator_step_work": 479808
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 1,
+   "resource_value": 98621696,
+   "design_score": 0.010709619168373376,
+   "config": {
+    "key": "spline:p8:k32",
+    "family": "spline",
+    "degree": 8,
+    "elements": 32,
+    "n": 40
+   },
+   "cost": {
+    "state_1d": 40,
+    "scalar_state": 4800,
+    "state_bytes": 38400,
+    "operator_nonzeros": 2720,
+    "factor_nonzeros": 680,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 139328,
+    "setup_work": 23552,
+    "state_prepare_work": 307200,
+    "marginal_query_work": 678144,
+    "operator_step_work": 979200
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 10,
+   "resource_value": 18787376,
+   "design_score": 165.45311589600615,
+   "config": {
+    "key": "spline:p4:k19",
+    "family": "spline",
+    "degree": 4,
+    "elements": 19,
+    "n": 23
+   },
+   "cost": {
+    "state_1d": 23,
+    "scalar_state": 1587,
+    "state_bytes": 12696,
+    "operator_nonzeros": 828,
+    "factor_nonzeros": 207,
+    "evaluation_plan_nonzeros": 5120,
+    "persistent_storage_bytes": 61936,
+    "setup_work": 10976,
+    "state_prepare_work": 50784,
+    "marginal_query_work": 163680,
+    "operator_step_work": 171396
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 10,
+   "resource_value": 49745808,
+   "design_score": 0.8457867416990849,
+   "config": {
+    "key": "spline:p8:k19",
+    "family": "spline",
+    "degree": 8,
+    "elements": 19,
+    "n": 27
+   },
+   "cost": {
+    "state_1d": 27,
+    "scalar_state": 2187,
+    "state_bytes": 17496,
+    "operator_nonzeros": 1836,
+    "factor_nonzeros": 459,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 109584,
+    "setup_work": 21888,
+    "state_prepare_work": 139968,
+    "marginal_query_work": 510912,
+    "operator_step_work": 446148
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 10,
+   "resource_value": 90143888,
+   "design_score": 0.022365584719759354,
+   "config": {
+    "key": "spline:p8:k29",
+    "family": "spline",
+    "degree": 8,
+    "elements": 29,
+    "n": 37
+   },
+   "cost": {
+    "state_1d": 37,
+    "scalar_state": 4107,
+    "state_bytes": 32856,
+    "operator_nonzeros": 2516,
+    "factor_nonzeros": 629,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 131744,
+    "setup_work": 23168,
+    "state_prepare_work": 262848,
+    "marginal_query_work": 633792,
+    "operator_step_work": 837828
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 100,
+   "resource_value": 19335952,
+   "design_score": 910.4401918721017,
+   "config": {
+    "key": "spline:p2:k24",
+    "family": "spline",
+    "degree": 2,
+    "elements": 24,
+    "n": 26
+   },
+   "cost": {
+    "state_1d": 26,
+    "scalar_state": 2028,
+    "state_bytes": 16224,
+    "operator_nonzeros": 520,
+    "factor_nonzeros": 130,
+    "evaluation_plan_nonzeros": 3072,
+    "persistent_storage_bytes": 46000,
+    "setup_work": 6352,
+    "state_prepare_work": 32448,
+    "marginal_query_work": 71616,
+    "operator_step_work": 121680
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 100,
+   "resource_value": 49100800,
+   "design_score": 23.4242955053339,
+   "config": {
+    "key": "spline:p4:k26",
+    "family": "spline",
+    "degree": 4,
+    "elements": 26,
+    "n": 30
+   },
+   "cost": {
+    "state_1d": 30,
+    "scalar_state": 2700,
+    "state_bytes": 21600,
+    "operator_nonzeros": 1080,
+    "factor_nonzeros": 270,
+    "evaluation_plan_nonzeros": 5120,
+    "persistent_storage_bytes": 73360,
+    "setup_work": 11200,
+    "state_prepare_work": 86400,
+    "marginal_query_work": 199296,
+    "operator_step_work": 291600
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 100,
+   "resource_value": 97335656,
+   "design_score": 0.32599313369798516,
+   "config": {
+    "key": "spline:p6:k29",
+    "family": "spline",
+    "degree": 6,
+    "elements": 29,
+    "n": 35
+   },
+   "cost": {
+    "state_1d": 35,
+    "scalar_state": 3675,
+    "state_bytes": 29400,
+    "operator_nonzeros": 1820,
+    "factor_nonzeros": 455,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 104944,
+    "setup_work": 16856,
+    "state_prepare_work": 176400,
+    "marginal_query_work": 399888,
+    "operator_step_work": 573300
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "operator_work",
+   "resource_cap": 50000,
+   "query_count": null,
+   "resource_value": 46080,
+   "design_score": 7264.164339555386,
+   "config": {
+    "key": "spline:p2:k14",
+    "family": "spline",
+    "degree": 2,
+    "elements": 14,
+    "n": 16
+   },
+   "cost": {
+    "state_1d": 16,
+    "scalar_state": 768,
+    "state_bytes": 6144,
+    "operator_nonzeros": 320,
+    "factor_nonzeros": 80,
+    "evaluation_plan_nonzeros": 3072,
+    "persistent_storage_bytes": 33920,
+    "setup_work": 6272,
+    "state_prepare_work": 12288,
+    "marginal_query_work": 51456,
+    "operator_step_work": 46080
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "operator_work",
+   "resource_cap": 150000,
+   "query_count": null,
+   "resource_value": 142884,
+   "design_score": 323.5076076566255,
+   "config": {
+    "key": "spline:p4:k17",
+    "family": "spline",
+    "degree": 4,
+    "elements": 17,
+    "n": 21
+   },
+   "cost": {
+    "state_1d": 21,
+    "scalar_state": 1323,
+    "state_bytes": 10584,
+    "operator_nonzeros": 756,
+    "factor_nonzeros": 189,
+    "evaluation_plan_nonzeros": 5120,
+    "persistent_storage_bytes": 59104,
+    "setup_work": 10912,
+    "state_prepare_work": 42336,
+    "marginal_query_work": 155232,
+    "operator_step_work": 142884
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "operator_work",
+   "resource_cap": 500000,
+   "query_count": null,
+   "resource_value": 479808,
+   "design_score": 0.5071503834256526,
+   "config": {
+    "key": "spline:p8:k20",
+    "family": "spline",
+    "degree": 8,
+    "elements": 20,
+    "n": 28
+   },
+   "cost": {
+    "state_1d": 28,
+    "scalar_state": 2352,
+    "state_bytes": 18816,
+    "operator_nonzeros": 1904,
+    "factor_nonzeros": 476,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 111584,
+    "setup_work": 22016,
+    "state_prepare_work": 150528,
+    "marginal_query_work": 521472,
+    "operator_step_work": 479808
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "state",
+   "resource_cap": 17,
+   "query_count": null,
+   "resource_value": 17,
+   "design_score": 1918.3638812361717,
+   "config": {
+    "key": "spline:p5:k12",
+    "family": "spline",
+    "degree": 5,
+    "elements": 12,
+    "n": 17
+   },
+   "cost": {
+    "state_1d": 17,
+    "scalar_state": 867,
+    "state_bytes": 6936,
+    "operator_nonzeros": 748,
+    "factor_nonzeros": 187,
+    "evaluation_plan_nonzeros": 6144,
+    "persistent_storage_bytes": 63568,
+    "setup_work": 13138,
+    "state_prepare_work": 34680,
+    "marginal_query_work": 198264,
+    "operator_step_work": 114444
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "state",
+   "resource_cap": 25,
+   "query_count": null,
+   "resource_value": 25,
+   "design_score": 2.717444345283899,
+   "config": {
+    "key": "spline:p10:k15",
+    "family": "spline",
+    "degree": 10,
+    "elements": 15,
+    "n": 25
+   },
+   "cost": {
+    "state_1d": 25,
+    "scalar_state": 1875,
+    "state_bytes": 15000,
+    "operator_nonzeros": 2100,
+    "factor_nonzeros": 525,
+    "evaluation_plan_nonzeros": 11264,
+    "persistent_storage_bytes": 126112,
+    "setup_work": 27528,
+    "state_prepare_work": 150000,
+    "marginal_query_work": 705264,
+    "operator_step_work": 472500
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "state",
+   "resource_cap": 37,
+   "query_count": null,
+   "resource_value": 37,
+   "design_score": 0.022365584719759354,
+   "config": {
+    "key": "spline:p8:k29",
+    "family": "spline",
+    "degree": 8,
+    "elements": 29,
+    "n": 37
+   },
+   "cost": {
+    "state_1d": 37,
+    "scalar_state": 4107,
+    "state_bytes": 32856,
+    "operator_nonzeros": 2516,
+    "factor_nonzeros": 629,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 131744,
+    "setup_work": 23168,
+    "state_prepare_work": 262848,
+    "marginal_query_work": 633792,
+    "operator_step_work": 837828
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "spline",
+   "resource_kind": "state",
+   "resource_cap": 49,
+   "query_count": null,
+   "resource_value": 47,
+   "design_score": 0.006848281066955551,
+   "config": {
+    "key": "spline:p12:k35",
+    "family": "spline",
+    "degree": 12,
+    "elements": 35,
+    "n": 47
+   },
+   "cost": {
+    "state_1d": 47,
+    "scalar_state": 6627,
+    "state_bytes": 53016,
+    "operator_nonzeros": 4700,
+    "factor_nonzeros": 1175,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 206512,
+    "setup_work": 40160,
+    "state_prepare_work": 636192,
+    "marginal_query_work": 1412640,
+    "operator_step_work": 1988100
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 1,
+   "resource_value": 17164167,
+   "design_score": 138.5585183752614,
+   "config": {
+    "key": "sem:p6:e5",
+    "family": "sem",
+    "degree": 6,
+    "elements": 5,
+    "n": 31
+   },
+   "cost": {
+    "state_1d": 31,
+    "scalar_state": 2883,
+    "state_bytes": 23064,
+    "operator_nonzeros": 142,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 81544,
+    "setup_work": 14679,
+    "state_prepare_work": 0,
+    "marginal_query_work": 223488,
+    "operator_step_work": 169260
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 1,
+   "resource_value": 44095269,
+   "design_score": 0.43890154324991665,
+   "config": {
+    "key": "sem:p12:e3",
+    "family": "sem",
+    "degree": 12,
+    "elements": 3,
+    "n": 37
+   },
+   "cost": {
+    "state_1d": 37,
+    "scalar_state": 4107,
+    "state_bytes": 32856,
+    "operator_nonzeros": 280,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 141592,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 432900
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 1,
+   "resource_value": 77245269,
+   "design_score": 0.03054178587605245,
+   "config": {
+    "key": "sem:p12:e4",
+    "family": "sem",
+    "degree": 12,
+    "elements": 4,
+    "n": 49
+   },
+   "cost": {
+    "state_1d": 49,
+    "scalar_state": 7203,
+    "state_bytes": 57624,
+    "operator_nonzeros": 316,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 166648,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 764400
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 10,
+   "resource_value": 19175559,
+   "design_score": 138.5585183752614,
+   "config": {
+    "key": "sem:p6:e5",
+    "family": "sem",
+    "degree": 6,
+    "elements": 5,
+    "n": 31
+   },
+   "cost": {
+    "state_1d": 31,
+    "scalar_state": 2883,
+    "state_bytes": 23064,
+    "operator_nonzeros": 142,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 81544,
+    "setup_work": 14679,
+    "state_prepare_work": 0,
+    "marginal_query_work": 223488,
+    "operator_step_work": 169260
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 10,
+   "resource_value": 41366601,
+   "design_score": 4.623639362488052,
+   "config": {
+    "key": "sem:p8:e5",
+    "family": "sem",
+    "degree": 8,
+    "elements": 5,
+    "n": 41
+   },
+   "cost": {
+    "state_1d": 41,
+    "scalar_state": 5043,
+    "state_bytes": 40344,
+    "operator_nonzeros": 204,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 115704,
+    "setup_work": 19161,
+    "state_prepare_work": 0,
+    "marginal_query_work": 370944,
+    "operator_step_work": 376380
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 10,
+   "resource_value": 84233301,
+   "design_score": 0.03054178587605245,
+   "config": {
+    "key": "sem:p12:e4",
+    "family": "sem",
+    "degree": 12,
+    "elements": 4,
+    "n": 49
+   },
+   "cost": {
+    "state_1d": 49,
+    "scalar_state": 7203,
+    "state_bytes": 57624,
+    "operator_nonzeros": 316,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 166648,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 764400
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 100,
+   "resource_value": 19717056,
+   "design_score": 765.3509220773973,
+   "config": {
+    "key": "sem:p3:e11",
+    "family": "sem",
+    "degree": 3,
+    "elements": 11,
+    "n": 34
+   },
+   "cost": {
+    "state_1d": 34,
+    "scalar_state": 3468,
+    "state_bytes": 27744,
+    "operator_nonzeros": 118,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 4096,
+    "persistent_storage_bytes": 61456,
+    "setup_work": 8256,
+    "state_prepare_work": 0,
+    "marginal_query_work": 71424,
+    "operator_step_work": 125664
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 100,
+   "resource_value": 49159704,
+   "design_score": 26.264766633367255,
+   "config": {
+    "key": "sem:p5:e9",
+    "family": "sem",
+    "degree": 5,
+    "elements": 9,
+    "n": 46
+   },
+   "cost": {
+    "state_1d": 46,
+    "scalar_state": 6348,
+    "state_bytes": 50784,
+    "operator_nonzeros": 174,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 6144,
+    "persistent_storage_bytes": 101328,
+    "setup_work": 12504,
+    "state_prepare_work": 0,
+    "marginal_query_work": 163584,
+    "operator_step_work": 327888
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 100,
+   "resource_value": 91091961,
+   "design_score": 1.3134534670545117,
+   "config": {
+    "key": "sem:p8:e6",
+    "family": "sem",
+    "degree": 8,
+    "elements": 6,
+    "n": 49
+   },
+   "cost": {
+    "state_1d": 49,
+    "scalar_state": 7203,
+    "state_bytes": 57624,
+    "operator_nonzeros": 228,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 133176,
+    "setup_work": 19161,
+    "state_prepare_work": 0,
+    "marginal_query_work": 370944,
+    "operator_step_work": 539784
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "operator_work",
+   "resource_cap": 50000,
+   "query_count": null,
+   "resource_value": 45540,
+   "design_score": 5832.499907017224,
+   "config": {
+    "key": "sem:p2:e11",
+    "family": "sem",
+    "degree": 2,
+    "elements": 11,
+    "n": 23
+   },
+   "cost": {
+    "state_1d": 23,
+    "scalar_state": 1587,
+    "state_bytes": 12696,
+    "operator_nonzeros": 78,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 3072,
+    "persistent_storage_bytes": 37896,
+    "setup_work": 6171,
+    "state_prepare_work": 0,
+    "marginal_query_work": 39168,
+    "operator_step_work": 45540
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "operator_work",
+   "resource_cap": 150000,
+   "query_count": null,
+   "resource_value": 137700,
+   "design_score": 242.68769626190104,
+   "config": {
+    "key": "sem:p8:e3",
+    "family": "sem",
+    "degree": 8,
+    "elements": 3,
+    "n": 25
+   },
+   "cost": {
+    "state_1d": 25,
+    "scalar_state": 1875,
+    "state_bytes": 15000,
+    "operator_nonzeros": 156,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 89976,
+    "setup_work": 19161,
+    "state_prepare_work": 0,
+    "marginal_query_work": 370944,
+    "operator_step_work": 137700
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "operator_work",
+   "resource_cap": 500000,
+   "query_count": null,
+   "resource_value": 432900,
+   "design_score": 0.43890154324991665,
+   "config": {
+    "key": "sem:p12:e3",
+    "family": "sem",
+    "degree": 12,
+    "elements": 3,
+    "n": 37
+   },
+   "cost": {
+    "state_1d": 37,
+    "scalar_state": 4107,
+    "state_bytes": 32856,
+    "operator_nonzeros": 280,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 141592,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 432900
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "state",
+   "resource_cap": 17,
+   "query_count": null,
+   "resource_value": 17,
+   "design_score": 7144.625034721925,
+   "config": {
+    "key": "sem:p8:e2",
+    "family": "sem",
+    "degree": 8,
+    "elements": 2,
+    "n": 17
+   },
+   "cost": {
+    "state_1d": 17,
+    "scalar_state": 867,
+    "state_bytes": 6936,
+    "operator_nonzeros": 132,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 81720,
+    "setup_work": 19161,
+    "state_prepare_work": 0,
+    "marginal_query_work": 370944,
+    "operator_step_work": 62424
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "state",
+   "resource_cap": 25,
+   "query_count": null,
+   "resource_value": 25,
+   "design_score": 52.05388482861192,
+   "config": {
+    "key": "sem:p12:e2",
+    "family": "sem",
+    "degree": 12,
+    "elements": 2,
+    "n": 25
+   },
+   "cost": {
+    "state_1d": 25,
+    "scalar_state": 1875,
+    "state_bytes": 15000,
+    "operator_nonzeros": 244,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 123448,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 195000
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "state",
+   "resource_cap": 37,
+   "query_count": null,
+   "resource_value": 37,
+   "design_score": 0.43890154324991665,
+   "config": {
+    "key": "sem:p12:e3",
+    "family": "sem",
+    "degree": 12,
+    "elements": 3,
+    "n": 37
+   },
+   "cost": {
+    "state_1d": 37,
+    "scalar_state": 4107,
+    "state_bytes": 32856,
+    "operator_nonzeros": 280,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 141592,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 432900
+   }
+  },
+  {
+   "objective": "wall",
+   "family": "sem",
+   "resource_kind": "state",
+   "resource_cap": 49,
+   "query_count": null,
+   "resource_value": 49,
+   "design_score": 0.03054178587605245,
+   "config": {
+    "key": "sem:p12:e4",
+    "family": "sem",
+    "degree": 12,
+    "elements": 4,
+    "n": 49
+   },
+   "cost": {
+    "state_1d": 49,
+    "scalar_state": 7203,
+    "state_bytes": 57624,
+    "operator_nonzeros": 316,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 166648,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 764400
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 1,
+   "resource_value": 19401452,
+   "design_score": 108.94310057047598,
+   "config": {
+    "key": "spline:p5:k17",
+    "family": "spline",
+    "degree": 5,
+    "elements": 17,
+    "n": 22
+   },
+   "cost": {
+    "state_1d": 22,
+    "scalar_state": 1452,
+    "state_bytes": 11616,
+    "operator_nonzeros": 968,
+    "factor_nonzeros": 242,
+    "evaluation_plan_nonzeros": 6144,
+    "persistent_storage_bytes": 70448,
+    "setup_work": 13388,
+    "state_prepare_work": 58080,
+    "marginal_query_work": 221664,
+    "operator_step_work": 191664
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 1,
+   "resource_value": 48524288,
+   "design_score": 0.5759904546040361,
+   "config": {
+    "key": "spline:p8:k20",
+    "family": "spline",
+    "degree": 8,
+    "elements": 20,
+    "n": 28
+   },
+   "cost": {
+    "state_1d": 28,
+    "scalar_state": 2352,
+    "state_bytes": 18816,
+    "operator_nonzeros": 1904,
+    "factor_nonzeros": 476,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 111584,
+    "setup_work": 22016,
+    "state_prepare_work": 150528,
+    "marginal_query_work": 521472,
+    "operator_step_work": 479808
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 1,
+   "resource_value": 95302664,
+   "design_score": 0.04008285096324132,
+   "config": {
+    "key": "spline:p6:k39",
+    "family": "spline",
+    "degree": 6,
+    "elements": 39,
+    "n": 45
+   },
+   "cost": {
+    "state_1d": 45,
+    "scalar_state": 6075,
+    "state_bytes": 48600,
+    "operator_nonzeros": 2340,
+    "factor_nonzeros": 585,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 129344,
+    "setup_work": 17576,
+    "state_prepare_work": 291600,
+    "marginal_query_work": 515088,
+    "operator_step_work": 947700
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 10,
+   "resource_value": 18787376,
+   "design_score": 168.99902587148935,
+   "config": {
+    "key": "spline:p4:k19",
+    "family": "spline",
+    "degree": 4,
+    "elements": 19,
+    "n": 23
+   },
+   "cost": {
+    "state_1d": 23,
+    "scalar_state": 1587,
+    "state_bytes": 12696,
+    "operator_nonzeros": 828,
+    "factor_nonzeros": 207,
+    "evaluation_plan_nonzeros": 5120,
+    "persistent_storage_bytes": 61936,
+    "setup_work": 10976,
+    "state_prepare_work": 50784,
+    "marginal_query_work": 163680,
+    "operator_step_work": 171396
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 10,
+   "resource_value": 49745808,
+   "design_score": 1.0122351128325477,
+   "config": {
+    "key": "spline:p8:k19",
+    "family": "spline",
+    "degree": 8,
+    "elements": 19,
+    "n": 27
+   },
+   "cost": {
+    "state_1d": 27,
+    "scalar_state": 2187,
+    "state_bytes": 17496,
+    "operator_nonzeros": 1836,
+    "factor_nonzeros": 459,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 109584,
+    "setup_work": 21888,
+    "state_prepare_work": 139968,
+    "marginal_query_work": 510912,
+    "operator_step_work": 446148
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 10,
+   "resource_value": 99938456,
+   "design_score": 0.04008285096324132,
+   "config": {
+    "key": "spline:p6:k39",
+    "family": "spline",
+    "degree": 6,
+    "elements": 39,
+    "n": 45
+   },
+   "cost": {
+    "state_1d": 45,
+    "scalar_state": 6075,
+    "state_bytes": 48600,
+    "operator_nonzeros": 2340,
+    "factor_nonzeros": 585,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 129344,
+    "setup_work": 17576,
+    "state_prepare_work": 291600,
+    "marginal_query_work": 515088,
+    "operator_step_work": 947700
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 100,
+   "resource_value": 19335952,
+   "design_score": 1251.1977766737157,
+   "config": {
+    "key": "spline:p2:k24",
+    "family": "spline",
+    "degree": 2,
+    "elements": 24,
+    "n": 26
+   },
+   "cost": {
+    "state_1d": 26,
+    "scalar_state": 2028,
+    "state_bytes": 16224,
+    "operator_nonzeros": 520,
+    "factor_nonzeros": 130,
+    "evaluation_plan_nonzeros": 3072,
+    "persistent_storage_bytes": 46000,
+    "setup_work": 6352,
+    "state_prepare_work": 32448,
+    "marginal_query_work": 71616,
+    "operator_step_work": 121680
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 100,
+   "resource_value": 49100800,
+   "design_score": 24.710573210820428,
+   "config": {
+    "key": "spline:p4:k26",
+    "family": "spline",
+    "degree": 4,
+    "elements": 26,
+    "n": 30
+   },
+   "cost": {
+    "state_1d": 30,
+    "scalar_state": 2700,
+    "state_bytes": 21600,
+    "operator_nonzeros": 1080,
+    "factor_nonzeros": 270,
+    "evaluation_plan_nonzeros": 5120,
+    "persistent_storage_bytes": 73360,
+    "setup_work": 11200,
+    "state_prepare_work": 86400,
+    "marginal_query_work": 199296,
+    "operator_step_work": 291600
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 100,
+   "resource_value": 97335656,
+   "design_score": 0.3951661921831609,
+   "config": {
+    "key": "spline:p6:k29",
+    "family": "spline",
+    "degree": 6,
+    "elements": 29,
+    "n": 35
+   },
+   "cost": {
+    "state_1d": 35,
+    "scalar_state": 3675,
+    "state_bytes": 29400,
+    "operator_nonzeros": 1820,
+    "factor_nonzeros": 455,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 104944,
+    "setup_work": 16856,
+    "state_prepare_work": 176400,
+    "marginal_query_work": 399888,
+    "operator_step_work": 573300
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "operator_work",
+   "resource_cap": 50000,
+   "query_count": null,
+   "resource_value": 46080,
+   "design_score": 8186.932824190272,
+   "config": {
+    "key": "spline:p2:k14",
+    "family": "spline",
+    "degree": 2,
+    "elements": 14,
+    "n": 16
+   },
+   "cost": {
+    "state_1d": 16,
+    "scalar_state": 768,
+    "state_bytes": 6144,
+    "operator_nonzeros": 320,
+    "factor_nonzeros": 80,
+    "evaluation_plan_nonzeros": 3072,
+    "persistent_storage_bytes": 33920,
+    "setup_work": 6272,
+    "state_prepare_work": 12288,
+    "marginal_query_work": 51456,
+    "operator_step_work": 46080
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "operator_work",
+   "resource_cap": 150000,
+   "query_count": null,
+   "resource_value": 142884,
+   "design_score": 460.9560838521376,
+   "config": {
+    "key": "spline:p4:k17",
+    "family": "spline",
+    "degree": 4,
+    "elements": 17,
+    "n": 21
+   },
+   "cost": {
+    "state_1d": 21,
+    "scalar_state": 1323,
+    "state_bytes": 10584,
+    "operator_nonzeros": 756,
+    "factor_nonzeros": 189,
+    "evaluation_plan_nonzeros": 5120,
+    "persistent_storage_bytes": 59104,
+    "setup_work": 10912,
+    "state_prepare_work": 42336,
+    "marginal_query_work": 155232,
+    "operator_step_work": 142884
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "operator_work",
+   "resource_cap": 500000,
+   "query_count": null,
+   "resource_value": 479808,
+   "design_score": 0.5759904546040361,
+   "config": {
+    "key": "spline:p8:k20",
+    "family": "spline",
+    "degree": 8,
+    "elements": 20,
+    "n": 28
+   },
+   "cost": {
+    "state_1d": 28,
+    "scalar_state": 2352,
+    "state_bytes": 18816,
+    "operator_nonzeros": 1904,
+    "factor_nonzeros": 476,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 111584,
+    "setup_work": 22016,
+    "state_prepare_work": 150528,
+    "marginal_query_work": 521472,
+    "operator_step_work": 479808
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "state",
+   "resource_cap": 17,
+   "query_count": null,
+   "resource_value": 17,
+   "design_score": 2393.436354145394,
+   "config": {
+    "key": "spline:p5:k12",
+    "family": "spline",
+    "degree": 5,
+    "elements": 12,
+    "n": 17
+   },
+   "cost": {
+    "state_1d": 17,
+    "scalar_state": 867,
+    "state_bytes": 6936,
+    "operator_nonzeros": 748,
+    "factor_nonzeros": 187,
+    "evaluation_plan_nonzeros": 6144,
+    "persistent_storage_bytes": 63568,
+    "setup_work": 13138,
+    "state_prepare_work": 34680,
+    "marginal_query_work": 198264,
+    "operator_step_work": 114444
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "state",
+   "resource_cap": 25,
+   "query_count": null,
+   "resource_value": 25,
+   "design_score": 5.106388254207656,
+   "config": {
+    "key": "spline:p10:k15",
+    "family": "spline",
+    "degree": 10,
+    "elements": 15,
+    "n": 25
+   },
+   "cost": {
+    "state_1d": 25,
+    "scalar_state": 1875,
+    "state_bytes": 15000,
+    "operator_nonzeros": 2100,
+    "factor_nonzeros": 525,
+    "evaluation_plan_nonzeros": 11264,
+    "persistent_storage_bytes": 126112,
+    "setup_work": 27528,
+    "state_prepare_work": 150000,
+    "marginal_query_work": 705264,
+    "operator_step_work": 472500
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "state",
+   "resource_cap": 37,
+   "query_count": null,
+   "resource_value": 37,
+   "design_score": 0.09594853640679916,
+   "config": {
+    "key": "spline:p8:k29",
+    "family": "spline",
+    "degree": 8,
+    "elements": 29,
+    "n": 37
+   },
+   "cost": {
+    "state_1d": 37,
+    "scalar_state": 4107,
+    "state_bytes": 32856,
+    "operator_nonzeros": 2516,
+    "factor_nonzeros": 629,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 131744,
+    "setup_work": 23168,
+    "state_prepare_work": 262848,
+    "marginal_query_work": 633792,
+    "operator_step_work": 837828
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "spline",
+   "resource_kind": "state",
+   "resource_cap": 49,
+   "query_count": null,
+   "resource_value": 48,
+   "design_score": 0.03169124088368826,
+   "config": {
+    "key": "spline:p6:k42",
+    "family": "spline",
+    "degree": 6,
+    "elements": 42,
+    "n": 48
+   },
+   "cost": {
+    "state_1d": 48,
+    "scalar_state": 6912,
+    "state_bytes": 55296,
+    "operator_nonzeros": 2496,
+    "factor_nonzeros": 624,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 137600,
+    "setup_work": 17792,
+    "state_prepare_work": 331776,
+    "marginal_query_work": 555264,
+    "operator_step_work": 1078272
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 1,
+   "resource_value": 17164167,
+   "design_score": 185.10619331230427,
+   "config": {
+    "key": "sem:p6:e5",
+    "family": "sem",
+    "degree": 6,
+    "elements": 5,
+    "n": 31
+   },
+   "cost": {
+    "state_1d": 31,
+    "scalar_state": 2883,
+    "state_bytes": 23064,
+    "operator_nonzeros": 142,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 81544,
+    "setup_work": 14679,
+    "state_prepare_work": 0,
+    "marginal_query_work": 223488,
+    "operator_step_work": 169260
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 1,
+   "resource_value": 44095269,
+   "design_score": 0.4720572106707007,
+   "config": {
+    "key": "sem:p12:e3",
+    "family": "sem",
+    "degree": 12,
+    "elements": 3,
+    "n": 37
+   },
+   "cost": {
+    "state_1d": 37,
+    "scalar_state": 4107,
+    "state_bytes": 32856,
+    "operator_nonzeros": 280,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 141592,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 432900
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 1,
+   "resource_value": 77245269,
+   "design_score": 0.1413305254131558,
+   "config": {
+    "key": "sem:p12:e4",
+    "family": "sem",
+    "degree": 12,
+    "elements": 4,
+    "n": 49
+   },
+   "cost": {
+    "state_1d": 49,
+    "scalar_state": 7203,
+    "state_bytes": 57624,
+    "operator_nonzeros": 316,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 166648,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 764400
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 10,
+   "resource_value": 19175559,
+   "design_score": 185.10619331230427,
+   "config": {
+    "key": "sem:p6:e5",
+    "family": "sem",
+    "degree": 6,
+    "elements": 5,
+    "n": 31
+   },
+   "cost": {
+    "state_1d": 31,
+    "scalar_state": 2883,
+    "state_bytes": 23064,
+    "operator_nonzeros": 142,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 7168,
+    "persistent_storage_bytes": 81544,
+    "setup_work": 14679,
+    "state_prepare_work": 0,
+    "marginal_query_work": 223488,
+    "operator_step_work": 169260
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 10,
+   "resource_value": 41366601,
+   "design_score": 4.623639362488052,
+   "config": {
+    "key": "sem:p8:e5",
+    "family": "sem",
+    "degree": 8,
+    "elements": 5,
+    "n": 41
+   },
+   "cost": {
+    "state_1d": 41,
+    "scalar_state": 5043,
+    "state_bytes": 40344,
+    "operator_nonzeros": 204,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 115704,
+    "setup_work": 19161,
+    "state_prepare_work": 0,
+    "marginal_query_work": 370944,
+    "operator_step_work": 376380
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 10,
+   "resource_value": 84233301,
+   "design_score": 0.1413305254131558,
+   "config": {
+    "key": "sem:p12:e4",
+    "family": "sem",
+    "degree": 12,
+    "elements": 4,
+    "n": 49
+   },
+   "cost": {
+    "state_1d": 49,
+    "scalar_state": 7203,
+    "state_bytes": 57624,
+    "operator_nonzeros": 316,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 166648,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 764400
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 20000000,
+   "query_count": 100,
+   "resource_value": 19717056,
+   "design_score": 1057.5485370806382,
+   "config": {
+    "key": "sem:p3:e11",
+    "family": "sem",
+    "degree": 3,
+    "elements": 11,
+    "n": 34
+   },
+   "cost": {
+    "state_1d": 34,
+    "scalar_state": 3468,
+    "state_bytes": 27744,
+    "operator_nonzeros": 118,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 4096,
+    "persistent_storage_bytes": 61456,
+    "setup_work": 8256,
+    "state_prepare_work": 0,
+    "marginal_query_work": 71424,
+    "operator_step_work": 125664
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 50000000,
+   "query_count": 100,
+   "resource_value": 49159704,
+   "design_score": 32.07023937671574,
+   "config": {
+    "key": "sem:p5:e9",
+    "family": "sem",
+    "degree": 5,
+    "elements": 9,
+    "n": 46
+   },
+   "cost": {
+    "state_1d": 46,
+    "scalar_state": 6348,
+    "state_bytes": 50784,
+    "operator_nonzeros": 174,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 6144,
+    "persistent_storage_bytes": 101328,
+    "setup_work": 12504,
+    "state_prepare_work": 0,
+    "marginal_query_work": 163584,
+    "operator_step_work": 327888
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "mission",
+   "resource_cap": 100000000,
+   "query_count": 100,
+   "resource_value": 91091961,
+   "design_score": 1.3134534670545117,
+   "config": {
+    "key": "sem:p8:e6",
+    "family": "sem",
+    "degree": 8,
+    "elements": 6,
+    "n": 49
+   },
+   "cost": {
+    "state_1d": 49,
+    "scalar_state": 7203,
+    "state_bytes": 57624,
+    "operator_nonzeros": 228,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 133176,
+    "setup_work": 19161,
+    "state_prepare_work": 0,
+    "marginal_query_work": 370944,
+    "operator_step_work": 539784
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "operator_work",
+   "resource_cap": 50000,
+   "query_count": null,
+   "resource_value": 45540,
+   "design_score": 6383.348687020434,
+   "config": {
+    "key": "sem:p2:e11",
+    "family": "sem",
+    "degree": 2,
+    "elements": 11,
+    "n": 23
+   },
+   "cost": {
+    "state_1d": 23,
+    "scalar_state": 1587,
+    "state_bytes": 12696,
+    "operator_nonzeros": 78,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 3072,
+    "persistent_storage_bytes": 37896,
+    "setup_work": 6171,
+    "state_prepare_work": 0,
+    "marginal_query_work": 39168,
+    "operator_step_work": 45540
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "operator_work",
+   "resource_cap": 150000,
+   "query_count": null,
+   "resource_value": 137700,
+   "design_score": 349.7018963053144,
+   "config": {
+    "key": "sem:p8:e3",
+    "family": "sem",
+    "degree": 8,
+    "elements": 3,
+    "n": 25
+   },
+   "cost": {
+    "state_1d": 25,
+    "scalar_state": 1875,
+    "state_bytes": 15000,
+    "operator_nonzeros": 156,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 89976,
+    "setup_work": 19161,
+    "state_prepare_work": 0,
+    "marginal_query_work": 370944,
+    "operator_step_work": 137700
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "operator_work",
+   "resource_cap": 500000,
+   "query_count": null,
+   "resource_value": 432900,
+   "design_score": 0.4720572106707007,
+   "config": {
+    "key": "sem:p12:e3",
+    "family": "sem",
+    "degree": 12,
+    "elements": 3,
+    "n": 37
+   },
+   "cost": {
+    "state_1d": 37,
+    "scalar_state": 4107,
+    "state_bytes": 32856,
+    "operator_nonzeros": 280,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 141592,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 432900
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "state",
+   "resource_cap": 17,
+   "query_count": null,
+   "resource_value": 17,
+   "design_score": 7231.413736848364,
+   "config": {
+    "key": "sem:p8:e2",
+    "family": "sem",
+    "degree": 8,
+    "elements": 2,
+    "n": 17
+   },
+   "cost": {
+    "state_1d": 17,
+    "scalar_state": 867,
+    "state_bytes": 6936,
+    "operator_nonzeros": 132,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 9216,
+    "persistent_storage_bytes": 81720,
+    "setup_work": 19161,
+    "state_prepare_work": 0,
+    "marginal_query_work": 370944,
+    "operator_step_work": 62424
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "state",
+   "resource_cap": 25,
+   "query_count": null,
+   "resource_value": 25,
+   "design_score": 73.70544123228244,
+   "config": {
+    "key": "sem:p12:e2",
+    "family": "sem",
+    "degree": 12,
+    "elements": 2,
+    "n": 25
+   },
+   "cost": {
+    "state_1d": 25,
+    "scalar_state": 1875,
+    "state_bytes": 15000,
+    "operator_nonzeros": 244,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 123448,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 195000
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "state",
+   "resource_cap": 37,
+   "query_count": null,
+   "resource_value": 37,
+   "design_score": 0.4720572106707007,
+   "config": {
+    "key": "sem:p12:e3",
+    "family": "sem",
+    "degree": 12,
+    "elements": 3,
+    "n": 37
+   },
+   "cost": {
+    "state_1d": 37,
+    "scalar_state": 4107,
+    "state_bytes": 32856,
+    "operator_nonzeros": 280,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 141592,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 432900
+   }
+  },
+  {
+   "objective": "joint",
+   "family": "sem",
+   "resource_kind": "state",
+   "resource_cap": 49,
+   "query_count": null,
+   "resource_value": 49,
+   "design_score": 0.1413305254131558,
+   "config": {
+    "key": "sem:p12:e4",
+    "family": "sem",
+    "degree": 12,
+    "elements": 4,
+    "n": 49
+   },
+   "cost": {
+    "state_1d": 49,
+    "scalar_state": 7203,
+    "state_bytes": 57624,
+    "operator_nonzeros": 316,
+    "factor_nonzeros": 0,
+    "evaluation_plan_nonzeros": 13312,
+    "persistent_storage_bytes": 166648,
+    "setup_work": 28821,
+    "state_prepare_work": 0,
+    "marginal_query_work": 776448,
+    "operator_step_work": 764400
+   }
+  }
+ ]
+}

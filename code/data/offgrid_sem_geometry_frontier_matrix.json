@@ -1,0 +1,100 @@
+{
+  "protocol_id": "offgrid-sem-geometry-frontier-v1",
+  "frozen_at_checkpoint": "bc916e9d5baeab3f149be84d5f1a3b2f4a084f4e",
+  "decision": "Determine whether native boundary-spline values, normal derivatives, and tractions retain a decisive accuracy or state-size advantage over an hp-optimized continuous GLL spectral-element reconstruction.",
+  "information_boundary": "Comparative errors and rankings are excluded from this immutable specification.",
+  "field_ensemble": {
+    "source": "code/s6_curved_offgrid.py random_field",
+    "seed": 20260712,
+    "discarded_selftest_draws": 1,
+    "field_count": 12,
+    "streamfunction_modes_per_direction": 5,
+    "pressure_modes_per_direction": 5,
+    "viscosity": 0.01
+  },
+  "surfaces": [
+    {
+      "name": "circle_small",
+      "center": [0.512, 0.487],
+      "base_radius": 0.11,
+      "radial_modulation": 0.0,
+      "lobes": 0,
+      "markers": 48
+    },
+    {
+      "name": "circle_large",
+      "center": [0.503, 0.508],
+      "base_radius": 0.335,
+      "radial_modulation": 0.0,
+      "lobes": 0,
+      "markers": 48
+    },
+    {
+      "name": "star",
+      "center": [0.501, 0.499],
+      "base_radius": 0.24,
+      "radial_modulation": 0.18,
+      "lobes": 5,
+      "markers": 48
+    }
+  ],
+  "state_budgets_1d": [19, 37, 61],
+  "spline": {
+    "degree": 6,
+    "state_sizes_1d": [19, 37, 61],
+    "representation": "Greville-interpolated clamped open-uniform B-spline coefficients",
+    "evaluation": "native tensor-product basis and analytic basis derivatives",
+    "route_label_rule": "Report BMF6 and BMG6 together only when their static off-grid reconstruction and same-point derivative objects are identical."
+  },
+  "spectral_element": {
+    "degrees": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "element_count_rule": "For each state cap N and degree P, admit every integer K >= 1 satisfying K*P+1 <= N.",
+    "continuity": "C0",
+    "nodes": "Gauss-Lobatto-Legendre",
+    "evaluation": "native element-local barycentric values and derivatives",
+    "auxiliary_interpolant": false
+  },
+  "common_data": {
+    "fields": "identical analytic u, v, p samples for every entrant",
+    "markers": "identical archived physical marker coordinates",
+    "normals": "identical archived analytic outward unit normals",
+    "viscosity": 0.01,
+    "pressure_gauge": "identical zero-offset analytic pressure",
+    "traction": "sigma*n with sigma=-pI+nu*(grad(u)+grad(u)^T)",
+    "state_accounting": "one-dimensional state size n, with tensor state size 3*n^2 for u, v, p"
+  },
+  "scored_metrics": ["velocity", "normal_derivative", "traction"],
+  "statistics": ["median", "p95", "worst"],
+  "aggregation_grain": "each surface, state budget, entrant, and metric across all 12 fields and 48 markers",
+  "costs": {
+    "state_size": "one-dimensional n and tensor scalar count 3*n^2",
+    "memory": "persistent sampled-state bytes, reconstruction bytes, and precomputed evaluation-plan bytes",
+    "setup": "single-thread process time to prepare reconstruction coefficients from sampled state, excluding common analytic sampling",
+    "recurring_evaluation": "single-thread process time for native values and first derivatives of u, v, p at all 48 markers",
+    "timing_repetitions": 7,
+    "timing_statistic": "median"
+  },
+  "gates": {
+    "polynomial_reproduction_absolute_tolerance": 2e-10,
+    "normal_unit_absolute_tolerance": 2e-14,
+    "normal_outward_dot_minimum": 0.02,
+    "analytic_stress_fd_absolute_tolerance": 2e-7,
+    "analytic_divergence_absolute_tolerance": 2e-12,
+    "finite_result_required": true,
+    "quantile_order_required": true,
+    "coverage_required": true
+  },
+  "promotion": {
+    "traction_dominance": "At each declared surface and budget, spline traction median, p95, and worst error must all be strictly below the optimized spectral-element envelope.",
+    "adoption_margin": "At least one declared surface and budget must show a traction error factor of at least 2 on all three statistics, or the spline must use at least 25 percent less one-dimensional state at matched traction error on all three statistics.",
+    "narrow_tie": "Does not support superiority."
+  },
+  "falsification": "If hp-optimized spectral elements erase the accuracy margin, retain the exact native one-space capability and report the measured accuracy and cost split.",
+  "prediction_before_results": {
+    "optimized_sem_effect": "The hp envelope is expected to reduce the fixed-degree-six SEM gap substantially and to erase at least one spline traction advantage at N=37 or N=61.",
+    "coarse_budget": "The spline is expected to remain competitive in traction tails at N=19 because P<=12 limits the global high-frequency approximation and low-degree multi-element alternatives spend continuity points.",
+    "promotion_prediction": "Full superiority promotion is not expected to pass across every surface and budget.",
+    "cost_prediction": "SEM is expected to have lower setup cost and reconstruction memory, while the spline may retain competitive recurring evaluation cost after coefficient preparation."
+  },
+  "finite_checkpoint": "Complete the bounded P=2,...,12 and admissible element-count sweep at N=19,37,61. Repair and rerun invalidated cells once if a comparison defect is found. Do not expand the degree range or surfaces."
+}

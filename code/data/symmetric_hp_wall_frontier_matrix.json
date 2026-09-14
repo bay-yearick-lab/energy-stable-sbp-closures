@@ -1,0 +1,102 @@
+{
+  "protocol_id": "symmetric-hp-wall-frontier-v2",
+  "frozen_from_commit": "9364cbb7ceccadb3c461e4a60d57018260f4c697",
+  "decision": "Compare optimized maximum-continuity clamped splines and optimized continuous GLL spectral elements for volume approximation, wall observables, operator work, and evolution-plus-observation mission work.",
+  "information_boundary": "The design and held-out field formulas, selector, metrics, scales, tolerances, costs, and route ladder are frozen before any symmetric held-out ranking is computed or inspected.",
+  "domain": [0.0, 1.0, 0.0, 1.0],
+  "degrees": [2, 3, 4, 5, 6, 8, 10, 12],
+  "state_caps_1d": [17, 25, 37, 49],
+  "configuration_rule": {
+    "spline": "For every degree p and every integer span count K >= 1, include n=p+K when n does not exceed the largest state cap.",
+    "spectral_element": "For every degree P and every integer element count E >= 1, include n=P*E+1 when n does not exceed the largest state cap.",
+    "state_grain": "One scalar tensor state has n^2 values. A velocity-pressure state has 3*n^2 scalar values.",
+    "continuity": {"spline": "C^(p-1)", "spectral_element": "C0"},
+    "nodes": {"spline": "true Greville", "spectral_element": "GLL"}
+  },
+  "split": {
+    "design_seed": 2026082001,
+    "heldout_seed": 2026082002,
+    "classes": ["analytic_global", "anisotropic", "wall_layer", "finite_regularity", "poisson", "heat", "stokes", "analytic_wake"],
+    "cases_per_class_per_split": 2,
+    "design_parameters": {
+      "analytic_global": [[2, 3, 0.17], [4, 2, 0.41]],
+      "anisotropic": [[2, 8, 0.23], [8, 2, 0.37]],
+      "wall_layer": [[0.08, 2, 0.19], [0.04, 3, 0.31]],
+      "finite_regularity": [[3.5, 0.37, 2], [4.5, 0.63, 3]],
+      "poisson": [[2, 3, 0.13], [4, 1, 0.29]],
+      "heat": [[4, 7, 0.05], [7, 3, 0.2]],
+      "stokes": [[1, 2, 0.11], [2, 1, 0.27]],
+      "analytic_wake": [[20.0, 0.09], [40.0, 0.21]]
+    },
+    "heldout_parameters": {
+      "analytic_global": [[3, 4, 0.29], [5, 3, 0.53]],
+      "anisotropic": [[3, 9, 0.43], [9, 3, 0.61]],
+      "wall_layer": [[0.06, 2, 0.47], [0.025, 4, 0.71]],
+      "finite_regularity": [[3.75, 0.43, 2], [5.25, 0.58, 4]],
+      "poisson": [[3, 2, 0.37], [5, 2, 0.59]],
+      "heat": [[5, 8, 0.1], [8, 4, 0.35]],
+      "stokes": [[1, 3, 0.39], [3, 1, 0.57]],
+      "analytic_wake": [[30.0, 0.33], [60.0, 0.49]]
+    }
+  },
+  "sampling": {
+    "volume_gauss_points_per_direction": 24,
+    "wall_gauss_points_per_edge": 48,
+    "path_points": 64,
+    "paths": ["oblique_line", "smooth_arc", "moving_probe_curve", "wall_normal_and_tangential_cuts"]
+  },
+  "metrics": {
+    "primary": ["volume_l2", "h1", "wall_trace_l2", "normal_derivative_l2", "flux_l2", "traction_l2"],
+    "tail": ["field_max", "field_p95", "gradient_max", "gradient_p95", "normal_derivative_max", "normal_derivative_p95", "flux_max", "flux_p95", "traction_max", "traction_p95"],
+    "path": ["path_field_max", "path_gradient_max"],
+    "normalization": "Each component uses the larger of its exact observable norm and 0.1 times the field reference scale. Pointwise tails use the corresponding maximum scale with the same floor."
+  },
+  "selector": {
+    "normalizers": {"volume_l2": 1e-5, "h1": 0.0001, "wall_trace_l2": 1e-5, "normal_derivative_l2": 0.0005, "flux_l2": 0.0005, "traction_l2": 0.001, "path_field_max": 0.001, "path_gradient_max": 0.001},
+    "objectives": {
+      "volume": ["volume_l2", "h1"],
+      "wall": ["wall_trace_l2", "normal_derivative_l2", "flux_l2", "traction_l2"],
+      "joint": ["volume_l2", "h1", "wall_trace_l2", "normal_derivative_l2", "flux_l2", "traction_l2", "path_field_max", "path_gradient_max"]
+    },
+    "rule": "Within each family and resource cap, minimize the maximum normalized design error across every design case and selector metric. Break ties by smaller resource, smaller scalar state, lower degree, then fewer elements.",
+    "heldout_use": "Freeze selected configuration keys from design scores before evaluating any held-out case."
+  },
+  "work": {
+    "operator_work_caps": [50000, 150000, 500000],
+    "mission_work_caps": [20000000, 50000000, 100000000],
+    "evolution_steps": 100,
+    "query_counts": [1, 10, 100],
+    "query_markers_per_snapshot": 256,
+    "preprocessing": "Both families precompute native basis or barycentric rows. Spline nodal states include banded sample-to-coefficient solves. Spectral-element nodal states require no representation conversion.",
+    "counting": "Multiply-add, banded solve, factorization, persistent nonzero storage, state storage, plan storage, line application, and marginal point-query counts are computed from each realized degree, element count, and state size."
+  },
+  "decision_tolerance": {
+    "tie_relative": 0.05,
+    "decisive_error_factor": 2.0,
+    "decisive_state_reduction": 0.25,
+    "downside_guardrail": 0.25,
+    "algebraic_absolute": 2e-10
+  },
+  "gates": {
+    "polynomial_value_and_derivative_reproduction": true,
+    "constant_and_linear_derivative_reproduction": true,
+    "partition_of_unity": true,
+    "wall_normal_orientation": true,
+    "field_derivative_complex_step_or_closed_form": true,
+    "design_heldout_disjoint": true,
+    "configuration_coverage": true,
+    "finite_results": true,
+    "quantile_order": true,
+    "selector_reconstruction": true,
+    "summary_reconstruction": true
+  },
+  "promotion_order": [
+    "minimax wall-observable theorem over the declared regularity class",
+    "uniform held-out Pareto result with comparable volume accuracy and a decisive wall, state, work, or repeated-query advantage",
+    "joint-capability theorem plus a decisive bounded operating regime"
+  ],
+  "falsification": "No symmetric held-out wall or joint frontier cell meets the decisive margin, or a properly activated wall-layer cell violates the downside guardrail without a compensating state or mission benefit.",
+  "fallback": "Use optimized continuous GLL spectral elements for pure analytic interpolation or time to solution. Retain the exact one-state compatible evolution and native wall-observation theorem for the spline routes.",
+  "alternative": "If a loss is localized to wall layers or endpoint derivatives, run one predeclared geometrically graded open-knot spline route on only the wall-layer cases. Otherwise classify the axis without tuning.",
+  "finite_checkpoint": "One complete design sweep, one frozen selector artifact, one disjoint held-out sweep, and at most one graded wall-layer route."
+}
