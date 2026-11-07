@@ -1,0 +1,22 @@
+[project]
+name = "energy-stable-sbp-closures"
+version = "0.1.0"
+description = "Energy-stable high-order B-spline summation-by-parts wall closures: operators, experiments, tests and Lean proofs"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Yong Yi Bay" }, { name = "Kathleen A. Yearick" }]
+requires-python = ">=3.10"
+dependencies = [
+  "matplotlib>=3.8",
+  "numpy>=2.0",
+  "scipy>=1.14",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,132 @@
+{
+ "config": {
+  "orders": [
+   4,
+   8
+  ],
+  "re": 40,
+  "npts": 25
+ },
+ "rows": [
+  {
+   "label": "E4",
+   "q": 4,
+   "velocity_rel_l2": 8.615389857882428e-05,
+   "velocity_linf": 0.00022211536063669214,
+   "divergence_inf_scaled": 0.002855079775002378,
+   "momentum_residual_rel_rms": 0.0015632567065505646,
+   "steps": 400,
+   "cpu_s": 0.07769289999999995
+  },
+  {
+   "label": "C4",
+   "q": 4,
+   "velocity_rel_l2": 1.9470762272236992e-05,
+   "velocity_linf": 0.00013638051434023497,
+   "divergence_inf_scaled": 0.003074145912548787,
+   "momentum_residual_rel_rms": 0.0005326424971924079,
+   "steps": 400,
+   "cpu_s": 0.07135483199999992
+  },
+  {
+   "label": "SBP4",
+   "q": 4,
+   "velocity_rel_l2": 0.0012194365285746374,
+   "velocity_linf": 0.01270338734044599,
+   "divergence_inf_scaled": 0.12103608983183967,
+   "momentum_residual_rel_rms": 0.03674822845532095,
+   "steps": 400,
+   "cpu_s": 0.07314939900000006
+  },
+  {
+   "label": "DRP4",
+   "q": 4,
+   "velocity_rel_l2": 0.0007242191516291011,
+   "velocity_linf": 0.001103712261319334,
+   "divergence_inf_scaled": 0.026336314315941856,
+   "momentum_residual_rel_rms": 0.006493711914169279,
+   "steps": 400,
+   "cpu_s": 0.07091338599999997
+  },
+  {
+   "label": "BMF4",
+   "q": 4,
+   "velocity_rel_l2": 3.970683789332867e-06,
+   "velocity_linf": 1.4192342324370674e-05,
+   "divergence_inf_scaled": 0.000859195278484326,
+   "momentum_residual_rel_rms": 0.00048311505609807535,
+   "steps": 348,
+   "cpu_s": 0.07314902500000009
+  },
+  {
+   "label": "BMG4",
+   "q": 4,
+   "velocity_rel_l2": 4.0267185682686186e-07,
+   "velocity_linf": 2.2811057720456566e-06,
+   "divergence_inf_scaled": 0.0001787626937965192,
+   "momentum_residual_rel_rms": 0.000135858293697622,
+   "steps": 348,
+   "cpu_s": 0.06982045199999998
+  },
+  {
+   "label": "E8",
+   "q": 8,
+   "velocity_rel_l2": 5.0698415371787475e-08,
+   "velocity_linf": 3.402974879282429e-07,
+   "divergence_inf_scaled": 7.384452554992649e-06,
+   "momentum_residual_rel_rms": 3.4985644730592525e-06,
+   "steps": 400,
+   "cpu_s": 0.07423595400000005
+  },
+  {
+   "label": "C8",
+   "q": 8,
+   "velocity_rel_l2": 4.328792187181737e-08,
+   "velocity_linf": 3.790177527127049e-07,
+   "divergence_inf_scaled": 8.017145347982702e-06,
+   "momentum_residual_rel_rms": 1.6248428251639647e-06,
+   "steps": 400,
+   "cpu_s": 0.07100123600000008
+  },
+  {
+   "label": "SBP8",
+   "q": 8,
+   "velocity_rel_l2": 0.0011029418914878092,
+   "velocity_linf": 0.016151313330379915,
+   "divergence_inf_scaled": 7.95933693313071,
+   "momentum_residual_rel_rms": 206.8334219783026,
+   "steps": 400,
+   "cpu_s": 0.07319651000000005
+  },
+  {
+   "label": "DRP8",
+   "q": 8,
+   "velocity_rel_l2": 0.0004124633781288696,
+   "velocity_linf": 0.0007986166807363276,
+   "divergence_inf_scaled": 0.02542764138024306,
+   "momentum_residual_rel_rms": 0.005174393998070043,
+   "steps": 400,
+   "cpu_s": 0.07076561600000009
+  },
+  {
+   "label": "BMF8",
+   "q": 8,
+   "velocity_rel_l2": 2.1132447509436947e-09,
+   "velocity_linf": 1.1006612058090715e-08,
+   "divergence_inf_scaled": 5.157985571990764e-08,
+   "momentum_residual_rel_rms": 9.446590942389967e-07,
+   "steps": 348,
+   "cpu_s": 0.0753895710000001
+  },
+  {
+   "label": "BMG8",
+   "q": 8,
+   "velocity_rel_l2": 2.0932941326438594e-09,
+   "velocity_linf": 1.1021467031484147e-08,
+   "divergence_inf_scaled": 5.0157099973358044e-08,
+   "momentum_residual_rel_rms": 9.305571131034033e-07,
+   "steps": 348,
+   "cpu_s": 0.07647258699999981
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "energy-stable-sbp-closures: energy-stable high-order B-spline summation-by-parts wall closures"
+authors:
+  - family-names: Bay
+    given-names: Yong Yi
+  - family-names: Yearick
+    given-names: Kathleen A.
+license: MIT
+version: 0.1.0
+date-released: 2026-11-07
+repository-code: "https://github.com/bay-yearick-lab/energy-stable-sbp-closures"
+keywords:
+  - summation-by-parts
+  - b-splines
+  - isogeometric-analysis
+  - energy-stable
+  - inf-sup-stability
+  - computational-fluid-dynamics
+preferred-citation:
+  type: unpublished
+  title: "Boundary B-Spline Mimetic Schemes: Degree-Sized Wall Algebra, Spectral-Like Resolution, and Compatible Flow"
+  authors:
+    - family-names: Bay
+      given-names: Yong Yi
+    - family-names: Yearick
+      given-names: Kathleen A.
+  year: 2026
+  notes: "In preparation"

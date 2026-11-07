@@ -1,0 +1,29 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      OMP_NUM_THREADS: "1"
+      OPENBLAS_NUM_THREADS: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: uv sync --group dev
+      - name: Numerical validation tests
+        run: uv run pytest -q tests
+      - name: Headline verification
+        run: uv run python code/verify.py
+      - name: Compile C++ cavity solver and operator benchmark
+        run: |
+          g++ -O3 -std=c++17 -fopenmp -Icode/cavity/include code/cavity/apps/opbench.cpp -o /tmp/opbench
+          g++ -O3 -std=c++17 -fopenmp -Icode/cavity/include code/cavity/apps/cavity.cpp -o /tmp/cavity

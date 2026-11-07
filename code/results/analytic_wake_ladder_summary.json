@@ -1,0 +1,250 @@
+{
+ "config": {
+  "re": 40,
+  "grids": [
+   25,
+   49,
+   97
+  ],
+  "families": [
+   "BMF6",
+   "BMG6",
+   "C6"
+  ]
+ },
+ "results": [
+  {
+   "label": "BMF6",
+   "family": "BMF6",
+   "display": "BMF",
+   "reynolds": 40,
+   "npts": 25,
+   "diag_npts": 129,
+   "steps": 400,
+   "dt": 0.01,
+   "t_end": 4.0,
+   "update_inf": 9.328560146570908e-11,
+   "work_per_point": 31.24,
+   "velocity_rel_l2": 1.730477646656903e-08,
+   "velocity_linf": 6.369697345726519e-08,
+   "divergence_inf_scaled": 4.7656077856172985e-06,
+   "momentum_residual_rel_rms": 6.7644114909711054e-06,
+   "elapsed_s": 0.25309062004089355,
+   "cpu_s": 0.09496985699999994
+  },
+  {
+   "label": "BMG6",
+   "family": "BMG6",
+   "display": "BMG",
+   "reynolds": 40,
+   "npts": 25,
+   "diag_npts": 129,
+   "steps": 400,
+   "dt": 0.01,
+   "t_end": 4.0,
+   "update_inf": 9.430189962245095e-11,
+   "work_per_point": 75.68,
+   "velocity_rel_l2": 1.5596461603686357e-09,
+   "velocity_linf": 1.2890299425955451e-08,
+   "divergence_inf_scaled": 1.165776791156592e-06,
+   "momentum_residual_rel_rms": 1.2384537837856538e-06,
+   "elapsed_s": 0.2345268726348877,
+   "cpu_s": 0.08908745500000004
+  },
+  {
+   "label": "C6",
+   "family": "C6",
+   "display": "compact",
+   "reynolds": 40,
+   "npts": 25,
+   "diag_npts": 129,
+   "steps": 400,
+   "dt": 0.01,
+   "t_end": 4.0,
+   "update_inf": 1.0837501163152297e-07,
+   "work_per_point": 12.44,
+   "velocity_rel_l2": 6.366838931844331e-07,
+   "velocity_linf": 6.900588749848716e-06,
+   "divergence_inf_scaled": 0.00015687254224011626,
+   "momentum_residual_rel_rms": 2.4537237513155528e-05,
+   "elapsed_s": 0.1501927375793457,
+   "cpu_s": 0.0738829190000001
+  },
+  {
+   "label": "BMF6",
+   "family": "BMF6",
+   "display": "BMF",
+   "reynolds": 40,
+   "npts": 49,
+   "diag_npts": 129,
+   "steps": 400,
+   "dt": 0.01,
+   "t_end": 4.0,
+   "update_inf": 9.441625259398734e-11,
+   "work_per_point": 32.38775510204081,
+   "velocity_rel_l2": 1.160989702058158e-10,
+   "velocity_linf": 4.3916419482413296e-10,
+   "divergence_inf_scaled": 8.316189453738687e-08,
+   "momentum_residual_rel_rms": 1.8689260175702753e-07,
+   "elapsed_s": 8.42332124710083,
+   "cpu_s": 2.045223215
+  },
+  {
+   "label": "BMG6",
+   "family": "BMG6",
+   "display": "BMG",
+   "reynolds": 40,
+   "npts": 49,
+   "diag_npts": 129,
+   "steps": 400,
+   "dt": 0.01,
+   "t_end": 4.0,
+   "update_inf": 9.447953530639097e-11,
+   "work_per_point": 77.79591836734694,
+   "velocity_rel_l2": 6.352024724327162e-11,
+   "velocity_linf": 2.0188905574851195e-10,
+   "divergence_inf_scaled": 1.986920172836193e-08,
+   "momentum_residual_rel_rms": 5.8087190701872494e-08,
+   "elapsed_s": 8.030996084213257,
+   "cpu_s": 2.153910897
+  },
+  {
+   "label": "C6",
+   "family": "C6",
+   "display": "compact",
+   "reynolds": 40,
+   "npts": 49,
+   "diag_npts": 129,
+   "steps": 400,
+   "dt": 0.01,
+   "t_end": 4.0,
+   "update_inf": 1.7446621924932515e-10,
+   "work_per_point": 11.73469387755102,
+   "velocity_rel_l2": 4.3636936028948254e-09,
+   "velocity_linf": 1.0948251255430604e-07,
+   "divergence_inf_scaled": 5.405803012115129e-06,
+   "momentum_residual_rel_rms": 6.809382202208598e-07,
+   "elapsed_s": 4.466383695602417,
+   "cpu_s": 2.4609823430000004
+  },
+  {
+   "label": "BMF6",
+   "family": "BMF6",
+   "display": "BMF",
+   "reynolds": 40,
+   "npts": 97,
+   "diag_npts": 129,
+   "steps": 400,
+   "dt": 0.01,
+   "t_end": 4.0,
+   "update_inf": 9.562350911096473e-11,
+   "work_per_point": 32.69072164948454,
+   "velocity_rel_l2": 6.264573043178528e-11,
+   "velocity_linf": 1.906016634913424e-10,
+   "divergence_inf_scaled": 2.477533511680008e-09,
+   "momentum_residual_rel_rms": 1.726274677172804e-07,
+   "elapsed_s": 147.4657928943634,
+   "cpu_s": 95.477648416
+  },
+  {
+   "label": "BMG6",
+   "family": "BMG6",
+   "display": "BMG",
+   "reynolds": 40,
+   "npts": 97,
+   "diag_npts": 129,
+   "steps": 400,
+   "dt": 0.01,
+   "t_end": 4.0,
+   "update_inf": 9.572320713857607e-11,
+   "work_per_point": 78.88659793814433,
+   "velocity_rel_l2": 6.322032188963151e-11,
+   "velocity_linf": 1.8926798893292623e-10,
+   "divergence_inf_scaled": 2.356187966956469e-09,
+   "momentum_residual_rel_rms": 1.6811684117808182e-07,
+   "elapsed_s": 181.01783442497253,
+   "cpu_s": 97.387329474
+  },
+  {
+   "label": "C6",
+   "family": "C6",
+   "display": "compact",
+   "reynolds": 40,
+   "npts": 97,
+   "diag_npts": 129,
+   "steps": 400,
+   "dt": 0.01,
+   "t_end": 4.0,
+   "update_inf": 8.769429626909186e-11,
+   "work_per_point": 11.371134020618557,
+   "velocity_rel_l2": 7.996837610677158e-11,
+   "velocity_linf": 1.5147249796452847e-09,
+   "divergence_inf_scaled": 1.72893875882707e-07,
+   "momentum_residual_rel_rms": 2.0436946230736638e-08,
+   "elapsed_s": 165.4302396774292,
+   "cpu_s": 100.57966130899999
+  }
+ ],
+ "orders": {
+  "BMF6": {
+   "errors": [
+    [
+     25,
+     1.730477646656903e-08
+    ],
+    [
+     49,
+     1.160989702058158e-10
+    ],
+    [
+     97,
+     6.264573043178528e-11
+    ]
+   ],
+   "orders": [
+    7.2196713198692475,
+    0.8900670832842024
+   ]
+  },
+  "BMG6": {
+   "errors": [
+    [
+     25,
+     1.5596461603686357e-09
+    ],
+    [
+     49,
+     6.352024724327162e-11
+    ],
+    [
+     97,
+     6.322032188963151e-11
+    ]
+   ],
+   "orders": [
+    4.617858421285821,
+    0.006828147151583254
+   ]
+  },
+  "C6": {
+   "errors": [
+    [
+     25,
+     6.366838931844331e-07
+    ],
+    [
+     49,
+     4.3636936028948254e-09
+    ],
+    [
+     97,
+     7.996837610677158e-11
+    ]
+   ],
+   "orders": [
+    7.188883650922934,
+    5.769976404213902
+   ]
+  }
+ }
+}
