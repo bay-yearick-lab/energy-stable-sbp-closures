@@ -60,6 +60,10 @@ A physical wall removes the mirror neighbour of every centred stencil, which is 
 
 **Figure 7.** The continuous integration-by-parts identity (left) and its exact discrete counterpart for BMG in the spline mass metric (right). Only the wall trace survives in both, which is what makes the energy estimate, and therefore stability, hold for the discrete operator.
 
+<p align="center"><img src="assets/wall_vortex.gif" width="420" alt="Vortex-wall interaction"></p>
+
+*A vortex driven into a no-slip wall; the boundary layer it induces separates and rolls up into secondary vorticity.*
+
 ## How it works
 
 **Clamped B-spline space.** An open-uniform knot vector with (p+1)-fold end knots gives a basis that interpolates the wall values. The coefficient pencil splits into the cardinal Toeplitz interior of the periodic method plus an endpoint algebra of size O(p). The number of wall transfer channels (8p − 6 for the BMG pencil) is proved for every p ≥ 2 once N ≥ 4p − 2 and does not grow with resolution.
